@@ -1,0 +1,10 @@
+#bibliotheque {
+	background-image: url("img/bibli.jpg");
+	width:1024px;
+	height:768px;
+}
+
+
+.hide {
+	display :none;
+}
