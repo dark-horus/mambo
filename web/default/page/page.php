@@ -18,12 +18,13 @@ $titre = "Expulsez la voisine Marie Carmen !" ;
 <!-- lien vers le css -->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-<link rel="stylesheet" href="style.css" /> 
+<link rel="stylesheet" href="css/style.css" /> 
 
  
 <!-- lien vers scripts -->
 <!-- <script src="#"></script> -->
-<script src="js/jquery-1.12.1.min.js"></script>
+<script src="vendor/jquery-2.2.1/jquery-2.2.1.min.js"></script>
+<script src="vendor/jquery-2.2.1/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
 
 <title>page</title>
