@@ -1,0 +1,62 @@
+@charset "utf-8";
+#topmenu {
+	background-color: #969696;
+	color: #FFF;
+}
+
+#topmenu li {
+	list-style-type: none;
+
+}
+
+#topdropdown {
+	text-align: center;
+
+}
+
+
+#topmenu  .dropdown-menu {
+	background-color: #969696;
+}
+#burger .dropdown-menu li {
+	
+	text-align: center;
+	
+}
+#topdropdown li {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	
+}
+
+#botdropdown li {
+	padding: 10px;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+
+a {
+	color: #030303;
+}
+nav a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #030303;
+}
+
+
+
+
+
+
+
+
+
+footer li {
+	list-style-type: none;
+}
