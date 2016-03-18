@@ -31,12 +31,12 @@ switch($dossier){
 <!-- lien vers les css -->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-<link rel="stylesheet" href="CSS/style.css" /> 
+<link rel="stylesheet" href="../default/page/CSS/style.css" /> 
 
  
 <!-- liens vers scripts -->
-<script src="vendor/jquery-2.2.1/jquery-2.2.1.min.js"></script>
-<script src="vendor/jquery-2.2.1/jquery-migrate-1.2.1.min.js"></script>
+<script src="../../vendor/jquery-2.2.1/jquery-2.2.1.min.js"></script>
+<script src="../../vendor/jquery-2.2.1/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
 
 <title><?php echo $titre ?></title>
@@ -45,7 +45,7 @@ switch($dossier){
 <body>
 <div class="container-fluid">
 <header class="row">
-	<nav id="mambo-topmenu" class="col-md-12">
+	<nav id="mambo-topmenu" class="col-md-7">
 		<ul class="list-inline">
         <li>
 			<div id="mambo-burger">
@@ -72,7 +72,7 @@ switch($dossier){
         <li>
 			<div id="mambo-icone">
 				<!-- placer ici l'icone, remplacer par la bonne  à mettre en php -->
-				<img src="../img/<?php echo $icone; ?>">
+				<img src="../default/page/img/<?php echo $icone; ?>">
 			</div>
         </li>
         <li>
