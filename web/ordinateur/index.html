@@ -35,6 +35,10 @@
             <img src="../../vendor/jQuery-Desktop-master/assets/images/icons/icon_32_network.png"/>
             Network
         </a>
+        <a class="abs icon" style="left:20px;top:340px;" href="#icon_dock_video">
+            <img src="../../vendor/jQuery-Desktop-master/assets/images/icons/icon_16_photo.png"/>
+            Video
+        </a>
         <div id="window_computer" class="abs window">
             <div class="abs window_inner">
                 <div class="window_top">
@@ -969,6 +973,33 @@
             </div>
             <span class="abs ui-resizable-handle ui-resizable-se"></span>
         </div>
+        <div id="window_video" class="abs window">
+            <div class="abs window_inner">
+                <div class="window_top">
+          <span class="float_left">
+            <img src="../../vendor/jQuery-Desktop-master/assets/images/icons/icon_16_photo.png"/>
+            Video
+          </span>
+          <span class="float_right">
+            <a href="#" class="window_min"></a>
+            <a href="#" class="window_resize"></a>
+            <a href="#icon_dock_video" class="window_close"></a>
+          </span>
+                </div>
+                <div class="abs window_content">
+                    <div class="window_aside">
+                        Local Video Resources
+                    </div>
+                    <div class="window_main">
+
+                    </div>
+                </div>
+                <div class="abs window_bottom">
+                    LAN: Corporate Intranet
+                </div>
+            </div>
+            <span class="abs ui-resizable-handle ui-resizable-se"></span>
+        </div>
     </div>
     <div class="abs" id="bar_top">
         <span class="float_right" id="clock"></span>
@@ -1078,6 +1109,12 @@
                     Network
                 </a>
             </li>
+            <li id="icon_dock_video">
+                <a href="#window_video">
+                    <img src="../../vendor/jQuery-Desktop-master/assets/images/icons/icon_22_disc.png"/>
+                    Network
+                </a>
+            </li>
         </ul>
         <a class="float_right" href="http://www.firehost.com/?ref=spon_nsmith_desktop-sonspring" title="Secure Hosting">
             <img src="../../vendor/jQuery-Desktop-master/assets/images/misc/firehost.png"/>
@@ -1091,20 +1128,5 @@
     !window.jQuery && document.write(unescape('%3Cscript src="../../vendor/jQuery-Desktop-master/assets/js/jquery.ui.js"%3E%3C/script%3E'));
 </script>
 <script src="../../vendor/jQuery-Desktop-master/assets/js/jquery.desktop.js"></script>
-<script>
-    var _gaq = [['_setAccount', 'UA-166674-8'], ['_trackPageview']];
-
-    (function (d, t) {
-        if (window.location.hostname !== 'desktop.sonspring.com') {
-            return;
-        }
-
-        var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-        g.async = true;
-        g.src = '//www.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g, s);
-    })(this.document, 'script');
-</script>
 </body>
 </html>
