@@ -1,36 +1,36 @@
 @charset "utf-8";
-#topmenu {
+#mambo-topmenu {
 	background-color: #969696;
 	color: #FFF;
 }
 
-#topmenu li {
+#mambo-topmenu li {
 	list-style-type: none;
 
 }
 
-#topdropdown {
+#mambo-topdropdown {
 	text-align: center;
 
 }
 
 
-#topmenu  .dropdown-menu {
+#mambo-topmenu  .dropdown-menu {
 	background-color: #969696;
 }
-#burger .dropdown-menu li {
+#mambo-burger .dropdown-menu li {
 	
 	text-align: center;
 	
 }
-#topdropdown li {
+#mambo-topdropdown li {
 	float: left;
 	width: 50%;
 	padding: 10px;
 	
 }
 
-#botdropdown li {
+#mambo-botdropdown li {
 	padding: 10px;
 	border-top-width: thin;
 	border-top-style: solid;
