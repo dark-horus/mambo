@@ -3,7 +3,7 @@ console.clear();
 var MasterMind = (function() {
 
     var NUM_COLORS = 5,
-        MAX_TURNS = 15,
+        MAX_TURNS = 12,
         SOLUTION_SIZE = 4;
 
     var guesses, solution;
