@@ -27,7 +27,7 @@ $titre = "Initiez-vous à l'oenologie chilienne !" ;
 <script src="vendor/jquery-2.2.1/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
 
-<title>page</title>
+<title>vin</title>
 </head>
 
 <body>
