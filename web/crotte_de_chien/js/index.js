@@ -240,3 +240,6 @@ var Game = (function() {
 })();
 
 Game.init(document.getElementById('game'), document.getElementById('controls'));
+
+
+        
