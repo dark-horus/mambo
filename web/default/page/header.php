@@ -71,13 +71,13 @@ switch($dossier){
         </li>
         <li>
 			<div id="mambo-icone">
-				<!-- placer ici l'icone, remplacer par la bonne  à mettre en php -->
+				<!-- icone de l'étape -->
 				<img src="../default/page/img/<?php echo $icone; ?>">
 			</div>
         </li>
         <li>
 			<div id="mambo-consigne">
-			<!-- placer ici le titre/consigne de l'étape en php -->
+			<!-- titre/consigne de l'étape-->
 			<h1><?php echo $titre ?></h1>
 			</div>
         </li>
@@ -87,4 +87,3 @@ switch($dossier){
 <div id="mambo-content">
 
 
-</html>
