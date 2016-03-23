@@ -12,6 +12,8 @@ switch($dossier){
 	break;
 	case "livre":
 	$titre = "À votre tour, devenez écrivain !";
+	case "ours":
+	$titre = "Découvrez les fragments de l'histoire de Madrid";
 }
 
 
@@ -96,6 +98,6 @@ switch($dossier){
         </ul>
 	</nav>
 </header>
-<div id="mambo-content">
+
 
 
