@@ -12,6 +12,8 @@ switch($dossier){
 	break;
 	case "livre":
 	$titre = "À votre tour, devenez écrivain !";
+	case "ours":
+	$titre = "Découvrez les fragments de l'histoire de Madrid";
 }
 
 
@@ -38,6 +40,18 @@ switch($dossier){
 <script src="../../vendor/jquery-2.2.1/jquery-2.2.1.min.js"></script>
 <script src="../../vendor/jquery-2.2.1/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="../../vendor/fancybox/source/jquery.fancybox.css">
+	<script type="text/javascript" src="../../vendor/fancybox/source/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="../../vendor/fancybox/source/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="../../vendor/fancybox/source/jquery.mousewhell.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	</script>
+
 
 <title><?php echo $titre ?></title>
 </head>
@@ -84,6 +98,6 @@ switch($dossier){
         </ul>
 	</nav>
 </header>
-<div id="mambo-content">
+
 
 
