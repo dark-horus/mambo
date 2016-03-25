@@ -6,7 +6,7 @@ $(document).ready(function(){
 	window.base = ["tomate", "potiron", "lentille"];
 	window.legumes = ["concombre", "poivron", "chou_fleur", "poireau"];
 	window.condiments = ["oignon", "ail", "basilic", "piment", "capre", "pois_chiche"];
-	window.assaisonnement = ["citron", "vinaigre", "huile_olive", "poivre", "sel", "razelhanout"];
+	window.assaisonnement = ["citron", "vinaigre", "huile_olive", "poivre", "sel", "curry"];
 	window.temperature = ["chaud", "froid"];
 
 	window.recetteBase = ["tomate"];

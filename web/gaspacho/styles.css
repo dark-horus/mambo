@@ -1,189 +1,31 @@
-@font-face {
-   font-family: 'FuturaLight';
-   src: url('FuturaStd-Light.otf');
-
- 
-}
-
-
 body {
 
-background-image:url("images/back.jpg");
-
 }
 
-
-h1 {
-
-text-align:center;
-font-size:45px;
-}
-
-h1.main_title{
-text-align:center;
-font-family: "FuturaBold";
-margin-bottom: 90px;
-}
-#tout{
-font-family: 'arial';
-
-}
-
-p {
-
-	text-align:center;
-	margin-bottom:50px;
-	font-size:25px;
-}
-
-span {
-
-	text-align:center;
-	width:100%;
-	height:100%;
-	
-}
-
-
-
-#gauche-scroll{
-float: left;
-width: 30%;
-height: 500px;
-overflow: auto;
-margin-bottom: 50px;
-background-color:grey;
--webkit-border-radius: 2px;
--moz-border-radius: 2px;
-border-radius: 2px;
-
-margin-left:10%;
-
-
-} 
-
-
-
-
-
-
-#envoi {
-
-	margin-top:30px;
-}
-
-
-
-
-.images {
-	float: left;
-	text-align: center;
-	width: 130px;
-	height: 130px;
-	margin: 13px 0 0 0;
-}
-.gauche {
-	float: left;
-	width: 100%;
-	height: 100%;
-	text
-}
-
-#base img {
-	float: none;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	overflow: hidden;
-	padding: auto;
-}
-
-
-#legume img {
-	float: none;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	overflow: hidden;
-	padding: auto;
-}
-#condiments img{
-	float: none;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	overflow: hidden;
-	padding: auto;
-}
-#assaisonement img{
-	float: none;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	overflow: hidden;
-	padding: auto;
-}
-#temperature img{
-	float: none;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	overflow: hidden;
-	padding: auto;
-}
-
-.droite {
-    width: 50%;
-    position: relative;
-    right: 0px;
-    height:500px;
-overflow: hidden;
-
-background-image:url(images/bol.png);
-}
-.droite img{
-	position: absolute;
-}
 
 #base {
-	text-align: center;
-	left: 0;
- display: inline-block; 
-padding-bottom: 30px;
+    
+
+    
 }
 
 #legumes {
-	text-align: center;
-	left: 0;
- display: inline-block; 
-padding-bottom: 30px;
-}
-#condiments {
-	text-align: center;
-	left: 0;
- display: inline-block; 
-padding-bottom: 30px;
-}
-#assaisonement {
-	text-align: center;
-	left: 0;
- display: inline-block; 
-padding-bottom: 30px;
-}
-#temperature {
-	text-align: center;
-	left: 0;
- display: inline-block; 
-padding-bottom: 30px;
+    
+    
 }
 
-#bocal{
-    background-repeat: no-repeat;
-    background-image: url("images/bol.png");
-    margin-left: 00px;
-    z-index: 1;
-    height:100%;
-    width: 100%;
-position: absolute;
-left: 5px;
+#condiments {
+    
+    
 }
+
+#assaisonement {
+    
+    
+}
+
+#temperature {
+    
+    
+}
+
