@@ -7,7 +7,7 @@ $dossier = end($pouet);
 $icone = $dossier . ".png" ;
 
 
-if $dossier != NULL {
+if ($dossier != NULL) {
 switch($dossier){
 	case "crotte":
 	$titre = "Expulsez Mary Carmen !";

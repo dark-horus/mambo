@@ -52,7 +52,7 @@ a:hover {
 	color: #030303;
 }
 #mambo-topmenu {
-    background-color: #969696;
+    background-color: rgba(0,0,0,0.5);
     color: #FFF;
     margin-top: 50px;
 }

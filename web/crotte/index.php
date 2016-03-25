@@ -3,9 +3,9 @@ include('../default/page/header.php');
 ?>
 <!-- Place en dessous ton contenu + tes liens vers CSS et JS ! -->
   
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="../../vendor/Mastermind/css/normalize.css">
+    <link rel="stylesheet" href="../../vendor/Mastermind/css/style.css">
+    <script src="../../vendor/Mastermind/index.js"></script> 
 <div id="game"> </div>
 <nav id="controls"></nav>
 
