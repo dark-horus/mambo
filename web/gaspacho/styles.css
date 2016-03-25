@@ -2,6 +2,20 @@ body {
 
 }
 
+h1 {
+    
+    text-align:center;
+}
+
+h2 {
+    
+    font-size-adjust: auto;
+}
+
+p {
+    
+    text-align:center;
+}
 
 #base {
     
