@@ -10,7 +10,6 @@ body
 body
 {
   overflow-x: hidden;
-  background: url('../images/bg.jpg') repeat top left;
 }
 
 h1
@@ -42,21 +41,44 @@ h1
   width: 1000px;
 }
 
-.horizon
+
+
+.imgdercity 
 {
-  z-index: 1;
-  width: 4000px;
+ z-index: 50; 
+ width: 5000px;
+margin-bottom: 460px;
 }
 
-.middle
+
+.city 
 {
   z-index: 500;
   width: 6000px;
+ margin-bottom: 300px;
 }
 
-.front
+
+.imgdevcity 
 {
-  z-index: 1000;
-  width: -6000px;
+    z-index: 1000;
+    width: 6500px;
+   margin-left: 574px;
+    margin-bottom: 150px;
 }
 
+
+.ferrari 
+{
+  z-index: 700;
+  width: -6000px;
+ margin-bottom: 280px;
+}
+
+
+.texte 
+{
+    z-index: 30000;
+    margin-bottom: 400px; 
+    background-color: azure;
+}
