@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,7 +10,7 @@
 
   <body>
       <h1> Possédez-vous un code pour vous connecter ?</h1>
-
+<p><?php if (isset($_SESSION['id'])) { echo "Bonjour " .$_SESSION['id']. ", ce message est temporaire. " ; } ?>
       <div id="ouicode">
           
         <!-- Bouton "J'ai un code" -->
