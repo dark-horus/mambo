@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Ven 25 Mars 2016 à 12:31
+-- Généré le :  Dim 27 Mars 2016 à 18:23
 -- Version du serveur :  5.6.26
 -- Version de PHP :  5.6.12
 
@@ -45,8 +45,8 @@ CREATE TABLE IF NOT EXISTS `user` (
   `iduser` int(11) NOT NULL,
   `password` varchar(50) NOT NULL,
   `img_avatar` text NOT NULL,
-  `current_etape` int(11) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+  `current_etape` int(11) DEFAULT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
 
 --
 -- Index pour les tables exportées
@@ -79,7 +79,7 @@ ALTER TABLE `etape`
 -- AUTO_INCREMENT pour la table `user`
 --
 ALTER TABLE `user`
-  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=19;
+  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=16;
 --
 -- Contraintes pour les tables exportées
 --

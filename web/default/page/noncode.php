@@ -1,3 +1,8 @@
+<?php
+session_start();
+if($_SESSION['id'] != NULL){
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,10 +18,16 @@
 
       <h2> Voici votre code personnel,<br> pensez bien à le conserver pour pouvoir sauvegarder votre avancée. </h2>
       
-      <!-- Exemple avec un code -->
-      <h3> AZ7B2 </h3>
+      <!-- Le code : -->
+      <h3><?php echo $_SESSION['id']; ?></h3>
     
-</form>
+	
+	<div id="retour">
+   <a href="index.php">Retour</a>
+   <a href="deconnexion.php">deconnexion</a>
+   </div>
+		
       
   </body>
 </html>
+<?php } else { header('location: index.php'); } ?>

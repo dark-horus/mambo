@@ -33,14 +33,14 @@ margin-top:200px;
     border-radius:10px;
 }
 
-a:link {color:white;
+#ouicode a, #noncode a:link {color:white;
 }
-a:hover {color:black;
+#ouicode a, #noncode a:hover {color:black;
 }
-a:visited {color:white;
+#ouicode a, #noncode a:visited {color:white;
 }
 
-a {
+#ouicode a , #noncode a{
     text-decoration:none;
     font-family: sans-serif;
     text-align:center;
@@ -57,11 +57,19 @@ a {
 
 #validation {
     text-align:center;
-    font-size:25px;
     font-family:sans-serif;
     margin-top:15px;
+	
 }
-
+a, a:hover{
+	text-decoration:none;
+    color: #000; 
+	text-align: center;
+	
+}
+	#retour{
+		text-align:center;
+	}
 /** Page pour ceux n'ayant pas le code **/
 
 h2 {
@@ -88,14 +96,14 @@ h3 {
 }
 
 .bouton {
+	border:1px solid firebrick;
     background-color:white;
-    border-color:firebrick;
     border-radius: 5px;
     font-family:sans-serif;
     text-align:center;
 }
 
-.form-control {
+.formulaire {
     border-color:firebrick;
     border-radius:5px;
     font-family:sans-serif;

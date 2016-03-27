@@ -13,16 +13,16 @@
       <div id="ouicode">
           
         <!-- Bouton "J'ai un code" -->
-        <form action=".php" method="post">
-        <a href="ouicode.html">J'ai un code</a>
-        </form>
+        
+        <a href="ouicode.php">J'ai un code</a>
+        
       </div>
       
       <div id="noncode">
         <!-- Bouton "J'ai un code" -->
-        <form action=".php" method="post">
-        <a href="noncode.html">Je n'ai pas de code</a>
-        </form>
+        
+        <a href="create.php">Je n'ai pas de code</a>
+        
       </div>
         
       
