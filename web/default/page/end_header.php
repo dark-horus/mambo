@@ -12,7 +12,7 @@
 				<div class="dropdown">
 					<a href="#" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<img src="../default/page/img/burger.png" title="burger">
-					<span class="caret"></span>
+					
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="dLabel">
 						<div id="mambo-topdropdown" class="col-md-12">

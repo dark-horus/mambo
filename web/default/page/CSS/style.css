@@ -52,9 +52,8 @@ a:hover {
 	color: #030303;
 }
 #mambo-topmenu {
-    background-color: rgba(0,0,0,0.5);
-    color: #FFF;
-    margin-top: 50px;
+    color: black;
+	padding-left: 20px;
 }
 #mambo-topmenu li {
 	list-style-type: none;
@@ -79,7 +78,10 @@ a:hover {
 	border-top-style: solid;
 	border-top-color: #FFF;
 }
-
+.list-inline>li {
+	padding-right: 0px;
+    padding-left: 0px;
+}
 footer {
 	
 	background-color: black;
