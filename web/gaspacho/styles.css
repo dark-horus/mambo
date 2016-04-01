@@ -1,52 +1,66 @@
 body {
 
+    background-image:url("");
+
 }
 
 h1 {
-    
-    text-align:center;
+
+    text-align: center;
 }
 
 h2 {
-    
+
     font-size-adjust: auto;
 }
 
 p {
-    
-    text-align:center;
+
+    text-align: center;
 }
 
 #base {
-    
 
-    
 }
 
 #legumes {
-    
-    
+
 }
 
 #condiments {
-    
-    
+
 }
 
 #assaisonement {
-    
-    
+
 }
 
 #temperature {
-    
-    
+
 }
 
-.col-sm-4.col-md-4.col-lg-4.ingredient { 
+.col-sm-3.col-md-3.col-lg-3.ingredient {
     margin-right: 0;
-    width:110px;
+    padding-right: 5px;
+    padding-left: 0px;
 }
-.col-sm-4.col-md-4.col-lg-4.ingredient:first-child {
-margin-left:0;
+
+.col-sm-3.col-md-3.col-lg-3.ingredient:first-child {
+    margin-left: 0;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.col-sm-3.col-md-3.col-lg-3.ingredient img {
+    width: 100%;
+}
+
+.col-sm-5.col-md-5.col-lg-5.side {
+    position: fixed;
+    right:0;
+    top: 19%;
+}
+
+.bol {
+    width: 100%;
 }
