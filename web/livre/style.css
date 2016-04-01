@@ -213,6 +213,22 @@
     text-align: center;
 }
 
+.contenu .biographie h3 {
+    font-size: 25px;
+}
+
+.contenu .biographie p{
+    text-align: justify;
+}
+
+.contenu .oeuvres h3 {
+    font-size: 25px;
+}
+
 .fancybox {
     cursor: pointer;
+}
+
+div {
+    padding: 10px;
 }
