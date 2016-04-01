@@ -1,209 +1,218 @@
 #bibliotheque {
-	position: relative;
-	background-image: url("img/bibli.jpg");
-	width:1024px;
-	height:768px;
-	margin:0 auto;
+    position: relative;
+    background-image: url("img/bibli.jpg");
+    width: 1024px;
+    height: 768px;
+    margin: 0 auto;
 }
 
 #background {
-	position: relative;
-	top:0;
-	left: 0;
-	width:100%;
-	height:100%;
-	background-image:url("img/background3.jpg");
-	overflow:hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/background3.jpg");
+    overflow: hidden;
 }
 
 #kafka {
-	top: 8px;
-	left: 746px;
-	width:50px;
-	height:100px;
+    top: 8px;
+    left: 746px;
+    width: 50px;
+    height: 100px;
 }
 
-#sartre{
-	top: 8px;
-	left: 900px;
-	width:50px;
-	height:100px;
+#sartre {
+    top: 8px;
+    left: 900px;
+    width: 50px;
+    height: 100px;
 }
 
 #marai {
-	top: 225px;
-	left: 45px;
-	width: 46px;
-	height: 90px;
+    top: 225px;
+    left: 45px;
+    width: 46px;
+    height: 90px;
 }
 
-#pizarnik{
-	top: 172px;
-	left: 314px;
-	width: 33px;
-	height: 143px;
+#pizarnik {
+    top: 172px;
+    left: 314px;
+    width: 33px;
+    height: 143px;
 }
 
-#llosa{
-	top: 135px;
-	left: 391px;
-	width: 33px;
-	height: 177px;
+#llosa {
+    top: 135px;
+    left: 391px;
+    width: 33px;
+    height: 177px;
 }
 
-#cortazar{
-	top: 160px;
- 	left: 617px;
-	width: 33px;
-	height: 157px;
+#cortazar {
+    top: 160px;
+    left: 617px;
+    width: 33px;
+    height: 157px;
 }
 
-#gracian{
-	top: 179px;
-	left: 673px;
-	width: 39px;
-	height: 136px;
+#gracian {
+    top: 179px;
+    left: 673px;
+    width: 39px;
+    height: 136px;
 }
 
-#kadare{
-	top: 214px;
-	left: 810px;
-	width: 35px;
-	height: 99px;
+#kadare {
+    top: 214px;
+    left: 810px;
+    width: 35px;
+    height: 99px;
 }
 
-#borges{
-	top: 205px;
-	left: 860px;
-	width: 33px;
-	height: 108px;
+#borges {
+    top: 205px;
+    left: 860px;
+    width: 33px;
+    height: 108px;
 }
 
-#pavese{
-	top: 189px;
-	left: 929px;
-	width: 39px;
-	height: 129px;
+#pavese {
+    top: 189px;
+    left: 929px;
+    width: 39px;
+    height: 129px;
 }
 
-#homere{
-	top: 414px;
-	left: 54px;
-	width: 30px;
-	height: 107px;
+#homere {
+    top: 414px;
+    left: 54px;
+    width: 30px;
+    height: 107px;
 }
 
-#losada{
-	top: 355px;
-	left: 120px;
-	width: 36px;
-	height: 169px;
+#losada {
+    top: 355px;
+    left: 120px;
+    width: 36px;
+    height: 169px;
 }
 
-#molina{
-	top: 402px;
-	left: 185px;
-	width: 34px;
-	height: 124px;
+#molina {
+    top: 402px;
+    left: 185px;
+    width: 34px;
+    height: 124px;
 }
 
-#echenique{
-	top: 347px;
-	left: 291px;
-	width: 40px;
-	height: 179px;
+#echenique {
+    top: 347px;
+    left: 291px;
+    width: 40px;
+    height: 179px;
 }
 
-#joyce{
-	top: 419px;
-	left: 428px;
-	width: 31px;
-	height: 109px;
+#joyce {
+    top: 419px;
+    left: 428px;
+    width: 31px;
+    height: 109px;
 }
 
-#ibanez{
-	top: 419px;
-	left: 768px;
-	width: 35px;
-	height: 109px;
+#ibanez {
+    top: 419px;
+    left: 768px;
+    width: 35px;
+    height: 109px;
 }
 
-#neuman{
-	top: 384px;
-	left: 805px;
-	width: 37px;
-	height: 143px;
+#neuman {
+    top: 384px;
+    left: 805px;
+    width: 37px;
+    height: 143px;
 }
 
-#cauti{
-	top: 419px;
-	left: 959px;
-	width: 30px;
-	height: 113px;
+#cauti {
+    top: 419px;
+    left: 959px;
+    width: 30px;
+    height: 113px;
 }
 
-#tabucchi{
-	top: 594px;
-	left: 96px;
-	width: 30px;
-	height: 133px;
+#tabucchi {
+    top: 594px;
+    left: 96px;
+    width: 30px;
+    height: 133px;
 }
 
-#mendoza{
-	top: 607px;
-	left: 204px;
-	width: 34px;
-	height: 119px;
+#mendoza {
+    top: 607px;
+    left: 204px;
+    width: 34px;
+    height: 119px;
 }
 
-#merino{
-	top: 622px;
-	left: 405px;
-	width: 33px;
-	height: 109px;
+#merino {
+    top: 622px;
+    left: 405px;
+    width: 33px;
+    height: 109px;
 }
 
-#flaubert{
-	top: 564px;
-	left: 535px;
-	width: 30px;
-	height: 166px;
+#flaubert {
+    top: 564px;
+    left: 535px;
+    width: 30px;
+    height: 166px;
 }
 
-#marquez{
-	top: 564px;
-	left: 598px;
-	width: 64px;
-	height: 164px;
+#marquez {
+    top: 564px;
+    left: 598px;
+    width: 64px;
+    height: 164px;
 }
 
-#neruda{
-	top: 570px;
-	left: 754px;
-	width: 64px;
-	height: 160px;
+#neruda {
+    top: 570px;
+    left: 754px;
+    width: 64px;
+    height: 160px;
 }
 
-#plath{
-	top: 631px;
-	left: 889px;
-	width: 30px;
-	height: 101px;
+#plath {
+    top: 631px;
+    left: 889px;
+    width: 30px;
+    height: 101px;
 }
 
-#machine{
-	top: 340px;
-	left: 682px;
-	width: 230px;
-	height: 191px;
+#machine {
+    top: 340px;
+    left: 682px;
+    width: 230px;
+    height: 191px;
 }
 
-.book{
-	position: absolute;
-	/*background-color:rgba(255,0,0,.5);*/
-	background-color:transparent;
+.book {
+    position: absolute;
+    /*background-color:rgba(255,0,0,.5);*/
+    background-color: transparent;
 }
 
-.hide {
-	display :none;
+.contenu {
+
+}
+
+.contenu .titre h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.fancybox {
+    cursor: pointer;
 }
