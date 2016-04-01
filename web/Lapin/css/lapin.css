@@ -1,7 +1,5 @@
 
 html {
-  
-
   color: black;
   text-align: center;
   font-family: "Roboto", Helvetica, sans-serif;
@@ -9,10 +7,20 @@ html {
 
 body {
   max-width: 1920px;
+  height: auto;
   margin: auto;
   background-image: url('../img/backg.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: 0px -100px;
+}
+.body_ajout{
+
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+
 }
 
 .description {
@@ -89,8 +97,119 @@ float: right;
 position: absolute;
 z-index: 999;
 margin: auto;
-margin-top: 65vh;
-margin-left: 43vh;
+    height: auto;
+    left: 5vh;
+    top: 93vh;
+
+}
+/*formulaire style*/
+#msform {
+	width: 500px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+.marker{
+
+background-image: url(../img/markerhover.png);
+position: absolute;
+background-size: 100%;
+background-repeat: no-repeat;
+width: 50px;
+height: 50px;
+z-index: 999;
+
+}
+.marker:hover{
+
+background-image: url(../img/marker.png);
+position: absolute;
+background-size: 100%;
+background-repeat: no-repeat;
+width: 50px;
+height: 50px;
+z-index: 999;
 
 }
 
+#m1{
+
+left: 86vh;
+top: 25vh;
+
+}
+#m2{
+
+left: 55vh;
+top: 73vh;
+
+}
+#m3{
+
+left: 47vh;
+top: 61vh;
+
+}
+#m4{
+
+left: 53vh;
+top: 51vh;
+
+}
