@@ -1,4 +1,5 @@
 <head>
+    
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     
     <!-- Latest compiled and minified CSS -->
@@ -12,20 +13,30 @@
 <!-- FONT -->
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <!-- CSS -->
-<link href="css/lapin.css" rel="stylesheet" type="text/css">
+<link href="css/box_etape.css" rel="stylesheet" type="text/css">
     
 </head>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+    <body>
+        <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+        <div class="box">
+            <!-- VALIDER E + 1 -->
+            <button type="submit" class="btn btn-success" id="valide" name="valide" value="valide">VALIDER</button>
+                    <?php if(!empty($_POST['valide'])) { echo "validée !";} //validation etape +1 test ?>
 
-<html>
-<body>
-<h1>Serez-vous le nouveau conquistador culinaire de mambo canaille ?</h1>
-<div class="marker">
+            <!-- RECOMMENCER -->
+            <button type="submit" class="btn btn-warning" id="reroll" name="reroll" value="reroll" >RECOMMENCER</button>
+             <?php if(!empty($_POST['reroll'])) { echo "c'est reparti !";} // rester etape courante ?>
+
+            <!-- QUITTER -->
+            <a href="http://accueil_mambo.com"><button type="button" class="btn btn-danger">QUITTER</button></a>
+            
+        </div>
     
-</div>
-<div class="ajout">
-    
-<button type="button" class="btn btn-warning">Ajouter une recette</button>
-</div>
-</body>
+
+ 
+
+      </form>
+        
+    </body>
 </html>
-
