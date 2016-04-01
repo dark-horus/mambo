@@ -18,15 +18,8 @@ include('../default/page/start_header.php');
 
 <!-- Place ici ton contenu -->
 
-<!--img src="img/infographie2.jpg" width="100"-->
-<style> 
-	body{
-		background-image:url(img/pagevinweb.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	</style>
 
+<img src="img/pagevinweb.jpg" width="100%">
 
 
 <!-- Fin du contenu -->
