@@ -1,6 +1,10 @@
 <?php
-
-
+/* session_start();
+if (!isset($_SESSION['id'])){
+	header('location: index.php');
+}
+else {
+*/
 $dossier = explode('/', $_SERVER['REQUEST_URI']);
 $dossier = $dossier[3];
 $icone = $dossier . ".png" ;
@@ -44,7 +48,7 @@ if ($dossier != null) {
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
     <!-- lien vers les css -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
