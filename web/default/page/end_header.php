@@ -43,3 +43,4 @@
             </ul>
         </nav>
     </header>
+	<div id="etape">

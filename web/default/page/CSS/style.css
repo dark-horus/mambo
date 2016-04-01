@@ -45,6 +45,13 @@ table {
 }
 
 /* Structure */
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+
 @font-face {
     font-family: 'my_underwoodregular';
     src: url(Font/'MyUnderwood-webfont.eot');
@@ -61,7 +68,12 @@ h1 {
 	font-family: my_underwoodregular;
 }
 
-
+.container-fluid {
+    
+	position: relative;
+	min-height: 100%;
+	
+}
 
 
 nav a {
@@ -102,9 +114,17 @@ a:hover {
 	padding-right: 0px;
     padding-left: 0px;
 }
+#etape {
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 95px;
+}
 footer {
-	
+	position: absolute;
+	bottom: 0px;
 	background-color: black;
+	height: 20px;
+	width: 100%;
 }
 footer li a {
 	color: white;
