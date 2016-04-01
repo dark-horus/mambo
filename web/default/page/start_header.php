@@ -1,11 +1,9 @@
 <?php
 
 
-$chemin = getcwd();
-$pouet = explode( '\\', $chemin );
-$dossier = end( $pouet );
-$icone = $dossier . ".png";
-
+$dossier = explode('/', $_SERVER['REQUEST_URI']);
+$dossier = $dossier[3];
+$icone = $dossier . ".png" ;
 
 if ($dossier != null) {
     switch ($dossier) {
