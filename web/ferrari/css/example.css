@@ -38,10 +38,7 @@ h1
 .texture scroll
 {
   z-index: -5;
-  width: 1000px;
 }
-
-
 
 .imgdercity 
 {
@@ -63,7 +60,7 @@ margin-bottom: 460px;
 {
     z-index: 1000;
     width: 6500px;
-   margin-left: 574px;
+    margin-left: 574px;
     margin-bottom: 150px;
 }
 
@@ -72,13 +69,27 @@ margin-bottom: 460px;
 {
   z-index: 700;
   width: -6000px;
- margin-bottom: 280px;
+    margin-bottom: 280px;
+}
+
+.title{
+    color: snow;
+    font-family: MyUnderwood;
+    font-size: 25px;
+    z-index: 1000;
+    margin-left: 350px;
+    margin-bottom: 250px;
+}
+
+.texte{
+    color: snow;
+    font-family: Futura;
+    z-index: 1000;
+    font-size: 12px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 900px;
+    text-align: justify;
 }
 
 
-.texte 
-{
-    z-index: 30000;
-    margin-bottom: 400px; 
-    background-color: azure;
-}
