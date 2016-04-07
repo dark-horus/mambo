@@ -7,10 +7,11 @@
 </head>
 <body>
     
-        <div class="title scroll">Avant 1400 </div>
-        <div class="texte scroll">Bien avant l’arrivée des colons, à l’époque précolombienne, trois grands peuples indigènes se répartissent le territoire du Venezuela :  Les Arawaks, les Caribes et les Cumanagotos. En effet, ces différents groupes ont chacun leur propre langue et possèdent une manière de vivre différente les uns des autres. Chez les Arawaks, les habitations sont construites sur des pilotis. Ce type d’habitat a inspiré les colons, qui ont surnommé ce territoire la « petite Venise», devenu aujourd’hui le Venezuela.
+    <div class="block block-1">  
+        <div class="title">Avant 1400 </div>
+        <div class="texte">Bien avant l’arrivée des colons, à l’époque précolombienne, trois grands peuples indigènes se répartissent le territoire du Venezuela :  Les Arawaks, les Caribes et les Cumanagotos. En effet, ces différents groupes ont chacun leur propre langue et possèdent une manière de vivre différente les uns des autres. Chez les Arawaks, les habitations sont construites sur des pilotis. Ce type d’habitat a inspiré les colons, qui ont surnommé ce territoire la « petite Venise», devenu aujourd’hui le Venezuela.
 </div>
-    
+    </div> 
     
     
         <div class="texture scroll">
@@ -30,7 +31,7 @@
         </div>
     
         <div class="ferrari scroll">
-            <img src="images/drawferrari.png" alt="" />
+            <img src="images/ferrari2.gif"  width="300" height="500" alt="" />
         </div>
     
 
@@ -40,12 +41,30 @@
     <script type="text/javascript" src="../../vendor/jquery-2.2.1/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="../../vendor/jInvertScroll/dist/js/jquery.jInvertScroll.min.js"></script>
     <script type="text/javascript">
+       
     (function($) {
         $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
             {
             height: 60000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
             onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
                 console.log(percent);
+                
+                if(percent >= 0.0182) {
+                    $('.block-1').fadeIn();
+                }
+                
+                
+         //       if(percent = 0.0200 ) {
+           //         $('.block-1').fadeOut();
+             //   }
+        
+                 if(percent < 0.0182 ) {
+                    $('.block-1').fadeOut();
+                }
+                
+                
+    
+                
             }
         });
     }(jQuery));
