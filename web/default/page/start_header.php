@@ -19,22 +19,31 @@ if ($dossier != null) {
             break;
         case "ours":
             $titre = "Découvrez les fragments de l'histoire de Madrid";
+            break;
         case "hotel":
             $titre = "Déambulez de place en place à Madrid";
+            break;
         case "ordinateur":
             $titre = "Naviguez à travers l’ordinateur d’Henry";
+            break;
         case "lapin":
             $titre = "Devenez le nouveau conquistador culinaire de mambo canaille";
+            break;
         case "vin":
             $titre = "Initiez-vous à l’oenologie chilienne";
+            break;
         case "poitrine":
             $titre = "Découvrez la beauté à travers les siècles";
+            break;
         case "immeuble":
             $titre = "Infiltrez vous chez les trois canailles";
+            break;
         case "gaspacho":
             $titre = "Préparez vous-même le gaspacho d’Henry !";
+            break;
         case "chien":
             $titre = "Imaginez le visage des personnages principaux !";
+            break;
         case "ferrari":
             $titre = "Partez à la découverte du Venezuela !";
     }
