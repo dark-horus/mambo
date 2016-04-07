@@ -5,12 +5,12 @@ if (!isset($_SESSION['id'])){
 }
 else {
 
-//connexion ï¿½ la bdd
+//connexion à la bdd
 include('bdd.php');
 
 $password = $_SESSION['id'];
 
-//Rï¿½cupï¿½ration des informations de l'utilisateur
+//Récupération des informations de l'utilisateur
 $login = $bdd->query('SELECT * FROM `user` WHERE password = "'.$password.'"');
 $res = $login->fetch();
 
