@@ -65,11 +65,6 @@ include('../default/page/header.php');
     </div>
     </body>
     </html>
-
-
-
-
-
 <!-- Fin du contenu -->
 <?php 
 include('../default/page/footer.php');
