@@ -34,7 +34,7 @@ include('../default/page/start_header.php');
 
                 <div class="row-fluid">
                     <div id="base container" class="col-md-12">
-                        <h2>Base</h2>
+                        <h2 style=color:white;>Base</h2>
                         <h3>(choisir une base)</h3>
 
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('base','tomate');"><img
@@ -51,7 +51,7 @@ include('../default/page/start_header.php');
 
                 <div class="row-fluid">
                     <div id="legumes container" class="col-md-12">
-                        <h2>Légumes</h2>
+                        <h2 style=color:white;>Légumes</h2>
                                                 <h3>(choisir deux légumes)</h3>
 
                         <div class="col-sm-3 col-md-3 col-lg-3  ingredient" onclick="afficher('legumes','concombre');">
@@ -71,7 +71,7 @@ include('../default/page/start_header.php');
 
                 <div class="row-fluid">
                     <div id="condiments container" class="col-md-12">
-                        <h2>Condiments</h2>
+                        <h2 style=color:white;>Condiments</h2>
                                                 <h3>(choisir quatres condiments)</h3>
 
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('condiments','oignon');">
@@ -100,8 +100,15 @@ include('../default/page/start_header.php');
 
                 <div class="row-fluid">
                     <div id="assaisonement container" class="col-md-12">
-                        <h2>Assaisonement</h2>
+                        <h2 style=color:white;>Assaisonement</h2>
                                                 <h3>(choisir quatres assaisonements)</h3>
+
+                          <div class="col-sm-3 col-md-3 col-lg-3 ingredient"
+                             onclick="afficher('assaisonement','citron');"
+                        ><img id="S25"
+                              src="images/citron_test.png"
+                              alt=""/>
+                            <p class="text-center">Citron</p></div>
 
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient"
                              onclick="afficher('assaisonement','vinaigre');"
@@ -131,7 +138,7 @@ include('../default/page/start_header.php');
 
                 <div class="row-fluid">
                     <div id="temperature container" class="col-md-12">
-                        <h2>Température</h2>
+                        <h2 style=color:white;>Température</h2>
                                                 <h3>(un choix possible)</h3>
 
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('temperature','chaud');">
@@ -152,8 +159,8 @@ include('../default/page/start_header.php');
                 <img class="bol" src="images/bol.svg" alt=""/>
 
                 <div id="envoi">
-                    <button type="button" onclick="test();">Gouter</button>
-                    <button type="button" onclick="empty();">Vider</button>
+                    <input type="image" src="images/gouter.png" onclick="test();">Gouter</button>
+                    <input type="image" src="images/vider.png" onclick="empty();">Vider</button>
                 </div>
             </div><!--side-->
 
