@@ -3,7 +3,7 @@ include('../default/page/start_header.php');
 ?>
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
 
-  <link rel="stylesheet" type="text/css" href="gaspacho.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 
 
@@ -138,14 +138,14 @@ include('../default/page/start_header.php');
 
                 <div class="row-fluid">
                     <div id="temperature container" class="col-md-12">
-                        <h2 style=color:white;>Température</h2>
+                        <h2 style=color:white>Température</h2>
                                                 <h3>(un choix possible)</h3>
 
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('temperature','chaud');">
-                            <img id="S35" src="images/maquette.png" alt=""/>
+                            <img id="S35" src="images/chaud2.png" alt=""/>
                             <p class="text-center">Chaud</p></div>
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('temperature','froid');">
-                            <img id="S36" src="images/maquette.png" alt=""/>
+                            <img id="S36" src="images/froid_2.png" alt=""/>
                             <p class="text-center">Froid</p></div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ include('../default/page/start_header.php');
             </div><!--container-->
 
             <div class="col-sm-5 col-md-5 col-lg-5 pull-right side">
-                <h1>Saurez vous préparer le gaspacho de Henry ?</h1>
+                <h2>Saurez vous préparer le gaspacho de Henry ?</h2>
 
                 <p>Composez votre gaspacho avec les ingrédients disponibles, en espérant qu'il plaira à Henry...</p>
                 <img class="bol" src="images/bol.svg" alt=""/>

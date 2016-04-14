@@ -9,15 +9,20 @@ body{
     height:768px;
 }
 
-h1 {
 
-    text-align: center;
 
-}
+
+
+
 
 h2 {
 
     font-size-adjust: auto;
+    color:white;
+}
+
+h3{
+    color:white;
 }
 
 p {
