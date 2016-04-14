@@ -211,8 +211,25 @@
 .contenu .titre h1 {
     font-size: 40px;
     text-align: center;
+    padding: 10px;
+}
+
+.contenu .biographie h3 {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.contenu .biographie p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.contenu .oeuvres h3 {
+    font-size: 25px;
+    padding: 10px;
 }
 
 .fancybox {
     cursor: pointer;
 }
+

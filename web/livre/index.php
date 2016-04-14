@@ -12,7 +12,6 @@
                     <div class="titre">
                         <h1>Franz Kafka</h1>
                     </div>
-
                     <div class="biographie">
                         <h3>Biographie</h3>
                         <p>Né à Prague en 1883, Franz Kafka est un écrivain de langue allemande et de religion juive. Il est le représentant de l’ensemble d’une oeuvre à l’atmosphère cauchemardesque avec une lourde critique de la bureaucratie et de la société impersonnelle.
@@ -56,8 +55,8 @@
                 </div>
             </div>
 
-            <div id="marai" class="book">
-                <div class="contenu hide">
+            <div id="marai" class="book fancybox" data-fancybox-href="#marai-content">
+                <div id="marai-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Sandor Marai</h1>
                     </div>
@@ -82,8 +81,8 @@
                 </div>
             </div>
 
-            <div id="pizarnik" class="book">
-                <div class="contenu hide">
+             <div id="pizarnik" class="book fancybox" data-fancybox-href="#pizarnik-content">
+                <div id="pizarnik-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Alejandra Pizarnik</h1>
                     </div>
@@ -107,8 +106,8 @@
                 </div>
             </div>
 
-            <div id="llosa" class="book">
-                <div class="contenu hide">
+            <div id="llosa" class="book fancybox" data-fancybox-href="#llosa-content">
+                 <div id="llosa-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Mario Vargas Llosa</h1>
                     </div>
@@ -131,8 +130,8 @@
                 </div>
             </div>
 
-            <div id="cortazar" class="book">
-                <div class="contenu hide">
+            <div id="cortazar" class="book fancybox" data-fancybox-href="#cortazar-content">
+                <div id="cortazar-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Julio Cortazar</h1>
                     </div>
@@ -155,8 +154,8 @@
                 </div>
             </div>
 
-            <div id="gracian" class="book">
-                <div class="contenu hide">
+            <div id="gracian" class="book fancybox" data-fancybox-href="#gracian-content">
+                <div id="gracian-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Baltazar Gracian</h1>
                     </div>
@@ -180,8 +179,8 @@
                 </div>
             </div>
 
-            <div id="kadare" class="book">
-                <div class="contenu hide">
+            <div id="kadare" class="book fancybox" data-fancybox-href="#kadare-content">
+                <div id="kadare-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Ismael Kadaré</h1>
                     </div>
@@ -205,8 +204,8 @@
                 </div>
             </div>
 
-            <div id="borges" class="book">
-                <div class="contenu hide">
+            <div id="borges" class="book fancybox" data-fancybox-href="#borges-content">
+                <div id="borges-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Jorge Luis Borges</h1>
                     </div>
@@ -229,8 +228,8 @@
                 </div>
             </div>
 
-            <div id="pavese" class="book">
-                <div class="contenu hide">
+            <div id="pavese" class="book fancybox" data-fancybox-href="#pavese-content">
+                <div id="pavese-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Cesare Pavese</h1>
                     </div>
@@ -255,8 +254,8 @@
                 </div>
             </div>
 
-            <div id="homere" class="book">
-                <div class="contenu hide">
+            <div id="homere" class="book fancybox" data-fancybox-href="#homere-content">
+                <div id="homere-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Homère</h1>
                     </div>
@@ -279,9 +278,8 @@
                 </div>
             </div>
 
-            <div id="losada" class="book">
-
-                <div class="contenu hide">
+            <div id="losada" class="book fancybox" data-fancybox-href="#losada-content">
+                <div id="losada-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Blanca Riestra Rodriguez Losada</h1>
                     </div>
@@ -304,8 +302,8 @@
                 </div>
             </div>
 
-            <div id="molina" class="book">
-                <div class="contenu hide">
+            <div id="molina" class="book fancybox" data-fancybox-href="#molina-content">
+                <div id="molina-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Antonio Munoz Molina</h1>
                     </div>
@@ -329,8 +327,8 @@
                 </div>
             </div>
 
-            <div id="echenique" class="book">
-                <div class="contenu hide">
+            <div id="echenique" class="book fancybox" data-fancybox-href="#echenique-content">
+                <div id="echenique-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Brice Echenique</h1>
                     </div>
@@ -353,8 +351,8 @@
                 </div>
             </div>
 
-            <div id="joyce" class="book">
-                <div class="contenu hide">
+            <div id="joyce" class="book fancybox" data-fancybox-href="#joyce-content">
+                <div id="joyce-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>James Joyce</h1>
                     </div>
@@ -378,8 +376,8 @@
                 </div>
             </div>
 
-            <div id="ibanez" class="book">
-                <div class="contenu hide">
+            <div id="ibanez" class="book fancybox" data-fancybox-href="#ibanez-content">
+                <div id="ibanez-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Blasco Ibanez</h1>
                     </div>
@@ -402,8 +400,8 @@
                 </div>
             </div>
 
-            <div id="neuman" class="book">
-                <div class="contenu hide">
+            <div id="neuman" class="book fancybox" data-fancybox-href="#neuman-content">
+                <div id="neuman-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Andrés Neuman</h1>
                     </div>
@@ -426,8 +424,8 @@
                 </div>
             </div>
 
-            <div id="cauti" class="book">
-                <div class="contenu hide">
+            <div id="cauti" class="book fancybox" data-fancybox-href="#cauti-content">
+                <div id="cauti-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Fernando Iwasaki Cauti</h1>
                     </div>
@@ -449,8 +447,8 @@
                 </div>
             </div>
 
-            <div id="tabucchi" class="book">
-                <div class="contenu hide">
+            <div id="tabucchi" class="book fancybox" data-fancybox-href="#tabucchi-content">
+                <div id="tabucchi-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Antonio Tabucchi</h1>
                     </div>
@@ -474,8 +472,8 @@
                 </div>
             </div>
 
-            <div id="mendoza" class="book">
-                <div class="contenu hide">
+            <div id="mendoza" class="book fancybox" data-fancybox-href="#mendoza-content">
+                <div id="mendoza-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Eduardo Mendoza</h1>
                     </div>
@@ -500,8 +498,8 @@
                 </div>
             </div>
 
-            <div id="merino" class="book">
-                <div class="contenu hide">
+            <div id="merino" class="book fancybox" data-fancybox-href="#merino-content">
+                <div id="merino-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>José Maria Merino</h1>
                     </div>
@@ -524,8 +522,8 @@
                 </div>
             </div>
 
-            <div id="flaubert" class="book">
-                <div class="contenu hide">
+            <div id="flaubert" class="book fancybox" data-fancybox-href="#kafka-content">
+                <div id="kafka-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Gustave Flaubert</h1>
                     </div>
@@ -549,8 +547,8 @@
                 </div>
             </div>
 
-            <div id="marquez" class="book">
-                <div class="contenu hide">
+            <div id="marquez" class="book fancybox" data-fancybox-href="#marquez-content">
+                <div id="marquez-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Gabriel Garcia Marquez</h1>
                     </div>
@@ -574,8 +572,8 @@
                 </div>
             </div>
 
-            <div id="neruda" class="book">
-                <div class="contenu hide">
+            <div id="neruda" class="book fancybox" data-fancybox-href="#neruda-content">
+                <div id="neruda-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Pablo Neruda</h1>
                     </div>
@@ -597,8 +595,8 @@
                     </div>
                 </div>
             </div>
-            <div id="plath" class="book">
-                <div class="contenu hide">
+            <div id="plath" class="book fancybox" data-fancybox-href="#plath-content">
+                <div id="plath-content" class="contenu" style="display:none">
                     <div class="titre">
                         <h1>Sylvia Plath</h1>
                     </div>

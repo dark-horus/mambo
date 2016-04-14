@@ -23,7 +23,7 @@ if($_SESSION['id'] != NULL){
     
 	
 	<div id="retour">
-   <a href="index.php">Retour</a>
+   
    <a href="deconnexion.php">deconnexion</a>
    </div>
 		

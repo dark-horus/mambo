@@ -2,7 +2,7 @@
 </head>
 
 <body>
-<div class="container-fluid">
+<div id="toutelecontenu">
     <header class="row">
         <nav id="mambo-topmenu" class="col-md-7">
             <ul class="list-inline">
@@ -43,3 +43,4 @@
             </ul>
         </nav>
     </header>
+	<div id="etape">
