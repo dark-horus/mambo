@@ -23,8 +23,15 @@ include('../default/page/start_header.php');
 <div id="game"> </div>
 <nav id="controls"></nav>
 
-<div id="recommencer"> </div>
-        <a href="javascript:window.location.reload()">Recommencer</a>
+<div id="recommencer">
+    <a href="javascript:window.location.reload()">
+        <img src="images/recommencer.png" align="center" width="15%" height="15%"/>
+    </a>
+</div>
+
+<div id="valider"> <!-- AJOUTER LE CODE POUR LA VALIDATION -->
+        <img src="images/valider.png" align="center" width="15%" height="15%"/>
+</div>
 
 <script src="js/index.js"></script>
 

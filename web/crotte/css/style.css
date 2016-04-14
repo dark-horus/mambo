@@ -1,14 +1,18 @@
 body {
-  background: #f7f0de;
-  color: white;
-}
-
-h1 {
-  text-align: center;
+  background-image: url(../images/fond.png);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: cover; 
+  -moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: 100% 100%;        /* Opera 9.5 */
+  -webkit-background-size: 100% 100%;   /* Safari 3.0 */
+  background-size: 100% 100%;
 }
 
 #game {
-    width: 350px;
+    width: 400px;
+    height:auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -18,23 +22,26 @@ h1 {
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+    margin-left : auto;
+    margin-right: auto;
 }
 #game .mm-line {
     -webkit-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
     line-height: 0;
-    vertical-align: middle;
+    vertical-align:middle;
     margin-top:0px;
     margin-bottom:0px;
+
 }
 #game .mm-line.mm-solution {
-    background-color: rgba(153, 51, 51, 0.2);
+    background-color: none;
     color: white;
     margin-left:0px;
     margin-top:100px;
 }
 #game .mm-line.selected {
-    background-color: rgba(153, 51, 51, 0.2);
+    background-color:none;
     color: white;
     margin-top:0px;
 }
@@ -44,22 +51,22 @@ h1 {
     font-family: 'Futura';
     font-size: 15px;
     width: 20px;
-    color : #993333;
+    color: #630F0F;
     margin-left:50px;
 }
 #game .mm-line .mm-slot {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     -webkit-transition: background-color 0.5s ease;
     transition: background-color 0.5s ease;
     /* background-image: url("../images/cercle.png"); */
     background-size: cover;
-    margin: 3px;
+    margin: 4px;
     border-radius: 50%;
 }
 #game .mm-line .mm-slot.selected {
-  border-color: white;
+  border-color: none;
   -webkit-animation: hilite 0.3s ease;
           animation: hilite 0.3s ease;
   -webkit-animation-direction: alternate;
@@ -70,7 +77,6 @@ h1 {
 #game .mm-line .mm-status {
   margin-left: 10px;
   display: inline-block;
-  float: right;
 }
 /*
 #game .mm-line .mm-status span {
@@ -82,7 +88,7 @@ h1 {
   font-size: 20px;
 } */
 #game .mm-line .mm-status .mm-status-correct {
-  color: black;
+  color:#630f0F;
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -91,7 +97,7 @@ h1 {
   font-size: 20px;
 }
 #game .mm-line .mm-status .mm-status-wrongplace {
-  color: black;
+  color:#630f0F;
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -102,49 +108,19 @@ h1 {
 
 #controls {
     width: 500px;
-    text-align: center;
-    margin: 0 auto;  
+    margin-top :30px; 
     vertical-align:middle;
-
 }
 
 #controls a {
     display: inline-block;
     width: 70px;
     height: 70px;
-    border: 1px solid white;
-    border-radius: 50%;
+    border-radius: 100%;
     margin: 3px;
-    -webkit-transition: -webkit-transform 0.3s ease;
-    transition: -webkit-transform 0.3s ease;
-    transition: transform 0.3s ease;
-    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-
-        filter: sepia(1);
-        -webkit-filter: sepia(1);
-        -moz-filter: sepia(1);
-        -o-filter: sepia(1);
-        -ms-filter: sepia(1);
-
-    .controls img:hover
-{
-        filter: sepia(0);
-        -webkit-filter: sepia(0);
-        -moz-filter: sepia(0);
-        -o-filter: sepia(0);
-        -ms-filter: sepia(0);
+    float:left;
 }
-}
-#controls a:hover {
-  -webkit-transform: translateY(-5px) scale(1.1);
-          transform: translateY(-5px) scale(1.1);
 
-        filter: grayscale(0);
-        -webkit-filter: grayscale(0);
-        -moz-filter: grayscale(0);
-        -o-filter: grayscale(0);
-        -ms-filter: grayscale(0);
-}
 
 [data-peg] {
   background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
@@ -205,14 +181,3 @@ h1 {
     border-color: #777;
   }
 }
-
-/* #recommencer {
-  color:black;
-  font-family:'Futura';
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin: 5px;
-  font-size: 24px;
-} */
