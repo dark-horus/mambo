@@ -57,6 +57,7 @@ body {
     src: url('Font/MyUnderwood-webfont.eot');
     src: url('Font/MyUnderwood-webfont.eot?#iefix') format('embedded-opentype'),
          url('Font/MyUnderwood-webfont.woff') format('woff'),
+		 url('Font/MyUnderwood-webfont.woff2') format('woff2'),
          url('Font/MyUnderwood-webfont.ttf') format('truetype'),
          url('Font/MyUnderwood-webfont.svg#my_underwoodregular') format('svg');
     font-weight: normal;
@@ -85,7 +86,7 @@ a:hover {
 }
 #mambo-topmenu {
     color: black;
-	padding-left: 20px;
+	padding-left: 50px;
 	position: absolute;
 	z-index: 10;
 }

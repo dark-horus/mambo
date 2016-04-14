@@ -40,6 +40,9 @@
                         <h1><?php echo $titre ?></h1>
                     </div>
                 </li>
+				<li>
+					<a href="#"><img src="" title=""></a>
+				</li>
             </ul>
         </nav>
     </header>
