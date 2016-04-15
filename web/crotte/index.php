@@ -16,23 +16,27 @@ include('../default/page/start_header.php');
 <?php include('../default/page/end_header.php'); ?>
 
 <!-- Place ici ton contenu -->
+<htlm>
+    
+<div id="fleche">
+    <img src="images/fleche.png"/>
+</div> 
 
 <div id="game"> </div>
 <nav id="controls"></nav>
 
-<div id="fleche">
-    <img src="images/fleche.png" align="left" width="10%" height="10%"/>
-</div> 
-
 <div id="recommencer">
     <a href="javascript:window.location.reload()">
-        <img src="images/recommencer.png" align="left" width="15%" height="15%"/>
+        <img src="images/recommencer.png"/>
     </a>
 </div>
 
 <div id="valider"> <!-- AJOUTER LE CODE POUR LA VALIDATION -->
-        <img src="images/valider.png" align="center" width="15%" height="15%"/>
+        <img src="images/valider.png"/>
 </div>
+    
+<htlm>
+
 
 <script src="js/index.js"></script>
 

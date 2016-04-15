@@ -1,13 +1,25 @@
 body {
   background-image: url(../images/fond.png);
-  background-position: center;
+  margin:0;
+  padding:0;
+  background-position:center;
   background-repeat: no-repeat; 
-  background-attachment: fixed; 
+  background-attachment:scroll;
+  -webkit-background-size: cover;
   background-size: cover; 
-  -moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
-  -o-background-size: 100% 100%;        /* Opera 9.5 */
-  -webkit-background-size: 100% 100%;   /* Safari 3.0 */
-  background-size: 100% 100%;
+  
+}
+
+img {
+    max-width: 100%;
+    height: auto;  
+}
+
+img.responsive
+{
+display: block;
+max-width: 100%;
+height: auto;
 }
 
 #game {
@@ -74,10 +86,12 @@ body {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
+
 #game .mm-line .mm-status {
   margin-left: 10px;
   display: inline-block;
 }
+
 /*
 #game .mm-line .mm-status span {
   display: inline-block;
@@ -109,8 +123,8 @@ body {
 
 #controls {
     width: 500px;
-    margin-top :30px; 
-    vertical-align:middle;
+    margin-top: 30px; 
+    vertical-align: middle;
 }
 
 #controls a {
