@@ -19,7 +19,7 @@ include('../default/page/start_header.php');
 <!-- Place ici ton contenu -->
 
 
-<img src="img/pagevinweb.jpg" width="100%">
+<img src="img/pagevinweb2.jpg" width="100%">
 
 
 <!-- Fin du contenu -->
