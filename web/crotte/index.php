@@ -11,10 +11,7 @@ include('../default/page/start_header.php');
 
 <!-- Place ici tes scripts Javascripts dans Vendor, et ton JS local -->
 
-
-
 <!-- Fin Scripts -->
-
 
 <?php include('../default/page/end_header.php'); ?>
 
@@ -23,9 +20,13 @@ include('../default/page/start_header.php');
 <div id="game"> </div>
 <nav id="controls"></nav>
 
+<div id="fleche">
+    <img src="images/fleche.png" align="left" width="10%" height="10%"/>
+</div> 
+
 <div id="recommencer">
     <a href="javascript:window.location.reload()">
-        <img src="images/recommencer.png" align="center" width="15%" height="15%"/>
+        <img src="images/recommencer.png" align="left" width="15%" height="15%"/>
     </a>
 </div>
 
@@ -38,7 +39,7 @@ include('../default/page/start_header.php');
 <!-- Fin du contenu -->
 <?php 
 include('../default/page/footer.php');
-?>
+?> 
 
   
    

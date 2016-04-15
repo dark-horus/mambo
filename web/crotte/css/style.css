@@ -87,6 +87,7 @@ body {
   margin: 5px;
   font-size: 20px;
 } */
+
 #game .mm-line .mm-status .mm-status-correct {
   color:#630f0F;
   display: inline-block;
@@ -120,7 +121,6 @@ body {
     margin: 3px;
     float:left;
 }
-
 
 [data-peg] {
   background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
