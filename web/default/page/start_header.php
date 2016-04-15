@@ -1,10 +1,10 @@
 <?php
-/* session_start();
+ session_start();
 if (!isset($_SESSION['id'])){
-	header('location: index.php');
+	header('location: ../default/page/onload.php');
 }
-else {
-*/
+
+
 $dossier = explode('/', $_SERVER['REQUEST_URI']);
 $dossier = $dossier[3];
 $icone = $dossier . ".png" ;
@@ -48,6 +48,7 @@ if ($dossier != null) {
             $titre = "Partez à la découverte du Venezuela !";
     }
 }
+$_SESSION['etape'] = $dossier;
 
 ?>
 
