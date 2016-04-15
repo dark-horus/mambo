@@ -4,7 +4,7 @@
 <body>
 <div id="toutelecontenu">
     <header class="row">
-        <nav id="mambo-topmenu" class="col-md-7">
+        <nav id="mambo-topmenu" class="col-md-12">
             <ul class="list-inline">
                 <li>
                     <div id="mambo-burger">
@@ -41,7 +41,7 @@
                     </div>
                 </li>
 				<li>
-					<a href="#"><img src="" title=""></a>
+					<a href="#"><img src="../default/page/img/interrogation.png" title=""></a>
 				</li>
             </ul>
         </nav>
