@@ -23,11 +23,10 @@ $bdd->exec('INSERT INTO `user` (password) VALUES("'.$idconnect.'")');
 $login = $bdd->query('SELECT * FROM `user` WHERE password ="'.$idconnect.'"');
 $res = $login->fetch();
 
-
+//demarre la session de l'utilisateur
 if($res != NULL){
 session_start();
 $_SESSION['id'] = $res['password'];
-
 }
 header('location: noncode.php');
 

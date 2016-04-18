@@ -1,19 +1,15 @@
-</div>
-<div class="row">
+
 
 <footer>
-
-	
+<div class="row">
+	<div class="col-md-12">
 	<ul class="list-inline">
-		<li><a href="#">Mentions LÃ©gales</a></li>
+		<li><a href="#">Mentions Légales</a></li>
 		<li><a href="#">A propos</a></li>
 	</ul>
-	
-
-</footer>
-
+	</div>
 </div>
+</footer>
 </div>
 </body>
 </html>
-

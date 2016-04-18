@@ -18,8 +18,7 @@ if($res != NULL){
 	
 	session_start();
 	$_SESSION['id'] = $res['password'];
-	//renvoyer sur une page : vous êtes bien connecté, vous pouvez fermer la page.
-	header('location: onload.php');
+	header('location: index.php');
 }
 else {
 	header('location: ouicode.php');
