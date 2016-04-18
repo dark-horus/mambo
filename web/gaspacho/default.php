@@ -26,9 +26,6 @@ include('../default/page/start_header.php');
 <div class="wrap">
 <div class="content">
 
-    <img src="images/back.jpg" class="superbg" />
-  <script src="background.js" type="text/javascript"></script>   
-
     <div class="container-fluid">
 
         <div class="row-fluid">
@@ -36,7 +33,7 @@ include('../default/page/start_header.php');
             <div id="container" class="col-sm-5 col-md-5 col-lg-5">
 
                 <div class="row-fluid">
-                    <div id="base" class="col-md-12">
+                    <div id="base container" class="col-md-12">
                         <h2 style=color:white;>Base</h2>
                         <h3>(choisir une base)</h3>
 
@@ -53,7 +50,7 @@ include('../default/page/start_header.php');
                 </div>
 
                 <div class="row-fluid">
-                    <div id="legumes" class="col-md-12">
+                    <div id="legumes container" class="col-md-12">
                         <h2 style=color:white;>Légumes</h2>
                                                 <h3>(choisir deux légumes)</h3>
 
@@ -73,7 +70,7 @@ include('../default/page/start_header.php');
                 </div>
 
                 <div class="row-fluid">
-                    <div id="condiments" class="col-md-12">
+                    <div id="condiments container" class="col-md-12">
                         <h2 style=color:white;>Condiments</h2>
                                                 <h3>(choisir quatres condiments)</h3>
 
@@ -102,7 +99,7 @@ include('../default/page/start_header.php');
                 </div>
 
                 <div class="row-fluid">
-                    <div id="assaisonement" class="col-md-12">
+                    <div id="assaisonement container" class="col-md-12">
                         <h2 style=color:white;>Assaisonement</h2>
                                                 <h3>(choisir quatres assaisonements)</h3>
 
@@ -140,7 +137,7 @@ include('../default/page/start_header.php');
                 </div>
 
                 <div class="row-fluid">
-                    <div id="temperature" class="col-md-12">
+                    <div id="temperature container" class="col-md-12">
                         <h2 style=color:white>Température</h2>
                                                 <h3>(un choix possible)</h3>
 
@@ -162,8 +159,8 @@ include('../default/page/start_header.php');
                 <img class="bol" src="images/bol.svg" alt=""/>
 
                 <div id="envoi">
-                    <input type="image" src="images/gouter.png" onclick="test();"></button>
-                    <input type="image" src="images/vider.png" onclick="empty();"></button>
+                    <input type="image" src="images/gouter.png" onclick="test();">Gouter</button>
+                    <input type="image" src="images/vider.png" onclick="empty();">Vider</button>
                 </div>
             </div><!--side-->
 

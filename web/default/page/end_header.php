@@ -20,9 +20,9 @@
                                     <li class="col-md-6"><a href="#">Profil</a></li>
                                 </div>
                                 <div id="mambo-botdropdown">
-                                    <li class="col-md-12"><a href="#">Etape précédente</a></li>
-                                    <li class="col-md-12"><a href="#">Etape actuelle</a></li>
-                                    <li class="col-md-12"><a href="#">Etape suivante</a></li>
+                                    <?php echo $before; ?>
+                                    <?php echo $current; ?>
+                                    <?php echo $next; ?>
                                 </div>
                             </ul>
                         </div>

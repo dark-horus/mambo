@@ -2,7 +2,6 @@
 <script src="../../vendor/jquery-2.2.1/jquery-2.2.1.min.js"></script>
 <script src="../../vendor/jquery-2.2.1/jquery-migrate-1.2.1.min.js"></script>
 <script src="../../vendor/bootstrap/js/bootstrap.js" type="text/javascript"></script>
-<!-- a mettre en local -->
 <link rel="stylesheet" type="text/css" href="../../vendor/bootstrap/css/bootstrap.css">
 
 

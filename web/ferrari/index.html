@@ -9,17 +9,17 @@
     
     <div class="block block-1">  
         <div class="title">Avant 1400 </div>
-        <div class="texte">Bien avant l’arrivée des colons, à l’époque précolombienne, trois grands peuples indigènes se répartissent le territoire du Venezuela :  Les Arawaks, les Caribes et les Cumanagotos. <br/> En effet, ces différents groupes ont chacun leur propre langue et possèdent une manière de vivre différente les uns des autres. Chez les Arawaks, les habitations sont construites sur des pilotis. Ce type d’habitat a inspiré les colons, qui ont surnommé ce territoire la « petite Venise», devenu aujourd’hui le Venezuela.
+        <div class="texte">Bien avant l’arrivée des colons, à l’époque précolombienne, trois grands peuples indigènes se répartissent le territoire du Venezuela :  Les Arawaks, les Caribes et les Cumanagotos. En effet, ces différents groupes ont chacun leur propre langue et possèdent une manière de vivre différente les uns des autres. Chez les Arawaks, les habitations sont construites sur des pilotis. Ce type d’habitat a inspiré les colons, qui ont surnommé ce territoire la « petite Venise», devenu aujourd’hui le Venezuela.
 </div>
     </div> 
     
-   <div class="block block-2">  
+     <div class="block block-2">  
         <div class="title"> 1498 </div>
         <div class="texte">Le Venezuela est découvert en 1498 lors du troisième voyage vers les Indes Occidentales de Christophe Colomb. En 1506, après les multiples échecs espagnols face aux amérindiens dans la région de Darién (regroupant la Colombie, le Panama et le Venezuela), l’Allemand Bartholomé Welser reçoit le droit de coloniser le Venezuela. Le pays qui appartient alors aux espagnols passe entre les mains des allemands et ce, pendant vingt-cinq ans. Toutefois, au fil des années des tensions entre ces deux pays apparaissent et en 1546, plus aucun allemand n’est le bienvenu sur le territoire. L’empire hispanique reprend les rênes de la colonisation et de l’administration du pays. Cette colonie demeure assez négligée par ses dirigeants espagnols, ces derniers se concentrant davantage sur l'extraction de l'or dans les autres régions d’Amérique du Sud plutôt que sur le bon développement du pays. 
 </div>
-    </div>
+    </div> 
 
-   <div class="block block-3">  
+    <div class="block block-3">  
         <div class="title">  L’eldorado du cacao </div>
         <div class="texte">Les Aztèques et les Mayas (Amérindiens) sont les premiers à confectionner « la boisson de dieu » à partir du cacao. Ils cueillent les cabosses et en extraient les fèves. Ils les laissent ensuite fermenter, sécher et griller, les épluchent et les broient sur des pierres chaudes. Ils les mélangent enfin à des farines, des sucres et des épices puis les diluent afin d’en boire le breuvage. Les trois groupes de cacaoyer du Venezuela (Criollo, Forastero et Trinitario) composent les plantations principales du pays. Au XVème siècle, le cacao a une telle importance qu’il est utilisé comme monnaie d’échange par les Mayas. Chuao, l’eldorado du cacao vénézuelien,  devient la première plantation d’Amérique. Très vite,  « l’or brun » s’impose comme le principal bien du Nouveau Monde vers le royaume espagnol. Jusqu’en 1810, le Venezuela couvre la moitié de la demande mondiale de cacao. A son arrivée en 1919, l’Espagnol Cortes modifie le breuvage et lance réellement la filière du chocolat dans le monde entier. Aujourd’hui, le Venezuela produit encore l’un des meilleurs cacaos du monde notamment grâce à la production du Criollo, qui est une des variétés les plus précieuses.
 </div>
@@ -33,7 +33,7 @@
     </div> 
     
      <div class="block block-5">  
-        <div class="title">   Le coup d'état <br/> d'Hugo Chavez </div>
+        <div class="title">   Le coup d'état d'Hugo Chavez </div>
         <div class="texte">En 1991, la situation du gouvernement colombien devient critique vis-à-vis des combattants de la guérilla. Des pourparlers sont engagés pour apaiser la situation. Le 3 Juin 1992, Hugo Chávez, révolté par la corruption ostensible du régime, est l’auteur d’une tentative de coup d’état avortée. Cet acte lui permet de connaître son premier grand succès médiatique. En novembre, le gouvernement fait face à une autre tentative de putsch qui laisse le pays dans un état d'extrême pauvreté.
 Le 20 Mai 1993, le président Carlos Andrès Pérez qui en est à son deuxième mandat, est destitué de ses fonctions pour corruption. Cinq ans plus tard, Hugo Chávez est élu président avec 56,5% des voies contre Henrique Salas Römer.
 </div>
@@ -88,74 +88,64 @@ Le 20 Mai 1993, le président Carlos Andrès Pérez qui en est à son deuxième 
             onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
                 console.log(percent);
                 
-        
+              //  if(percent < 0.0200 ) {
+            //   $('.block-1').fadeOut();
+           //  }
+                
                 
    //BLOCK1          
+                if(percent < 0.0200) {
+                   $('.block-1').fadeIn();
+               }
+
+                 if(percent > 0.0200 ) {
+                  $('.block-1').fadeOut();
+               }
                 
-                if(percent > 0.0140 && percent < 0.0970) {
-                $('.block-1').fadeIn();
-                }
-                if(percent >= 0.0970) {
-                    $('.block-1').fadeOut();
-                }
                 
    //BLOCK2            
-                if(percent > 0.1100 && percent < 0.2500) {
-                $('.block-2').fadeIn();
-                }
-                if(percent >= 0.2500) {
-                    $('.block-2').fadeOut();
-                }
-                if(percent< 0.1100) {
-                    $('.block-2').fadeOut();
-                }
+                if(percent < 0.0500) {
+                   $('.block-2').fadeIn();
+               }
+
+                 if(percent > 0.0500 ) {
+                  $('.block-2').fadeOut();
+               }
                 
     //BLOCK3
-                 if(percent > 0.2700 && percent < 0.3800) {
-                $('.block-3').fadeIn();
-                }
-                if(percent >= 0.3800) {
-                    $('.block-3').fadeOut();
-                }
-                if(percent< 0.2700) {
-                    $('.block-3').fadeOut();
-                }
-                
+                 if(percent < 0.0700) {
+                   $('.block-3').fadeIn();
+               }
+
+                 if(percent > 0.0700 ) {
+                  $('.block-3').fadeOut();
+               } 
                 
     //BLOCK4
-               
-                if(percent > 0.4000 && percent < 0.4950) {
-                $('.block-4').fadeIn();
-                }
-                if(percent >= 0.4950) {
-                    $('.block-4').fadeOut();
-                }
-                if(percent< 0.4000) {
-                    $('.block-4').fadeOut();
-                }
-                
-                
+                  if(percent < 0.0900) {
+                   $('.block-4').fadeIn();
+               }
+
+                 if(percent > 0.0900 ) {
+                  $('.block-4').fadeOut();
+               } 
      //BLOCK5
-                   if(percent > 0.5000 && percent < 0.6050) {
-                $('.block-5').fadeIn();
-                }
-                if(percent >= 0.6050) {
-                    $('.block-5').fadeOut();
-                }
-                if(percent< 0.5000) {
-                    $('.block-5').fadeOut();
-                }
+                  if(percent < 0.1200) {
+                   $('.block-5').fadeIn();
+               }
+
+                 if(percent > 0.1200) {
+                  $('.block-5').fadeOut();
+               } 
                 
       //BLOCK6
-                if(percent > 0.6640 && percent < 0.7800) {
-                $('.block-6').fadeIn();
-                }
-                if(percent >= 0.7800) {
-                    $('.block-6').fadeOut();
-                }
-                if(percent< 0.6640) {
-                    $('.block-6').fadeOut();
-                                    }
+                 if(percent < 0.1500) {
+                   $('.block-6').fadeIn();
+               }
+
+                 if(percent > 0.1500) {
+                  $('.block-6').fadeOut();
+               } 
 
                 
             }

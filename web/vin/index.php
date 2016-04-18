@@ -18,13 +18,14 @@ include('../default/page/start_header.php');
 
 <!-- Place ici ton contenu -->
 
-
-<img src="img/pagevinweb2.jpg" width="100%">
+	
+<img src="img/pagevinweb.jpg" width="100%">
  
  <!-- bouton valider + enregistrement bdd -->
  <form action="../default/page/recEtape.php" method="post">
-		<input type="hidden" name="field" id="field">
-		<input type="hidden" name="value" id="value">
+		<input type="hidden" name="field" id="field" value="">
+		<input type="hidden" name="value" id="value" value="">
+		<input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
 		<!-- Si tout est ok, mettre la variable $validate à true -->
 		<input type="hidden" name="validate" id="validate" value="true">
         <div class="box">

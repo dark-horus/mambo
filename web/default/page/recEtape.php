@@ -5,8 +5,8 @@ if (!isset($_SESSION['id'])){
 }
 else {
 	//Verification que l'étape est validée
-	$validate = $_POST['validate'];
-$etape_ID = $_SESSION['etape'];
+$validate = $_POST['validate'];
+$etape_ID = $_POST['etape'];
 $password = $_SESSION['id'];
 	if($validate == "false") {
 		header('location: ../../'.$etape_ID.'/index.php');
@@ -25,7 +25,7 @@ $res = $login->fetch();
 
 //variables
 $id = $res['iduser'];
-$progression = $res['progression'];
+
 
 //si y a des champs à remplir
 		if (isset($_POST['field']) && isset($_POST['value'])){
@@ -49,7 +49,7 @@ $req2 = $bdd->exec($req2);
 //comptabilise pour la progression
 
 $requete = $bdd->query('SELECT etape_ID FROM `etape` WHERE user_ID = "'.$id.'" GROUP BY etape_ID');
-
+$progression = 0;
 while($donnees = $requete->fetch())
 {
 	$progression = $progression+1;
@@ -58,6 +58,9 @@ while($donnees = $requete->fetch())
 $req3 = "UPDATE `user` SET progression = '$progression' WHERE iduser = '$id'";
 $req3 = $bdd->exec($req3);
 
+
+	
+	
 //redirection
 header('location: ../../'.$etape_ID.'/index.php');
 

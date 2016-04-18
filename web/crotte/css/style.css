@@ -1,25 +1,13 @@
 body {
   background-image: url(../images/fond.png);
-  margin:0;
-  padding:0;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat; 
-  background-attachment:scroll;
-  -webkit-background-size: cover;
+  background-attachment: fixed; 
   background-size: cover; 
-  
-}
-
-img {
-    max-width: 100%;
-    height: auto;  
-}
-
-img.responsive
-{
-display: block;
-max-width: 100%;
-height: auto;
+  -moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: 100% 100%;        /* Opera 9.5 */
+  -webkit-background-size: 100% 100%;   /* Safari 3.0 */
+  background-size: 100% 100%;
 }
 
 #game {
@@ -86,12 +74,10 @@ height: auto;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-
 #game .mm-line .mm-status {
   margin-left: 10px;
   display: inline-block;
 }
-
 /*
 #game .mm-line .mm-status span {
   display: inline-block;
@@ -101,7 +87,6 @@ height: auto;
   margin: 5px;
   font-size: 20px;
 } */
-
 #game .mm-line .mm-status .mm-status-correct {
   color:#630f0F;
   display: inline-block;
@@ -123,8 +108,8 @@ height: auto;
 
 #controls {
     width: 500px;
-    margin-top: 30px; 
-    vertical-align: middle;
+    margin-top :30px; 
+    vertical-align:middle;
 }
 
 #controls a {
@@ -135,6 +120,7 @@ height: auto;
     margin: 3px;
     float:left;
 }
+
 
 [data-peg] {
   background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
