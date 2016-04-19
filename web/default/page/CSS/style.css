@@ -124,7 +124,7 @@ a:hover {
 	min-height: 100%;
 	padding-bottom: 95px;
 	z-index: 1;
-	 padding-top: 100px;
+	
 }
 footer {
 	position: absolute;
@@ -133,6 +133,10 @@ footer {
 	height: 20px;
 	width: 100%;
 }
+#profil {
+	padding-top: 100px;
+}
+
 footer li a {
 	color: white;
 }

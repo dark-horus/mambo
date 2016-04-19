@@ -53,7 +53,7 @@ $imgEtape = $imgEtape . ".png" ;
 ?>
 <!-- Place ici ton contenu -->
 
-
+<div id="profil">
 <div class="container">
     <div class="row"> 
  <div class="col-md-6">
@@ -224,7 +224,7 @@ $imgEtape = $imgEtape . ".png" ;
     </div>
 
     </div>
-
+	</div>
 
 
 

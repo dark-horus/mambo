@@ -1,16 +1,5 @@
 <?php
- session_start();
-if (!isset($_SESSION['id'])){
-	header('location: ../default/page/onload.php');
-}
-include('../default/page/bdd.php');
-$password = $_SESSION['id'];
-//Récupération des informations de l'utilisateur
-$login = $bdd->query('SELECT * FROM `user` WHERE password = "'.$password.'"');
-$res = $login->fetch();
-$IDuser = $res['iduser'];
 //recupération du nom de l'étape + étape suivante et précédente
-$current_etape = $res['current_etape'];
 $dossier = explode('/', $_SERVER['REQUEST_URI']);
 $dossier = $dossier[3];
 $icone = $dossier . ".png" ;
@@ -91,12 +80,35 @@ if ($dossier != null) {
 			break;
 		case "profil":
 			$titre = "Votre profil";
-			$current = '<li class="col-md-12"><a href="../$current_etape;">Etape courante</a></li>';
+			$current = '<li class="col-md-12"><a href="#">PROFIL</a></li>';
 			$next = '';
 			$before = '';
-    }
+			break;
+		case "accueil":
+			$titre = "Les éditions Zinnia vous présentent Mambo Canaille intéractif"; 
+    		$current = '<li class="col-md-12"><a href="#">Home</a></li>';
+			$next ='';
+			$before = '';
+	}
 }
 
+session_start();
+if ($dossier != "accueil"){
+if (!isset($_SESSION['id'])){
+	header('location: ../accueil/index.php');
+	}
+}
+if (isset($_SESSION['id'])){
+$password = $_SESSION['id'];
+include('../default/page/bdd.php');
+
+//Récupération des informations de l'utilisateur
+$login = $bdd->query('SELECT * FROM `user` WHERE password = "'.$password.'"');
+$res = $login->fetch();
+$IDuser = $res['iduser'];
+
+$current_etape = $res['current_etape'];
+}
 
 ?>
 
@@ -109,7 +121,11 @@ if ($dossier != null) {
     <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
     <!-- lien vers les css -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../vendor/bootstrap/css/bootstrap.css">
+
+
+<link rel="stylesheet" type="text/css" href="../../vendor/fancybox/source/jquery.fancybox.css">
     <link rel="stylesheet" href="../default/page/CSS/style.css"/>
     <link rel="stylesheet" href="style.css"/> 
+	<link rel="stylesheet" type="text/css" href="../../vendor/bootstrap/css/bootstrap.css">
  
