@@ -10,7 +10,7 @@ body {
   margin: auto;
   padding: auto;
   overflow-x: hidden;
-  background-image:url('images/ambre.png');
+  background-image:url('images/ambre.jpg');
 background-position: top center;
 background-size: contain;
   }
@@ -132,26 +132,21 @@ li.active a, a:hover, a:active {
   background-repeat : no-repeat;
   background-position: top center;
   background-size: cover; 
-  hover: url('images/markerhover.png');
-    
-  
-  
-  
-  /*border-radius: 30px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -moz-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-  -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-  -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out, z-index 0.25s ease-in-out;
-  -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
-  -webkit-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-  transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-  background: #FF0000/*rgba(26, 26, 26, 0.85)*/;
-  /*couleur des points clickable*/
-  /*border: 5px solid #990000;*/
 }
+.map-point:hover {
+  cursor: pointer;
+  outline: none;
+  z-index: 0;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  
+  /*pour les points */
+  background-image: url('images/markerhover.png');
+  background-repeat : no-repeat;
+  background-position: top center;
+}
+
 .distribution-map .map-point .content {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -164,7 +159,8 @@ li.active a, a:hover, a:active {
   transform: translateX(-50%);
   overflow: overlay;
 }
-/*taile ddes lightbox à changer*/
+/*taile des lightbox à changer*/
+/*
 .distribution-map .map-point:active, .distribution-map .map-point:focus {
   margin: 0;
   padding: 0;
@@ -174,8 +170,8 @@ li.active a, a:hover, a:active {
   height: 220px;
   color: #e5e5e5;
   z-index: 1;
-  -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
-  transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+   -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out; */
 }
 .distribution-map .map-point:active .content, .distribution-map .map-point:focus .content {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
