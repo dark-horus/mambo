@@ -61,8 +61,9 @@ include('../default/page/start_header.php');
         <div class="content">
             <div class="centered-y">
 				<a class="fancybox" data-fancybox-type="iframe" href="images/weboriente.jpg"></a>
-					<h2>Logan's Mum</h2>
-                <p>I&rsquo;m a marshmallow</p>
+					<h2>Plaza de Oriente</h2>
+					<h3>« Place de l'Orient »</h3>
+                <p>Entre le palais royal et le théâtre royal, La Plaza de Oriente est connue pour sa statue du roi Philippe IV à cheval et pour son jardin somptueux. La forme rectangulaire de la place est conçue en 1844 par l'architecte espagnol Narciso Pascual y Colomer. A l’époque, le roi Joseph Ier souhaite la démolition des maisons médiévales. De nos jours, les alentours de la place sont peuplés de bars et de restaurants.</p>
             </div>
         </div>
     </div>
@@ -70,8 +71,9 @@ include('../default/page/start_header.php');
         <div class="content">
             <div class="centered-y">
 				<a class="fancybox" data-fancybox-type="iframe" href="images/webalcala.jpg"></a>
-					<h2>Toto</h2>
-                <p><img src="images/burger.png" width="70%" ></p>
+					<h2>Puerta de Alcalà</h2>
+					<h3>« Porte d'Alcalà »</h3>
+                <p> Faisant partie des cinq portes permettant l'accès à la ville, La Puerta de Alcalà est érigée sous le règne de Charles III pour remplacer une ancienne porte du XVIème siècle. Construite par l'architecte italien Franceso Sabatini, les travaux durent douze ans (1769-1778). La Puerta de Alcalà est la première arche construite depuis la chute de l'Empire Romain, ce qui en fait un précurseur à l’arc de triomphe. La Puerta de Alcalà est aujourd’hui un des monuments majeurs de Madrid longeant un des magnifiques parcs de la ville.</p>
             </div>
         </div>
     </div>
@@ -79,8 +81,9 @@ include('../default/page/start_header.php');
         <div class="content">
             <div class="centered-y">
 				<a class="fancybox" data-fancybox-type="iframe" href="images/websol.jpg"></a>
-					<h2>With Love</h2>
-                <p>&mdash; 007</p>
+					<h2>Puerta del sol</h2>
+					<h3>« Porte du soleil »</h3>
+                <p>Au XVème siècle, La Puerta del Sol fait partie de l'une des portes permettant d’entrer dans Madrid. Son nom vient du cadran solaire placé en son fronton. Au fil des siècles, la place prend de plus en plus importante. A partir du XVIIème, un bureau de poste est construit sur la place. Il devient un lieu d'arrivée des messages de tout le pays. Plus tard, ce bureau de poste accueille le siège du ministère de l'intérieur et de la sécurité de l’Etat pendant la dictature de Francisco Franco. Aujourd'hui, cet ancien bureau de poste héberge la présidence de la communauté de Madrid.</p>
             </div>
         </div>
     </div>
