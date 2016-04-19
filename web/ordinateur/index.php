@@ -51,23 +51,23 @@ include('../default/page/start_header.php');
 				</div>
 
 			</div>
-			<ul>
-			<li>
+			
+			
 				<div class="video_1">
 
 				</div>
-			</li>
-			<li>
+			
+		
 			<div class="video_2">
 			
 			</div>
-			</li>
-			<li>
+			
+			
 				<div class="video_3">
 
 				</div>
-			</li>
-			</ul>
+			
+			
 			
 
 		<div class="window f_musiques">
