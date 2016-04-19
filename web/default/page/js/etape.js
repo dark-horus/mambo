@@ -10,15 +10,20 @@ var map = $('#map'); // map div
 var next = $('#next'); // next pointer button
 
 // A list of pointer
-var p1 = new Pointer(134,1229);
-var p2 = new Pointer(134,1229);
-var p3 = new Pointer(246,3330);
-var p4 = new Pointer(134,1229);
-var p5 = new Pointer(231,4559);
-var p6 = new Pointer(150,6034);
-var p7 = new Pointer(150,7833);
-var p8 = new Pointer(150,9873);
-var pointers = [p1,p2,p3,p4,p5,p6,p7,p8];
+var p1 = new Pointer(134,1700);
+var p2 = new Pointer(134,3000);
+var p3 = new Pointer(134,4000);
+var p4 = new Pointer(134,5000);
+var p5 = new Pointer(134,6000);
+var p6 = new Pointer(134,7000);
+var p7 = new Pointer(134,8000);
+var p8 = new Pointer(134,10000);
+var p9 = new Pointer(134,11000);
+var p10 = new Pointer(134,12000);
+var p11 = new Pointer(134,13000);
+var p12 = new Pointer(134,15000);
+var p13 = new Pointer(134,18000);
+var pointers = [p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13];
 
 // Pointer counter
 var p = 0;
