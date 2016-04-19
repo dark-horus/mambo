@@ -1,0 +1,206 @@
+.background {
+
+	background-image: url('./images/ecran_ordi.png');
+	height: 768px;
+	width: 1024px;
+	background-repeat: no-repeat;
+	position: absolute;
+	overflow: hidden;
+
+}
+.icone
+{
+position: relative;
+width: 64px;
+height: 64px;	
+margin:20px;
+cursor: pointer;
+}
+.window {
+	position: absolute;
+	top: 100px;
+	left:100px;
+	display: none;
+}
+
+.d_videos {
+
+	background-image: url('./images/mes_videos.png');
+	background-repeat: no-repeat;
+
+	
+
+}
+
+.d_musiques {
+
+	background-image: url('./images/ma_musique.png');
+	background-repeat: no-repeat;
+	width: 67px;
+	
+}
+
+.d_admirateurs {
+
+	background-image: url('./images/admirateurs.png');
+	background-repeat: no-repeat;
+	width: 96px;
+    height: 70px;
+	
+}
+
+.barre {
+
+background-image: url('./images/Barre.png');
+	height: 86px;
+	width: 1023px;
+	margin : 0px;
+	background-repeat: no-repeat;
+	
+}
+
+.demarrer {
+
+background-image: url('./images/barre_demarrer.png');
+	height: 68px;
+	width: 1023px;
+	margin : 0px;
+	top : 500px;
+	background-repeat: no-repeat;
+	
+}
+
+.f_videos {
+
+background-image: url('./images/Fenetre_1.png');
+	height: 381px;
+	width: 556px;
+	margin : 15px;
+	background-repeat: no-repeat;
+	
+}
+
+.b_videos {
+    background-image: url('./images/barre_fenetre_video.png');
+    height: 40px;
+    width: 524px;
+    margin: 0 0 0 17px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+}
+
+.bouton_fermer1 {
+
+background-image: url('./images/bonton_close.png');
+	height: 100%;
+	width: 100%;
+	margin : 15px;
+	background-repeat: no-repeat;
+	
+}
+
+.video_1 {
+background-image: url('./images/video_file.png');
+height: 95px;
+width: 71px;
+background-repeat: no-repeat;
+	
+}
+
+.video_2 {
+background-image: url('./images/video_file.png');
+height: 95px;
+width: 71px;
+background-repeat: no-repeat;
+	
+}
+
+.video_3 {
+background-image: url('./images/video_file.png');
+height: 95px;
+width: 71px;
+background-repeat: no-repeat;
+	
+}
+
+.f_musiques {
+
+	background-image: url('./images/Fenetre_1.png');
+	height: 381px;
+	width: 556px;
+	margin : 15px;
+	background-repeat: no-repeat;
+
+	
+}
+
+.b_musiques {
+
+	background-image: url('./images/barre_fenetre_musique.png');
+    height: 40px;
+    width: 524px;
+    margin: 0 0 0 17px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+
+	
+}
+
+.bouton_fermer2 {
+
+background-image: url('./images/bonton_close.png');
+	height: 100%;
+	width: 100%;
+	margin : 15px;
+	background-repeat: no-repeat;
+	
+}
+
+.musique_1 {
+
+background-image: url('./images/music_file.png');
+height: 95px;
+width: 71px;
+background-repeat: no-repeat;
+	
+}
+
+.musique_2 {
+
+background-image: url('./images/music_file.png');
+height: 95px;
+width: 71px;
+background-repeat: no-repeat;
+	
+}
+
+.musique_3 {
+
+background-image: url('./images/music_file.png');
+height: 95px;
+width: 71px;
+background-repeat: no-repeat;
+	
+}
+
+.f_admirateurs {
+
+
+	
+}
+
+.b_admirateurs {
+
+
+	
+}
+
+.bouton_fermer3 {
+
+
+	
+}
+
+
