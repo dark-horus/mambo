@@ -130,6 +130,8 @@ h3 {
         <a href="create.php">Je n'ai pas de code</a>
         
       </div>
+	  		<br><center><a href="javascript:parent.$.fancybox.close();">Essayer le site sans code</a></center>
+
         
       
   
