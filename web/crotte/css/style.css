@@ -34,8 +34,9 @@ height: auto;
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
-    margin-left : auto;
-    margin-right: auto;
+    margin-left :auto;
+    margin-right:auto;
+    
 }
 #game .mm-line {
     -webkit-transition: background-color 0.3s ease;
@@ -123,9 +124,10 @@ height: auto;
 }
 
 #controls {
-    width: 500px;
+    width: 380px;
     margin-top: 30px; 
     vertical-align: middle;
+    height:80px;
 }
 
 #controls a {
@@ -144,8 +146,6 @@ height: auto;
     height:auto;
     margin-left:5%;
     margin-right:auto;
-    align-content: left;
-
 }
 
 #valider {
@@ -156,7 +156,6 @@ height: auto;
     float:bottom;
     align-content:right;
     position:relative;
-
 }
 
 #recommencer {
@@ -168,7 +167,6 @@ height: auto;
     align-content:right;
     position:relative;
     margin-bottom:3%;
-
 }
 
 

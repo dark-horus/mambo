@@ -17,15 +17,34 @@ include('../default/page/start_header.php');
 
 <!-- Place ici ton contenu -->   
 
-<div id="fleche">
-    <img class="img-responsive" src="images/fleche.png"/>
-</div> 
+<div class="row">
+<div class="col-md-12">
 
-<div id="game"> </div>
-<nav id="controls"></nav>
+<!-- box gauche jeu -->
+<div class="col-md-4">
+    <div id="actions">
+    </div>
+    <nav id="controls"></nav>
+</div>
+    
+    <!-- box jeu milieu  -->
+
+<div class="col-md-4">
+    <div id="jeu">
+    <div id="game"></div>
+    </div>
+</div>
+
+<!-- box bas -->
+<div class="col-md-4">
+    <div id="boutons">
+        <div id="fleche">
+            <img class="img-responsive" src="images/fleche.png"/>
+        </div>
+    </div>
 
 <div id="valider"> <!-- AJOUTER LE CODE POUR LA VALIDATION -->
-        <img src="images/valider.png"/>
+    <img src="images/valider.png"/>
 </div>
 
 <div id="recommencer">
@@ -33,6 +52,10 @@ include('../default/page/start_header.php');
         <img src="images/recommencer.png"/>
     </a>
 </div>
+    
+    </div>
+    </div>
+    </div>
 
 
 
