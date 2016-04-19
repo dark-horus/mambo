@@ -51,7 +51,6 @@ include('../default/page/start_header.php');
 				</div>
 
 			</div>
-			
 			<ul>
 			<li>
 				<div class="video_1">
