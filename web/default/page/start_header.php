@@ -95,7 +95,8 @@ if ($dossier != null) {
 session_start();
 if ($dossier != "accueil"){
 if (!isset($_SESSION['id'])){
-	header('location: ../accueil/index.php');
+	//a décommenter pour la prod !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	//header('location: ../accueil/index.php');
 	}
 }
 if (isset($_SESSION['id'])){
