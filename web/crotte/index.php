@@ -21,13 +21,13 @@ include('../default/page/start_header.php');
 <div class="col-md-12">
 
 <!-- box gauche jeu -->
-<div class="col-md-4">
+<div id="gauche" class="col-md-4">
     <div id="actions">
     </div>
     <nav id="controls"></nav>
 </div>
     
-    <!-- box jeu milieu  -->
+<!-- box jeu milieu  -->
 
 <div class="col-md-4">
     <div id="jeu">
