@@ -121,6 +121,16 @@ var window = $(this).attr('data-window');
 $('.'+window).fadeIn();
 
 	});
+
+	$('.bouton_fermer1').on('onlclick',function(event) {
+
+event.preventDefault();
+
+var window = $(this).attr('data-window');
+
+$('.'+window).fadeOut();
+
+	});
 </script>
 
 
@@ -128,3 +138,27 @@ $('.'+window).fadeIn();
 <?php 
 include('../default/page/footer.php');
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
