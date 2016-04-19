@@ -54,6 +54,9 @@ background-image: url('./images/Barre.png');
 	width: 1023px;
 	margin : 0px;
 	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0px;
+
 	
 }
 
@@ -63,8 +66,10 @@ background-image: url('./images/barre_demarrer.png');
 	height: 68px;
 	width: 1023px;
 	margin : 0px;
-	top : 500px;
 	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0px;
+	
 	
 }
 
@@ -75,7 +80,8 @@ background-image: url('./images/Fenetre_1.png');
 	width: 556px;
 	margin : 15px;
 	background-repeat: no-repeat;
-	
+	padding-top: 14px;
+    padding-left: 2px;
 }
 
 .b_videos {
@@ -84,16 +90,21 @@ background-image: url('./images/Fenetre_1.png');
     width: 524px;
     margin: 0 0 0 17px;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: 30% 15%;
     background-size: 100%;
+   
+
 }
 
 .bouton_fermer1 {
 
 background-image: url('./images/bouton_close.png');
-	height: 100%;
-	width: 100%;
+	height: 23px;
+	width: 24px;
 	margin : 15px;
+	left : 495px;
+	top : 16px;
+	position : absolute;
 	background-repeat: no-repeat;
 	
 }
@@ -119,7 +130,8 @@ background-image: url('./images/video_file.png');
 height: 95px;
 width: 71px;
 background-repeat: no-repeat;
-	
+
+
 }
 
 .f_musiques {
@@ -129,6 +141,8 @@ background-repeat: no-repeat;
 	width: 556px;
 	margin : 15px;
 	background-repeat: no-repeat;
+	padding-top: 14px;
+    padding-left: 2px;
 
 	
 }
@@ -150,10 +164,13 @@ background-repeat: no-repeat;
 
 .bouton_fermer2 {
 
-background-image: url('./images/bonton_close.png');
-	height: 100%;
-	width: 100%;
+background-image: url('./images/bouton_close.png');
+	height: 23px;
+	width: 24px;
 	margin : 15px;
+	left : 495px;
+	top : 16px;
+	position : absolute;
 	background-repeat: no-repeat;
 	
 }
