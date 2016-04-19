@@ -1,0 +1,77 @@
+body{
+
+    background-image:url("images/back.jpg");
+}
+
+.content {
+
+    width:1024px;
+    height:768px;
+}
+
+
+
+
+
+
+
+h2 {
+
+    font-size-adjust: auto;
+    color:white;
+}
+
+h3{
+    color:white;
+}
+
+p {
+
+    text-align: center;
+}
+
+#base {
+
+}
+
+#legumes {
+
+}
+
+#condiments {
+
+}
+
+#assaisonement {
+
+}
+
+#temperature {
+
+}
+
+.col-sm-3.col-md-3.col-lg-3.ingredient {
+    margin-right: 0;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.col-sm-3.col-md-3.col-lg-3.ingredient:first-child {
+    margin-left: 0;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.col-sm-3.col-md-3.col-lg-3.ingredient img {
+    width: 100%;
+}
+
+.col-sm-5.col-md-5.col-lg-5.side {
+    position: fixed;
+    right:0;
+    top: 19%;
+}
+
+.bol {
+    width: 100%;
+}

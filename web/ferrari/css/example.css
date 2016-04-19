@@ -38,10 +38,7 @@ h1
 .texture scroll
 {
   z-index: -5;
-  width: 1000px;
 }
-
-
 
 .imgdercity 
 {
@@ -63,22 +60,73 @@ margin-bottom: 460px;
 {
     z-index: 1000;
     width: 6500px;
-   margin-left: 574px;
+    margin-left: 574px;
     margin-bottom: 150px;
 }
-
 
 .ferrari 
 {
   z-index: 700;
-  width: -6000px;
- margin-bottom: 280px;
+  width: -9000px;
+  margin-bottom: 50px;
+}
+
+.block {
+    width: 420px;
+    height: 240px;
+    z-index: 1000;
+    display: none;
+    padding-top: 280px;
+}
+
+.title{
+    color: snow;
+    font-family: MyUnderwood;
+    font-size: 30px;
+    z-index: 1000;
+}
+
+.texte{
+    color: snow;
+    font-family: Futura;
+    z-index: 1000;
+    font-size: 14px;
+}
+
+.block-1{ 
+    position: fixed;
+    top: 273px;
+    left:200px;
+}
+
+.block-2{ 
+    position: fixed;
+    top: 273px;
+    left:900px;
+}
+
+.block-3{ 
+        position: fixed;
+        top: 273px;
+    left:1500px;
+}
+
+.block-4{
+    position: fixed;
+    top: 273px;
+    left:1600px;
+}
+
+.block-5{
+    position: fixed;
+    top: 273px;
+    left:2000px;
+}
+
+.block-6{
+    position: fixed;
+    top: 273px;
+    left:2100px;
 }
 
 
-.texte 
-{
-    z-index: 30000;
-    margin-bottom: 400px; 
-    background-color: azure;
-}

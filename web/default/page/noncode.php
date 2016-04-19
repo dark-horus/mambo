@@ -9,7 +9,12 @@ if($_SESSION['id'] != NULL){
     <meta charset="UTF-8">
     <title>Votre code</title>
     <link rel="stylesheet" href="style.css">
-    
+    <script src="/projet/vendor/jquery-2.2.1/jquery-2.2.1.min.js"></script>
+<script src="/projet/vendor/jquery-2.2.1/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/projet/vendor/fancybox/source/jquery.fancybox.js"></script>
+<script type="text/javascript" src="/projet/vendor/fancybox/source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="/projet/vendor/fancybox/source/jquery.mousewhell.js"></script>
+
   </head>
 
   <body>
@@ -23,8 +28,8 @@ if($_SESSION['id'] != NULL){
     
 	
 	<div id="retour">
-   <a href="index.php">Retour</a>
-   <a href="deconnexion.php">deconnexion</a>
+   
+   <a href"#">Fermer la fenêtre</a>
    </div>
 		
       
