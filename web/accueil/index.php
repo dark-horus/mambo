@@ -8,7 +8,7 @@ include('../default/page/start_header.php');
 <?php include('../default/page/header.php'); ?>
 
 <!-- Place ici tes scripts Javascripts dans Vendor, et ton JS local -->
-<script src="../default/page/js/etape.js"></script>
+
 <script>
 			
 			
@@ -27,6 +27,7 @@ include('../default/page/start_header.php');
 			
 			<?php }?>
 </script>
+
 <!-- Fin Scripts -->
 
 
@@ -73,7 +74,7 @@ include('../default/page/start_header.php');
 
 
 
-
+<script type="text/javascript"src="../default/page/js/etape.js"></script>
 <!-- Fin du contenu -->
 <?php 
 include('../default/page/footer.php');
