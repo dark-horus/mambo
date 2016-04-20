@@ -159,8 +159,8 @@ include('../default/page/start_header.php');
                 <img class="bol" src="images/bol.svg" alt=""/>
 
                 <div id="envoi">
-                    <input type="image" src="images/gouter.png" onclick="test();">Gouter</button>
-                    <input type="image" src="images/vider.png" onclick="empty();">Vider</button>
+                    <input type="image" src="images/gouter.png" onclick="test();"></button>
+                    <input type="image" src="images/vider.png" onclick="empty();"></button>
                 </div>
             </div><!--side-->
 
