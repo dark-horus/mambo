@@ -41,7 +41,7 @@ margin-top:200px;
 #ouicode a, #noncode a:visited {color:white;
 }
 
-#ouicode a , #noncode a{
+#ouicode a, #noncode a{
     text-decoration:none;
     font-family: sans-serif;
     text-align:center;

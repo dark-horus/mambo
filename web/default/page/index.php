@@ -1,35 +1,31 @@
-
 <style>
 h1 {
 text-align: center;
 font-size: 25px;
-font-family:sans-serif;
-color:firebrick;
+font-family:futura;
+color:#35201e;
 margin-top:200px;
 }
-
+    
 /** Page principale **/
 
 #ouicode {
     text-align:center;
     margin-bottom:20px;
     margin-top:30px;
-    background:firebrick;
     padding-bottom:15px;
     padding-top:15px;
-    max-width:200px;
+    max-width:100%;
     margin-left: auto;
     margin-right: auto;
-    border-radius:10px;
 }
 
 #noncode {
     text-align:center;
     margin-top:20px;
-    background:firebrick;
     padding-bottom:15px;
     padding-top:15px;
-    max-width:200px;
+    max-width:100%;
     margin-left: auto;
     margin-right: auto;
     border-radius:10px;
@@ -72,13 +68,14 @@ a, a:hover{
 	#retour{
 		text-align:center;
 	}
+    
 /** Page pour ceux n'ayant pas le code **/
 
 h2 {
 text-align: center;
 font-size: 18px;
 font-family:sans-serif;
-color:black;
+color:firebrick;
 margin-top:50px;
 }
 
@@ -120,14 +117,19 @@ h3 {
           
         <!-- Bouton "J'ai un code" -->
         
-        <a href="ouicode.php">J'ai un code</a>
+        <a href="ouicode.php">
+            <img src="img/code.png"/>
+        </a>
         
       </div>
       
       <div id="noncode">
-        <!-- Bouton "J'ai un code" -->
+          
+        <!-- Bouton "Je n'ai pas de code" -->
         
-        <a href="create.php">Je n'ai pas de code</a>
+        <a href="create.php">
+            <img src="img/pascode.png"/>
+        </a>
         
       </div>
 	  		<br><center><a href="javascript:parent.$.fancybox.close();">Essayer le site sans code</a></center>

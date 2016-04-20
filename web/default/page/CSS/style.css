@@ -46,15 +46,28 @@ table {
 
 /* Structure */
 @font-face {
-    font-family: 'my_underwoodregular';
-    src: url('Font/MyUnderwood-webfont.eot');
-    src: url('Font/MyUnderwood-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Font/MyUnderwood-webfont.woff') format('woff'),
-		 url('Font/MyUnderwood-webfont.woff2') format('woff2'),
-         url('Font/MyUnderwood-webfont.ttf') format('truetype'),
-         url('Font/MyUnderwood-webfont.svg#my_underwoodregular') format('svg');
+    font-family: 'bohemian';
+    src: url('Font/bohemian.eot');
+    src: url('Font/bohemian.eot') format('embedded-opentype'),
+         url('Font/bohemian.woff') format('woff'),
+		 url('Font/bohemian.woff2') format('woff2'),
+         url('Font/bohemian.ttf') format('truetype'),
+         url('Font/bohemian.svg') format('svg');
     font-weight: normal;
     font-style: normal;
+    
+@font-face {
+    font-family: 'futura';
+    src: url('Font/futura.eot');
+    src: url('Font/futura.eot') format('embedded-opentype'),
+         url('Font/futura.woff') format('woff'),
+		 url('Font/futura.woff2') format('woff2'),
+         url('Font/futura.ttf') format('truetype'),
+         url('Font/futura.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-style:oblique;
+    font-style:bold;
 
 }
 
@@ -124,7 +137,7 @@ a:hover {
 	min-height: 100%;
 	padding-bottom: 95px;
 	z-index: 1;
-	
+	 padding-top: 100px;
 }
 footer {
 	position: absolute;
@@ -133,10 +146,6 @@ footer {
 	height: 20px;
 	width: 100%;
 }
-#profil {
-	padding-top: 100px;
-}
-
 footer li a {
 	color: white;
 }
