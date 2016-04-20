@@ -193,113 +193,35 @@ $arr = $pdo->query($query)->fetch();
 
 
 $req = $pdo->query('SELECT * FROM `user`');
-    while($donnees = $req->fetch()){
-    echo ($donnees['iduser']." | " . $donnees['password']. " | etc ");
-    }
-     ?>  
 
 
 
-
-
-
-
-                            <div class="dataTable_wrapper">
-                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+echo "<div class='dataTable_wrapper'>
+                                <table class='table table-striped table-bordered table-hover' id='dataTables-example'>
                                     <thead>
                                         <tr>
                                             <th>ID</th>
                                             <th>Icone image</th>
                                             <th>Mot de passe</th>
                                             <th>Etape courante</th>
-                                            <th>Ajouts</th>
                                             <th>Supprimer</th>
                                         </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="odd gradeX">
-                                            <td><?php echo $arr['iduser'];?></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td class="center"></td>
-                                            <td class="center"></td>
-                                            <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                                        </tr>
-                                        <tr class="even gradeC">
-                                            <td>Echo('ID')</td>
-                                            <td>Echo('Img')</td>
-                                            <td>Md5++</td>
-                                            <td class="center">5</td>
-                                            <td class="center">C</td>
-                                            <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                                        </tr>
-                                        <tr class="odd gradeA">
-                                            <td>Echo('ID')</td>
-                                            <td>Echo('Img')</td>
-                                            <td>Md5++</td>
-                                            <td class="center">5</td>
-                                            <td cEcho('ID')lass="center">A</td>
-                                            <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                                        </tr>
-                                        <tr class="even gradeA">
-                                            <td>Echo('ID')</td>
-                                            <td>Echo('Img')</td>
-                                            <td>Md5++</td>
-                                            <td class="center">6</td>
-                                            <td class="center">A</td>
-                                            <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                                        </tr>
-                                        <tr class="odd gradeA">
-                                            <td>Echo('ID')</td>
-                                            <td>Echo('Img')</td>
-                                            <td>Md5++</td>
-                                            <td clEcho('ID')ass="center">7</td>
-                                            <td class="center">A</td>
-                                            <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                                        </tr>
-                                        <tr class="even gradeA">
-                                            <td>Echo('ID')</td>
-                                            <td>Echo('Img')</td>
-                                            <td>Md5++</td>
-                                            <td class="center">6</td>
-                                            <td class="center">A</td>
-                                            <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                                        </tr>
-                                        <tr class="gradeA">
-                                            <td>Echo('ID')</td>
-                                            <td>Echo('Img')</td>
-                                            <td>Md5++</td>
-                                            <td class="center">7</td>
-                                            <td class="center">A</td>
-                                            <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                                        </tr>
-                                        <tr class="gradeA">
-                                            <td>Echo('ID')</td>
-                                            <td>Echo('Img')</td>
-                                            <td>Md5++</td>
-                                            <td class="center">8</td>
-                                            <td class="center">A</td>
-                                    <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                                        </tr>
-                                        <tr class="gradeA">
-                                            <td>Echo('ID')</td>
-                                            <td>Echo('Img')</td>
-                                            <td>Md5++</td>
-                                            <td class="center">8</td>
-                                            <td class="center">A</td>
-                                            <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                                        </tr>
-                                        <tr class="gradeA">
-                                            <td>Echo('ID')</td>
-                                            <td>Echo('Img')</td>
-                                            <<td>Md5++</td>
-                                            <td class="center">1</td>
-                                            <td class="center">A</td>
-                            <td><button type="button" class="btn btn-danger" methode="post"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                                    </thead>";
+
+    while($donnees = $req->fetch()){
+
+    echo "<tbody>";
+
+                                   echo "<tr class='odd gradeX'>";
+                                            echo "<td>".$donnees['iduser']."</td>";
+                                            echo "<td>".$donnees['password']."</td>";
+                                            echo "<td>".$donnees['img_avatar']."</td>";
+                                            echo "<td>".$donnees['current_etape']."</td>";
+                                            echo "<td><button type='button' class='btn btn-danger'>
+                                            <i class='fa fa-trash' aria-hidden='true'></i></button></td>";
+                                   echo "</tr>";      
+     echo "</tbody>";}
+     ?>
                             
                         </div>
                         <!-- /.panel-body -->
