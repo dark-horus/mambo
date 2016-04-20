@@ -1,5 +1,5 @@
 </div>
-<div class="row">
+<!-- <div class="row">
 
 <footer>
 
@@ -14,6 +14,7 @@
 
 </div>
 </div>
+-->
 </body>
 </html>
 

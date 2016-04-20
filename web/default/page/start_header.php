@@ -8,7 +8,7 @@ if ($dossier != null) {
     switch ($dossier) {
         case "crotte":
             $titre = "Expulsez Mary Carmen !";
-			 $next = '<li class="col-md-12"><a href="../poitrinel">Étape suivante : poitrine</a></li>';
+			 $next = '<li class="col-md-12"><a href="../poitrine">Étape suivante : poitrine</a></li>';
 			 $before = '<li class="col-md-12"><a href="../vin">Étape précédente : vin</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             break;
