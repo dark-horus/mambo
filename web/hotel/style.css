@@ -150,8 +150,8 @@ li.active a, a:hover, a:active {
 .distribution-map .map-point .content {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
-  -webkit-transition: opacity 0.25s ease-in-out;
-  transition: opacity 0.25s ease-in-out;
+  /*-webkit-transition: opacity 0.25s ease-in-out;*/
+ /* transition: opacity 0.25s ease-in-out;*/
   width: 100%;
   height: 100%;
   left: 50%;
@@ -160,17 +160,17 @@ li.active a, a:hover, a:active {
   overflow: overlay;
 }
 /*taile des lightbox à changer*/
-/*
+
 .distribution-map .map-point:active, .distribution-map .map-point:focus {
   margin: 0;
   padding: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
   width: 500px;
-  height: 220px;
+  height: 600px;
   color: #e5e5e5;
-  z-index: 1;
-   -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+  z-index: 20;
+  /*-webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
   transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out; */
 }
 .distribution-map .map-point:active .content, .distribution-map .map-point:focus .content {
