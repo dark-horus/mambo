@@ -38,6 +38,12 @@
 </head>
 
 <body>
+    
+    <?php 
+// connection bdd
+    include('bdd.php');
+
+     ?>
 
     <div id="wrapper">
 

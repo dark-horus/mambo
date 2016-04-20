@@ -10,10 +10,7 @@
     <meta name="author" content="">
 
      <title>
-        <?php
-
-    echo $admin;
-?>  
+Administrateur
     </title>
 
     <!-- Bootstrap Core CSS -->
@@ -45,6 +42,30 @@
 
 <body>
 
+
+<?php 
+// connection bdd
+   // include('bdd.php');
+
+try {
+    $strConnection = 'mysql:host=localhost;dbname=mambo;'; //Ligne 1
+    $arrExtraParam= array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"); //Ligne 2
+    $pdo = new PDO($strConnection, 'root', '', $arrExtraParam); //Ligne 3; Instancie la connexions
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);//Ligne 4
+}
+catch(PDOException $e) {
+    $msg = 'ERREUR PDO dans ' . $e->getFile() . ' L.' . $e->getLine() . ' : ' . $e->getMessage();
+    die($msg);
+}
+
+$query = 'SELECT * FROM user;';
+$arr = $pdo->query($query)->fetch();
+
+?>
+
+               
+           
+     
     <div id="wrapper">
 
         <!-- Navigation -->
@@ -56,13 +77,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"> Admin 1 : <?php echo $id;?>  </a>
+                <a class="navbar-brand" href="index.html"> Admin 1 : <?php echo $arr['iduser']; ?> </a>
             </div>
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
-             
-                
                 <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -138,13 +157,13 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Tableau de bord</a>
+                            <a href="index.php"><i class="fa fa-dashboard fa-fw"></i> Tableau de bord</a>
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-bar-chart-o fa-fw"></i> Statistiques <span class="fa arrow"></span></a>
+                            <a href="index.php"><i class="fa fa-bar-chart-o fa-fw"></i> Statistiques <span class="fa arrow"></span></a>
                         </li>
                         <li>
-                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Base de donnée</a>
+                            <a href="tables.php"><i class="fa fa-table fa-fw"></i> Base de donnée</a>
                         </li>
                         
                             </ul>
@@ -167,6 +186,24 @@
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
+
+
+
+<?php
+
+
+$req = $pdo->query('SELECT * FROM `user`');
+    while($donnees = $req->fetch()){
+    echo ($donnees['iduser']." | " . $donnees['password']. " | etc ");
+    }
+     ?>  
+
+
+
+
+
+
+
                             <div class="dataTable_wrapper">
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
@@ -181,11 +218,11 @@
                                     </thead>
                                     <tbody>
                                         <tr class="odd gradeX">
-                                            <td>Echo('ID')</td>
-                                            <td>Echo('Img')</td>
-                                            <td>Md5++</td>
-                                            <td class="center">4</td>
-                                            <td class="center">X</td>
+                                            <td><?php echo $arr['iduser'];?></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="center"></td>
+                                            <td class="center"></td>
                                             <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
                                         </tr>
                                         <tr class="even gradeC">
@@ -239,7 +276,7 @@
                                         <tr class="gradeA">
                                             <td>Echo('ID')</td>
                                             <td>Echo('Img')</td>
-                                            <<td>Md5++</td>
+                                            <td>Md5++</td>
                                             <td class="center">8</td>
                                             <td class="center">A</td>
                                     <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
@@ -258,7 +295,7 @@
                                             <<td>Md5++</td>
                                             <td class="center">1</td>
                                             <td class="center">A</td>
-                            <td><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+                            <td><button type="button" class="btn btn-danger" methode="post"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
                                         </tr>
                                     </tbody>
                                 </table>
