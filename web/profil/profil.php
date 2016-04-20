@@ -18,7 +18,7 @@ include('../default/page/start_header.php');
 <?php include('../default/page/end_header.php'); ?>
 <?php include('../default/page/bdd.php'); ?>
 <?php 
-
+if(isset($IDuser)){
 $stepChien = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" and etape_ID = "chien" ORDER BY field');
 $stepLapin = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" and etape_ID = "lapin" ORDER BY field');
 $stepOrdinateurM = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" and etape_ID = "ordinateur" and field = "musique" ORDER BY field');
@@ -225,9 +225,12 @@ $imgEtape = $imgEtape . ".png" ;
 
     </div>
 	</div>
-
-
-
+<?php
+}
+else {
+	echo "<center>Aucune information à afficher, vous n'êtes pas connecté !</center>";
+}
+?>
 <!-- Fin du contenu -->
 <?php 
 include('../default/page/footer.php');
