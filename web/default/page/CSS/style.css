@@ -66,8 +66,28 @@ table {
          url('Font/futura.svg') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-style:oblique;
-    font-style:bold;
+    
+@font-face {
+    font-family: 'futurabold';
+    src: url('Font/futurabold.eot');
+    src: url('Font/futurabold.eot') format('embedded-opentype'),
+         url('Font/futurabold.woff') format('woff'),
+		 url('Font/futurabold.woff2') format('woff2'),
+         url('Font/futurabold.ttf') format('truetype'),
+         url('Font/futurabold.svg') format('svg');
+    font-weight: normal;
+    font-style: bold;
+    
+@font-face {
+    font-family: 'futuraitalique';
+    src: url('Font/futuraitalic.eot');
+    src: url('Font/futuraitalic.eot') format('embedded-opentype'),
+         url('Font/futuraitalic.woff') format('woff'),
+		 url('Font/futuraitalic.woff2') format('woff2'),
+         url('Font/futuraitaliqueitalic.ttf') format('truetype'),
+         url('Font/futuraitaliqueitalic.svg') format('svg');
+    font-weight: normal;
+    font-style:italic;
 
 }
 
