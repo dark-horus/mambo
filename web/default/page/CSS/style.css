@@ -45,17 +45,19 @@ table {
 }
 
 /* Structure */
+
 @font-face {
-    font-family: 'bohemian';
-    src: url('Font/bohemian.eot');
-    src: url('Font/bohemian.eot') format('embedded-opentype'),
-         url('Font/bohemian.woff') format('woff'),
-		 url('Font/bohemian.woff2') format('woff2'),
-         url('Font/bohemian.ttf') format('truetype'),
-         url('Font/bohemian.svg') format('svg');
+    font-family: 'specialelite';
+    src: url('Font/specialelite.eot');
+    src: url('Font/specialelite.eot') format('embedded-opentype'),
+         url('Font/specialelite.woff') format('woff'),
+		 url('Font/specialelite.woff2') format('woff2'),
+         url('Font/specialelite.ttf') format('truetype'),
+         url('Font/specialelite.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'futura';
     src: url('Font/futura.eot');
@@ -67,7 +69,7 @@ table {
     font-weight: normal;
     font-style: normal;
 }
-    
+
 @font-face {
     font-family: 'futurabold';
     src: url('Font/futurabold.eot');
@@ -79,7 +81,7 @@ table {
     font-weight: normal;
     font-style: bold;
 }
-    
+
 @font-face {
     font-family: 'futuraitalic';
     src: url('Font/futuraitalic.eot');
@@ -90,7 +92,6 @@ table {
          url('Font/futuraitaliqueitalic.svg') format('svg');
     font-weight: normal;
     font-style:italic;
-
 }
 
 html {
@@ -159,7 +160,7 @@ a:hover {
 	min-height: 100%;
 	padding-bottom: 95px;
 	z-index: 1;
-	
+	 padding-top: 100px;
 }
 footer {
 	position: absolute;

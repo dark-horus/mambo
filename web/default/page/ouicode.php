@@ -2,50 +2,11 @@
 h1 {
 text-align: center;
 font-size: 25px;
-font-family:sans-serif;
-color:firebrick;
+font-family:'futura';
+color:#35201e;
 margin-top:200px;
-}
-
-/** Page principale **/
-
-#ouicode {
-    text-align:center;
-    margin-bottom:20px;
-    margin-top:30px;
-    background:firebrick;
-    padding-bottom:15px;
-    padding-top:15px;
-    max-width:200px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius:10px;
-}
-
-#noncode {
-    text-align:center;
-    margin-top:20px;
-    background:firebrick;
-    padding-bottom:15px;
-    padding-top:15px;
-    max-width:200px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius:10px;
-}
-
-#ouicode a, #noncode a:link {color:white;
-}
-#ouicode a, #noncode a:hover {color:black;
-}
-#ouicode a, #noncode a:visited {color:white;
-}
-
-#ouicode a, #noncode a{
-    text-decoration:none;
-    font-family: sans-serif;
-    text-align:center;
-    font-size:18px;
+font-weight: normal;
+font-style: normal;
 }
 
 /** Page pour ceux ayant déjà le code **/
@@ -58,8 +19,10 @@ margin-top:200px;
 
 #validation {
     text-align:center;
-    font-family:sans-serif;
-    margin-top:15px;
+    font-family:'futura';
+    margin-top:20px;
+    font-weight: normal;
+    font-style: normal;
 	
 }
 a, a:hover{
@@ -71,13 +34,12 @@ a, a:hover{
 	#retour{
 		text-align:center;
 	}
-/** Page pour ceux n'ayant pas le code **/
 
 h2 {
 text-align: center;
 font-size: 18px;
 font-family:sans-serif;
-color:black;
+color:35201e;
 margin-top:50px;
 }
 
@@ -87,7 +49,7 @@ h3 {
     color:white;
     font-family:sans-serif;
     font-size:25px;
-    background:firebrick;
+    background:35201e;
     padding-bottom:15px;
     padding-top:15px;
     max-width:200px;
@@ -97,18 +59,37 @@ h3 {
 }
 
 .bouton {
-	border:1px solid firebrick;
+	border:none;
     background-color:white;
-    border-radius: 5px;
     font-family:sans-serif;
     text-align:center;
 }
 
 .formulaire {
-    border-color:firebrick;
+    border-color:35201e;
     border-radius:5px;
-    font-family:sans-serif;
+    font-family:'futura';
+    font-size:15px;
 }
+    
+#retour {
+    text-align:center;
+    margin-bottom:20px;
+    margin-top:20px;
+    max-width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fermerfenetre {
+    text-align:center;
+    margin-bottom:10px;
+    margin-top:20px;
+    max-width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
 </style>
       
       <h1>J'ai un code</h1>
@@ -119,16 +100,23 @@ h3 {
     <input type="password" class="formulaire" name="password" id="password" placeholder="Insérez votre code" size=50 maxlength=40>
   </div>
     
-  <div id="validation">
-  
-  <button type="submit" class="bouton">Valider</button>
-     
-  </div>
+<div id="validation">
+    <button type="submit" class="bouton">
+    <img src="img/valider.png"/>    
+    </button>
+</div>
+    
     <br>
 </form>
 <div id="retour">
-   <a href="index.php">Retour</a>
-   <a href="javascript:parent.$.fancybox.close();">Fermer la fenêtre</a>
+   <a href="index.php">
+   <img src="img/retour.png"/>
+   </a>
+</div>
 
-   </div>
+<div id="fermerfenetre">
+   <a href="javascript:parent.$.fancybox.close();">
+   <img src="img/fermerfenetre.png"/> 
+   </a>
+</div>
   

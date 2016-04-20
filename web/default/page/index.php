@@ -2,9 +2,11 @@
 h1 {
 text-align: center;
 font-size: 25px;
-font-family:futura;
+font-family:'futura';
 color:#35201e;
 margin-top:200px;
+font-weight: normal;
+font-style: normal;
 }
     
 /** Page principale **/
@@ -13,8 +15,6 @@ margin-top:200px;
     text-align:center;
     margin-bottom:20px;
     margin-top:30px;
-    padding-bottom:15px;
-    padding-top:15px;
     max-width:100%;
     margin-left: auto;
     margin-right: auto;
@@ -22,13 +22,20 @@ margin-top:200px;
 
 #noncode {
     text-align:center;
-    margin-top:20px;
-    padding-bottom:15px;
-    padding-top:15px;
+    margin-bottom:15px;
+    margin-top:15px;
     max-width:100%;
     margin-left: auto;
     margin-right: auto;
-    border-radius:10px;
+}
+    
+#testersite {
+    text-align:center;
+    max-width:100%;
+    margin-bottom:15px;
+    margin-top:25px;
+    margin-left: auto;
+    margin-right: auto;      
 }
 
 #ouicode a, #noncode a:link {color:white;
@@ -63,6 +70,10 @@ a, a:hover{
 	text-decoration:none;
     color: #000; 
 	text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    font-family:'futura';
+    font-size: 14px;
 	
 }
 	#retour{
@@ -72,11 +83,11 @@ a, a:hover{
 /** Page pour ceux n'ayant pas le code **/
 
 h2 {
-text-align: center;
-font-size: 18px;
-font-family:sans-serif;
-color:firebrick;
-margin-top:50px;
+    text-align: center;
+    font-size: 18px;
+    font-family:sans-serif;
+    color:firebrick;
+    margin-top:50px;
 }
 
 h3 {
@@ -95,7 +106,7 @@ h3 {
 }
 
 .bouton {
-	border:1px solid firebrick;
+	border:none;
     background-color:white;
     border-radius: 5px;
     font-family:sans-serif;
@@ -107,13 +118,14 @@ h3 {
     border-radius:5px;
     font-family:sans-serif;
 }
+    
 </style>
 
 
  
-      <h1> Possédez-vous un code pour vous connecter ?</h1>
+      <h1>Possédez-vous un code pour vous connecter ?</h1>
 
-      <div id="ouicode">
+    <div id="ouicode">
           
         <!-- Bouton "J'ai un code" -->
         
@@ -121,18 +133,20 @@ h3 {
             <img src="img/code.png"/>
         </a>
         
-      </div>
+    </div>
       
-      <div id="noncode">
+
           
         <!-- Bouton "Je n'ai pas de code" -->
-        
+    <div id="noncode">    
         <a href="create.php">
             <img src="img/pascode.png"/>
         </a>
-        
-      </div>
-	  		<br><center><a href="javascript:parent.$.fancybox.close();">Essayer le site sans code</a></center>
+    </div>
+
+        <center><a href="javascript:parent.$.fancybox.close();">
+            <img src="img/testersite.png"/>
+            </a> </center>
 
         
       
