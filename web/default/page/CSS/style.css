@@ -79,7 +79,7 @@ table {
     font-style: bold;
     
 @font-face {
-    font-family: 'futuraitalique';
+    font-family: 'futuraitalic';
     src: url('Font/futuraitalic.eot');
     src: url('Font/futuraitalic.eot') format('embedded-opentype'),
          url('Font/futuraitalic.woff') format('woff'),
