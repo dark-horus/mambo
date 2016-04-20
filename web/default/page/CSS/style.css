@@ -55,7 +55,7 @@ table {
          url('Font/bohemian.svg') format('svg');
     font-weight: normal;
     font-style: normal;
-    
+}
 @font-face {
     font-family: 'futura';
     src: url('Font/futura.eot');
@@ -66,6 +66,7 @@ table {
          url('Font/futura.svg') format('svg');
     font-weight: normal;
     font-style: normal;
+}
     
 @font-face {
     font-family: 'futurabold';
@@ -77,6 +78,7 @@ table {
          url('Font/futurabold.svg') format('svg');
     font-weight: normal;
     font-style: bold;
+}
     
 @font-face {
     font-family: 'futuraitalic';
