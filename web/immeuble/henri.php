@@ -17,7 +17,7 @@ include('../default/page/start_header.php');
 <?php include('../default/page/end_header.php'); ?>
 
 <!-- Place ici ton contenu -->
-<img src="images/henri.png" width="100%">
+<img class="img img-responsive" src="images/henri.png" width="100%">
 
 
 
