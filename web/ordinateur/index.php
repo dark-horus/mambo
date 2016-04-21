@@ -18,8 +18,8 @@ include('../default/page/start_header.php');
 
 <!-- Place ici ton contenu -->
 
-
-
+<div class="carreaux"> </div>
+<div class="container">
 	<div class="background">
 
 		<div class="icone d_videos" data-window="f_videos">
@@ -36,17 +36,29 @@ include('../default/page/start_header.php');
 
 		<div class="barre">
 
+			<div class="internet">
+				
+			</div>
+
+			<div class="player">
+
+			</div>
+
+			<div class="dossier_simple">
+
+			</div>
+
 		</div>
 
 		<div class="demarrer">
 
 		</div>
 
-		<div class="window f_videos">
+		<div class="window f_videos" id="f_videos" style="display:none;">
 
 			<div class="window-head b_videos">
 
-				<div class="bouton_fermer1">
+				<div class="bouton_fermer1" onclick="javascript:visibilite('f_videos'); return false;" >
 
 				</div>
 
@@ -64,13 +76,25 @@ include('../default/page/start_header.php');
 
 			</div>
 
+			<div class="video_4">
+
+			</div>
+
+			<div class="video_5">
+
+			</div>
+
+			<div class="video_6">
+
+			</div>
+
 		</div>
 
-		<div class="window f_musiques">
+		<div class="window f_musiques" id="f_musiques" style="display:none;">
 
 			<div class="window-head b_musiques">
 
-				<div class="bouton_fermer2">
+				<div class="bouton_fermer2" onclick="javascript:visibilite('f_musiques'); return false;">
 
 				</div>
 
@@ -85,6 +109,54 @@ include('../default/page/start_header.php');
 			</div>
 
 			<div class="musique_3">
+
+			</div>
+
+			<div class="musique_4">
+
+			</div>
+
+			<div class="musique_5">
+
+			</div>
+
+			<div class="musique_6">
+
+			</div>
+
+			<div class="musique_7">
+
+			</div>
+
+			<div class="musique_8">
+
+			</div>
+
+			<div class="musique_9">
+
+			</div>
+
+			<div class="musique_10">
+
+			</div>
+
+			<div class="musique_11">
+
+			</div>
+
+			<div class="musique_12">
+
+			</div>
+
+			<div class="musique_13">
+
+			</div>
+			
+			<div class="musique_14">
+
+			</div>
+
+			<div class="musique_15">
 
 			</div>
 		</div>
@@ -103,12 +175,12 @@ include('../default/page/start_header.php');
 
 
 	</div>
-
+</div>
 <script>
 	$(function () {
 		$('.icone').draggable();
 		$('.window').draggable({handle: '.window-head',
-  			containment: [0,0,470,400]
+  			containment: [270,80,720,430]
 		});
 	});
 
@@ -123,7 +195,23 @@ $('.'+window).fadeIn();
 
 	});
 
-	$('.bouton_fermer1').on('onlclick',function(event) {
+/* test disparition  */
+
+function visibilite(thingId)
+{
+var targetElement;
+targetElement = document.getElementById(thingId) ;
+if (targetElement.style.display == "none")
+{
+targetElement.style.display = "" ;
+} else {
+targetElement.style.display = "none" ;
+}
+}
+
+/* test disparition arthur */
+
+	/* $('.bouton_fermer1').on('onlclick',function(event) {
 
 event.preventDefault();
 
@@ -131,7 +219,8 @@ var window = $(this).attr('data-window');
 
 $('.'+window).fadeOut();
 
-	});
+	}); */
+
 </script>
 
 

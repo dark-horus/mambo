@@ -1,19 +1,25 @@
+.carreaux {
+background-image: url('./images/ssfs_paper_texture_5.png');
+height: 3000px;
+width: 6000px;
+}
+
 .background {
 
-	background-image: url('./images/ecran_ordi.png');
+	background-image: url('./images/Fond_ecran.png');
 	height: 768px;
 	width: 1024px;
 	background-repeat: no-repeat;
 	position: absolute;
 	overflow: hidden;
-
+    top: 100px;
 }
 .icone
 {
 position: relative;
 width: 64px;
 height: 64px;	
-margin:20px;
+margin: 20px;
 cursor: pointer;
 }
 .window {
@@ -27,7 +33,8 @@ cursor: pointer;
 
 	background-image: url('./images/mes_videos.png');
 	background-repeat: no-repeat;
-
+	position: relative;
+	top: 50px;
 }
 
 .d_musiques {
@@ -35,6 +42,8 @@ cursor: pointer;
 	background-image: url('./images/ma_musique.png');
 	background-repeat: no-repeat;
 	width: 67px;
+	position: relative;
+	top: 50px;
 	
 }
 
@@ -44,6 +53,8 @@ cursor: pointer;
 	background-repeat: no-repeat;
 	width: 96px;
     height: 70px;
+    position: relative;
+	top: 50px;
 	
 }
 
@@ -56,7 +67,6 @@ background-image: url('./images/Barre.png');
 	background-repeat: no-repeat;
 	position: absolute;
 	bottom: 0px;
-
 	
 }
 
@@ -91,8 +101,8 @@ background-image: url('./images/Fenetre_1.png');
     margin: 0 0 0 17px;
     background-repeat: no-repeat;
     background-position: 30% 15%;
-    background-size: 100%;
-   
+    background-size: 100%; 
+    cursor: pointer;  
 
 }
 
@@ -111,26 +121,72 @@ background-image: url('./images/bouton_close.png');
 
 .video_1 {
 background-image: url('./images/video_file.png');
-height: 95px;
-width: 71px;
+height: 60px;
+width: 46px;
 background-repeat: no-repeat;
-	
+    position: relative;
+    left: 60px;
+    top: 75px;
+    cursor: pointer;
+
 }
 
 .video_2 {
 background-image: url('./images/video_file.png');
-height: 95px;
-width: 71px;
+height: 60px;
+width: 46px;
 background-repeat: no-repeat;
-	
+      position: relative;
+    left: 150px;
+    top: 15px;
+    cursor: pointer;
 }
 
 .video_3 {
 background-image: url('./images/video_file.png');
-height: 95px;
-width: 71px;
+height: 60px;
+width: 46px;
 background-repeat: no-repeat;
+       position: relative;
+    left: 240px;
+    top: -45px;
+    cursor: pointer;
 
+
+}
+
+.video_4 {
+background-image: url('./images/video_file.png');
+height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 330px;
+    top: -105px;
+    cursor: pointer;
+
+}
+
+.video_5 {
+background-image: url('./images/video_file.png');
+   height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 420px;
+    top: -165px;
+    cursor: pointer;
+}
+
+.video_6 {
+background-image: url('./images/video_file.png');
+height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+   	left: 60px;
+    top: -150px;
+    cursor: pointer;
 
 }
 
@@ -139,7 +195,7 @@ background-repeat: no-repeat;
 	background-image: url('./images/Fenetre_1.png');
 	height: 381px;
 	width: 556px;
-	margin : 15px;
+	margin : 134px;
 	background-repeat: no-repeat;
 	padding-top: 14px;
     padding-left: 2px;
@@ -158,6 +214,7 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100%;
+    cursor: pointer;
 
 	
 }
@@ -176,32 +233,169 @@ background-image: url('./images/bouton_close.png');
 }
 
 .musique_1 {
-
-background-image: url('./images/music_file.png');
-height: 95px;
-width: 71px;
-background-repeat: no-repeat;
-	
+    background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 60px;
+    top: 75px;
+    cursor: pointer;
 }
 
 .musique_2 {
-
-background-image: url('./images/music_file.png');
-height: 95px;
-width: 71px;
-background-repeat: no-repeat;
-	
+	background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 60px;
+    top: 90px;
+    cursor: pointer;
 }
 
 .musique_3 {
-
-background-image: url('./images/music_file.png');
-height: 95px;
-width: 71px;
-background-repeat: no-repeat;
-	
+ background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 60px;
+    top: 105px;
+    cursor: pointer;
 }
 
+.musique_4 {
+        background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 150px;
+    top: -105px;
+    cursor: pointer;
+}
+
+.musique_5 {
+   background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 150px;
+    top: -90px;
+    cursor: pointer;
+}
+
+.musique_6 {
+    background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 150px;
+    top: -75px;
+    cursor: pointer;
+}
+
+.musique_7 {
+    background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 240px;
+    top: -285px;
+    cursor: pointer;
+}
+
+.musique_8 {
+    background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 240px;
+    top: -270px;
+    cursor: pointer;
+}
+
+.musique_9 {
+   background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 240px;
+    top: -255px;
+    cursor: pointer;
+}
+
+.musique_10 {
+      background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 330px;
+    top: -465px;
+    cursor: pointer;
+}
+
+.musique_11 {
+	background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 330px;
+    top: -450px;
+    cursor: pointer;
+}
+
+.musique_12 {
+    background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 330px;
+    top: -435px;
+    cursor: pointer;
+}
+
+.musique_13 {
+    background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 420px;
+    top: -645px;
+    cursor: pointer;
+}
+
+.musique_14 {
+    background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 420px;
+    top: -630px;
+    cursor: pointer;
+}
+
+.musique_15 {
+    background-image: url('./images/music_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 420px;
+    top: -615px;
+    cursor: pointer;
+}
 .f_admirateurs {
 
 
@@ -219,5 +413,72 @@ background-repeat: no-repeat;
 
 	
 }
+
+.internet {
+
+	background-image: url('./images/explorer.png');
+	height: 40px;
+    width: 38px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 153px;
+    top: 37px;
+}
+
+.player {
+
+	background-image: url('./images/windows_player.png');
+	height: 40px;
+    width: 42px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 213px;
+    top: -3px;
+
+}
+
+.dossier_simple {
+
+    background-image: url('./images/dossier_simple.png');
+    height: 34px;
+    width: 42px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 268px;
+    top: -42px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
