@@ -107,6 +107,9 @@ a:hover {
 	z-index: 1;
    
 }
+#profil{
+	padding-top: 100px;
+}
 footer {
 	position: relative;
 	bottom: 0px;
