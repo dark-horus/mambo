@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'futura';
+    src: url('futura.eot');
+    src: url('futura.otf') format('truetype'),
+         url('futura.woff') format('woff'),
+         url('futura.eot?#iefix') format('embedded-opentype'),
+         url('futura.svg#futura') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+
+
+
+h1 {
+	font-family: 'specialelite', cursive;
+}
+
+h2 {
+    font-family:'specialelite', cursive;
+}

@@ -24,7 +24,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
 body {
 	line-height: 1;
     font-family:'futura';
@@ -47,45 +52,6 @@ table {
 
 /* Structure */
 
-@font-face {
-    font-family: 'specialelite';
-    src: url('Font/specialelite.eot');
-    src: url('Font/specialelite.eot') format('embedded-opentype'),
-         url('Font/specialelite.woff') format('woff'),
-		 url('Font/specialelite.woff2') format('woff2'),
-         url('Font/specialelite.ttf') format('truetype'),
-         url('Font/specialelite.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futura';
-    src: url('futura.eot');
-    src: url('futura.otf') format('truetype'),
-         url('futura.woff') format('woff'),
-         url('futura.eot?#iefix') format('embedded-opentype'),
-         url('futura.svg#futura') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
-}
-
-
-
-h1 {
-	font-family: 'specialelite', cursive;
-}
-
-h2 {
-    font-family:'specialelite', cursive;
-}
 
 .container-fluid {
     
