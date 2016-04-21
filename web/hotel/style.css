@@ -1,7 +1,6 @@
 html {
   background: #1a1a1a;
   color: #e5e5e5;
-  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 body {
@@ -13,6 +12,7 @@ body {
   background-image:url('images/ambre.jpg');
 background-position: top center;
 background-size: contain;
+font-family: 'Special Elite', cursive;
   }
   
 #etape {
@@ -33,10 +33,12 @@ div, img, footer {
 
 h1 {
   font-size: 36pt;
+  font-family: 'Special Elite', cursive;
 }
 
 h2 {
   font-size: 24pt;
+  font-family: 'Special Elite', cursive;
 }
 
 h3 {
