@@ -100,7 +100,7 @@ include('../default/page/start_header.php');
 
                 <div class="row-fluid">
                     <div id="assaisonement container" class="col-md-12">
-                        <h2 style=color:white;>Assaisonement</h2>
+                        <h2 style=color:white;>Assaisonnement</h2>
                                                 <h3>(choisir quatres assaisonements)</h3>
 
                           <div class="col-sm-3 col-md-3 col-lg-3 ingredient"
