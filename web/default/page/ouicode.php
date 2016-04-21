@@ -1,4 +1,6 @@
 <style>
+* {outline: none;}    
+    
 h1 {
 text-align: center;
 font-size: 25px;
@@ -14,17 +16,16 @@ font-style: normal;
 #insertioncode {
     text-align:center;
     font-size:25px;
-    font-family:sans-serif;
+    font-family:'futura';
 }
 
 #validation {
     text-align:center;
     font-family:'futura';
     margin-top:20px;
-    font-weight: normal;
-    font-style: normal;
 	
 }
+            
 a, a:hover{
 	text-decoration:none;
     color: #000; 
@@ -60,7 +61,7 @@ h3 {
 
 .bouton {
 	border:none;
-    background-color:none;
+    background-color:white;
     font-family:sans-serif;
     text-align:center;
 }
@@ -72,6 +73,7 @@ h3 {
     font-family:'futura';
     font-size:15px;
 }
+
     
 #retour {
     text-align:center;
