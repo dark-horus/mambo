@@ -128,6 +128,6 @@ $current_etape = $res['current_etape'];
 
 <link rel="stylesheet" type="text/css" href="../../vendor/fancybox/source/jquery.fancybox.css">
     <link rel="stylesheet" href="../default/page/CSS/style.css"/>
-    <link rel="stylesheet" href="style.css"/> 
+    <link rel="stylesheet" href="../default/page/CSS/font.css"/>
 	<link rel="stylesheet" type="text/css" href="../../vendor/bootstrap/css/bootstrap.css">
  
