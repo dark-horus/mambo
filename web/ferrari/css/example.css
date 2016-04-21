@@ -81,7 +81,7 @@ margin-bottom: 460px;
 
 .title{
     color: snow;
-    font-family: MyUnderwood;
+    font-family: 'Special Elite', cursive;
     font-size: 30px;
     z-index: 1000;
 }
@@ -129,4 +129,14 @@ margin-bottom: 460px;
     left:2100px;
 }
 
+.block-7{
+    position: fixed;
+    top: 273px;
+    left:680px;
+}
 
+.block-8{
+    position: fixed;
+    top: 273px;
+    left:730px;
+}
