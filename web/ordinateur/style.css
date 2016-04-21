@@ -1,7 +1,10 @@
-.carreaux {
-background-image: url('./images/ssfs_paper_texture_5.png');
-height: 3000px;
-width: 6000px;
+.fond {
+background-image: url('./images/papier.jpg');
+height: 1080px;
+width: 100%;
+position: relative;
+top: -107px;
+background-repeat: no-repeat;
 }
 
 .background {
@@ -12,7 +15,11 @@ width: 6000px;
 	background-repeat: no-repeat;
 	position: absolute;
 	overflow: hidden;
-    top: 100px;
+    top: 190px;
+   /* margin: 0 auto;*/
+    margin: 0px 53px auto;
+    font-family: 'Special Elite', cursive;
+
 }
 .icone
 {
@@ -31,31 +38,60 @@ cursor: pointer;
 
 .d_videos {
 
-	background-image: url('./images/mes_videos.png');
+	background-image: url('./images/dossier_simple_gros.png');
 	background-repeat: no-repeat;
 	position: relative;
-	top: 50px;
+    width: 98px;
+    height: 83px;
+    top: 160px;
+    left: 27px;
+
+}
+
+.mes_videos {
+
+position: relative;
+    top: 65px;
+    left: -1px;
+
 }
 
 .d_musiques {
 
-	background-image: url('./images/ma_musique.png');
+	background-image: url('./images/dossier_simple_gros.png');
 	background-repeat: no-repeat;
-	width: 67px;
+    width: 98px;
+    height: 83px;
 	position: relative;
-	top: 50px;
-	
+    top: -65px;
+    left: 27px;
+}
+
+.mes_musiques {
+
+position: relative;
+    top: 65px;
+    left: -10px;
 }
 
 .d_admirateurs {
 
-	background-image: url('./images/admirateurs.png');
+	background-image: url('./images/dossier_simple_gros.png');
 	background-repeat: no-repeat;
-	width: 96px;
-    height: 70px;
+	width: 98px;
+    height: 83px;
     position: relative;
-	top: 50px;
-	
+	top: 80px;
+    left: 27px;
+
+}
+
+.mon_oeuvre 
+
+{
+    position: relative;
+    top: 65px;
+    left: -2px;
 }
 
 .barre {
@@ -92,6 +128,7 @@ background-image: url('./images/Fenetre_1.png');
 	background-repeat: no-repeat;
 	padding-top: 14px;
     padding-left: 2px;
+    z-index: 2;
 }
 
 .b_videos {
@@ -108,7 +145,7 @@ background-image: url('./images/Fenetre_1.png');
 
 .bouton_fermer1 {
 
-background-image: url('./images/bouton_close.png');
+    background-image: url('./images/bouton_close.png');
 	height: 23px;
 	width: 24px;
 	margin : 15px;
@@ -120,72 +157,72 @@ background-image: url('./images/bouton_close.png');
 }
 
 .video_1 {
-background-image: url('./images/video_file.png');
-height: 60px;
-width: 46px;
-background-repeat: no-repeat;
+    background-image: url('./images/video_file.png');
+    height: 69px;
+    width: 55px;
+    background-repeat: no-repeat;
     position: relative;
     left: 60px;
-    top: 75px;
+    top: 77px;
     cursor: pointer;
 
 }
 
 .video_2 {
-background-image: url('./images/video_file.png');
-height: 60px;
-width: 46px;
-background-repeat: no-repeat;
-      position: relative;
-    left: 150px;
-    top: 15px;
+    background-image: url('./images/video_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 148px;
+    top: 8px;
     cursor: pointer;
 }
 
 .video_3 {
-background-image: url('./images/video_file.png');
-height: 60px;
-width: 46px;
-background-repeat: no-repeat;
-       position: relative;
+    background-image: url('./images/video_file.png');
+    height: 60px;
+    width: 46px;
+    background-repeat: no-repeat;
+    position: relative;
     left: 240px;
-    top: -45px;
+    top: -52px;
     cursor: pointer;
 
 
 }
 
 .video_4 {
-background-image: url('./images/video_file.png');
-height: 60px;
+    background-image: url('./images/video_file.png');
+    height: 60px;
     width: 46px;
     background-repeat: no-repeat;
     position: relative;
     left: 330px;
-    top: -105px;
+    top: -112px;
     cursor: pointer;
 
 }
 
 .video_5 {
-background-image: url('./images/video_file.png');
-   height: 60px;
+    background-image: url('./images/video_file.png');
+    height: 60px;
     width: 46px;
     background-repeat: no-repeat;
     position: relative;
     left: 420px;
-    top: -165px;
+    top: -172px;
     cursor: pointer;
 }
 
 .video_6 {
-background-image: url('./images/video_file.png');
-height: 60px;
+    background-image: url('./images/video_file.png');
+    height: 60px;
     width: 46px;
     background-repeat: no-repeat;
     position: relative;
-   	left: 60px;
-    top: -150px;
+    left: 60px;
+    top: -157px;
     cursor: pointer;
 
 }
@@ -234,8 +271,8 @@ background-image: url('./images/bouton_close.png');
 
 .musique_1 {
     background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 60px;
@@ -244,156 +281,156 @@ background-image: url('./images/bouton_close.png');
 }
 
 .musique_2 {
-	background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    background-image: url('./images/music_file.png');
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 60px;
-    top: 90px;
+    top: 81px;
     cursor: pointer;
 }
 
 .musique_3 {
- background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    background-image: url('./images/music_file.png');
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 60px;
-    top: 105px;
+    top: 87px;
     cursor: pointer;
 }
 
 .musique_4 {
-        background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    background-image: url('./images/music_file.png');
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 150px;
-    top: -105px;
+    top: -132px;
     cursor: pointer;
 }
 
 .musique_5 {
-   background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    background-image: url('./images/music_file.png');
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 150px;
-    top: -90px;
+    top: -126px;
     cursor: pointer;
 }
 
 .musique_6 {
     background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 150px;
-    top: -75px;
+    top: -120px;
     cursor: pointer;
 }
 
 .musique_7 {
     background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 240px;
-    top: -285px;
+    top: -339px;
     cursor: pointer;
 }
 
 .musique_8 {
     background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 240px;
-    top: -270px;
+    top: -333px;
     cursor: pointer;
 }
 
 .musique_9 {
-   background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    background-image: url('./images/music_file.png');
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 240px;
-    top: -255px;
+    top: -327px;
     cursor: pointer;
 }
 
 .musique_10 {
-      background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    background-image: url('./images/music_file.png');
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 330px;
-    top: -465px;
+    top: -546px;
     cursor: pointer;
 }
 
 .musique_11 {
-	background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    background-image: url('./images/music_file.png');
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 330px;
-    top: -450px;
+    top: -540px;
     cursor: pointer;
 }
 
 .musique_12 {
     background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 330px;
-    top: -435px;
+    top: -534px;
     cursor: pointer;
 }
 
 .musique_13 {
     background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 420px;
-    top: -645px;
+    top: -753px;
     cursor: pointer;
 }
 
 .musique_14 {
     background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 420px;
-    top: -630px;
+    top: -747px;
     cursor: pointer;
 }
 
 .musique_15 {
     background-image: url('./images/music_file.png');
-    height: 60px;
-    width: 46px;
+    height: 69px;
+    width: 55px;
     background-repeat: no-repeat;
     position: relative;
     left: 420px;
-    top: -615px;
+    top: -741px;
     cursor: pointer;
 }
 .f_admirateurs {

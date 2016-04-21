@@ -4,6 +4,7 @@ include('../default/page/start_header.php');
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
 
 <link rel="stylesheet" type="text/css" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 
 <!-- fin CSS -->
 <?php include('../default/page/header.php'); ?>
@@ -18,19 +19,35 @@ include('../default/page/start_header.php');
 
 <!-- Place ici ton contenu -->
 
-<div class="carreaux"> </div>
+<div class="fond"> 
 <div class="container">
 	<div class="background">
 
-		<div class="icone d_videos" data-window="f_videos">
+		<!-- DOSSIER Videos -->
 
+		<div class="icone d_videos" data-window="f_videos">
+			<div class="mes_videos">
+				<p>Mes vidéos</p>
+			</div>
 		</div>
+
+		<!-- DOSSIER Musiques -->
 
 		<div class="icone d_musiques" data-window="f_musiques">
 
+			<div class="mes_musiques">
+				<p>Mes musiques</p>
+			</div>
+
 		</div>
 
+		<!-- DOSSIER Oeuvre -->
+
 		<div class="icone d_admirateurs" data-window="f_admirateurs">
+
+			<div class="mon_oeuvre">
+				<p>Mon oeuvre</p>
+			</div>
 
 		</div>
 
@@ -54,41 +71,54 @@ include('../default/page/start_header.php');
 
 		</div>
 
+
+
+
+<!-- FENETRE Videos -->
+
+
 		<div class="window f_videos" id="f_videos" style="display:none;">
 
-			<div class="window-head b_videos">
 
-				<div class="bouton_fermer1" onclick="javascript:visibilite('f_videos'); return false;" >
+				<div class="window-head b_videos">
+
+					<div class="bouton_fermer1" onclick="javascript:visibilite('f_videos'); return false;" >
+
+					</div>
 
 				</div>
 
-			</div>
+				<div class="video_1">
 
-			<div class="video_1">
+				</div>
 
-			</div>
+				<div class="video_2">
 
-			<div class="video_2">
+				</div>
 
-			</div>
+				<div class="video_3">
 
-			<div class="video_3">
+				</div>
 
-			</div>
+				<div class="video_4">
 
-			<div class="video_4">
+				</div>
 
-			</div>
+				<div class="video_5">
 
-			<div class="video_5">
+				</div>
 
-			</div>
+				<div class="video_6">
 
-			<div class="video_6">
+				</div>
 
-			</div>
-
+			
 		</div>
+
+
+<!-- FENETRE Musiques -->
+
+
 
 		<div class="window f_musiques" id="f_musiques" style="display:none;">
 
@@ -161,6 +191,12 @@ include('../default/page/start_header.php');
 			</div>
 		</div>
 
+
+
+<!-- FENETRE Oeuvre -->
+
+
+
 		<div class="f_admirateurs">
 
 			<div class="b_admirateurs">
@@ -174,9 +210,22 @@ include('../default/page/start_header.php');
 		</div>
 
 
+
+
+
+
+	</div>
 	</div>
 </div>
+
+
+<!-- SCRIPT -->
+
 <script>
+
+
+/* Pour Bouger les fenêtres */ 
+
 	$(function () {
 		$('.icone').draggable();
 		$('.window').draggable({handle: '.window-head',
@@ -195,7 +244,7 @@ $('.'+window).fadeIn();
 
 	});
 
-/* test disparition  */
+/* Bouton Fermer  */
 
 function visibilite(thingId)
 {
