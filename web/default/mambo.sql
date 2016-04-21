@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Mar 19 Avril 2016 à 23:57
+-- Généré le :  Ven 22 Avril 2016 à 00:25
 -- Version du serveur :  5.6.26
 -- Version de PHP :  5.6.12
 
@@ -23,6 +23,24 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `admin`
+--
+
+CREATE TABLE IF NOT EXISTS `admin` (
+  `login` char(5) NOT NULL,
+  `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Contenu de la table `admin`
+--
+
+INSERT INTO `admin` (`login`, `password`) VALUES
+('Magal', '8f42420e0ac5e579c0b2c1186d070b99');
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `etape`
 --
 
@@ -33,7 +51,7 @@ CREATE TABLE IF NOT EXISTS `etape` (
   `field` text NOT NULL,
   `value` text NOT NULL,
   `Date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB AUTO_INCREMENT=85 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=96 DEFAULT CHARSET=latin1;
 
 --
 -- Contenu de la table `etape`
@@ -58,7 +76,18 @@ INSERT INTO `etape` (`ID`, `user_ID`, `etape_ID`, `field`, `value`, `Date`) VALU
 (81, 54, 'ordinateur', 'video', 'Best pr0nFood Eu', '2016-04-17 18:45:32'),
 (82, 54, 'ordinateur', 'video', 'Le patin à roulettes pour les noobs', '2016-04-17 18:45:57'),
 (83, 54, 'ordinateur', 'video', 'RabatDjin - Live Eurovision 2016', '2016-04-17 18:47:17'),
-(84, 63, 'vin', '', '', '2016-04-19 13:14:25');
+(84, 63, 'vin', '', '', '2016-04-19 13:14:25'),
+(85, 82, 'Immeuble', '', '', '2016-04-21 20:43:50'),
+(86, 82, 'Immeuble', '', '', '2016-04-21 20:47:46'),
+(87, 82, 'vin', '', '', '2016-04-21 20:49:02'),
+(88, 82, 'Immeuble', '', '', '2016-04-21 20:49:39'),
+(89, 82, 'livre', 'histoire', 'Bonjour, ceci est un test mouahahahahaha', '2016-04-21 22:17:39'),
+(90, 82, 'livre', 'histoire', 'hihihihouhouhouh', '2016-04-21 22:21:00'),
+(91, 82, 'livre', 'histoire', '<input type=\\"reset\\" value=\\"Recommencer\\"></input>', '2016-04-21 22:22:19'),
+(92, 82, 'livre', 'histoire', '<input type=\\"reset\\" ', '2016-04-21 22:22:46'),
+(93, 82, 'livre', 'histoire', '\\"coucou\\"', '2016-04-21 22:23:00'),
+(94, 82, 'livre', 'histoire', 'je t\\''aime', '2016-04-21 22:23:16'),
+(95, 82, 'livre', 'histoire', 'tu fais quoi ?', '2016-04-21 22:23:41');
 
 -- --------------------------------------------------------
 
@@ -72,7 +101,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `img_avatar` text NOT NULL,
   `current_etape` text,
   `progression` int(2) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB AUTO_INCREMENT=72 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=83 DEFAULT CHARSET=latin1;
 
 --
 -- Contenu de la table `user`
@@ -96,11 +125,28 @@ INSERT INTO `user` (`iduser`, `password`, `img_avatar`, `current_etape`, `progre
 (68, '2SBgbGxwv5', '', NULL, 0),
 (69, 'zmdYLYPclc', '', NULL, 0),
 (70, 'Xs6WlShuVQ', '', NULL, 0),
-(71, 'sVUZAFgDUJ', '', NULL, 0);
+(71, 'sVUZAFgDUJ', '', NULL, 0),
+(72, 'vsrwPw4WBI', '', NULL, 0),
+(73, 'CrOPO4G2CR', '', NULL, 0),
+(74, 'be8qB32axA', '', NULL, 0),
+(75, 'D9lydo8mde', '', NULL, 0),
+(76, 'JGTcNWJA0i', '', NULL, 0),
+(77, 'yZ9lmFEZsv', '', NULL, 0),
+(78, 'ETU0541r3b', '', NULL, 0),
+(79, 'MZwNy0EBmx', '', NULL, 0),
+(80, '1vSv1byPcT', '', NULL, 0),
+(81, 'H9H9H3pOT7', '', NULL, 0),
+(82, 'Vy0w2GH7JC', '', 'livre', 3);
 
 --
 -- Index pour les tables exportées
 --
+
+--
+-- Index pour la table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`login`);
 
 --
 -- Index pour la table `etape`
@@ -123,12 +169,12 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT pour la table `etape`
 --
 ALTER TABLE `etape`
-  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=85;
+  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=96;
 --
 -- AUTO_INCREMENT pour la table `user`
 --
 ALTER TABLE `user`
-  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=72;
+  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=83;
 --
 -- Contraintes pour les tables exportées
 --
