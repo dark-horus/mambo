@@ -2,7 +2,7 @@
 include('../default/page/start_header.php');
 ?>
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
-	<link rel="stylesheet" href="style.css" />
+
 
 <!-- fin CSS -->
 
@@ -19,10 +19,10 @@ include('../default/page/start_header.php');
 
 	
 		<img src="img/pagevinweb2.jpg" width="100%" >
-	<div class ="vin" width="200px">	
+		
 			<a  href="http://localhost/mambo/web/vin/img/pagevinweb2.jpg" download="Infographie_Mambo_Canaille"> 
 			<img src="img/telecharger.png" width="200px"> </a>
-	</div>
+
 
 
  <!-- bouton valider + enregistrement bdd -->
