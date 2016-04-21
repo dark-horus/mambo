@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	background-image:url(image/fondplace.png);
+
+	background-repeat: no-repeat;
+ 
+	}
+
+.content {
+
+	width:800px;
+	height:500px;
+}
