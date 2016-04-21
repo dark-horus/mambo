@@ -60,11 +60,12 @@ h3 {
 
 .bouton {
 	border:none;
-    background-color:white;
+    background-color:none;
     font-family:sans-serif;
     text-align:center;
 }
 
+    
 .formulaire {
     border-color:35201e;
     border-radius:5px;
