@@ -65,7 +65,7 @@ src: url('futura.eot');
 src: url('futura.otf') format('truetype'),
      url('futura.woff') format('woff'),
      url('futura.eot?#iefix') format('embedded-opentype'),
-     url('futura.svg#QuadrantaBold') format('svg');
+     url('futura.svg#futura') format('svg');
 font-weight: normal;
 font-style: normal;
 }
