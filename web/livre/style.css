@@ -242,7 +242,9 @@ ul{
     font-family:'Futura Std';
 }
 
-
+.typo{
+    margin:0 !important;
+}
 
 
 .lightbox{
@@ -254,9 +256,7 @@ ul{
     width:100%;
     height: 470px;
 }
-.contenu_machine .extrait h2{
-    
-}
+
 
 .ecriture {
    /* width:100%;*/
