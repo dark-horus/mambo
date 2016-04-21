@@ -7,6 +7,7 @@ body {
   background: url(image/fondbase.png) no-repeat center fixed; 
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
+  overflow: hidden;
 }
 
 @font-face {
@@ -25,6 +26,7 @@ font-family:"myUnderwood";
 	margin-top: 10%; 
 	margin-right: auto;
 	margin-left: auto;	
+	overflow: hidden;
 	
 }
 

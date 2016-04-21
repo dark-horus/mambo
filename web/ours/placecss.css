@@ -6,11 +6,13 @@ body {
 	background-image:url(image/fondplace.png);
 
 	background-repeat: no-repeat;
- 
+ margin:0;
+ padding:0;
 	}
 
 .content {
 
-	width:800px;
+	width:750px;
 	height:500px;
+	text-align: justify;
 }
