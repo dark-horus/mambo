@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if($_SESSION['autorize'] != "allowedtoconnect"){
+	header('location: ../../../../403.html');
+}
+else { 
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -127,7 +135,7 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Réglages </a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> se deconnecter </a>
+                        <li><a href="deconnexion.php"><i class="fa fa-sign-out fa-fw"></i> se deconnecter </a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -300,3 +308,4 @@ Notif 6
 </body>
 
 </html>
+<?php } ?>

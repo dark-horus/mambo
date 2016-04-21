@@ -125,7 +125,7 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Réglages </a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> se deconnecter </a>
+                        <li><a href="deconnexion.php"><i class="fa fa-sign-out fa-fw"></i> se deconnecter </a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->

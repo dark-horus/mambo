@@ -41,7 +41,7 @@
                         <h3 class="panel-title">Espace Administrateur Mambo Canaille</h3>
                     </div>
                     <div class="panel-body">
-                        <form action="index.php" method='post' role="form">
+					<form action="connectadmin.php" method="post" name="admin">
                             <fieldset>
                                 <div class="form-group">
                                     <input class="form-control" id="ID" placeholder="ID" name="ID" value="" type="text"  autofocus>
@@ -51,7 +51,7 @@
                                 </div>
                                 
                                
-                            <input type="button" value="se connecter" class="btn btn-lg btn-success btn-block" value="Login" id="submit" onclick="validate()"/>
+                            <input type="submit" value="se connecter" class="btn btn-lg btn-success btn-block" value="Login" id="submit"/>
                                 
                             </fieldset>
                         </form>
@@ -63,7 +63,7 @@
     
     <script>
     
-    
+    /*
 
 var essais = 3;
 function validate(){
@@ -86,6 +86,8 @@ return false;
 }
 }
 }
+
+*/
 
 
     </script>
