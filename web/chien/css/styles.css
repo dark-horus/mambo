@@ -1,8 +1,16 @@
+html{
+    
+    margin: 0;
+    
+    
+}
 body {
-    background-image:url('../img/panneau.png');
+    background-image:url('../img/fond.png');
     background-repeat: no-repeat; 
-	background-attachment: fixed; 
-	background-size: cover; 
+	background-size: 1920px;
+    background-position: center;
+    margin:0;
+    height: auto;
 }
 
 .noms {
@@ -15,13 +23,18 @@ body {
 
 
 .henry {
-    background-image:url('../img/Henry.jpg');
+    background-image:url('../img/Henry.png');
 }
 
 .alejandro {
-    background-image:url('../img/alejandro.jpg');
+    background-image:url('../img/alejandro.png');
 }
 
 .simao {
-    background-image:url('../img/Simao.jpg');
+    background-image:url('../img/Simao.png');
+}
+ul{
+    
+    
+    display: inline-block;
 }
