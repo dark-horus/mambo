@@ -61,7 +61,7 @@ h3 {
 
 .bouton {
 	border:none;
-    background-color:white;
+    background-color:none;
     font-family:sans-serif;
     text-align:center;
 }
