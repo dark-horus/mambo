@@ -22,6 +22,7 @@ body {
     left: 746px;
     width: 50px;
     height: 100px;
+    z-index: 999;
 }
 
 #sartre {
@@ -29,6 +30,7 @@ body {
     left: 900px;
     width: 50px;
     height: 100px;
+    z-index: 999;
 }
 
 #marai {
@@ -238,6 +240,8 @@ p{
 h3{
     font-family:'Futura Std';
 }
+
+
 ul{
     font-family:'Futura Std';
 }
@@ -254,7 +258,7 @@ ul{
 
 .contenu_machine {
     width:100%;
-    height: 470px;
+    height: 500px;
 }
 
 

@@ -626,12 +626,16 @@
                 <div id="machine_content" class="contenu" style="display:none">
                    <div class="contenu_machine"> 
                     <div class="extrait">
-                    <h2>Devenez ecrivain et imaginez la suite de l'histoire...</h2>
+                    <h2 class="typo">Devenez ecrivain et imaginez la suite de l'histoire...</h2> 
+                    <br>
+
                     <p>"Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat."</p>
                 </div>
+                <br>
                     <div class="ecriture">
                     <form>
                     <center><textarea rows="10" cols="70" name="write"></textarea></center>
+                    <br>
                     <input type="submit" value="Partager"></input>
                     <input type="reset" value="Recommencer"></input>
                     </form>
