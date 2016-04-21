@@ -1,7 +1,6 @@
 html {
   background: #1a1a1a;
   color: #e5e5e5;
-  text-align: center;
   font-family: "Roboto", Helvetica, sans-serif;
 }
 
@@ -11,13 +10,14 @@ body {
   margin: auto;
   padding: auto;
   overflow-x: hidden;
-  background-image:url('images/ambre.png');
+  background-image:url('images/ambre.jpg');
 background-position: top center;
-background-repeat: no-repeat;
 background-size: contain;
   }
   
-
+#etape {
+	padding-top:0px;
+}
 .description {
   max-width: 600px;
   margin: 0 auto;
@@ -103,7 +103,7 @@ li.active a, a:hover, a:active {
   padding: 20px;
   box-sizing: border-box;
   margin:  auto;
-  height: 800px;
+  height: 555px;
   background-image: url('images/cartedessinvert.png');
   background-repeat : no-repeat;
   background-position: top center;
@@ -114,6 +114,9 @@ li.active a, a:hover, a:active {
   position: relative;
   margin: 0;
   padding: 0;
+}
+#etape {
+    padding-bottom: 5px;
 }
 /*points maps clickable */
 .distribution-map .map-point {
@@ -129,31 +132,26 @@ li.active a, a:hover, a:active {
   background-repeat : no-repeat;
   background-position: top center;
   background-size: cover; 
-  hover: url('images/markerhover.png');
-    
-  
-  
-  
-  /*border-radius: 30px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -moz-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-  -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-  -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out, z-index 0.25s ease-in-out;
-  -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
-  -webkit-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-  transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-  background: #FF0000/*rgba(26, 26, 26, 0.85)*/;
-  /*couleur des points clickable*/
-  /*border: 5px solid #990000;*/
 }
+.map-point:hover {
+  cursor: pointer;
+  outline: none;
+  z-index: 0;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  
+  /*pour les points */
+  background-image: url('images/markerhover.png');
+  background-repeat : no-repeat;
+  background-position: top center;
+}
+
 .distribution-map .map-point .content {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
-  -webkit-transition: opacity 0.25s ease-in-out;
-  transition: opacity 0.25s ease-in-out;
+  /*-webkit-transition: opacity 0.25s ease-in-out;*/
+ /* transition: opacity 0.25s ease-in-out;*/
   width: 100%;
   height: 100%;
   left: 50%;
@@ -161,18 +159,19 @@ li.active a, a:hover, a:active {
   transform: translateX(-50%);
   overflow: overlay;
 }
-/*taile ddes lightbox à changer*/
+/*taile des lightbox à changer*/
+
 .distribution-map .map-point:active, .distribution-map .map-point:focus {
   margin: 0;
   padding: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
   width: 500px;
-  height: 220px;
+  height: 600px;
   color: #e5e5e5;
-  z-index: 1;
-  -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
-  transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+  z-index: 20;
+  /*-webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out; */
 }
 .distribution-map .map-point:active .content, .distribution-map .map-point:focus .content {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);

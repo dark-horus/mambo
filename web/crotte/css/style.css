@@ -1,13 +1,25 @@
 body {
   background-image: url(../images/fond.png);
-  background-position: center;
+  margin:0;
+  padding:0;
+  background-position:center;
   background-repeat: no-repeat; 
-  background-attachment: fixed; 
+  background-attachment:scroll;
+  -webkit-background-size: cover;
   background-size: cover; 
-  -moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
-  -o-background-size: 100% 100%;        /* Opera 9.5 */
-  -webkit-background-size: 100% 100%;   /* Safari 3.0 */
-  background-size: 100% 100%;
+  
+}
+
+img {
+    max-width: 100%;
+    height: auto;  
+}
+
+img.responsive
+{
+display: block;
+max-width: 100%;
+height: auto;
 }
 
 #game {
@@ -22,8 +34,9 @@ body {
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
-    margin-left : auto;
-    margin-right: auto;
+    margin-left :auto;
+    margin-right:auto;
+    
 }
 #game .mm-line {
     -webkit-transition: background-color 0.3s ease;
@@ -74,10 +87,12 @@ body {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
+
 #game .mm-line .mm-status {
   margin-left: 10px;
   display: inline-block;
 }
+
 /*
 #game .mm-line .mm-status span {
   display: inline-block;
@@ -97,6 +112,7 @@ body {
   margin: 5px;
   font-size: 20px;
 }
+
 #game .mm-line .mm-status .mm-status-wrongplace {
   color:#630f0F;
   display: inline-block;
@@ -108,9 +124,10 @@ body {
 }
 
 #controls {
-    width: 500px;
-    margin-top :30px; 
-    vertical-align:middle;
+    width: 380px;
+    margin-top: 30px; 
+    vertical-align: bottom;
+    height:80px;
 }
 
 #controls a {
@@ -121,6 +138,37 @@ body {
     margin: 3px;
     float:left;
 }
+
+/* MODIFICATION DES IMAGES AJOUTEES */
+
+#fleche {
+    width:15%;
+    height:auto;
+    margin-left:5%;
+    margin-right:auto;
+}
+
+#valider {
+    width:20%;
+    height:auto;
+    margin-left: auto;
+    margin-right:20%;
+    float:bottom;
+    align-content:right;
+    position:relative;
+}
+
+#recommencer {
+    width:20%;
+    height:auto;
+    margin-left: auto;
+    margin-right:20%;
+    float:bottom;
+    align-content:right;
+    position:relative;
+    margin-bottom:3%;
+}
+
 
 [data-peg] {
   background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));

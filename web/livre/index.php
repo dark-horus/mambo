@@ -1,16 +1,16 @@
+
 <?php include( '../default/page/start_header.php' ); ?>
 <?php include( '../default/page/header.php' ); ?>
 <?php include( '../default/page/end_header.php' ); ?>
-
 
     <div id="background">
 
         <section id="bibliotheque">
 
-            <div id="kafka" class="book fancybox" data-fancybox-href="#kafka-content">
+            <div id="kafka" class="book fancybox lightbox" data-fancybox-href="#kafka-content">
                 <div id="kafka-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Franz Kafka</h1>
+                        <h1 class="typo">Franz Kafka</h1>
                     </div>
                     <div class="biographie">
                         <h3>Biographie</h3>
@@ -30,10 +30,10 @@
                 </div>
             </div>
 
-            <div id="sartre" class="book fancybox" data-fancybox-href="#sartre-content">
+            <div id="sartre" class="book fancybox lightbox" data-fancybox-href="#sartre-content">
                 <div id="sartre-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Jean-Paul Sartre</h1>
+                        <h1 class="typo">Jean-Paul Sartre</h1>
                     </div>
 
                     <div class="biographie">
@@ -55,10 +55,10 @@
                 </div>
             </div>
 
-            <div id="marai" class="book fancybox" data-fancybox-href="#marai-content">
+            <div id="marai" class="book fancybox  lightbox" data-fancybox-href="#marai-content">
                 <div id="marai-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Sandor Marai</h1>
+                        <h1 class="typo">Sandor Marai</h1>
                     </div>
 
                     <div class="biographie">
@@ -81,10 +81,10 @@
                 </div>
             </div>
 
-             <div id="pizarnik" class="book fancybox" data-fancybox-href="#pizarnik-content">
+             <div id="pizarnik" class="book fancybox  lightbox" data-fancybox-href="#pizarnik-content">
                 <div id="pizarnik-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Alejandra Pizarnik</h1>
+                        <h1 class="typo">Alejandra Pizarnik</h1>
                     </div>
 
                     <div class="biographie">
@@ -106,10 +106,10 @@
                 </div>
             </div>
 
-            <div id="llosa" class="book fancybox" data-fancybox-href="#llosa-content">
+            <div id="llosa" class="book fancybox  lightbox" data-fancybox-href="#llosa-content">
                  <div id="llosa-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Mario Vargas Llosa</h1>
+                        <h1 class="typo">Mario Vargas Llosa</h1>
                     </div>
 
                     <div class="biographie">
@@ -130,10 +130,10 @@
                 </div>
             </div>
 
-            <div id="cortazar" class="book fancybox" data-fancybox-href="#cortazar-content">
+            <div id="cortazar" class="book fancybox  lightbox" data-fancybox-href="#cortazar-content">
                 <div id="cortazar-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Julio Cortazar</h1>
+                        <h1 class="typo">Julio Cortazar</h1>
                     </div>
 
                     <div class="biographie">
@@ -154,10 +154,10 @@
                 </div>
             </div>
 
-            <div id="gracian" class="book fancybox" data-fancybox-href="#gracian-content">
+            <div id="gracian" class="book fancybox  lightbox" data-fancybox-href="#gracian-content">
                 <div id="gracian-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Baltazar Gracian</h1>
+                        <h1 class="typo">Baltazar Gracian</h1>
                     </div>
 
                     <div class="biographie">
@@ -179,10 +179,10 @@
                 </div>
             </div>
 
-            <div id="kadare" class="book fancybox" data-fancybox-href="#kadare-content">
+            <div id="kadare" class="book fancybox  lightbox" data-fancybox-href="#kadare-content">
                 <div id="kadare-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Ismael Kadaré</h1>
+                        <h1 class="typo">Ismael Kadaré</h1>
                     </div>
 
                     <div class="biographie">
@@ -204,10 +204,10 @@
                 </div>
             </div>
 
-            <div id="borges" class="book fancybox" data-fancybox-href="#borges-content">
+            <div id="borges" class="book fancybox  lightbox" data-fancybox-href="#borges-content">
                 <div id="borges-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Jorge Luis Borges</h1>
+                        <h1 class="typo">Jorge Luis Borges</h1>
                     </div>
 
                     <div class="biographie">
@@ -228,10 +228,10 @@
                 </div>
             </div>
 
-            <div id="pavese" class="book fancybox" data-fancybox-href="#pavese-content">
+            <div id="pavese" class="book fancybox  lightbox" data-fancybox-href="#pavese-content">
                 <div id="pavese-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Cesare Pavese</h1>
+                        <h1 class="typo">Cesare Pavese</h1>
                     </div>
 
                     <div class="biographie">
@@ -254,10 +254,10 @@
                 </div>
             </div>
 
-            <div id="homere" class="book fancybox" data-fancybox-href="#homere-content">
+            <div id="homere" class="book fancybox  lightbox" data-fancybox-href="#homere-content">
                 <div id="homere-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Homère</h1>
+                        <h1 class="typo">Homère</h1>
                     </div>
 
                     <div class="biographie">
@@ -278,10 +278,10 @@
                 </div>
             </div>
 
-            <div id="losada" class="book fancybox" data-fancybox-href="#losada-content">
+            <div id="losada" class="book fancybox  lightbox" data-fancybox-href="#losada-content">
                 <div id="losada-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Blanca Riestra Rodriguez Losada</h1>
+                        <h1 class="typo">Blanca Riestra Rodriguez Losada</h1>
                     </div>
 
                     <div class="biographie">
@@ -302,10 +302,10 @@
                 </div>
             </div>
 
-            <div id="molina" class="book fancybox" data-fancybox-href="#molina-content">
+            <div id="molina" class="book fancybox  lightbox" data-fancybox-href="#molina-content">
                 <div id="molina-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Antonio Munoz Molina</h1>
+                        <h1 class="typo">Antonio Munoz Molina</h1>
                     </div>
 
                     <div class="biographie">
@@ -327,10 +327,10 @@
                 </div>
             </div>
 
-            <div id="echenique" class="book fancybox" data-fancybox-href="#echenique-content">
+            <div id="echenique" class="book fancybox  lightbox" data-fancybox-href="#echenique-content">
                 <div id="echenique-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Brice Echenique</h1>
+                        <h1 class="typo">Brice Echenique</h1>
                     </div>
 
                     <div class="biographie">
@@ -351,10 +351,10 @@
                 </div>
             </div>
 
-            <div id="joyce" class="book fancybox" data-fancybox-href="#joyce-content">
+            <div id="joyce" class="book fancybox  lightbox" data-fancybox-href="#joyce-content">
                 <div id="joyce-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>James Joyce</h1>
+                        <h1 class="typo">James Joyce</h1>
                     </div>
 
                     <div class="biographie">
@@ -376,10 +376,10 @@
                 </div>
             </div>
 
-            <div id="ibanez" class="book fancybox" data-fancybox-href="#ibanez-content">
+            <div id="ibanez" class="book fancybox  lightbox" data-fancybox-href="#ibanez-content">
                 <div id="ibanez-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Blasco Ibanez</h1>
+                        <h1 class="typo">Blasco Ibanez</h1>
                     </div>
 
                     <div class="biographie">
@@ -400,10 +400,10 @@
                 </div>
             </div>
 
-            <div id="neuman" class="book fancybox" data-fancybox-href="#neuman-content">
+            <div id="neuman" class="book fancybox  lightbox" data-fancybox-href="#neuman-content">
                 <div id="neuman-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Andrés Neuman</h1>
+                        <h1 class="typo">Andrés Neuman</h1>
                     </div>
 
                     <div class="biographie">
@@ -424,10 +424,10 @@
                 </div>
             </div>
 
-            <div id="cauti" class="book fancybox" data-fancybox-href="#cauti-content">
+            <div id="cauti" class="book fancybox  lightbox" data-fancybox-href="#cauti-content">
                 <div id="cauti-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Fernando Iwasaki Cauti</h1>
+                        <h1 class="typo">Fernando Iwasaki Cauti</h1>
                     </div>
 
                     <div class="biographie">
@@ -447,10 +447,10 @@
                 </div>
             </div>
 
-            <div id="tabucchi" class="book fancybox" data-fancybox-href="#tabucchi-content">
+            <div id="tabucchi" class="book fancybox  lightbox" data-fancybox-href="#tabucchi-content">
                 <div id="tabucchi-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Antonio Tabucchi</h1>
+                        <h1 class="typo">Antonio Tabucchi</h1>
                     </div>
 
                     <div class="biographie">
@@ -472,10 +472,10 @@
                 </div>
             </div>
 
-            <div id="mendoza" class="book fancybox" data-fancybox-href="#mendoza-content">
+            <div id="mendoza" class="book fancybox  lightbox" data-fancybox-href="#mendoza-content">
                 <div id="mendoza-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Eduardo Mendoza</h1>
+                        <h1 class="typo">Eduardo Mendoza</h1>
                     </div>
 
                     <div class="biographie">
@@ -498,10 +498,10 @@
                 </div>
             </div>
 
-            <div id="merino" class="book fancybox" data-fancybox-href="#merino-content">
+            <div id="merino" class="book fancybox  lightbox" data-fancybox-href="#merino-content">
                 <div id="merino-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>José Maria Merino</h1>
+                        <h1 class="typo">José Maria Merino</h1>
                     </div>
 
                     <div class="biographie">
@@ -522,10 +522,10 @@
                 </div>
             </div>
 
-            <div id="flaubert" class="book fancybox" data-fancybox-href="#kafka-content">
+            <div id="flaubert" class="book fancybox  lightbox" data-fancybox-href="#kafka-content">
                 <div id="kafka-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Gustave Flaubert</h1>
+                        <h1 class="typo">Gustave Flaubert</h1>
                     </div>
 
                     <div class="biographie">
@@ -547,10 +547,10 @@
                 </div>
             </div>
 
-            <div id="marquez" class="book fancybox" data-fancybox-href="#marquez-content">
+            <div id="marquez" class="book fancybox lightbox" data-fancybox-href="#marquez-content">
                 <div id="marquez-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Gabriel Garcia Marquez</h1>
+                        <h1 class="typo">Gabriel Garcia Marquez</h1>
                     </div>
 
                     <div class="biographie">
@@ -572,10 +572,10 @@
                 </div>
             </div>
 
-            <div id="neruda" class="book fancybox" data-fancybox-href="#neruda-content">
+            <div id="neruda" class="book fancybox lightbox" data-fancybox-href="#neruda-content">
                 <div id="neruda-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Pablo Neruda</h1>
+                        <h1 class="typo">Pablo Neruda</h1>
                     </div>
 
                     <div class="biographie">
@@ -595,10 +595,10 @@
                     </div>
                 </div>
             </div>
-            <div id="plath" class="book fancybox" data-fancybox-href="#plath-content">
+            <div id="plath" class="book fancybox lightbox" data-fancybox-href="#plath-content">
                 <div id="plath-content" class="contenu" style="display:none">
                     <div class="titre">
-                        <h1>Sylvia Plath</h1>
+                        <h1 class="typo">Sylvia Plath</h1>
                     </div>
 
                     <div class="biographie">
@@ -619,57 +619,29 @@
             </div>
 
 
-            <!--<div id="mendezguedez" class="book">
-                            <div class="contenu hide">
-                                <div class="titre">
-                                    <h1>Juan Carlos Méndéz Guédez</h1>
-                                </div>
-
-                                <div class="biographie">
-                                    <h3>Biographie</h3>
-                                    <p>“Né à Barquisimeto (Venezuela) en 1967, Juan Carlos Méndéz Guédez vit cependant ses jeunes années à Caracas. Après une Licence de Lettres obtenue à l’Université Centrale du Venezuela, c’est à Salamanque, en Péninsule ibérique, qu’il devient Docteur en Littérature Hispano-américaine après avoir soutenu un thèse portant sur l’œuvre du narrateur vénézuélien José Balza et à Madrid qu’il a désormais établi ses quartiers.Parcours en littérature donc, entre deux continents, qui se poursuit par la publication de nombreux livres : romans, recueils de contes, essais, publiés aussi bien en Espagne qu’aux Amériques.” Zinnia Editions</p>
-                                </div>
-
-                                <div class="oeuvres">
-                                    <h3>Trois oeuvres majeures</h3>
-                                    <ul>
-                                        <li>2008 - La bicicleta de Bruno</li>
-                                        <li>2009 - Tal vez la lluvia</li>
-                                        <li>2011 - Mambo Canaille</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div> -->
-
+            
         </section>
 
-
-        <section id="machine" class="book">
-
-            <div class="contenu hide">
-                <div class="extrait">
-                    <p>"extrait blablabla"</p>
+        <div id="machine" class="book fancybox  lightbox" data-fancybox-href="#machine_content">
+                <div id="machine_content" class="contenu" style="display:none">
+                   <div class="contenu_machine"> 
+                    <div class="extrait">
+                    <h2>Devenez ecrivain et imaginez la suite de l'histoire...</h2>
+                    <p>"Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat."</p>
+                </div>
+                    <div class="ecriture">
+                    <form>
+                    <textarea rows="4" cols="50" name="write"></textarea>
+                    <input type="submit" value="Partager"></input>
+                    <input type="reset" value="Recommencer"></input>
+                    </form>
                 </div>
 
-                <div class="ecriture">
-                    <textarea rows="4" cols="50"></textarea>
                 </div>
-
-                <div class="partage">
-                    <!-- plugins de partage-->
-                </div>
-
             </div>
-        </section>
-
+        </div>
     </div>
 
-    <div id="bio" class="fancy">
-
-    </div>
-
-    <div id="write" class="fancy">
-    </div>
 
     <script>
         $(document).ready(function () {
@@ -678,7 +650,8 @@
                     openEffect: 'none',
                     closeEffect: 'none',
                     type: "inline",
-                    maxWidth: 400
+                    maxWidth: 500
+
                 });
         });
     </script>

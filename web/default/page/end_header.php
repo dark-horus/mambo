@@ -4,7 +4,7 @@
 <body>
 <div id="toutelecontenu">
     <header class="row">
-        <nav id="mambo-topmenu" class="col-md-7">
+        <nav id="mambo-topmenu" class="col-md-12">
             <ul class="list-inline">
                 <li>
                     <div id="mambo-burger">
@@ -16,13 +16,17 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="dLabel">
                                 <div id="mambo-topdropdown" class="col-md-12">
-                                    <li class="col-md-6"><a href="#">HOME</a></li>
-                                    <li class="col-md-6"><a href="#">Profil</a></li>
+                                    <li class="col-md-6"><a href="../accueil/index.php">HOME</a></li>
+                                    <li class="col-md-6"><a href="../profil/profil.php">PROFIL</a></li>
                                 </div>
                                 <div id="mambo-botdropdown">
-                                    <li class="col-md-12"><a href="#">Etape précédente</a></li>
-                                    <li class="col-md-12"><a href="#">Etape actuelle</a></li>
-                                    <li class="col-md-12"><a href="#">Etape suivante</a></li>
+                                    <?php echo $before; ?>
+                                    <?php echo $current; ?>
+                                    <?php echo $next; ?>
+									<?php if(!isset($_SESSION['id'])){ ?>
+									<li class="col-md-12"><a href="../accueil/index.php">Connexion</a></li>
+									<?php } ?>
+									<li class="col-md-12"><a href="../default/page/deconnexion.php">Déconnexion</a></li>
                                 </div>
                             </ul>
                         </div>
@@ -41,7 +45,9 @@
                     </div>
                 </li>
 				<li>
-					<a href="#"><img src="" title=""></a>
+					<a href="#"><img src="../default/page/img/interrogation.png" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Bienvenu sur Chulapos Mambo.
+					Pour accéder au menu, cliquez sur le burguer en haut à gauche de l'écran. Pour connaitre les consignes de l'étape, cliquez sur ce point d'interrogation.
+					ciao bambino !"></a>
 				</li>
             </ul>
         </nav>

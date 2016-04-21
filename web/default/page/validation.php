@@ -16,15 +16,22 @@
 <link href="css/box_etape.css" rel="stylesheet" type="text/css">
     
 </head>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
     <body>
-        <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+        <form action="recEtape.php" method="post" onsubmit="return verifForm(this)">
+		
         <div class="box">
             <!-- VALIDER E + 1 -->
+			
+			
             <button type="submit" class="btn btn-success" id="valide" name="valide" value="valide">VALIDER</button>
-                    <?php if(!empty($_POST['valide'])) { echo "validée !";} //validation etape +1 test ?>
+                    
 
-            <!-- RECOMMENCER -->
+            
+			
+			
+			<!-- RECOMMENCER -->
             <button type="submit" class="btn btn-warning" id="reroll" name="reroll" value="reroll" >RECOMMENCER</button>
              <?php if(!empty($_POST['reroll'])) { echo "c'est reparti !";} // rester etape courante ?>
 
@@ -37,6 +44,18 @@
  
 
       </form>
-        
+       <script>
+	    function verifForm(){
+				//si tout est ok, retourne true
+				//if( verification du resultat de l'utilisateur si ok){
+				return true;
+				//} 
+				//else {
+				//sinon retourne false
+				//return false;
+				//}
+		}
+	   </script>
+	  
     </body>
 </html>
