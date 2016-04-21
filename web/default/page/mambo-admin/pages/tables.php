@@ -201,8 +201,8 @@ echo "<div class='dataTable_wrapper'>
                                     <thead>
                                         <tr>
                                             <th>ID</th>
-                                            <th>Icone image</th>
                                             <th>Mot de passe</th>
+                                            <th>Icone image</th>
                                             <th>Etape courante</th>
                                             <th>Supprimer</th>
                                         </tr>
