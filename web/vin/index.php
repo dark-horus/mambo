@@ -2,9 +2,11 @@
 include('../default/page/start_header.php');
 ?>
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
-
+	<link rel="stylesheet" href="style.css" />
 
 <!-- fin CSS -->
+
+
 <?php include('../default/page/header.php'); ?>
 
 <!-- Place ici tes scripts Javascripts dans Vendor, et ton JS local -->
@@ -15,13 +17,14 @@ include('../default/page/start_header.php');
 
 <!-- Place ici ton contenu -->
 
-	<img src="img/pagevinweb2.jpg" width="100%" >
+	
+		<img src="img/pagevinweb2.jpg" width="100%" >
+	<div class ="vin" width="200px">	
+			<a  href="http://localhost/mambo/web/vin/img/pagevinweb2.jpg" download="Infographie_Mambo_Canaille"> 
+			<img src="img/telecharger.png" width="200px"> </a>
+	</div>
 
-	<a href="http://localhost/mambo/web/vin/img/pagevinweb2.jpg"  download="Infographie_Mambo_Canaille"> 
-	<img src="img/telecharger.png" width="200px"> </a>
- 
- 
- 
+
  <!-- bouton valider + enregistrement bdd -->
  <form action="../default/page/recEtape.php" method="post">
 		<input type="hidden" name="field" id="field" value="">
