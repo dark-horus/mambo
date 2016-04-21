@@ -2,9 +2,10 @@
 include('../default/page/start_header.php');
 ?>
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
 
 
 <!-- fin CSS -->
@@ -21,10 +22,13 @@ include('../default/page/start_header.php');
 
 <?php include('../default/page/end_header.php'); ?>
 
+
 <!-- Place ici ton contenu -->
 
 <div class="wrap">
 <div class="content">
+
+
 
     <div class="container-fluid">
 
