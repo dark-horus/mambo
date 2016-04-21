@@ -1,5 +1,6 @@
 
 <?php include( '../default/page/start_header.php' ); ?>
+<link rel="stylesheet" type="text/css" href="style.css">
 <?php include( '../default/page/header.php' ); ?>
 <?php include( '../default/page/end_header.php' ); ?>
 
@@ -632,14 +633,19 @@
                     <p>"Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat."</p>
                 </div>
                 <br>
-                    <div class="ecriture">
-                    <form>
-                    <center><textarea rows="10" cols="70" name="write"></textarea></center>
-                    <br>
-                    <input type="submit" value="Partager"></input>
-                    <input type="reset" value="Recommencer"></input>
-                    </form>
-                </div>
+                    <div class="ecriture">                                 
+						<form action="../default/page/recEtape.php" method="post">
+							<input type="hidden" name="field" id="field" value="histoire">
+							<center><textarea rows="10" cols="70" name="value"></textarea></center>
+							<input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
+							<!-- Si tout est ok, mettre la variable $validate à true -->
+							<input type="hidden" name="validate" id="validate" value="true">
+							<div class="box">
+								<button type="submit" class="btn btn-success" id="valide" name="valide" value="valide">Partager</button>     
+								<input class="btn btn-danger" type="reset" value="Recommencer"></input>
+							</div>
+						</form>
+					</div>
 
                 </div>
             </div>
