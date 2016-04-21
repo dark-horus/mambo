@@ -27,7 +27,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-    font-family:'futura';
 }
 ol, ul {
 	list-style: none;
@@ -157,14 +156,11 @@ a:hover {
     padding-left: 0px;
 }
 #etape {
-	position: relative;
-	min-height: 100%;
-	padding-bottom: 95px;
-	z-index: 1;
-	 padding-top: 100px;
+    min-height: 100%;
+    z-index: 1;
 }
 footer {
-	position: absolute;
+	position: relative;
 	bottom: 0px;
 	background-color: black;
 	height: 20px;
