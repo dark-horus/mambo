@@ -631,7 +631,7 @@
                 </div>
                     <div class="ecriture">
                     <form>
-                    <textarea rows="4" cols="50" name="write"></textarea>
+                    <center><textarea rows="10" cols="70" name="write"></textarea></center>
                     <input type="submit" value="Partager"></input>
                     <input type="reset" value="Recommencer"></input>
                     </form>

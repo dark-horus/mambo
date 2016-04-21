@@ -232,10 +232,19 @@
     cursor: pointer;
 }
 
-.typo {
-
-    font-family: "my_underwoodregular";
+p{
+    font-family:'Futura Std';
 }
+
+h3{
+    font-family:'Futura Std';
+}
+ul{
+    font-family:'Futura Std';
+}
+
+
+
 
 .lightbox{
     width:100%;
@@ -244,10 +253,10 @@
 
 .contenu_machine {
     width:100%;
-    height: 300px;
+    height: 470px;
 }
 .contenu_machine .extrait h2{
-    font-family: "my_underwoodregular";
+    
 }
 
 .ecriture {
@@ -256,7 +265,7 @@
 
 
 .contenu{
-    background-image:url("img/texture.jpg");
+    background-image:url("img/fond2.png");
 }
 
 #machine-content {
