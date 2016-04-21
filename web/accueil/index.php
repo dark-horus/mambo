@@ -37,7 +37,11 @@ include('../default/page/start_header.php');
  <!-- Set your background image for this header on the line below. -->
  <div id="haut_page" class="col-lg-12">
     <!-- Main Content -->
-	
+	<!-- //placer le titre correctement et enlever les br -->
+	<br>
+	<br>
+	<br>
+	<h1>Mambo canaille</h1>
     <a class="fancybox" data-fancybox-type="iframe" href="../default/page/index.php"></a>
 
         <div id="top_site"class="row">

@@ -85,8 +85,8 @@ if ($dossier != null) {
 			$before = '';
 			break;
 		case "accueil":
-			$titre = "Les éditions Zinnia vous présentent Mambo Canaille intéractif"; 
-    		$current = '<li class="col-md-12"><a href="#">Home</a></li>';
+			$titre = ""; 
+    		$current = '';
 			$next ='';
 			$before = '';
 	}

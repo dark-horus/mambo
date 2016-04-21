@@ -25,13 +25,17 @@
                                     <?php echo $next; ?>
 									<?php if(!isset($_SESSION['id'])){ ?>
 									<li class="col-md-12"><a href="../accueil/index.php">Connexion</a></li>
-									<?php } ?>
+									<?php } 
+									else { ?>
+								
 									<li class="col-md-12"><a href="../default/page/deconnexion.php">Déconnexion</a></li>
+									<?php } ?>
                                 </div>
                             </ul>
                         </div>
                     </div>
                 </li>
+				<?php if ($dossier != "accueil") { ?>
                 <li>
                     <div id="mambo-icone">
                         <!-- icone de l'étape -->
@@ -45,10 +49,13 @@
                     </div>
                 </li>
 				<li>
+				
 					<a href="#"><img src="../default/page/img/interrogation.png" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Bienvenu sur Chulapos Mambo.
 					Pour accéder au menu, cliquez sur le burguer en haut à gauche de l'écran. Pour connaitre les consignes de l'étape, cliquez sur ce point d'interrogation.
 					ciao bambino !"></a>
+				
 				</li>
+				<?php } ?>
             </ul>
         </nav>
     </header>
