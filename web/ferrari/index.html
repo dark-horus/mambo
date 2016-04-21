@@ -27,7 +27,7 @@
     </div> 
     
       <div class="block block-4">  
-        <div class="title">   La jeunesse Hugo Chavez </div>
+        <div class="title">La jeunesse Hugo Chavez </div>
         <div class="texte">Hugo Rafael Chávez Frías naît en 1954 à Sabaneta, au sud du Venezuela. Il entre à l’académie vénézuelienne des sciences millitaires en 1971 et en sort sous-lieutenant en 1975. Peu après, il fonde avec le soutien de deux autres officiers le mouvement bolivarien révolutionnaire (MBR) qui s’oppose à la corruption du gouvernement présidé par Carlos Andrés Pérez.
 
 </div>
@@ -101,49 +101,61 @@ Le 20 Mai 1993, le président Carlos Andrès Pérez qui en est à son deuxième 
                 
                 
    //BLOCK1          
-                if(percent < 0.0200) {
-                   $('.block-1').fadeIn();
-               }
-
-                 if(percent > 0.0200 ) {
-                  $('.block-1').fadeOut();
-               }
+            
+                 if(percent > 0.0200 && percent < 0.0750){
+                    $('.block-1').fadeIn();
+                }
+                if(percent >= 0.0750) {
+                    $('.block-1').fadeOut();
+                }
+                if(percent <= 0.0200){
+                    $('.block-1').fadeOut();
+                }
                 
                 
    //BLOCK2            
-                if(percent < 0.0500) {
-                   $('.block-2').fadeIn();
-               }
-
-                 if(percent > 0.0500 ) {
-                  $('.block-2').fadeOut();
-               }
+                  if(percent > 0.0760 && percent < 0.2200){
+                    $('.block-2').fadeIn();
+                }
+                if(percent >= 0.2200) {
+                    $('.block-2').fadeOut();
+                }
+                if(percent < 0.0760){
+                    $('.block-2').fadeOut();
+                }
                 
     //BLOCK3
-                 if(percent < 0.0700) {
-                   $('.block-3').fadeIn();
-               }
-
-                 if(percent > 0.0700 ) {
-                  $('.block-3').fadeOut();
-               } 
+                  if(percent > 0.2220 && percent < 0.3600){
+                    $('.block-3').fadeIn();
+                }
+                if(percent >= 0.3600) {
+                    $('.block-3').fadeOut();
+                }
+                if(percent < 0.2220){
+                    $('.block-3').fadeOut();
+                }
+                
                 
     //BLOCK4
-                  if(percent < 0.0900) {
-                   $('.block-4').fadeIn();
-               }
-
-                 if(percent > 0.0900 ) {
-                  $('.block-4').fadeOut();
-               } 
+                if(percent > 0.3605 && percent < 0.5000){
+                    $('.block-4').fadeIn();
+                }
+                if(percent >= 0.5000) {
+                    $('.block-4').fadeOut();
+                }
+                if(percent < 0.3605){
+                    $('.block-4').fadeOut();
+                }
      //BLOCK5
-                  if(percent < 0.1200) {
-                   $('.block-5').fadeIn();
-               }
-
-                 if(percent > 0.1200) {
-                  $('.block-5').fadeOut();
-               } 
+                if(percent > 0.5030 && percent < 0.6300){
+                    $('.block-5').fadeIn();
+                }
+                if(percent >= 0.6300) {
+                    $('.block-5').fadeOut();
+                }
+                if(percent < 0.5030){
+                    $('.block-5').fadeOut();
+                }
                 
       //BLOCK6
                  if(percent < 0.1500) {
