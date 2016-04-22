@@ -75,7 +75,6 @@ h3 {
     font-family:sans-serif;
     background-color:#ecddbe;
     text-align:center;
-    outline: none;
 }
 
     
