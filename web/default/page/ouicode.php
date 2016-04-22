@@ -134,4 +134,3 @@ h3 {
    <img src="img/fermerfenetre.png"/> 
    </a>
 </div>
-  

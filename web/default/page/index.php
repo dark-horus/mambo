@@ -124,22 +124,20 @@ h3 {
 
  
       <h1>Possédez-vous un code pour vous connecter ?</h1>
-
-    <div id="ouicode">
-          
-        <!-- Bouton "J'ai un code" -->
         
-        <a href="ouicode.php">
+<!-- Bouton "J'ai un code" -->
+    <div id="ouicode">
+        
+        <a href="ouicode.php" class="fancybox" data-fancybox-type="iframe">
             <img src="img/code.png"/>
         </a>
         
     </div>
-      
 
-          
-        <!-- Bouton "Je n'ai pas de code" -->
+<!-- Bouton "Je n'ai pas de code" -->
+    
     <div id="noncode">    
-        <a href="create.php">
+        <a href="create.php" class="fancybox" data-fancybox-type="iframe">
             <img src="img/pascode.png"/>
         </a>
     </div>
