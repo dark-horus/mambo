@@ -15,7 +15,7 @@ background-repeat: no-repeat;
 	background-repeat: no-repeat;
 	position: absolute;
 	overflow: hidden;
-    top: 190px;
+    top: 95px;
    /* margin: 0 auto;*/
     margin: 0px 53px auto;
     font-family: 'Special Elite', cursive;
@@ -74,7 +74,7 @@ position: relative;
     left: -10px;
 }
 
-.d_admirateurs {
+.d_oeuvre {
 
 	background-image: url('./images/dossier_simple_gros.png');
 	background-repeat: no-repeat;
@@ -96,7 +96,7 @@ position: relative;
 
 .barre {
 
-background-image: url('./images/Barre.png');
+background-image: url('./images/barre.png');
 	height: 86px;
 	width: 1023px;
 	margin : 0px;
@@ -116,7 +116,6 @@ background-image: url('./images/barre_demarrer.png');
 	position: absolute;
 	bottom: 0px;
 	
-	
 }
 
 .f_videos {
@@ -129,6 +128,7 @@ background-image: url('./images/Fenetre_1.png');
 	padding-top: 14px;
     padding-left: 2px;
     z-index: 2;
+    font-size: 10px;
 }
 
 .b_videos {
@@ -165,7 +165,27 @@ background-image: url('./images/Fenetre_1.png');
     left: 60px;
     top: 77px;
     cursor: pointer;
+    
+}
 
+.titre_musique
+
+{
+    width: 117px;
+    position: relative;
+    top: 62px;
+    left: -55%;
+    margin-left:-5px;
+}
+
+.titre_video
+
+{
+    width: 117px;
+    position: relative;
+    top: 62px;
+    left: -55%;
+    margin-left:-9px;
 }
 
 .video_2 {
@@ -174,7 +194,7 @@ background-image: url('./images/Fenetre_1.png');
     width: 46px;
     background-repeat: no-repeat;
     position: relative;
-    left: 148px;
+    left: 150px;
     top: 8px;
     cursor: pointer;
 }
@@ -236,7 +256,7 @@ background-image: url('./images/Fenetre_1.png');
 	background-repeat: no-repeat;
 	padding-top: 14px;
     padding-left: 2px;
-
+    font-size: 10px;
 	
 }
 
@@ -433,21 +453,43 @@ background-image: url('./images/bouton_close.png');
     top: -741px;
     cursor: pointer;
 }
-.f_admirateurs {
+.f_oeuvre {
 
-
+background-image: url('./images/Fenetre_1.png');
+    height: 381px;
+    width: 556px;
+    margin : 134px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -249px;
+    left: 2px;
 	
 }
 
-.b_admirateurs {
+.b_oeuvre {
 
-
+    background-image: url('./images/barre_fenetre_oeuvre.png');
+    height: 40px;
+    width: 524px;
+    margin: 0 0 0 17px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
 	
 }
 
 .bouton_fermer3 {
 
-
+    background-image: url('./images/bouton_close.png');
+    height: 23px;
+    width: 24px;
+    margin : 15px;
+    left: 477px;
+    top: 2px;
+    position : absolute;
+    background-repeat: no-repeat;
 	
 }
 

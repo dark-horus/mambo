@@ -3,14 +3,14 @@ include('../default/page/start_header.php');
 ?>
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<!--<link rel="stylesheet" type="text/css" href="style.css">-->
 <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 
 <!-- fin CSS -->
 <?php include('../default/page/header.php'); ?>
 
 <!-- Place ici tes scripts Javascripts dans Vendor, et ton JS local -->
-<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="../../vendor/jquery-ui/jquery-ui.js"></script>
 
 <!-- Fin Scripts -->
 
@@ -43,13 +43,15 @@ include('../default/page/start_header.php');
 
 		<!-- DOSSIER Oeuvre -->
 
-		<div class="icone d_admirateurs" data-window="f_admirateurs">
+		<div class="icone d_oeuvre" data-window="f_oeuvre">
 
 			<div class="mon_oeuvre">
-				<p>Mon oeuvre</p>
+				<p>Mon Oeuvre</p>
 			</div>
 
 		</div>
+
+		<!-- BARRE de menu -->
 
 		<div class="barre">
 
@@ -88,30 +90,66 @@ include('../default/page/start_header.php');
 
 				</div>
 
-				<div class="video_1">
 
+						<a href="https://www.youtube.com/watch?v=U1_rXFIXpZ0&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=1" target="_blank" style="text-decoration:none">
+
+			<div class="video_1">
+				<div class="titre_video">
+					<p class="text-center">Abbott et Costello</p>
 				</div>
+			
+			</div>
+						</a>
 
-				<div class="video_2">
+						<a href="https://www.youtube.com/watch?v=Ebn1YOtTIZs&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=2" target="_blank" style="text-decoration:none">
 
+			<div class="video_2">
+				<div class="titre_video">
+					<p class="text-center">Laurel et Hardy</p>
 				</div>
+			
+			</div>
+						</a>
 
-				<div class="video_3">
+						<a href="https://www.youtube.com/watch?v=Zshm1Vxqfh4&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=3" target="_blank" style="text-decoration:none">
 
+			<div class="video_3">
+				<div class="titre_video">
+					<p class="text-center">Lauren Bacall</p>
 				</div>
+			
+			</div>
+						</a>
 
-				<div class="video_4">
+						<a href="https://www.youtube.com/watch?v=6ngeRBC8PVA&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=4" target="_blank" style="text-decoration:none">
 
+			<div class="video_4">
+				<div class="titre_video">
+					<p class="text-center">Libertad Lamarque</p>
 				</div>
+			
+			</div>
+						</a>
 
-				<div class="video_5">
+						<a href="https://www.youtube.com/watch?v=Fcc9Uw3elgs&index=5&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43" target="_blank" style="text-decoration:none">
 
+			<div class="video_5">
+				<div class="titre_video">
+					<p class="text-center">Sevillanas</p>
 				</div>
+			
+			</div>
+						</a>
 
-				<div class="video_6">
+						<a href="https://www.youtube.com/watch?v=lLAYYrxtJfI&index=6&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43" target="_blank" style="text-decoration:none">
 
+			<div class="video_6">
+				<div class="titre_video">
+					<p class="text-center">Woody Allen</p>
 				</div>
-
+			
+			</div>
+						</a>
 			
 		</div>
 
@@ -130,65 +168,140 @@ include('../default/page/start_header.php');
 
 			</div>
 
-			<div class="musique_1">
+			<a href="https://www.youtube.com/watch?v=O4tR-5_w-Q4&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=1" target="_blank" style="text-decoration:none">
 
+			<div class="musique_1">
+				<div class="titre_musique">
+					<p class="text-center">Celoso</p>
+				</div>
 			</div>
+			</a>
+			<a href="https://www.youtube.com/watch?v=SVDg1ZzS87k&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=6" target="_blank" style="text-decoration:none">
 
 			<div class="musique_2">
-
+				<div class="titre_musique">
+					<p class="text-center">Vete de mí</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=1k8craCGpgs&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=11" target="_blank" style="text-decoration:none">
 
 			<div class="musique_3">
-
+				<div class="titre_musique">
+					<p class="text-center">Don’t stop believing</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=3PQy8S_Gd6c&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=2" target="_blank" style="text-decoration:none">
 
 			<div class="musique_4">
-
+				<div class="titre_musique">
+					<p class="text-center">Corazón Loco</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=p19Rh5HWiRc&index=7&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
 
 			<div class="musique_5">
-
+				<div class="titre_musique">
+					<p class="text-center">Carmen</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=OMD8hBsA-RI&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=12" target="_blank" style="text-decoration:none">
 
 			<div class="musique_6">
-
+				<div class="titre_musique">
+					<p class="text-center">Faithfully</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=iogQzfarmtI&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=3" target="_blank" style="text-decoration:none">
 
 			<div class="musique_7">
-
+				<div class="titre_musique">
+					<p class="text-center">El Amor</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=C68SkzGb6Ww&index=8&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
 
 			<div class="musique_8">
-
+				<div class="titre_musique">
+					<p class="text-center">Concerto Bartòk</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=SwYN7mTi6HM&index=13&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
 
 			<div class="musique_9">
-
+				<div class="titre_musique">
+					<p class="text-center">Jump</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=vGrHckIBtmU&index=4&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
 
 			<div class="musique_10">
-
+				<div class="titre_musique">
+					<p class="text-center">Hymne des Canaries</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=ETXPKHPPov8&index=9&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
 
 			<div class="musique_11">
-
+				<div class="titre_musique">
+					<p class="text-center">Concerto n°5</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=5-WpsdC2-Cc&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=14" target="_blank" style="text-decoration:none">
 
 			<div class="musique_12">
-
+				<div class="titre_musique">
+					<p class="text-center">Oh Sherrie</p>
+				</div>
+			
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=tzV02thQclc&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=5" target="_blank" style="text-decoration:none">
 
 			<div class="musique_13">
-
-			</div>
+				<div class="titre_musique">
+					<p class="text-center">Las mañanitas</p>
+				</div>
 			
-			<div class="musique_14">
-
 			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=pAgnJDJN4VA&index=10&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
+
+			<div class="musique_14">
+				<div class="titre_musique">
+					<p class="text-center">Back in Black</p>
+				</div>
+			
+			</div>
+			</a>
+						<a href="https://www.youtube.com/watch?v=a01QQZyl-_I&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=15" target="_blank" style="text-decoration:none">
 
 			<div class="musique_15">
-
+				<div class="titre_musique">
+					<p class="text-center">Under Pressure</p>
+				</div>
+			
 			</div>
+			</a>
 		</div>
 
 
@@ -196,20 +309,17 @@ include('../default/page/start_header.php');
 <!-- FENETRE Oeuvre -->
 
 
+		<div class="window f_oeuvre" id="f_oeuvre" style="display:none;">
 
-		<div class="f_admirateurs">
+			<div class="window-head b_oeuvre">
 
-			<div class="b_admirateurs">
-
-				<div class="bouton_fermer3">
+				<div class="bouton_fermer3" onclick="javascript:visibilite('f_oeuvre'); return false;">
 
 				</div>
 
 			</div>
 
 		</div>
-
-
 
 
 
@@ -229,7 +339,7 @@ include('../default/page/start_header.php');
 	$(function () {
 		$('.icone').draggable();
 		$('.window').draggable({handle: '.window-head',
-  			containment: [270,80,720,430]
+  			containment: [0,30,720,430]
 		});
 	});
 
@@ -257,18 +367,6 @@ targetElement.style.display = "" ;
 targetElement.style.display = "none" ;
 }
 }
-
-/* test disparition arthur */
-
-	/* $('.bouton_fermer1').on('onlclick',function(event) {
-
-event.preventDefault();
-
-var window = $(this).attr('data-window');
-
-$('.'+window).fadeOut();
-
-	}); */
 
 </script>
 
