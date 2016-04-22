@@ -635,15 +635,19 @@
                 <br>
                     <div class="ecriture">                                 
 						<form action="../default/page/recEtape.php" method="post">
-							<input type="hidden" name="field" id="field" value="histoire">
+							
+                            <input type="hidden" name="field" id="field" value="histoire">
 							<center><textarea rows="10" cols="70" name="value"></textarea></center>
-							<input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
+							
+                            <input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
 							<!-- Si tout est ok, mettre la variable $validate à true -->
-							<input type="hidden" name="validate" id="validate" value="true">
-							<div class="box">
-								<button type="submit" class="btn btn-success" id="valide" name="valide" value="valide">Partager</button>     
-								<input class="btn btn-danger" type="reset" value="Recommencer"></input>
-							</div>
+							
+                            <input type="hidden" name="validate" id="validate" value="true">
+							
+                             <div class="box">
+                               <center> <button type="submit" class="partager" id="valide" name="valide"></button> </center>  
+
+                               <center> <input class="recommencer" type="reset" value=""> </center>
 						</form>
 					</div>
 
