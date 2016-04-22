@@ -21,7 +21,8 @@ include('../default/page/start_header.php');
 
 #slider_chien{
 
-
+margin-top: 111px;
+margin-left: 200px;
 
 }
 
@@ -74,7 +75,7 @@ background-repeat: no-repeat;
 
 
 <!-- SLIDER DES TETE-->
-<div class="col-md-12" id="slider_chien">
+<div class="col-md-10" id="slider_chien">
 	<!--Cheveux-->
 	<div class="col-md-10 col-md-offset-2" id="slider1">
 		<div id="cheveux" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
