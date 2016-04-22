@@ -66,9 +66,6 @@ background-size: cover;
 background-repeat: no-repeat;
 
 }
-
-
-
 </style>
 
 <div class="container" id="body_fictif">
@@ -78,7 +75,7 @@ background-repeat: no-repeat;
 <div class="col-md-10" id="slider_chien">
 	<!--Cheveux-->
 	<div class="col-md-10 col-md-offset-2" id="slider1">
-		<div id="cheveux" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
+		<div id="cheveux" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
 		  <!-- Indicators -->
 		  <ol class="pas_defini">
 		    <li data-target="#cheveux" data-slide-to="0"></li>
@@ -138,7 +135,7 @@ background-repeat: no-repeat;
 
 <!--Yeux-->
 	<div class="col-md-10 col-md-offset-2" id="slider2">
-		<div id="Yeux" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
+		<div id="Yeux" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
 		  <!-- Indicators -->
 		  <ol class="pas_defini">
 		    <li data-target="#Yeux" data-slide-to="0"></li>
@@ -198,7 +195,7 @@ background-repeat: no-repeat;
 
 <!--Nez-->
 	<div class="col-md-10 col-md-offset-2" id="slider3">
-		<div id="Nez" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
+		<div id="Nez" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
 		  <!-- Indicators -->
 		  <ol class="pas_defini">
 		    <li data-target="#Nez" data-slide-to="0"></li>
@@ -258,7 +255,7 @@ background-repeat: no-repeat;
 
 	<!--Bouche-->
 	<div class="col-md-10 col-md-offset-2" id="slider4">
-		<div id="Bouche" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
+		<div id="Bouche" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
 		  <!-- Indicators -->
 		  <ol class="pas_defini">
 		    <li data-target="#Bouche" data-slide-to="0"></li>
@@ -319,7 +316,7 @@ background-repeat: no-repeat;
 
 	<!--Menton-->
 	<div class="col-md-10 col-md-offset-2" id="slider5">
-		<div id="Menton" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
+		<div id="Menton" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
 		  <!-- Indicators -->
 		  <ol class="pas_defini">
 		    <li data-target="#Menton" data-slide-to="0"></li>
