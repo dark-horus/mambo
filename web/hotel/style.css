@@ -130,6 +130,7 @@ li.active a, a:hover, a:active {
 	
 top: 31vh;
 left: 75vw;
+
 	
 }
 #point2{
@@ -156,3 +157,10 @@ top: 50vh;
 left: 39vw;
 	
 }
+#alcala {
+	width : 800px;
+	height: 600px;
+	background-image:url('images/basealcala.jpg');
+}
+
+
