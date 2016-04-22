@@ -7,6 +7,13 @@
 
     <html>
         <body>
+
+            <script type="text/javascript">
+            $(document).ready(function() {
+                $(".fancybox").fancybox();
+            });
+            </script>
+            
        <!-- <h1>Serez-vous le nouveau conquistador culinaire de mambo canaille ?</h1>-->
             <div id="body_fictif">
                <a class="fancybox" data-fancybox-type="iframe" href="http://www.marmiton.org/recettes/recette_gaspacho_92502.aspx" id="recette">
@@ -31,11 +38,7 @@
                 </a>
              </div>
 
-         <script type="text/javascript">
-            $(document).ready(function() {
-                $(".fancybox").fancybox();
-            });
-            </script>
+         
 
         </body>
     </html>
