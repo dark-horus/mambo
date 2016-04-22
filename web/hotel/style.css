@@ -25,9 +25,8 @@ div, img, footer {
 }
 
 
-
 h1 {
-  font-size: 36pt;
+  font-size: 26pt;
   font-family: 'Special Elite', cursive;
 }
 
@@ -55,6 +54,7 @@ h6 {
 p {
   font-size: 12pt;
   margin-bottom: 12pt;
+  font-family: 'futura';
 }
 
 strong {
@@ -96,6 +96,11 @@ li.active a, a:hover, a:active {
 }
 #etape {
     padding-bottom: 5px;
+height: 768px;
+width: 1024px;
+height: 768px;
+overflow: hidden;
+margin: 54px auto;
 }
 /*points maps clickable */
 .distribution-map .map-point {
@@ -125,42 +130,217 @@ li.active a, a:hover, a:active {
   background-repeat : no-repeat;
   background-position: top center;
 }
+/*enlever marge de la fancybox a vois */
+.fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened .fancybox-skin{
+	padding:0px;
+	
+}
 
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url('images/fermer.png');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 64px;
+	}
+	
 #point1{
 	
-top: 31vh;
-left: 75vw;
-
+top: 237px;
+left: 773px;
 	
 }
 #point2{
 	
-	top: 41vh;
-    left: 54vw;
-	
+top: 317px;
+left: 460px;
 }
 #point3{
-	
-top: 39vh;
-left: 23vw;
-	
+top: 287px;
+left: 243px;
 }
 #point4{
 	
-	top: 37vh;
-left: 35vw;
-	
+top: 253px;
+left: 676px;
 }
 #point5{
 	
-top: 50vh;
-left: 39vw;
+top: 390px;
+left: 391px;
 	
 }
+/*Alcala lightbox*/
 #alcala {
 	width : 800px;
-	height: 600px;
+	height: 530px;
 	background-image:url('images/basealcala.jpg');
+	top: -20px;
+position: relative;
+margin-bottom: -20px;
+	
+}
+
+#alcala h2{
+	top: 40px;
+position: relative;
 }
 
 
+.img_light {
+	float: left;
+	position: relative;
+	width: 500px;
+	margin-top: 60px; 
+	
+}
+.content_light{
+
+	position: relative;
+	width: 280px;
+	float: right;
+}
+.title1{
+	padding-top: 2px; 
+	padding-left : 90px; 
+}
+/*fin Alcala lightbox*/
+
+/*Sol lightbox*/
+#sol{
+	width : 800px;
+	height: 530px;
+	background-image:url('images/basesol.jpg');
+	top: -20px;
+	position: relative;
+	bottom: -20px; 
+	margin-bottom: -20px;
+	/*overflow:hidden; */
+}
+#sol h2{
+	top: 40px;
+	position: relative;
+}
+.img_light2 {
+	float: left;
+	position: relative;
+	width: 500px;
+	margin-top: 60px; 
+	
+}
+.content_light2{
+
+	position: relative;
+	width: 280px;
+	float: right;
+		
+}
+.title2{
+	padding-top: 0px; 
+	padding-left : 90px; 
+}
+/*fin Alcala lightbox*/
+
+/*oriente lightbox*/
+#oriente{
+	width : 800px;
+	height: 530px;
+	background-image:url('images/baseoriente.jpg');
+	top: -20px;
+position: relative;
+margin-bottom: -20px;
+}
+#oriente h2{
+	top: 40px;
+	position: relative;
+}
+.img_light3 {
+	float: left;
+	position: relative;
+	width: 490px;
+	margin-top: 60px; 
+	
+}
+.content_light3{
+
+	position: relative;
+	width: 280px;
+	float: right;
+	
+	
+}
+.title3{
+	padding-top: 0px; 
+	padding-left : 90px; 
+}
+/*fin oriente lightbox*/
+
+/*cibele lightbox*/
+#cibele{
+	width : 800px;
+	height: 530px;
+	background-image:url('images/basecibele.jpg');
+	top: -20px;
+position: relative;
+margin-bottom: -20px;
+}
+#cibele h2{
+	top: 40px;
+	position: relative;
+	
+	}
+
+.img_light4 {
+	float: left;
+	position: relative;
+	width: 490px;
+	margin-top: 60px; 
+	
+}
+.content_light4{
+
+	position: relative;
+	width: 280px;
+	float: right;
+	
+}
+.title4{
+	padding-top: 0px; 
+	padding-left : 90px; 
+}
+/*fin cibele lightbox*/
+
+/*mayor lightbox*/
+#mayor{
+	width : 800px;
+	height: 530px;
+	background-image:url('images/basecibele.jpg');
+	top: -20px;
+	position: relative;
+	margin-bottom: -20px;
+}
+
+#mayor h2{
+	top: 40px;
+	position: relative;
+}
+	
+.img_light5 {
+	float: left;
+	position: relative;
+	width: 490px;
+	margin-top: 60px; 
+	
+}
+.content_light5{
+
+	position: relative;
+	width: 280px;
+	float: right;
+	
+}
+.title5{
+	padding-top: 0px; 
+	padding-left : 90px; 
+}
+/*fin mayor lightbox*/
