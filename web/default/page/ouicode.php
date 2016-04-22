@@ -75,6 +75,7 @@ h3 {
     font-family:sans-serif;
     background-color:#ecddbe;
     text-align:center;
+    outline: none;
 }
 
     
@@ -103,7 +104,15 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
-    
+
+.validation{
+	background:url(img/valider.png);
+	border:none;
+	width: 200px;
+	background-repeat: no-repeat; /* largeur à spécifier */
+	height: 40px; /* longueur à spécifier */
+	cursor: pointer;
+}
 </style>
       
       <h1>J'ai un code</h1>
@@ -115,9 +124,7 @@ h3 {
   </div>
     
 <div id="validation">
-    <button type="submit" class="bouton">
-    <img src="img/valider.png"/>    
-    </button>
+<center><input type="submit" class="validation" value=""></center>
 </div>
     
     <br>
