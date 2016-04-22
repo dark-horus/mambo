@@ -12,6 +12,7 @@ color:firebrick;
 margin-top:200px;
 }
 
+    
 body {
   background-image: url(img/fondlightbox.png);
   margin:0;

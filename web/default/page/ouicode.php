@@ -10,6 +10,7 @@ margin-top:200px;
 font-weight: normal;
 font-style: normal;
 }
+
     
 body {
   background-image: url(img/fondlightbox.png);
