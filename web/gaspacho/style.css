@@ -1,9 +1,8 @@
-body{
+body {
 
-    background-image:url("images/back.jpg");
-    background-repeat:no-repeat;
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
     background-attachment: fixed;
-
 
 }
 
@@ -11,25 +10,19 @@ body{
 
 .content {
 
-padding-top:150px;
-    width:1024px;
-    height:768px;
+    padding-top: 150px;
+    width: 1024px;
+    height: 768px;
 }
-
-
-
-
-
-
 
 h2 {
 
     font-size-adjust: auto;
-    color:white;
+    color: white;
 }
 
-h3{
-    color:white;
+h3 {
+    color: white;
 }
 
 p {
@@ -61,6 +54,7 @@ p {
     margin-right: 0;
     padding-right: 5px;
     padding-left: 0px;
+    min-width: 100px;
 }
 
 .col-sm-3.col-md-3.col-lg-3.ingredient:first-child {
@@ -75,7 +69,7 @@ p {
 
 .col-sm-5.col-md-5.col-lg-5.side {
     position: fixed;
-    right:0;
+    right: 0;
     top: 19%;
 }
 
@@ -89,6 +83,46 @@ p {
 }
 
 @keyframes zoomIngredient {
-    from {transform:scale(1)}
-    to{transform:scale(1.5)}
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.5)
+    }
+}
+
+#bol {
+    background-image: url('images/bol.svg');
+    background-position: 2px 76px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 570px;
+    height: 340px;
+}
+
+#bol div.tomate {
+    background-image: url('images/remplissage/tomate.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#bol div.lentille {
+    background-image: url('images/remplissage/lentilles.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#bol div.potiron {
+    background-image: url('images/remplissage/potiron.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
 }

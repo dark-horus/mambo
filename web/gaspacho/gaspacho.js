@@ -40,8 +40,6 @@ function empty() {
 
 function afficher(object, type, ingredient) {
 
-    console.log(object);
-
 
     switch (type) {
 
@@ -51,8 +49,7 @@ function afficher(object, type, ingredient) {
             if (nbBase < maxBase) {
                 utilisateurBase.push(ingredient);
                 //ajouter classe indiquant ingredient sélectionné
-                $(object).addClass('zoomIngredient', function () {
-                }).fadeOut()
+                ajoutIngredientBol(object, ingredient);
             }
             break;
 
@@ -61,8 +58,7 @@ function afficher(object, type, ingredient) {
             var nbLegumes = $(utilisateurLegumes).length;
             if (nbLegumes < maxLegumes) {
                 utilisateurLegumes.push(ingredient);
-                $(object).addClass('zoomIngredient', function () {
-                }).fadeOut()
+                ajoutIngredientBol(object, ingredient);
             }
             break;
 
@@ -70,8 +66,7 @@ function afficher(object, type, ingredient) {
             var nbCondiments = $(utilisateurCondiments).length;
             if (nbCondiments < maxCondiments) {
                 utilisateurCondiments.push(ingredient);
-                $(object).addClass('zoomIngredient', function () {
-                }).fadeOut()
+                ajoutIngredientBol(object, ingredient);
             }
             break;
 
@@ -79,8 +74,7 @@ function afficher(object, type, ingredient) {
             var nbAssaisonement = $(utilisateurAssaisonement).length;
             if (nbAssaisonement < maxAssaisonement) {
                 utilisateurAssaisonement.push(ingredient);
-                $(object).addClass('zoomIngredient', function () {
-                }).fadeOut()
+                ajoutIngredientBol(object, ingredient);
             }
             break;
 
@@ -88,32 +82,44 @@ function afficher(object, type, ingredient) {
             var nbTemperature = $(utilisateurTemperature).length;
             if (nbTemperature < maxTemperature) {
                 utilisateurTemperature.push(ingredient);
-                $(object).addClass('zoomIngredient', function () {
-                }).fadeOut()
+                ajoutIngredientBol(object, ingredient);
             }
             break;
     }
-    console.log(utilisateurBase);
-    console.log(utilisateurLegumes);
-    console.log(utilisateurCondiments);
-    console.log(utilisateurAssaisonement);
-    console.log(utilisateurTemperature);
+    // console.log(utilisateurBase);
+    // console.log(utilisateurLegumes);
+    // console.log(utilisateurCondiments);
+    // console.log(utilisateurAssaisonement);
+    // console.log(utilisateurTemperature);
+}
+
+function ajoutIngredientBol(object, ingredient) {
+
+    // Retour graphique sélection ingrédient
+    $(object).addClass('zoomIngredient', function () {
+    }).fadeOut();
+
+    // Ajout ingrédient dans le bol
+    $('#bol').append('<div class="' + ingredient + '"></div>');
+
+
 }
 
 function test() {
 
     if (testNbIngredient()) {
-        alert("Erreur ingredient manquant !");
+        $('.error').click();
+        // alert("Erreur ingredient manquant !");
         return false;
     }
 
     testRecipe();
     if (compareResult) {
-        alert("Erreur recette !");
+        $('.errorRecipe').click();
         return false;
     }
 
-    alert("C'est bon !");
+    $('.valid').click();
 }
 
 function testNbIngredient() {
