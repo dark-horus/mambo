@@ -41,13 +41,13 @@ include('../default/page/start_header.php');
                         <h2 style=color:#B54643;>Base</h2>
                         <h3>(choisir une base)</h3>
 
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('base','tomate');"><img
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'base','tomate');"><img
                                 id="S37" src="images/tomate_test.png" alt=""/>
                             <p class="text-center">Tomate</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3  ingredient" onclick="afficher('base','potiron');"><img
+                        <div class="col-sm-3 col-md-3 col-lg-3  ingredient" onclick="afficher(this,'base','potiron');"><img
                                 id="S38" src="images/potiron_test.png" alt=""/>
                             <p class="text-center">Potiron</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('base','lentille');"><img
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'base','lentille');"><img
                                 id="S39" src="images/lentille_test.png" alt=""/>
                             <p class="text-center">Lentille</p></div>
                     </div>
@@ -58,16 +58,16 @@ include('../default/page/start_header.php');
                         <h2 style=color:#B54643;>Légumes</h2>
                                                 <h3>(choisir deux légumes)</h3>
 
-                        <div class="col-sm-3 col-md-3 col-lg-3  ingredient" onclick="afficher('legumes','concombre');">
+                        <div class="col-sm-3 col-md-3 col-lg-3  ingredient" onclick="afficher(this,'legumes','concombre');">
                             <img id="S2" src="images/concombre_test.png" alt=""/>
                             <p class="text-center">Concombre</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3  ingredient" onclick="afficher('legumes','poivron');">
+                        <div class="col-sm-3 col-md-3 col-lg-3  ingredient" onclick="afficher(this,'legumes','poivron');">
                             <img id="S3" src="images/poivron_test.png" alt=""/>
                             <p class="text-center">Poivron</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3  ingredient" onclick="afficher('legumes','chou_fleur');">
+                        <div class="col-sm-3 col-md-3 col-lg-3  ingredient" onclick="afficher(this,'legumes','chou_fleur');">
                             <img id="S4" src="images/choux_fleur_test.png" alt=""/>
                             <p class="text-center">Chou-fleur</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('legumes','poireau');"><img
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'legumes','poireau');"><img
                                 id="S5" src="images/poireau_test.png" alt=""/>
                             <p class="text-center">Poireau</p></div>
                     </div>
@@ -78,23 +78,23 @@ include('../default/page/start_header.php');
                         <h2 style=color:#B54643;>Condiments</h2>
                                                 <h3>(choisir quatres condiments)</h3>
 
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('condiments','oignon');">
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'condiments','oignon');">
                             <img id="S9" src="images/oignon_test.png" alt=""/>
                             <p class="text-center">Oignon</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('condiments','ail');"><img
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'condiments','ail');"><img
                                 id="S10" src="images/ail_test.png" alt=""/>
                             <p class="text-center">Ail</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('condiments','basilic');">
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'condiments','basilic');">
                             <img id="S11" src="images/basilic_test.png" alt=""/>
                             <p class="text-center">Basilic</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('condiments','piment');">
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'condiments','piment');">
                             <img id="S12" src="images/piment_test.png" alt=""/>
                             <p class="text-center">Piment</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('condiments','capres');">
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'condiments','capres');">
                             <img id="S13" src="images/capres_test.png" alt=""/>
                             <p class="text-center">Capres</p></div>
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient"
-                             onclick="afficher('condiments','pois_chiche');">
+                             onclick="afficher(this,'condiments','pois_chiche');">
                             <img id="S14" src="images/pois_chiche_test.png" alt=""/>
                             <p class="text-center">Pois-chiche</p>
                         </div>
@@ -108,33 +108,33 @@ include('../default/page/start_header.php');
                                                 <h3>(choisir quatres assaisonements)</h3>
 
                           <div class="col-sm-3 col-md-3 col-lg-3 ingredient"
-                             onclick="afficher('assaisonement','citron');"
+                             onclick="afficher(this,'assaisonement','citron');"
                         ><img id="S25"
                               src="images/citron_test.png"
                               alt=""/>
                             <p class="text-center">Citron</p></div>
 
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient"
-                             onclick="afficher('assaisonement','vinaigre');"
+                             onclick="afficher(this,'assaisonement','vinaigre');"
                         ><img id="S25"
                               src="images/vinaigre_test.png"
                               alt=""/>
                             <p class="text-center">Vinaigre</p></div>
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient"
-                             onclick="afficher('assaisonement','huile_olive');">
+                             onclick="afficher(this,'assaisonement','huile_olive');">
                             <img id="S26"
                                  src="images/huile_olive_test.png"
                                  alt=""/>
                             <p class="text-center">Huile d'olive</p></div>
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient"
-                             onclick="afficher('assaisonement','poivre');">
+                             onclick="afficher(this,'assaisonement','poivre');">
                             <img id="S27" src="images/poivre_test.png"
                                  alt=""/>
                             <p class="text-center">Poivre</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('assaisonement','sel');">
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'assaisonement','sel');">
                             <img id="S28" src="images/sel_test.png" alt=""/>
                             <p class="text-center">Sel</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('assaisonement','curry');">
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'assaisonement','curry');">
                             <img id="S29" src="images/curry_test.png" alt=""/>
                             <p class="text-center">Curry</p></div>
                     </div>
@@ -145,10 +145,10 @@ include('../default/page/start_header.php');
                         <h2 style=color:#B54643;>Température</h2>
                                                 <h3>(un choix possible)</h3>
 
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('temperature','chaud');">
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'temperature','chaud');">
                             <img id="S35" src="images/chaud2.png" alt=""/>
                             <p class="text-center">Chaud</p></div>
-                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('temperature','froid');">
+                        <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'temperature','froid');">
                             <img id="S36" src="images/froid_2.png" alt=""/>
                             <p class="text-center">Froid</p></div>
                     </div>

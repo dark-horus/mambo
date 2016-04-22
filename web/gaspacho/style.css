@@ -3,7 +3,7 @@ body{
     background-image:url("images/back.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
-    
+
 
 }
 
@@ -81,4 +81,14 @@ p {
 
 .bol {
     width: 100%;
+}
+
+.zoomIngredient {
+    animation-name: zoomIngredient;
+    animation-duration: 500ms;
+}
+
+@keyframes zoomIngredient {
+    from {transform:scale(1)}
+    to{transform:scale(1.5)}
 }
