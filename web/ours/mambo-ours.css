@@ -10,14 +10,11 @@ body {
   overflow: hidden;
 }
 
-@font-face {
-font-family: 'myUnderwood';
-src: url('myUnderwood.ttf')
+h3 {
+font-family: 'Special Elite'; 
 }
 
-h3 {
-font-family:"myUnderwood";
-}
+
 
 .blason {
 	height: 502px;

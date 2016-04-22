@@ -3,6 +3,7 @@ include('../default/page/start_header.php');
 ?>
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
 <link href="mambo-ours.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 
 
 <!-- fin CSS -->
