@@ -12,7 +12,7 @@ font-style: normal;
 }
     
 body {
-  background-image: url(../img/fondlightbox.png);
+  background-image: url(img/fondlightbox.png);
   margin:0;
   padding:0;
   background-position:center;
@@ -34,7 +34,6 @@ body {
     text-align:center;
     font-family:'futura';
     margin-top:20px;
-	
 }
             
 a, a:hover{
@@ -71,11 +70,11 @@ h3 {
 }
 
 .bouton {
-	border:none;
+	border:0;
     font-family:sans-serif;
-    background-color:white;
-    opacity:1;
+    background-color:#ecddbe;
     text-align:center;
+    outline: none;
 }
 
     

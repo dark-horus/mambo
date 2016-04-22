@@ -121,9 +121,7 @@ h3 {
     
 </style>
 
-
- 
-      <h1>Possédez-vous un code pour vous connecter ?</h1>
+<h1>Possédez-vous un code pour vous connecter ?</h1>
         
 <!-- Bouton "J'ai un code" -->
     <div id="ouicode">

@@ -13,7 +13,7 @@ margin-top:200px;
 }
 
 body {
-  background-image: url(../img/fondlightbox.png);
+  background-image: url(img/fondlightbox.png);
   margin:0;
   padding:0;
   background-position:center;
