@@ -10,6 +10,17 @@ margin-top:200px;
 font-weight: normal;
 font-style: normal;
 }
+    
+body {
+  background-image: url(../img/fondlightbox.png);
+  margin:0;
+  padding:0;
+  background-position:center;
+  background-repeat: no-repeat; 
+  background-attachment:scroll;
+  -webkit-background-size: cover;
+  background-size: cover; 
+}    
 
 /** Page pour ceux ayant déjà le code **/
 
@@ -63,6 +74,7 @@ h3 {
 	border:none;
     font-family:sans-serif;
     background-color:white;
+    opacity:1;
     text-align:center;
 }
 

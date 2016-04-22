@@ -8,6 +8,17 @@ margin-top:200px;
 font-weight: normal;
 font-style: normal;
 }
+
+body {
+  background-image: url(../img/fondlightbox.png);
+  margin:0;
+  padding:0;
+  background-position:center;
+  background-repeat: no-repeat; 
+  background-attachment:scroll;
+  -webkit-background-size: cover;
+  background-size: cover; 
+}    
     
 /** Page principale **/
 

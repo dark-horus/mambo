@@ -12,6 +12,17 @@ color:firebrick;
 margin-top:200px;
 }
 
+body {
+  background-image: url(../img/fondlightbox.png);
+  margin:0;
+  padding:0;
+  background-position:center;
+  background-repeat: no-repeat; 
+  background-attachment:scroll;
+  -webkit-background-size: cover;
+  background-size: cover; 
+}        
+    
 /** Page pour ceux n'ayant pas le code **/
 
 h2 {
@@ -52,6 +63,7 @@ h3 {
     border-radius:5px;
     font-family:sans-serif;
 }
+    
 </style>
       
       <h1>Je n'ai pas de code</h1>
