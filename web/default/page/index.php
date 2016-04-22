@@ -4,7 +4,7 @@ text-align: center;
 font-size: 25px;
 font-family:'futura';
 color:#35201e;
-margin-top:200px;
+margin-top:5px;
 font-weight: normal;
 font-style: normal;
 }   
