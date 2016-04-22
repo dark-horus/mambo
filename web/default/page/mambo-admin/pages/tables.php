@@ -211,14 +211,14 @@ echo "<div class='dataTable_wrapper'>
     while($donnees = $req->fetch()){
 
     echo "<tbody>";
-
+	$user = $donnees['iduser'];
                                    echo "<tr class='odd gradeX'>";
                                             echo "<td>".$donnees['iduser']."</td>";
                                             echo "<td>".$donnees['password']."</td>";
                                             echo "<td>".$donnees['img_avatar']."</td>";
                                             echo "<td>".$donnees['current_etape']."</td>";
-                                            echo "<td><button type='button' class='btn btn-danger'>
-                                            <i class='fa fa-trash' aria-hidden='true'></i></button></td>";
+                                            echo "<td><div onclick='confirmSupr($user);' class='btn btn-danger'>
+                                            <i class='fa fa-trash' aria-hidden='true'></i></div></td>";
                                    echo "</tr>";      
      echo "</tbody>";}
      ?>
@@ -258,9 +258,20 @@ echo "<div class='dataTable_wrapper'>
         $('#dataTables-example').DataTable({
                 responsive: true
         });
+		
     });
-    </script>
+	
 
+		function confirmSupr(variable){
+			if (confirm("Voulez vous vraiment supprimer l'utilisateur " + variable + " ?"))
+			{ 
+				var user = variable;
+			
+			window.location.href = "supr.php?user="+user;
+			}
+		}
+    </script>
+	
 </body>
 
 </html>

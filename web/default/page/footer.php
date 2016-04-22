@@ -1,4 +1,16 @@
 </div>
+<script type="text/javascript">
+    $(document).ready(function ()
+	{
+		if($(".fancybox").length)
+		{
+			$(".fancybox").fancybox();
+		}
+	}
+	);
+	
+	
+</script>
 <!-- <div class="row">
 
 <footer>

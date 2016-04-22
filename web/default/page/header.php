@@ -6,13 +6,10 @@
 <script type="text/javascript" src="../../vendor/fancybox/source/jquery.fancybox.js"></script>
 <script type="text/javascript" src="../../vendor/fancybox/source/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="../../vendor/fancybox/source/jquery.mousewhell.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $(".fancybox").fancybox();
-    });
-	
-	$(function () {
-  $('[data-toggle="popover"]').popover()
-})
+<script>
+$(function () {
+	if($('[data-toggle="popover"]').length){
+		$('[data-toggle="popover"]').popover()
+	}
+	});
 </script>
