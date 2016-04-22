@@ -64,8 +64,8 @@ font-style: normal;
     text-align:center;
     font-family:sans-serif;
     margin-top:15px;
-	
 }
+    
 a, a:hover{
 	text-decoration:none;
     color: #000; 
@@ -74,8 +74,8 @@ a, a:hover{
     font-style: normal;
     font-family:'futura';
     font-size: 14px;
-	
 }
+    
 	#retour{
 		text-align:center;
 	}
