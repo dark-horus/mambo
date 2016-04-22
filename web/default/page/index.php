@@ -128,7 +128,7 @@ h3 {
 <!-- Bouton "J'ai un code" -->
     <div id="ouicode">
         
-        <a href="ouicode.php" class="fancybox" data-fancybox-type="iframe">
+        <a href="ouicode.php">
             <img src="img/code.png"/>
         </a>
         
@@ -137,7 +137,7 @@ h3 {
 <!-- Bouton "Je n'ai pas de code" -->
     
     <div id="noncode">    
-        <a href="create.php" class="fancybox" data-fancybox-type="iframe">
+        <a href="create.php">
             <img src="img/pascode.png"/>
         </a>
     </div>
