@@ -22,37 +22,35 @@ include('../default/page/start_header.php');
 #slider_chien{
 
 
-	
+
 }
 
 #slider1{
 
-height: auto;
-margin-top: 100px;
+margin-top: 50px;
 
 }
 #slider2{
 
-height: 200px;
-margin-top:15px;
+
+margin-top:3px;
 
 }
 #slider3{
 
-height: 200px;
-margin-top:15px;
+
+margin-top:3px;
 
 }
 #slider4{
 
-height: 170px;
-margin-top:15px;
+
+margin-top:3px;
 
 }
 #slider5{
 
-height: 200px;
-margin-top:15px;
+margin-top:3px;
 
 }
 
@@ -78,10 +76,10 @@ background-repeat: no-repeat;
 <!-- SLIDER DES TETE-->
 <div class="col-md-12" id="slider_chien">
 	<!--Cheveux-->
-	<div class="col-md-12" id="slider1">
-		<div id="cheveux" class="carousel slide" data-ride="carousel">
+	<div class="col-md-10 col-md-offset-2" id="slider1">
+		<div id="cheveux" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
 		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
+		  <ol class="pas_defini">
 		    <li data-target="#cheveux" data-slide-to="0"></li>
 		    <li data-target="#cheveux" data-slide-to="1"></li>
 		    <li data-target="#cheveux" data-slide-to="2"></li>
@@ -138,10 +136,10 @@ background-repeat: no-repeat;
 	</div>
 
 <!--Yeux-->
-	<div class="col-md-12" id="slider2">
-		<div id="Yeux" class="carousel slide" data-ride="carousel">
+	<div class="col-md-10 col-md-offset-2" id="slider2">
+		<div id="Yeux" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
 		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
+		  <ol class="pas_defini">
 		    <li data-target="#Yeux" data-slide-to="0"></li>
 		    <li data-target="#Yeux" data-slide-to="1"></li>
 		    <li data-target="#Yeux" data-slide-to="2"></li>
@@ -198,10 +196,10 @@ background-repeat: no-repeat;
 	</div>
 
 <!--Nez-->
-	<div class="col-md-12" id="slider3">
-		<div id="Nez" class="carousel slide" data-ride="carousel">
+	<div class="col-md-10 col-md-offset-2" id="slider3">
+		<div id="Nez" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
 		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
+		  <ol class="pas_defini">
 		    <li data-target="#Nez" data-slide-to="0"></li>
 		    <li data-target="#Nez" data-slide-to="1"></li>
 		    <li data-target="#Nez" data-slide-to="2"></li>
@@ -258,10 +256,10 @@ background-repeat: no-repeat;
 	</div>
 
 	<!--Bouche-->
-	<div class="col-md-12" id="slider4">
-		<div id="Bouche" class="carousel slide" data-ride="carousel">
+	<div class="col-md-10 col-md-offset-2" id="slider4">
+		<div id="Bouche" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
 		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
+		  <ol class="pas_defini">
 		    <li data-target="#Bouche" data-slide-to="0"></li>
 		    <li data-target="#Bouche" data-slide-to="1"></li>
 		    <li data-target="#Bouche" data-slide-to="2"></li>
@@ -319,10 +317,10 @@ background-repeat: no-repeat;
 
 
 	<!--Menton-->
-	<div class="col-md-12" id="slider5">
-		<div id="Menton" class="carousel slide" data-ride="carousel">
+	<div class="col-md-10 col-md-offset-2" id="slider5">
+		<div id="Menton" class="carousel slide" data-ride="carousel" style="width: 40%; margin: 0 auto">
 		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
+		  <ol class="pas_defini">
 		    <li data-target="#Menton" data-slide-to="0"></li>
 		    <li data-target="#Menton" data-slide-to="1"></li>
 		    <li data-target="#Menton" data-slide-to="2"></li>
@@ -367,7 +365,7 @@ background-repeat: no-repeat;
 		  </div>
 
 		  <!-- Left and right controls -->
-		  <a class="left carousel-contrM_1ol" href="#Menton" role="button" data-slide="prev">
+		  <a class="left carousel-control" href="#Menton" role="button" data-slide="prev">
 		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		    <span class="sr-only">Precedent</span>
 		  </a>
@@ -375,6 +373,7 @@ background-repeat: no-repeat;
 		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		    <span class="sr-only">Suivant</span>
 		  </a>
+
 		</div>
 	</div>
 </div>
