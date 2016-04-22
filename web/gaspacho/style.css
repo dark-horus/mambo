@@ -1,12 +1,17 @@
 body{
 
     background-image:url("images/back.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+
 }
 
 @import url(https://fonts.googleapis.com/css?family=Special+Elite);
 
 .content {
 
+padding-top:150px;
     width:1024px;
     height:768px;
 }

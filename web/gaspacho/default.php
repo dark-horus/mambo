@@ -37,8 +37,8 @@ include('../default/page/start_header.php');
             <div id="container" class="col-sm-5 col-md-5 col-lg-5">
 
                 <div class="row-fluid">
-                    <div id="base container" class="col-md-12">
-                        <h2 style=color:white;>Base</h2>
+                    <div id="base container" class="col-md-12 col-md-offset-4">
+                        <h2 style=color:#B54643;>Base</h2>
                         <h3>(choisir une base)</h3>
 
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('base','tomate');"><img
@@ -54,8 +54,8 @@ include('../default/page/start_header.php');
                 </div>
 
                 <div class="row-fluid">
-                    <div id="legumes container" class="col-md-12">
-                        <h2 style=color:white;>Légumes</h2>
+                    <div id="legumes container" class="col-md-12 col-md-offset-4">
+                        <h2 style=color:#B54643;>Légumes</h2>
                                                 <h3>(choisir deux légumes)</h3>
 
                         <div class="col-sm-3 col-md-3 col-lg-3  ingredient" onclick="afficher('legumes','concombre');">
@@ -74,8 +74,8 @@ include('../default/page/start_header.php');
                 </div>
 
                 <div class="row-fluid">
-                    <div id="condiments container" class="col-md-12">
-                        <h2 style=color:white;>Condiments</h2>
+                    <div id="condiments container" class="col-md-12 col-md-offset-4">
+                        <h2 style=color:#B54643;>Condiments</h2>
                                                 <h3>(choisir quatres condiments)</h3>
 
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('condiments','oignon');">
@@ -103,8 +103,8 @@ include('../default/page/start_header.php');
                 </div>
 
                 <div class="row-fluid">
-                    <div id="assaisonement container" class="col-md-12">
-                        <h2 style=color:white;>Assaisonnement</h2>
+                    <div id="assaisonement container" class="col-md-12 col-md-offset-4">
+                        <h2 style=color:#B54643;>Assaisonnement</h2>
                                                 <h3>(choisir quatres assaisonements)</h3>
 
                           <div class="col-sm-3 col-md-3 col-lg-3 ingredient"
@@ -141,8 +141,8 @@ include('../default/page/start_header.php');
                 </div>
 
                 <div class="row-fluid">
-                    <div id="temperature container" class="col-md-12">
-                        <h2 style=color:white>Température</h2>
+                    <div id="temperature container" class="col-md-12 col-md-offset-4">
+                        <h2 style=color:#B54643;>Température</h2>
                                                 <h3>(un choix possible)</h3>
 
                         <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher('temperature','chaud');">
