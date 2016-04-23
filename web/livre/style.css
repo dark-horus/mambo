@@ -6,6 +6,7 @@
     width: 1024px;
     height: 768px;
     margin: 0 auto;
+    padding-top:500px;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
     width: 100%;
     height: 100%;
     background-image: url("img/background3.jpg");
+}
+
+#etape{
+    padding-top:100px;
 }
 
 #kafka {
@@ -287,8 +292,11 @@ h2{
     background-repeat:no-repeat;
     background-position: center;
     background-size: contain ;
-    width:220px;
-    height:70px;
+    border:none;
+    width: 200px;
+    background-repeat: no-repeat; /* largeur à spécifier */
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer;
 }
 
 .partager{
@@ -296,6 +304,19 @@ h2{
     background-repeat:no-repeat;
     background-position: center;
     background-size: contain ;
-     width:180px;
-    height:50px;
+    border:none;
+    width: 200px;
+    background-repeat: no-repeat; /* largeur à spécifier */
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer;
+
 }
+
+#‎fancybox‬-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+background-image: url('img/fermer.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 64px;
+}
+

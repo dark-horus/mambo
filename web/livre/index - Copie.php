@@ -4,6 +4,7 @@
 <?php include( '../default/page/header.php' ); ?>
 <?php include( '../default/page/end_header.php' ); ?>
 
+    <div id="background">
 
         <section id="bibliotheque">
 
@@ -644,7 +645,7 @@
                             <input type="hidden" name="validate" id="validate" value="true">
 							
                              <div class="box">
-                               <center> <input type="submit" class="partager" id="valide" name="valide" value=""></center>  
+                               <center> <button type="submit" class="partager" id="valide" name="valide"></button> </center>  
 
                                <center> <input class="recommencer" type="reset" value=""> </center>
 						</form>
@@ -653,6 +654,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
 
     <script>
