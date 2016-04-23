@@ -1,8 +1,8 @@
 h1 {
 text-align: center;
 font-size: 25px;
-font-family:sans-serif;
-color:firebrick;
+font-family:'Special Elite';
+color:#35201e;
 margin-top:200px;
 }
 
@@ -42,7 +42,7 @@ margin-top:200px;
 
 #ouicode a , #noncode a{
     text-decoration:none;
-    font-family: sans-serif;
+    font-family:'FuturaStd';
     text-align:center;
     font-size:18px;
 }
@@ -75,7 +75,7 @@ a, a:hover{
 h2 {
 text-align: center;
 font-size: 18px;
-font-family:sans-serif;
+font-family:'Special Elite';
 color:black;
 margin-top:50px;
 }
@@ -84,7 +84,7 @@ h3 {
     text-align:center;
     margin-top:50px;
     color:white;
-    font-family:sans-serif;
+    font-family:'FuturaStd';
     font-size:25px;
     background:firebrick;
     padding-bottom:15px;
