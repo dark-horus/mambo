@@ -11,84 +11,84 @@ if ($dossier != null) {
 			 $next = '<li class="col-md-12"><a href="../poitrine">Étape suivante : poitrine</a></li>';
 			 $before = '<li class="col-md-12"><a href="../vin">Étape précédente : vin</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Marlène";
+            $consigne ="Trouvez la bonne combinaison d’actions pour faire partir votre voisine Mary Carmen en plaçant les actions dans le bon ordre. Un check correspond à une icône placée au bon endroit. Une croix équivaut à une icône présente dans la combinaison mais qui n’est pas au bon endroit. Attention, une icône peut être utilisée plusieurs fois dans la combinaison.";
 			break;
         case "livre":
             $titre = "À votre tour, devenez écrivain !";
 			$next = '<li class="col-md-12"><a href="../lapin">Étape suivante : lapin</a></li>';
 			$before = '<li class="col-md-12"><a href="../chien">Étape précédente : chien</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Marlène";
+            $consigne ="Glissez-vous dans la peau d’Henry et écrivez la suite de l’histoire. Parcourez au gré des rayons ses différentes sources d’inspiration littéraire.";
 			break;
         case "ours":
-            $titre = "Découvrez les fragments de l'histoire de Madrid";
+            $titre = "Découvrez les fragments de l'histoire de Madrid !";
 			$next = '<li class="col-md-12"><a href="../ordinateur">Étape suivante : ordinateur</a></li>';
 			$before = '<li class="col-md-12"><a href="../immeuble">Étape précédente : immeuble</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-			$consigne ="Marlène";
+			$consigne ="Des anecdotes historiques se sont cachées dans le blason de Madrid, partez à leur recherche pour découvrir les évènements marquants de cette ville.";
 			break;
         case "hotel":
             $titre = "Déambulez de place en place à Madrid";
 			$next = '<li class="col-md-12"><a href="../vin">Étape suivante : vin</a></li>';
 			$before = '<li class="col-md-12"><a href="../gaspacho">Étape précédente :gaspacho</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Marlène";
+            $consigne ="Aventurez-vous dans les lieux où Henry et Simao se sont baladés. Cette carte vous donnera accès aux cinq places touristiques de Madrid : la Puerta del Sol, la Puerta de Alcalà, la Plaza de Oriente, la Plaza Mayor et la Plaza de Cibeles.";
 			break;
         case "ordinateur":
             $titre = "Naviguez à travers l’ordinateur d’Henry";
 			$next = '<li class="col-md-12"><a href="#">Étape suivante : aucune</a></li>';
 			$before = '<li class="col-md-12"><a href="../ours">Étape précédente : ours</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Marlène";
+            $consigne ="Écoutez des musiques et regardez des vidéos de films, de séries ou d’autres éléments évoqués dans <i>Mambo Canaille</i> en utilisant les fenêtres comme si vous utilisiez vous-même l’ordinateur d’Henry.";
 			break;
         case "lapin":
-            $titre = "Devenez le nouveau conquistador culinaire de mambo canaille";
+            $titre = "Devenez le nouveau conquistador culinaire de <i>Mambo Canaille</i>";
 			$next = '<li class="col-md-12"><a href="../immeuble">Étape suivante : immeuble</a></li>';
 			$before = '<li class="col-md-12"><a href="../livre">Étape précédente : livre </a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Marlène";
+            $consigne ="Vous n'êtes ni Christophe Colomb ni au 15ème siècle, mais explorez le vaste monde de l'art culinaire de <i>Mambo Canaille</i> et mettez la main à la pâte en ajoutant votre recette à ce délicieux planisphère.";
 			break;
         case "vin":
             $titre = "Initiez-vous à l’oenologie chilienne";
 			$next = '<li class="col-md-12"><a href="../crotte">Étape suivante : crotte</a></li>';
 			$before = '<li class="col-md-12"><a href="../hotel">Étape précédente : hotel</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Marlène";
+            $consigne ="Débouchez un Don Melchor, appréciez les saveurs des différents cépages, voyagez au travers des vignes du Chili et de France.";
 			break;
         case "poitrine":
             $titre = "Découvrez la beauté à travers les siècles";
 			$next = '<li class="col-md-12"><a href="../ferrari">Étape suivante : ferrari</a></li>';
 			$before = '<li class="col-md-12"><a href="../crotte">Étape suivante : crotte</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Marlène";
+            $consigne ="Remontez le temps et rencontrez les idéaux féminins qui ont inspirés de nombreux artistes, par leur beauté.";
 			break;
         case "immeuble":
             $titre = "Infiltrez vous chez les trois canailles";
 			$next = '<li class="col-md-12"><a href="../ours">Étape suivante : ours</a></li>';
 			$before = '<li class="col-md-12"><a href="../lapin">Étape précédente : lapin</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Marlène";
+            $consigne ="Vous êtes un enquêteur de la police à la recherche d'Alejandro, Henry et Simao. Retrouvez tous les objets cachés afin d’identifier les propriétaires des chambres.";
 			break;
         case "gaspacho":
             $titre = "Préparez vous-même le gaspacho d’Henry !";
 			$next = '<li class="col-md-12"><a href="../hotel">Étape suivante : hotel</a></li>';
 			$before = '<li class="col-md-12 "><a href="#">Étape précédente : aucune </a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Marlène";
+            $consigne ="Composez votre gaspacho avec les ingrédients proposés, en espérant qu’il plaira à Henry...";
 			break;
         case "chien":
             $titre = "Imaginez le visage des personnages principaux !";
 			$next = '<li class="col-md-12"><a href="../livre">Étape suivante : livre</a></li>';
 			$before = '<li class="col-md-12"><a href="../ferrari">Étape précédente : ferrari</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Marlène";
+            $consigne ="Vous voici devant un logiciel permettant de créer des portraits robots. Servez-vous en pour reconstituer les visages de nos trois compères. Une fois cette tâche terminée, validez vos propositions pour pouvoir les comparer avec celles des autres lecteurs.";
 			break;
         case "ferrari":
             $titre = "Partez à la découverte du Venezuela !";
 			$next = '<li class="col-md-12"><a href="../chien">Étape suivante : chien</a></li>';
 			$before = '<li class="col-md-12"><a href="../poitrine;">Etape précédente : poitrine</a></li>';
 			$current = '<li class="col-md-12 "><a href="#">Etape courante</a></li>';
-			$consigne ="Marlène";
+			$consigne ="A bord de la Ferrari d’Alejandro, retracez l’histoire du pays natal de l’auteur de <i>Mambo Canaille</i>. ";
 			break;
 		case "profil":
 			$titre = "Votre profil";
