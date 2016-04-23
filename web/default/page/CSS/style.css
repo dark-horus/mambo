@@ -32,7 +32,7 @@ body {
 }
 body {
 	line-height: 1;
-    font-family: 'Lato', sans-serif;
+    font-family:'futura';
 }
 ol, ul {
 	list-style: none;
@@ -70,6 +70,7 @@ a:hover {
 }
 #mambo-topmenu {
     color: black;
+	padding-top: 15px;
 	padding-left: 50px;
 	position: absolute;
 	z-index: 10;
@@ -81,7 +82,7 @@ a:hover {
 	text-align: center;
 }
 #mambo-topmenu  .dropdown-menu {
-	background-color: #969696;
+	background-color: #35201E;
 }
 #mambo-burger .dropdown-menu li {	
 	text-align: center;
@@ -108,7 +109,7 @@ a:hover {
    
 }
 #profil{
-	padding-top: 100px;
+	padding-top: 115px;
 }
 footer {
 	position: relative;

@@ -24,21 +24,17 @@ $stepLapin = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" an
 $stepOrdinateurM = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" and etape_ID = "ordinateur" and field = "musique" ORDER BY field');
 $stepOrdinateurV = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" and etape_ID = "ordinateur" and field = "video" ORDER BY field');
 
-/* MaJ progression pour test avec bdd
-$id = $res['iduser'];
-$requete = $bdd->query('SELECT etape_ID FROM `etape` WHERE user_ID = "'.$id.'" GROUP BY etape_ID');
-$progression = 0;
-while($donnees = $requete->fetch())
-{
-	$progression = $progression+1;
-}
+//Récupération des informations de l'utilisateur
+$login = $bdd->query('SELECT * FROM `user` WHERE password = "'.$password.'"');
+$resUser = $login->fetch();
+$id = $resUser['iduser'];
 
-$req3 = "UPDATE `user` SET progression = '$progression' WHERE iduser = '$id'";
-$req3 = $bdd->exec($req3);
-*/
+
+
 
 //calcul progression
 $progress = $res['progression'];
+
 $pourcent = round($progress * 8.4);
 if($pourcent > 100){
 	$pourcent = 100;
@@ -59,11 +55,20 @@ $imgEtape = $imgEtape . ".png" ;
  <div class="col-md-6">
     
       <h2>Profil <?php echo $res['password']; ?></h2>
-     <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAZHAAAAJDI3Y2MzNzhmLThjYjctNDZmZC1iN2JmLWQ5ZjkwOGVlZjFmNw.jpg" alt="" class="img-circle">
+	  
+     <img class="img-circle img-responsive" width="300px" src="<?php echo "avatar/". $resUser['img_avatar']; ?>" alt="">
      <br>
      <br>
      
-      <div class="progress">
+	 
+	 <form method="post" action="upload.php" enctype="multipart/form-data">
+     <label for="avatar">Changer sa photo de profil (JPG, PNG ou GIF | max. 2 MO) :</label><br />
+     <input type="file" name="avatar" id="avatar" /><br />
+     <input type="submit" name="submit" value="Envoyer" />
+	 </form>
+	  
+	  
+	  <div class="progress">
         <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="<?php echo $pourcent; ?>" aria-valuemin="0" aria-valuemax="100" style="width:<?php echo $pourcent; ?>%">
           <?php echo $pourcent; ?>%
         </div>
