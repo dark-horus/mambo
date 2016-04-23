@@ -27,7 +27,7 @@ body {
 
 h2 {
 text-align: center;
-font-size: 20px;
+font-size: 22px;
 font-family: 'Lato', sans-serif;
 color:#35201e;
 margin-top:50px;
@@ -44,7 +44,7 @@ margin-top:50px;
 h3 {
     text-align: center;
     margin-top: 50px;
-    padding-top: 10px;
+    padding-top: 20px;
     color: white;
     font-size: 25px;
     font-weight: normal;
