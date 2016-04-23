@@ -27,14 +27,10 @@ include('../default/page/start_header.php');
 
 
 <!-- Place ici ton contenu -->
+<div class="bat1">
+
 <div class="distribution-map"> 
-    <!-- This was broken for a while because imgur :( -->
-    <!-- I don't trust this host. Image here if it goes down: http://i.imgur.com/M7aUkuS.png -->
-	
-    <!--<img src="images/carte2.jpg">-->
-	
-    <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a haml loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
-	
+   
 	
 	<!--  alcala  -->
 	<a class="fancybox" href="#alcala">
@@ -121,7 +117,7 @@ include('../default/page/start_header.php');
 		</div>
 		<img class="img_light4" src="images/webcibele.jpg">
 		<div class="content_light4">
-        <h3>« La place de Cybèle »</h3>
+        <h3>« Place de Cybèle »</h3>
         <p>A ses débuts, la Plaza de Cibeles porte le nom de place de Madrid. En 1900, la place est renommée par l'écrivain et politicien Emilio Castelar y Ripoll. En 2011, lors des journées mondiales de la jeunesse, le pape Benoît XVI est accueilli sur la place. Le nom « Cíbeles », vient de la fontaine représentant la déesse grecque et romaine Cybèle, personnifiant la nature sauvage. La fontaine est placée au centre du carrefour routier qui crée l'intersection entre les cours des Récollets et du Padro ainsi que les arrondissements du centre, du Retiro et de Salamanca.</p>
 	
 	</div>

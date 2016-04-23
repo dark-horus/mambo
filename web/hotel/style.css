@@ -10,10 +10,21 @@ body {
   padding: auto;
   overflow-x: hidden;
   background-image:url('images/ambre.jpg');
-background-position: top center;
-background-size: contain;
+  background-repeat: no-repeat; 
+  
+  /*background-position: top center;*/
+  background-size: 100%;
+  background-size: cover;
 font-family: 'Special Elite', cursive;
   }
+.bat1{
+	background-image: url('images/testbat2.png');
+	background-repeat : no-repeat;
+	background-size: cover;
+	background-size:100%; 
+	}
+	
+	
   
 #etape {
 	padding-top:0px;
@@ -54,6 +65,8 @@ h6 {
 p {
   font-size: 12pt;
   margin-bottom: 12pt;
+  text-indent:20px;
+  hyphens: auto;
   font-family: 'futura';
 }
 
@@ -76,6 +89,7 @@ li.active a, a:hover, a:active {
   color: #e5e5e5;
 }
 
+
 .distribution-map {
   position: relative;
   width: 100%;
@@ -83,11 +97,14 @@ li.active a, a:hover, a:active {
   box-sizing: border-box;
   margin:  auto;
   height: 555px;
-  background-image: url('images/cartedessinvert.png');
+  background-image: url('images/cartedessinvert2.png');
   background-repeat : no-repeat;
   background-position: top center;
   background-size: cover; 
+  
 }
+
+	
 .distribution-map > img {
   width: 100%;
   position: relative;
@@ -130,12 +147,12 @@ margin: 54px auto;
   background-repeat : no-repeat;
   background-position: top center;
 }
+
 /*enlever marge de la fancybox a vois */
 .fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened .fancybox-skin{
 	padding:0px;
-	
 }
-
+/*mettre l'icône fermer*/
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
     background-image: url('images/fermer.png');
 	background-size: contain; 
@@ -199,6 +216,8 @@ position: relative;
 	position: relative;
 	width: 280px;
 	float: right;
+	padding-right : 20px;
+	padding-top: 40px;
 }
 .title1{
 	padding-top: 2px; 
@@ -232,7 +251,9 @@ position: relative;
 
 	position: relative;
 	width: 280px;
+	padding-right : 20px;
 	float: right;
+	padding-top: 30px;
 		
 }
 .title2{
@@ -265,9 +286,10 @@ margin-bottom: -20px;
 
 	position: relative;
 	width: 280px;
+	padding-right : 20px;
 	float: right;
-	
-	
+	padding-top: 65px; 
+		
 }
 .title3{
 	padding-top: 0px; 
@@ -280,9 +302,10 @@ margin-bottom: -20px;
 	width : 800px;
 	height: 530px;
 	background-image:url('images/basecibele.jpg');
+	/*enlever le cadre blanc de la lightbox*/
 	top: -20px;
-position: relative;
-margin-bottom: -20px;
+	position: relative;
+	margin-bottom: -20px;
 }
 #cibele h2{
 	top: 40px;
@@ -301,8 +324,9 @@ margin-bottom: -20px;
 
 	position: relative;
 	width: 280px;
+	padding-right : 20px;
 	float: right;
-	
+	padding-top:20px;
 }
 .title4{
 	padding-top: 0px; 
@@ -336,6 +360,7 @@ margin-bottom: -20px;
 
 	position: relative;
 	width: 280px;
+	padding-right : 20px;
 	float: right;
 	
 }
