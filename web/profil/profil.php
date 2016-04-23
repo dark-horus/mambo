@@ -2,7 +2,7 @@
 include('../default/page/start_header.php');
 ?>
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
- <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" type="text/css" href="style.css">
     
 
 
