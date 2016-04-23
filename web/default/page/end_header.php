@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </li>
-				<?php if ($dossier != "accueil") { ?>
+				<?php if ($dossier != "accueil" && $dossier != "profil") { ?>
                 <li>
                     <div id="mambo-icone">
                         <!-- icone de l'étape -->
@@ -50,9 +50,7 @@
                 </li>
 				<li>
 				
-					<a href="#"><img src="../default/page/img/interrogation.png" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Bienvenu sur Chulapos Mambo.
-					Pour accéder au menu, cliquez sur le burguer en haut à gauche de l'écran. Pour connaitre les consignes de l'étape, cliquez sur ce point d'interrogation.
-					ciao bambino !"></a>
+					<a href="#"><img src="../default/page/img/interrogation.png" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<?php echo $consigne; ?>"></a>
 				
 				</li>
 				<?php } ?>

@@ -11,72 +11,84 @@ if ($dossier != null) {
 			 $next = '<li class="col-md-12"><a href="../poitrine">Étape suivante : poitrine</a></li>';
 			 $before = '<li class="col-md-12"><a href="../vin">Étape précédente : vin</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            break;
+            $consigne ="Marlène";
+			break;
         case "livre":
             $titre = "À votre tour, devenez écrivain !";
 			$next = '<li class="col-md-12"><a href="../lapin">Étape suivante : lapin</a></li>';
 			$before = '<li class="col-md-12"><a href="../chien">Étape précédente : chien</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            break;
+            $consigne ="Marlène";
+			break;
         case "ours":
             $titre = "Découvrez les fragments de l'histoire de Madrid";
 			$next = '<li class="col-md-12"><a href="../ordinateur">Étape suivante : ordinateur</a></li>';
 			$before = '<li class="col-md-12"><a href="../immeuble">Étape précédente : immeuble</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
+			$consigne ="Marlène";
 			break;
         case "hotel":
             $titre = "Déambulez de place en place à Madrid";
 			$next = '<li class="col-md-12"><a href="../vin">Étape suivante : vin</a></li>';
 			$before = '<li class="col-md-12"><a href="../gaspacho">Étape précédente :gaspacho</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            break;
+            $consigne ="Marlène";
+			break;
         case "ordinateur":
             $titre = "Naviguez à travers l’ordinateur d’Henry";
 			$next = '<li class="col-md-12"><a href="#">Étape suivante : aucune</a></li>';
 			$before = '<li class="col-md-12"><a href="../ours">Étape précédente : ours</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            break;
+            $consigne ="Marlène";
+			break;
         case "lapin":
             $titre = "Devenez le nouveau conquistador culinaire de mambo canaille";
 			$next = '<li class="col-md-12"><a href="../immeuble">Étape suivante : immeuble</a></li>';
 			$before = '<li class="col-md-12"><a href="../livre">Étape précédente : livre </a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            break;
+            $consigne ="Marlène";
+			break;
         case "vin":
             $titre = "Initiez-vous à l’oenologie chilienne";
 			$next = '<li class="col-md-12"><a href="../crotte">Étape suivante : crotte</a></li>';
 			$before = '<li class="col-md-12"><a href="../hotel">Étape précédente : hotel</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            break;
+            $consigne ="Marlène";
+			break;
         case "poitrine":
             $titre = "Découvrez la beauté à travers les siècles";
 			$next = '<li class="col-md-12"><a href="../ferrari">Étape suivante : ferrari</a></li>';
 			$before = '<li class="col-md-12"><a href="../crotte">Étape suivante : crotte</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            break;
+            $consigne ="Marlène";
+			break;
         case "immeuble":
             $titre = "Infiltrez vous chez les trois canailles";
 			$next = '<li class="col-md-12"><a href="../ours">Étape suivante : ours</a></li>';
 			$before = '<li class="col-md-12"><a href="../lapin">Étape précédente : lapin</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            break;
+            $consigne ="Marlène";
+			break;
         case "gaspacho":
             $titre = "Préparez vous-même le gaspacho d’Henry !";
 			$next = '<li class="col-md-12"><a href="../hotel">Étape suivante : hotel</a></li>';
 			$before = '<li class="col-md-12 "><a href="#">Étape précédente : aucune </a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            break;
+            $consigne ="Marlène";
+			break;
         case "chien":
             $titre = "Imaginez le visage des personnages principaux !";
 			$next = '<li class="col-md-12"><a href="../livre">Étape suivante : livre</a></li>';
 			$before = '<li class="col-md-12"><a href="../ferrari">Étape précédente : ferrari</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            break;
+            $consigne ="Marlène";
+			break;
         case "ferrari":
             $titre = "Partez à la découverte du Venezuela !";
 			$next = '<li class="col-md-12"><a href="../chien">Étape suivante : chien</a></li>';
 			$before = '<li class="col-md-12"><a href="../poitrine;">Etape précédente : poitrine</a></li>';
 			$current = '<li class="col-md-12 "><a href="#">Etape courante</a></li>';
+			$consigne ="Marlène";
 			break;
 		case "profil":
 			$titre = "Votre profil";
