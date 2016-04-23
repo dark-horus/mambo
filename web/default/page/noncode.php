@@ -33,23 +33,24 @@ color:#35201e;
 margin-top:50px;
 }
 
+.validation{
+	background:url(img/fondcode.png);
+	border:none;
+	width: 342px;
+	background-repeat: no-repeat; /* largeur à spécifier */
+	height: 50px; /* longueur à spécifier */
+	margin: 0 auto;
+}
 h3 {
-    text-align:center;
-    margin-top:50px;
-    color:white;
-    font-family: 'Lato', sans-serif;
-    font-size:25px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    color: white;
+    font-size: 25px;
     font-weight: normal;
     font-style: normal;
-    background:#35201e;
-    padding-bottom:15px;
-    padding-top:15px;
-    max-width:200px;
-    margin-left: auto;
-    margin-right: auto; 
-    border-radius:10px;
+    font-family: 'Lato', sans-serif;
 }
-
 .bouton {
 	border:1px solid firebrick;
     background-color:white;
@@ -71,8 +72,9 @@ h3 {
       <h2> Voici votre code personnel,<br> pensez bien à le conserver pour pouvoir sauvegarder votre avancée. </h2>
       
       <!-- Le code : -->
-      <h3><?php echo $_SESSION['id']; ?></h3>
-    
+	  <div class="validation">
+      <center><h3><?php echo $_SESSION['id']; ?></h3></center>
+	  </div>
 	
 	<div id="retour">
    
