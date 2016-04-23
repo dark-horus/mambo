@@ -16,26 +16,33 @@
             
        <!-- <h1>Serez-vous le nouveau conquistador culinaire de mambo canaille ?</h1>-->
             <div id="body_fictif">
-               <a class="fancybox" data-fancybox-type="iframe" href="http://www.marmiton.org/recettes/recette_gaspacho_92502.aspx" id="recette">
+               <a class="fancybox" data-fancybox-type="iframe" href="img/recette_gaspa.jpg" id="recette">
                     <div class="marker" id="m1">
 
                     </div>
                 </a>
-                <a class="fancybox" data-fancybox-type="iframe" href="" id="recette">
+                <a class="fancybox" data-fancybox-type="iframe" href="img/recette_tapas.jpg" id="recette">
                     <div class="marker"id="m2">
 
                     </div>
                 </a>
-                <a class="fancybox" data-fancybox-type="iframe" href="" id="recette">    
+                <a class="fancybox" data-fancybox-type="iframe" href="img/recette_tortilla.jpg" id="recette">    
                     <div class="marker"id="m3">
 
                     </div>
                 </a>
-                <a class="fancybox" data-fancybox-type="iframe" href="" id="recette">
+                <a class="fancybox" data-fancybox-type="iframe" href="img/recette_potaje.jpg" id="recette">
                     <div class="marker"id="m4">
 
                      </div>
                 </a>
+
+                <a class="fancybox" data-fancybox-type="iframe" href="img/recette_lapin.jpg" id="recette">
+                    <div class="marker"id="m5">
+
+                     </div>
+                </a>
+
              </div>
 
          

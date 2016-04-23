@@ -39,7 +39,7 @@ include('../default/page/header.php');
     <body>
    <!-- <h1>Serez-vous le nouveau conquistador culinaire de mambo canaille ?</h1>-->
         
-   <a class="fancybox" data-fancybox-type="iframe" href="http://www.marmiton.org/recettes/recette_gaspacho_92502.aspx" id="recette">
+   <a class="fancybox" data-fancybox-type="iframe" href="img/recette_gaspa.jpg" id="recette">
     <div class="marker" id="m1">
 
     </div>
