@@ -17,12 +17,15 @@ body {
   height: 100%;
 }
 
-
-
 h1 {
 font-family: 'Special Elite';
 }
 
 h2 {
 font-family: 'Special Elite';
+}
+
+/* Italique pour les consignes et les titres */
+em { 
+font-style : italic; 
 }
