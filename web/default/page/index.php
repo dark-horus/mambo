@@ -95,7 +95,7 @@ a, a:hover{
 
 h2 {
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Lato', sans-serif;
     color:#35201e;
     margin-top:50px;
@@ -106,7 +106,7 @@ h3 {
     margin-top:50px;
     color:white;
     font-family: 'Lato', sans-serif;
-    font-size:25px;
+    font-size:20px;
     background:#35201e;
     padding-bottom:15px;
     padding-top:15px;
