@@ -1,6 +1,7 @@
 html {
-  background: #1a1a1a;
-  color: #e5e5e5;
+
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -13,15 +14,20 @@ body {
   background-repeat: no-repeat; 
   
   /*background-position: top center;*/
-  background-size: 100%;
   background-size: cover;
 font-family: 'Special Elite', cursive;
   }
 .bat1{
+	
 	background-image: url('images/testbat2.png');
-	background-repeat : no-repeat;
-	background-size: cover;
-	background-size:100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -100px;
+    z-index: 999;
+    position: relative;
+    height: 768px;
+}
+
 	}
 	
 	
@@ -112,12 +118,11 @@ li.active a, a:hover, a:active {
   padding: 0;
 }
 #etape {
-    padding-bottom: 5px;
-height: 768px;
+padding-bottom: 5px;
 width: 1024px;
 height: 768px;
 overflow: hidden;
-margin: 54px auto;
+margin: 54px auto 0;
 }
 /*points maps clickable */
 .distribution-map .map-point {

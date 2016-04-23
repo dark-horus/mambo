@@ -87,8 +87,6 @@ background-repeat: no-repeat;
 		    <li data-target="#cheveux" data-slide-to="6"></li>
 		    <li data-target="#cheveux" data-slide-to="7"></li>
 		  </ol>
-
-		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
 		      <img src="img/Cheveux/C_1.jpg" alt="C_1">
