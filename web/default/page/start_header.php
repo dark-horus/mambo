@@ -21,18 +21,18 @@ if ($dossier != null) {
             $consigne ="Glissez-vous dans la peau d’Henry et écrivez la suite de l’histoire. Parcourez au gré des rayons ses différentes sources d’inspiration littéraire.";
 			break;
         case "ours":
-            $titre = "Découvrez les fragments de l'histoire de Madrid !";
+            $titre = "Découvrez des événements historiques de Madrid !";
 			$next = '<li class="col-md-12"><a href="../ordinateur">Étape suivante : ordinateur</a></li>';
 			$before = '<li class="col-md-12"><a href="../immeuble">Étape précédente : immeuble</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
 			$consigne ="Des anecdotes historiques se sont cachées dans le blason de Madrid, partez à leur recherche pour découvrir les évènements marquants de cette ville.";
 			break;
         case "hotel":
-            $titre = "Déambulez de place en place à Madrid";
+            $titre = "Déambulez, de place en place, à travers Madrid !";
 			$next = '<li class="col-md-12"><a href="../vin">Étape suivante : vin</a></li>';
 			$before = '<li class="col-md-12"><a href="../gaspacho">Étape précédente :gaspacho</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Aventurez-vous dans les lieux où Henry et Simao se sont baladés. Cette carte vous donnera accès aux cinq places touristiques de Madrid : la Puerta del Sol, la Puerta de Alcalà, la Plaza de Oriente, la Plaza Mayor et la Plaza de Cibeles.";
+            $consigne ="Aventurez-vous dans les lieux où Henry et Simao se sont baladés. Cette carte vous donnera accès aux cinq places touristiques de Madrid : la Puerta del sol, la Puerta de Alcalà, la Plaza de Oriente, la Plaza Mayor et la Plaza de Cibeles.";
 			break;
         case "ordinateur":
             $titre = "Naviguez à travers l’ordinateur d’Henry";
@@ -56,21 +56,21 @@ if ($dossier != null) {
             $consigne ="Débouchez un Don Melchor, appréciez les saveurs des différents cépages, voyagez au travers des vignes du Chili et de France.";
 			break;
         case "poitrine":
-            $titre = "Découvrez la beauté à travers les siècles";
+            $titre = "Partez à la rencontre des femmes d'hier et d'aujourd'hui !";
 			$next = '<li class="col-md-12"><a href="../ferrari">Étape suivante : ferrari</a></li>';
 			$before = '<li class="col-md-12"><a href="../crotte">Étape suivante : crotte</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Remontez le temps et rencontrez les idéaux féminins qui ont inspirés de nombreux artistes, par leur beauté.";
 			break;
         case "immeuble":
-            $titre = "Infiltrez vous chez les trois canailles";
+            $titre = "Infiltrez vous chez les trois canailles !";
 			$next = '<li class="col-md-12"><a href="../ours">Étape suivante : ours</a></li>';
 			$before = '<li class="col-md-12"><a href="../lapin">Étape précédente : lapin</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Vous êtes un enquêteur de la police à la recherche d'Alejandro, Henry et Simao. Retrouvez tous les objets cachés afin d’identifier les propriétaires des chambres.";
 			break;
         case "gaspacho":
-            $titre = "Préparez vous-même le gaspacho d’Henry !";
+            $titre = "Préparez le gaspacho d’Henry !";
 			$next = '<li class="col-md-12"><a href="../hotel">Étape suivante : hotel</a></li>';
 			$before = '<li class="col-md-12 "><a href="#">Étape précédente : aucune </a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
