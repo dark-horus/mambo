@@ -25,6 +25,26 @@ h2 {
 font-family: 'Special Elite';
 }
 
+h3 {
+font-family:'FuturaStd';    
+}
+
+h4 {
+font-family:'FuturaStd';    
+}
+
+h5 {
+font-family:'FuturaStd';    
+}
+
+h6 {
+font-family:'FuturaStd';    
+}
+
+p {
+font-family:'FuturaStd';    
+}
+
 /* Italique pour les consignes et les titres */
 em { 
 font-style : italic; 
