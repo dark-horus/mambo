@@ -2,9 +2,6 @@
 /* CSS Document */
 
 body {
-	
-	background-image:url(image/fondplace.png);
-	background-repeat: no-repeat;
  	margin:0;
  	padding:0;
 	}
@@ -13,14 +10,15 @@ body {
 
 	width:750px;
 	height:500px;
-	
+	text-align: justify;
 }
 
-#textplace{
+#textfranco{
 	font-family : "FuturaStd"; 	
 	margin-top: 7px;
 	margin-left: 25px; 
 	text-align: justify;
+	margin-right: 20px; 
 	 		
 }
 
@@ -28,5 +26,5 @@ body {
 h2 {
 	font-family : "Special Elite";
 	text-align: center;		
-	color: #35201e;	
+	color: #35201e;
 }

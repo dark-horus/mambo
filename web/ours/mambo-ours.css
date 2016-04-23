@@ -27,4 +27,11 @@ font-family: 'Special Elite';
 	
 }
 
+#‎fancybox‬-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+background-image: url('image/fermer.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 64px;
+}
 
