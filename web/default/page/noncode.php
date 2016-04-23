@@ -46,7 +46,7 @@ h3 {
     margin-top: 50px;
     padding-top: 20px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal;
     font-style: normal;
     font-family: 'Lato', sans-serif;
