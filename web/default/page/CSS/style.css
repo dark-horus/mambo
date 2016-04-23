@@ -85,7 +85,8 @@ a:hover {
 }
 #mambo-topmenu  .dropdown-menu {
 	background-image:url('../img/fondmenu.png');
-    width:50%;
+    background-position: left;
+    background-size: cover;
 }
 #mambo-burger .dropdown-menu li {	
 	text-align: center;
