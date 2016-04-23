@@ -7,7 +7,7 @@ if($_SESSION['id'] != NULL){
 h1 {
 text-align: center;
 font-size: 25px;
-font-family:'futura';
+font-family: 'Lato', sans-serif;
 color:firebrick;
 margin-top:200px;
 }
@@ -28,7 +28,7 @@ body {
 h2 {
 text-align: center;
 font-size: 20px;
-font-family:'futura';
+font-family: 'Lato', sans-serif;
 color:black;
 margin-top:50px;
 }
@@ -37,7 +37,7 @@ h3 {
     text-align:center;
     margin-top:50px;
     color:white;
-    font-family:'futura';
+    font-family: 'Lato', sans-serif;
     font-size:25px;
     font-weight: normal;
     font-style: normal;
@@ -54,14 +54,14 @@ h3 {
 	border:1px solid firebrick;
     background-color:white;
     border-radius: 5px;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align:center;
 }
 
 .formulaire {
     border-color:firebrick;
     border-radius:5px;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
 }
     
 </style>

@@ -4,7 +4,7 @@
 h1 {
 text-align: center;
 font-size: 25px;
-font-family:'futura';
+font-family: 'Lato', sans-serif;
 color:#35201e;
 margin-top:200px;
 font-weight: normal;
@@ -28,12 +28,12 @@ body {
 #insertioncode {
     text-align:center;
     font-size:25px;
-    font-family:'futura';
+    font-family: 'Lato', sans-serif;
 }
 
 #validation {
     text-align:center;
-    font-family:'futura';
+    font-family: 'Lato', sans-serif;
     margin-top:20px;
 }
             
@@ -50,7 +50,7 @@ a, a:hover{
 h2 {
 text-align: center;
 font-size: 18px;
-font-family:sans-serif;
+font-family: 'Lato', sans-serif;
 color:35201e;
 margin-top:50px;
 }
@@ -59,7 +59,7 @@ h3 {
     text-align:center;
     margin-top:50px;
     color:white;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size:25px;
     background:35201e;
     padding-bottom:15px;
@@ -72,7 +72,7 @@ h3 {
 
 .bouton {
 	border:0;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color:#ecddbe;
     text-align:center;
     outline: none;
@@ -82,7 +82,7 @@ h3 {
 .formulaire {
     border-color:35201e;
     border-radius:5px;
-    font-family:'futura';
+    font-family: 'Lato', sans-serif;
     font-size:15px;
 }
 

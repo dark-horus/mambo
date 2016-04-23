@@ -2,7 +2,7 @@
 h1 {
 text-align: center;
 font-size: 25px;
-font-family:'futura';
+font-family: 'Lato', sans-serif;
 color:#35201e;
 margin-top:200px;
 font-weight: normal;
@@ -58,7 +58,7 @@ body {
 
 #ouicode a , #noncode a{
     text-decoration:none;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align:center;
     font-size:18px;
 }
@@ -68,12 +68,12 @@ body {
 #insertioncode {
     text-align:center;
     font-size:25px;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #validation {
     text-align:center;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-top:15px;
 }
     
@@ -83,7 +83,7 @@ a, a:hover{
 	text-align: center;
     font-weight: normal;
     font-style: normal;
-    font-family:'futura';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
 }
     
@@ -96,7 +96,7 @@ a, a:hover{
 h2 {
     text-align: center;
     font-size: 18px;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
     color:firebrick;
     margin-top:50px;
 }
@@ -105,7 +105,7 @@ h3 {
     text-align:center;
     margin-top:50px;
     color:white;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size:25px;
     background:firebrick;
     padding-bottom:15px;
@@ -120,14 +120,14 @@ h3 {
 	border:none;
     background-color:white;
     border-radius: 5px;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align:center;
 }
 
 .formulaire {
     border-color:firebrick;
     border-radius:5px;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
 }
     
 </style>
