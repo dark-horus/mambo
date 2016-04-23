@@ -111,6 +111,13 @@ a:hover {
 #profil{
 	padding-top: 115px;
 }
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url('../img/fermer.png');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 64px;
+	}
 footer {
 	position: relative;
 	bottom: 0px;
