@@ -38,7 +38,7 @@ include( '../default/page/start_header.php' );
                     <div id="container" class="col-sm-5 col-md-5 col-lg-5">
 
                         <div class="row-fluid">
-                            <div id="base container" class="col-md-12 col-md-offset-4">
+                            <div id="base container" class="col-md-12">
                                 <h2 style=color:#B54643;>Base</h2>
                                 <h3>(choisir une base)</h3>
 
@@ -55,7 +55,7 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="legumes container" class="col-md-12 col-md-offset-4">
+                            <div id="legumes container" class="col-md-12">
                                 <h2 style=color:#B54643;>Légumes</h2>
                                 <h3>(choisir deux légumes)</h3>
 
@@ -75,7 +75,7 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="condiments container" class="col-md-12 col-md-offset-4">
+                            <div id="condiments container" class="col-md-12">
                                 <h2 style=color:#B54643;>Condiments</h2>
                                 <h3>(choisir quatres condiments)</h3>
 
@@ -104,7 +104,7 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="assaisonement container" class="col-md-12 col-md-offset-4">
+                            <div id="assaisonement container" class="col-md-12">
                                 <h2 style=color:#B54643;>Assaisonnement</h2>
                                 <h3>(choisir quatres assaisonements)</h3>
 
@@ -142,14 +142,14 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="temperature container" class="col-md-12 col-md-offset-4">
+                            <div id="temperature container" class="col-md-12">
                                 <h2 style=color:#B54643;>Température</h2>
                                 <h3>(un choix possible)</h3>
 
-                                <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'temperature','chaud');">
+                                <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'temperature','chaud');">
                                     <img id="S35" src="images/chaud2.png" alt=""/>
                                     <p class="text-center">Chaud</p></div>
-                                <div class="col-sm-3 col-md-3 col-lg-3 ingredient" onclick="afficher(this,'temperature','froid');">
+                                <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'temperature','froid');">
                                     <img id="S36" src="images/froid_2.png" alt=""/>
                                     <p class="text-center">Froid</p></div>
                             </div>
@@ -189,7 +189,7 @@ include( '../default/page/start_header.php' );
         ERREUR RECETTE !
     </div>
     <div style="display:none" id="valid">
-        VALIDE !
+        WELL DONE !
     </div>
     <!-- Fin du contenu -->
 <?php
