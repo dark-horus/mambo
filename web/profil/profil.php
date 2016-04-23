@@ -41,7 +41,9 @@ if($pourcent > 100){
 }
 
 $imgEtape = $res['current_etape'];
+if($imgEtape){
 $imgEtape = $imgEtape . ".png" ;
+}
 
 
 
@@ -55,9 +57,10 @@ $imgEtape = $imgEtape . ".png" ;
  <div class="col-md-6">
     
       <h2>Profil <?php echo $res['password']; ?></h2>
-	  
+	  <?php if($resUser['img_avatar']){ ?>
      <img class="img-circle img-responsive" width="300px" src="<?php echo "avatar/". $resUser['img_avatar']; ?>" alt="">
-     <br>
+	  <?php } else { echo '<img class="img-circle img-responsive" width="300px" src="avatar/arthur.png" alt="">'; } ?>
+	 <br>
      <br>
      
 	 
@@ -74,8 +77,8 @@ $imgEtape = $imgEtape . ".png" ;
         </div>
       </div>
      
-     Etape courante : <img src="../default/page/img/<?php echo $imgEtape; ?>" alt="Etape_courante" class="img-thumbnail">
-     <!-- <img src="../default/page/img/" alt="Etape_suivante" class="img-thumbnail"> -->
+     Etape courante : <?php if($imgEtape){ ?><img src="../default/page/img/<?php echo $imgEtape; ?>" alt="Etape_courante" class="img-thumbnail">
+     <?php } else { echo "<img src='../default/page/img/vin.png'>"; } ?>
      
     </div>
     
