@@ -6,7 +6,7 @@ include( '../default/page/start_header.php' );
 <!--<link rel="stylesheet" type="text/css" href="style.css">-->
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
-
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <!-- fin CSS -->
 <?php include( '../default/page/header.php' ); ?>
 

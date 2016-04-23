@@ -73,17 +73,17 @@ p {
   margin-bottom: 12pt;
   text-indent:20px;
   hyphens: auto;
-  font-family: 'FuturaStd';
+  font-family:  'Lato', sans-serif;;
 }
 
 strong {
   font-weight: 900;
-  font-family: 'FuturaStd';
+  font-family:  'Lato', sans-serif;;
   color: #e5e5e5;
 }
 
 a {
-  font-family: 'FuturaStd';
+  font-family:  'Lato', sans-serif;;
   text-transform: uppercase;
   text-decoration: none;
   color: #dff3fd;
