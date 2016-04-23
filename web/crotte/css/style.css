@@ -1,30 +1,33 @@
 body {
-  background-image: url(../images/fond.png);
-  margin:0;
-  padding:0;
-  background-position:center;
-  background-repeat: no-repeat; 
-  background-attachment:scroll;
-  -webkit-background-size: cover;
-  background-size: cover; 
-  
+    background-image: url(../images/fond.png);
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+
 }
 
 img {
     max-width: 100%;
-    height: auto;  
+    height: auto;
 }
 
-img.responsive
-{
-display: block;
-max-width: 100%;
-height: auto;
+img.responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#etape {
+    margin-top: 8%;
 }
 
 #game {
     width: 400px;
-    height:auto;
+    height: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -34,39 +37,47 @@ height: auto;
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
-    margin-left :auto;
-    margin-right:auto;
-    
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
 #game .mm-line {
     -webkit-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
     line-height: 0;
-    vertical-align:middle;
-    margin-top:0px;
-    margin-bottom:0px;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 }
+
 #game .mm-line.mm-solution {
     background-color: none;
     color: white;
-    margin-left:0px;
-    margin-top:100px;
+    margin-left: 0px;
+    /*margin-top: 100px;*/
 }
+
 #game .mm-line.selected {
-    background-color:none;
+    background-color: none;
     color: white;
-    margin-top:0px;
+    margin-top: 0px;
 }
+
 #game .mm-line .mm-num {
-    height: 100%;
+    height: 0px;
     display: inline-block;
     font-family: 'Futura';
     font-size: 15px;
-    width: 20px;
+    width: 30px;
     color: #630F0F;
-    margin-left:50px;
+    margin-right: 10px;
+    position: relative;
+    top: -20px;
+    text-align: right;
 }
+
 #game .mm-line .mm-slot {
     display: inline-block;
     width: 50px;
@@ -75,22 +86,29 @@ height: auto;
     transition: background-color 0.5s ease;
     /* background-image: url("../images/cercle.png"); */
     background-size: cover;
-    margin: 4px;
+    /*margin: 4px;*/
     border-radius: 50%;
 }
+
 #game .mm-line .mm-slot.selected {
-  border-color: none;
-  -webkit-animation: hilite 0.3s ease;
-          animation: hilite 0.3s ease;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+    border-color: none;
+    -webkit-animation: hilite 0.3s ease;
+    animation: hilite 0.3s ease;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
 
 #game .mm-line .mm-status {
-  margin-left: 10px;
-  display: inline-block;
+    /*margin-left: 10px;*/
+    height: 0px;
+    display: inline-block;
+    width: 80px;
+    color: rgb(99, 15, 15);
+    position: relative;
+    top: -20px;
+    text-align: left;
 }
 
 /*
@@ -104,30 +122,31 @@ height: auto;
 } */
 
 #game .mm-line .mm-status .mm-status-correct {
-  color:#630f0F;
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin: 5px;
-  font-size: 20px;
+    color: #630f0F;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 20px;
 }
 
 #game .mm-line .mm-status .mm-status-wrongplace {
-  color:#630f0F;
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin: 5px;
-  font-size: 28px;
+    color: #630f0F;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 28px;
 }
 
 #controls {
-    width: 380px;
-    margin-top: 30px; 
+    width: 75px;
+    margin-top: 30px;
     vertical-align: bottom;
-    height:80px;
+    /*height: 80px;*/
+    margin: 0 auto;
 }
 
 #controls a {
@@ -136,96 +155,102 @@ height: auto;
     height: 70px;
     border-radius: 100%;
     margin: 3px;
-    float:left;
+    float: left;
 }
 
 /* MODIFICATION DES IMAGES AJOUTEES */
 
 #fleche {
-    width:15%;
-    height:auto;
-    margin-left:5%;
-    margin-right:auto;
+    /*width: 15%;*/
+    /*height: auto;*/
+    /*margin-left: 5%;*/
+    /*margin-right: auto;*/
+    width: 80px;
+    height: 20px;
+    margin: 20px 0 0 50%;
+    float: left;
+}
+
+#valider, #recommencer {
+    width: 180px;
+    height: 40px;
 }
 
 #valider {
-    width:20%;
-    height:auto;
-    margin-left: auto;
-    margin-right:20%;
-    float:bottom;
-    align-content:right;
-    position:relative;
+    /*width: 20%;*/
+    /*height: auto;*/
+    /*margin-left: auto;*/
+    /*margin-right: 20%;*/
+    /*float: bottom;*/
+    /*align-content: right;*/
+    /*position: relative;*/
 }
 
 #recommencer {
-    width:20%;
-    height:auto;
-    margin-left: auto;
-    margin-right:20%;
-    float:bottom;
-    align-content:right;
-    position:relative;
-    margin-bottom:3%;
+    /*width: 20%;*/
+    /*height: auto;*/
+    /*margin-left: auto;*/
+    /*margin-right: 20%;*/
+    /*float: bottom;*/
+    /*align-content: right;*/
+    /*position: relative;*/
+    /*margin-bottom: 3%;*/
 }
 
-
 [data-peg] {
-  background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
-  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.3));
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    /*box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);*/
 }
 
 [data-peg="0"] {
-  background-image: url("../images/balai.png");
-  background-size: cover;
-  background-color: white;
+    background-image: url("../images/balai.png");
+    background-size: cover;
+    /*background-color: white;*/
 }
 
 [data-peg="1"] {
-  
-  background-image: url("../images/musique.png");
-  background-size: cover;
-  background-color: white;
+
+    background-image: url("../images/musique.png");
+    background-size: cover;
+    /*background-color: white;*/
 }
 
 [data-peg="2"] {
- 
-  background-image: url("../images/crotte.png");
-  background-size: cover;
-  background-color: white;
+
+    background-image: url("../images/crotte.png");
+    background-size: cover;
+    /*background-color: white;*/
 }
 
 [data-peg="3"] {
-  
-  background-image: url("../images/detergent.png");
-  background-size: cover;
-  background-color: white;
+
+    background-image: url("../images/detergent.png");
+    background-size: cover;
+    /*background-color: white;*/
 }
 
 [data-peg="4"] {
-  
-  background-image: url("../images/insultes.png");
-  background-size: cover;
-  background-color: white;
+
+    background-image: url("../images/insultes.png");
+    background-size: cover;
+    /*background-color: white;*/
 }
 
+/*@-webkit-keyframes hilite {*/
+/*0% {*/
+/*border-color: white;*/
+/*}*/
+/*100% {*/
+/*border-color: #777;*/
+/*}*/
+/*}*/
 
-
-@-webkit-keyframes hilite {
-  0% {
-    border-color: white;
-  }
-  100% {
-    border-color: #777;
-  }
-}
-
-@keyframes hilite {
-  0% {
-    border-color: white;
-  }
-  100% {
-    border-color: #777;
-  }
-}
+/*@keyframes hilite {*/
+/*0% {*/
+/*border-color: white;*/
+/*}*/
+/*100% {*/
+/*border-color: #777;*/
+/*}*/
+/*}*/

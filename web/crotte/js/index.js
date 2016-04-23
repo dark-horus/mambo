@@ -1,6 +1,13 @@
-console.clear();
+$(document).ready(function () {
 
-var MasterMind = (function() {
+    console.clear();
+
+    clearGameSlots()
+
+});
+
+
+var MasterMind = (function () {
 
     var NUM_COLORS = 5,
         MAX_TURNS = 12,
@@ -41,18 +48,18 @@ var MasterMind = (function() {
             numWrongPlace = 0,
             tmpSolution = solution.slice(),
             tmpGuess = guess.slice();
-        
+
         // Check for matching color + position
-        guess.forEach(function(col, idx) {
+        guess.forEach(function (col, idx) {
             if (tmpSolution[idx] == col) {
                 numCorrect++;
                 tmpSolution[idx] = null;
                 tmpGuess[idx] = null;
             }
         });
-        
+
         // Check for right color, wrong position
-        tmpGuess.forEach(function(col, idx) {
+        tmpGuess.forEach(function (col, idx) {
             if (col === null) return false;
             var checkPos = tmpSolution.indexOf(col);
             if (checkPos > -1) {
@@ -60,9 +67,9 @@ var MasterMind = (function() {
                 numWrongPlace++;
             }
         });
-        
+
         guesses.push(guess);
-        
+
         var isCorrect = (numCorrect === SOLUTION_SIZE),
             remainingTurns = MAX_TURNS - guesses.length;
 
@@ -87,13 +94,15 @@ var MasterMind = (function() {
 
 })();
 
-var Game = (function() {
+var Game = (function () {
 
     var MM_CFG;
 
     var myEl, lineEls;
-    var currentLine = 0,
-        currentSlot = 0;
+    // var currentLine = 0,
+    //     currentSlot = 0;
+    window.currentLine = 0;
+    window.curentSlot = 0;
     var currentGuess = [];
 
     var isPlaying = false;
@@ -145,7 +154,7 @@ var Game = (function() {
             butEl.dataset.peg = i;
             el.appendChild(butEl);
 
-            butEl.addEventListener('click', function(e) {
+            butEl.addEventListener('click', function (e) {
                 submitMove(this.dataset.peg);
 
                 e.preventDefault();
@@ -189,6 +198,7 @@ var Game = (function() {
         var lineEl = lineEls[currentLine],
             slotEl = lineEl.querySelector('[data-slot="' + currentSlot + '"]');
         slotEl.dataset.peg = color;
+        $(slotEl).css('background-image', ''); // Custom fix
         currentGuess.push(parseInt(color));
 
         currentSlot++;
@@ -239,7 +249,36 @@ var Game = (function() {
 
 })();
 
-Game.init(document.getElementById('game'), document.getElementById('controls'));
+
+function initSlots() {
+
+    // Parcours chaque emplacement (slot) du tableau de jeu Mastermind
+    $('.mm-slot').each(function () {
+
+        // Demande un chiffre au hasard entre 1 et 4
+        var i = Math.floor((Math.random() * 4) + 1);
+
+        // Affecte une image en background à chaque emplacement (slot)
+        $(this).css('background-image', 'url(images/cercle' + i + '.png)')
+    });
+}
+
+function resetSolutionLine() {
+
+    // Parcours chaque emplacement de solution (status) du tableau de jeu Mastermind
+    $('.mm-status').each(function () {
+
+        // Supprime le contenu
+        $(this).html('');
+    });
+}
 
 
-        
+function clearGameSlots() {
+
+    Game.init(document.getElementById('game'), document.getElementById('controls'));
+    initSlots();
+    resetSolutionLine();
+    currentLine = 0;
+    currentSlot = 0;
+}
