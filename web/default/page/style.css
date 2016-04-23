@@ -42,7 +42,7 @@ margin-top:200px;
 
 #ouicode a , #noncode a{
     text-decoration:none;
-    font-family:'FuturaStd';
+    font-family: 'Lato', sans-serif;
     text-align:center;
     font-size:18px;
 }
@@ -52,12 +52,12 @@ margin-top:200px;
 #insertioncode {
     text-align:center;
     font-size:25px;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #validation {
     text-align:center;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-top:15px;
 	
 }
@@ -84,7 +84,7 @@ h3 {
     text-align:center;
     margin-top:50px;
     color:white;
-    font-family:'FuturaStd';
+    font-family: 'Lato', sans-serif;
     font-size:25px;
     background:firebrick;
     padding-bottom:15px;
@@ -99,12 +99,12 @@ h3 {
 	border:1px solid firebrick;
     background-color:white;
     border-radius: 5px;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align:center;
 }
 
 .formulaire {
     border-color:firebrick;
     border-radius:5px;
-    font-family:sans-serif;
+    font-family: 'Lato', sans-serif;
 }

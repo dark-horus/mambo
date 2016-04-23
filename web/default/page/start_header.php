@@ -137,6 +137,7 @@ $current_etape = $res['current_etape'];
 
     <link rel="stylesheet" type="text/css" href="../../vendor/bootstrap/css/bootstrap.css">
 	<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" type="text/css" href="../../vendor/fancybox/source/jquery.fancybox.css">
     <link rel="stylesheet" href="../default/page/CSS/style.css"/>
