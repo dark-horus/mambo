@@ -8,7 +8,7 @@ h1 {
 text-align: center;
 font-size: 25px;
 font-family: 'Lato', sans-serif;
-color:firebrick;
+color:#35201e;
 margin-top:200px;
 }
 
@@ -29,7 +29,7 @@ h2 {
 text-align: center;
 font-size: 20px;
 font-family: 'Lato', sans-serif;
-color:black;
+color:#35201e;
 margin-top:50px;
 }
 
@@ -41,7 +41,7 @@ h3 {
     font-size:25px;
     font-weight: normal;
     font-style: normal;
-    background:firebrick;
+    background:#35201e;
     padding-bottom:15px;
     padding-top:15px;
     max-width:200px;

@@ -97,7 +97,7 @@ h2 {
     text-align: center;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
-    color:firebrick;
+    color:#35201e;
     margin-top:50px;
 }
 
@@ -107,7 +107,7 @@ h3 {
     color:white;
     font-family: 'Lato', sans-serif;
     font-size:25px;
-    background:firebrick;
+    background:#35201e;
     padding-bottom:15px;
     padding-top:15px;
     max-width:200px;
@@ -125,7 +125,7 @@ h3 {
 }
 
 .formulaire {
-    border-color:firebrick;
+    border-color:#35201e;
     border-radius:5px;
     font-family: 'Lato', sans-serif;
 }

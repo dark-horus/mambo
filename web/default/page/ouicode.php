@@ -51,7 +51,7 @@ h2 {
 text-align: center;
 font-size: 18px;
 font-family: 'Lato', sans-serif;
-color:35201e;
+color:#35201e;
 margin-top:50px;
 }
 
@@ -80,7 +80,7 @@ h3 {
 
     
 .formulaire {
-    border-color:35201e;
+    border-color:#35201e;
     border-radius:5px;
     font-family: 'Lato', sans-serif;
     font-size:15px;
