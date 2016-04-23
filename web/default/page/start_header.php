@@ -39,7 +39,7 @@ if ($dossier != null) {
 			$next = '<li class="col-md-12"><a href="#">Étape suivante : aucune</a></li>';
 			$before = '<li class="col-md-12"><a href="../ours">Étape précédente : ours</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Écoutez des musiques et regardez des vidéos de films, de séries ou d’autres éléments évoqués dans <em>Mambo Canaille</em> en utilisant les fenêtres comme si vous utilisiez vous-même l’ordinateur d’Henry.";
+            $consigne ="Écoutez des musiques et regardez des vidéos de films, de séries ou d’autres éléments évoqués dans <i>Mambo Canaille</i> en utilisant les fenêtres comme si vous utilisiez vous-même l’ordinateur d’Henry.";
 			break;
         case "lapin":
             $titre = "Devenez le nouveau conquistador culinaire de <em>Mambo Canaille</em>";
