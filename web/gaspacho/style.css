@@ -27,12 +27,14 @@ h2 {
 
     font-size-adjust: auto;
     color: white;
+    text-align: center;
+
 
 }
 
 h3 {
     color: white;
-
+text-align: center;
 }
 
 p {
