@@ -1,198 +1,196 @@
-.fond {
-background-image: url('./images/papier.jpg');
-height: 1080px;
-width: 100%;
-position: relative;
-top: -107px;
-background-repeat: no-repeat;
+body {
+    background-image: url('./images/papier.jpg');
+    /*height: 1080px;*/
+    width: 100%;
+    position: relative;
+    /*top: -107px;*/
+    /*background-repeat: no-repeat;*/
+}
+
+#mambo-consigne h1 {
+    font-size: 34px; /* remplacer la taille de la police pour que tous les titres soient sur une seule ligne en 1024x768 */
+}
+
+#toutelecontenu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+#etape {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    float: left;
 }
 
 .background {
-
-	background-image: url('./images/Fond_ecran.png');
-	height: 768px;
-	width: 1024px;
-	background-repeat: no-repeat;
-	position: absolute;
-	overflow: hidden;
-    top: 95px;
-   /* margin: 0 auto;*/
-    margin: 0px 53px auto;
+    /*position: absolute;*/
+    position: relative;
+    background-image: url('./images/Fond_ecran.png');
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 768px;
+    /*margin: 80px auto;*/
+    margin: 0;
+    overflow: hidden;
     font-family: 'Special Elite', cursive;
+}
 
+.icone {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    /*margin: 20px;*/
+    cursor: pointer;
 }
-.icone
-{
-position: relative;
-width: 64px;
-height: 64px;	
-margin: 20px;
-cursor: pointer;
-}
+
 .window {
-	position: absolute;
-	top: 100px;
-	left:100px;
-	display: none;
-}
-
-.d_videos {
-
-	background-image: url('./images/dossier_simple_gros.png');
-	background-repeat: no-repeat;
-	position: relative;
-    width: 98px;
-    height: 83px;
-    top: 160px;
-    left: 27px;
-
-}
-
-.mes_videos {
-
-position: relative;
-    top: 65px;
-    left: -1px;
-
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    display: none;
 }
 
 .d_musiques {
-
-	background-image: url('./images/dossier_simple_gros.png');
-	background-repeat: no-repeat;
+    background-image: url('./images/dossier_simple_gros.png');
+    background-repeat: no-repeat;
     width: 98px;
     height: 83px;
-	position: relative;
-    top: -65px;
-    left: 27px;
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+
+.d_videos {
+    position: relative;
+    background-image: url('./images/dossier_simple_gros.png');
+    background-repeat: no-repeat;
+    width: 98px;
+    height: 83px;
+    top: 100px;
+    left: 40px;
+}
+
+.d_oeuvre {
+    background-image: url('./images/dossier_simple_gros.png');
+    background-repeat: no-repeat;
+    width: 98px;
+    height: 83px;
+    position: relative;
+    top: 110px;
+    left: 40px;
 }
 
 .mes_musiques {
-
-position: relative;
+    position: relative;
     top: 65px;
     left: -10px;
 }
 
-.d_oeuvre {
-
-	background-image: url('./images/dossier_simple_gros.png');
-	background-repeat: no-repeat;
-	width: 98px;
-    height: 83px;
+.mes_videos {
     position: relative;
-	top: 80px;
-    left: 27px;
-
+    top: 65px;
+    left: -1px;
 }
 
-.mon_oeuvre 
-
-{
+.mon_oeuvre {
     position: relative;
     top: 65px;
     left: -2px;
 }
 
 .barre {
-
-background-image: url('./images/barre.png');
-	height: 86px;
-	width: 1023px;
-	margin : 0px;
-	background-repeat: no-repeat;
-	position: absolute;
-	bottom: 0px;
-	
+    background-image: url('./images/barre.png');
+    height: 86px;
+    width: 1023px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0px;
 }
 
 .demarrer {
-
-background-image: url('./images/barre_demarrer.png');
-	height: 68px;
-	width: 1023px;
-	margin : 0px;
-	background-repeat: no-repeat;
-	position: absolute;
-	bottom: 0px;
-	
+    background-image: url('./images/barre_demarrer.png');
+    height: 68px;
+    width: 1023px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0px;
 }
 
 .f_videos {
-
-background-image: url('./images/Fenetre_1.png');
-	height: 381px;
-	width: 556px;
-	margin : 15px;
-	background-repeat: no-repeat;
-	padding-top: 14px;
+    background-image: url('./images/Fenetre_1.png');
+    background-repeat: no-repeat;
+    height: 381px;
+    width: 556px;
+    /*margin: 15px;*/
+    padding-top: 14px;
     padding-left: 2px;
     z-index: 2;
     font-size: 10px;
+    top: 160px;
+    left: 180px;
 }
 
 .b_videos {
     background-image: url('./images/barre_fenetre_video.png');
+    background-repeat: no-repeat;
+    background-position: 30% 15%;
+    background-size: 100%;
     height: 40px;
     width: 524px;
     margin: 0 0 0 17px;
-    background-repeat: no-repeat;
-    background-position: 30% 15%;
-    background-size: 100%; 
-    cursor: pointer;  
-
+    cursor: pointer;
 }
 
 .bouton_fermer1 {
-
+    position: absolute;
     background-image: url('./images/bouton_close.png');
-	height: 23px;
-	width: 24px;
-	margin : 15px;
-	left : 495px;
-	top : 16px;
-	position : absolute;
-	background-repeat: no-repeat;
-	
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 24px;
+    margin: 15px;
+    left: 495px;
+    top: 16px;
 }
 
 .video_1 {
+    position: relative;
     background-image: url('./images/video_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 60px;
     top: 77px;
     cursor: pointer;
-    
+
 }
 
-.titre_musique
-
-{
-    width: 117px;
+.titre_musique {
     position: relative;
+    width: 117px;
     top: 62px;
     left: -55%;
-    margin-left:-5px;
+    margin-left: -5px;
 }
 
-.titre_video
-
-{
-    width: 117px;
+.titre_video {
     position: relative;
+    width: 117px;
     top: 62px;
     left: -55%;
-    margin-left:-9px;
+    margin-left: -9px;
 }
 
 .video_2 {
     background-image: url('./images/video_file.png');
+    background-repeat: no-repeat;
     height: 60px;
     width: 46px;
-    background-repeat: no-repeat;
     position: relative;
     left: 150px;
     top: 8px;
@@ -200,101 +198,89 @@ background-image: url('./images/Fenetre_1.png');
 }
 
 .video_3 {
+    position: relative;
     background-image: url('./images/video_file.png');
+    background-repeat: no-repeat;
     height: 60px;
     width: 46px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 240px;
     top: -52px;
     cursor: pointer;
-
-
 }
 
 .video_4 {
+    position: relative;
     background-image: url('./images/video_file.png');
+    background-repeat: no-repeat;
     height: 60px;
     width: 46px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 330px;
     top: -112px;
     cursor: pointer;
-
 }
 
 .video_5 {
+    position: relative;
     background-image: url('./images/video_file.png');
+    background-repeat: no-repeat;
     height: 60px;
     width: 46px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 420px;
     top: -172px;
     cursor: pointer;
 }
 
 .video_6 {
+    position: relative;
     background-image: url('./images/video_file.png');
+    background-repeat: no-repeat;
     height: 60px;
     width: 46px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 60px;
     top: -157px;
     cursor: pointer;
-
 }
 
 .f_musiques {
-
-	background-image: url('./images/Fenetre_1.png');
-	height: 381px;
-	width: 556px;
-	margin : 134px;
-	background-repeat: no-repeat;
-	padding-top: 14px;
+    background-image: url('./images/Fenetre_1.png');
+    background-repeat: no-repeat;
+    height: 381px;
+    width: 556px;
+    /*margin: 134px;*/
+    padding-top: 14px;
     padding-left: 2px;
     font-size: 10px;
-	
+    z-index: 1;
 }
 
-
-
 .b_musiques {
-
-	background-image: url('./images/barre_fenetre_musique.png');
-    height: 40px;
-    width: 524px;
-    margin: 0 0 0 17px;
+    background-image: url('./images/barre_fenetre_musique.png');
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100%;
+    height: 40px;
+    width: 524px;
+    margin: 0 0 0 17px;
     cursor: pointer;
-
-	
 }
 
 .bouton_fermer2 {
-
-background-image: url('./images/bouton_close.png');
-	height: 23px;
-	width: 24px;
-	margin : 15px;
-	left : 495px;
-	top : 16px;
-	position : absolute;
-	background-repeat: no-repeat;
-	
+    position: absolute;
+    background-image: url('./images/bouton_close.png');
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 24px;
+    margin: 15px;
+    left: 495px;
+    top: 16px;
 }
 
 .musique_1 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 60px;
     top: 75px;
     cursor: pointer;
@@ -302,262 +288,219 @@ background-image: url('./images/bouton_close.png');
 
 .musique_2 {
     background-image: url('./images/music_file.png');
-    height: 69px;
-    width: 55px;
     background-repeat: no-repeat;
     position: relative;
+    height: 69px;
+    width: 55px;
     left: 60px;
     top: 81px;
     cursor: pointer;
 }
 
 .musique_3 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 60px;
     top: 87px;
     cursor: pointer;
 }
 
 .musique_4 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 150px;
     top: -132px;
     cursor: pointer;
 }
 
 .musique_5 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 150px;
     top: -126px;
     cursor: pointer;
 }
 
 .musique_6 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 150px;
     top: -120px;
     cursor: pointer;
 }
 
 .musique_7 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 240px;
     top: -339px;
     cursor: pointer;
 }
 
 .musique_8 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 240px;
     top: -333px;
     cursor: pointer;
 }
 
 .musique_9 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 240px;
     top: -327px;
     cursor: pointer;
 }
 
 .musique_10 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 330px;
     top: -546px;
     cursor: pointer;
 }
 
 .musique_11 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 330px;
     top: -540px;
     cursor: pointer;
 }
 
 .musique_12 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 330px;
     top: -534px;
     cursor: pointer;
 }
 
 .musique_13 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 420px;
     top: -753px;
     cursor: pointer;
 }
 
 .musique_14 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 420px;
     top: -747px;
     cursor: pointer;
 }
 
 .musique_15 {
+    position: relative;
     background-image: url('./images/music_file.png');
+    background-repeat: no-repeat;
     height: 69px;
     width: 55px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 420px;
     top: -741px;
     cursor: pointer;
 }
-.f_oeuvre {
 
-background-image: url('./images/Fenetre_1.png');
+.f_oeuvre {
+    position: relative;
+    background-image: url('./images/Fenetre_1.png');
+    background-repeat: no-repeat;
     height: 381px;
     width: 556px;
-    margin : 134px;
-    background-repeat: no-repeat;
-    position: relative;
-    top: -249px;
-    left: 2px;
-	
+    /*margin: 134px;*/
+    top: -30px;
+    left: 240px;
+    z-index: 3;
 }
 
 .b_oeuvre {
-
+    position: relative;
     background-image: url('./images/barre_fenetre_oeuvre.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
     height: 40px;
     width: 524px;
     margin: 0 0 0 17px;
-    background-repeat: no-repeat;
-    background-size: 100%;
     cursor: pointer;
-    position: relative;
     top: 15px;
-	
 }
 
 .bouton_fermer3 {
-
+    position: absolute;
     background-image: url('./images/bouton_close.png');
+    background-repeat: no-repeat;
     height: 23px;
     width: 24px;
-    margin : 15px;
+    margin: 15px;
     left: 477px;
     top: 2px;
-    position : absolute;
-    background-repeat: no-repeat;
-	
 }
 
 .internet {
-
-	background-image: url('./images/explorer.png');
-	height: 40px;
-    width: 38px;
-    background-repeat: no-repeat;
     position: relative;
+    background-image: url('./images/explorer.png');
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 38px;
     left: 153px;
     top: 37px;
 }
 
 .player {
-
-	background-image: url('./images/windows_player.png');
-	height: 40px;
-    width: 42px;
-    background-repeat: no-repeat;
     position: relative;
+    background-repeat: no-repeat;
+    background-image: url('./images/windows_player.png');
+    height: 40px;
+    width: 42px;
     left: 213px;
     top: -3px;
-
 }
 
 .dossier_simple {
-
+    position: relative;
+    background-repeat: no-repeat;
     background-image: url('./images/dossier_simple.png');
     height: 34px;
     width: 42px;
-    background-repeat: no-repeat;
-    position: relative;
     left: 268px;
     top: -42px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
