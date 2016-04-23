@@ -39,14 +39,14 @@ if ($dossier != null) {
 			$next = '<li class="col-md-12"><a href="#">Étape suivante : aucune</a></li>';
 			$before = '<li class="col-md-12"><a href="../ours">Étape précédente : ours</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Écoutez des musiques et regardez des vidéos de films, de séries ou d’autres éléments évoqués dans "Mambo Canaille" en utilisant les fenêtres comme si vous utilisiez vous-même l’ordinateur d’Henry.";
+            $consigne ="Écoutez des musiques et regardez des vidéos de films, de séries ou d’autres éléments évoqués dans 'Mambo Canaille' en utilisant les fenêtres comme si vous utilisiez vous-même l’ordinateur d’Henry.";
 			break;
         case "lapin":
             $titre = "Devenez le nouveau conquistador culinaire de <em>Mambo Canaille</em>";
 			$next = '<li class="col-md-12"><a href="../immeuble">Étape suivante : immeuble</a></li>';
 			$before = '<li class="col-md-12"><a href="../livre">Étape précédente : livre </a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Vous n'êtes ni Christophe Colomb ni au 15ème siècle, mais explorez le vaste monde de l'art culinaire de "Mambo Canaille" et mettez la main à la pâte en ajoutant votre recette à ce délicieux planisphère.";
+            $consigne ="Vous n'êtes ni Christophe Colomb ni au 15ème siècle, mais explorez le vaste monde de l'art culinaire de Mambo Canaille et mettez la main à la pâte en ajoutant votre recette à ce délicieux planisphère.";
 			break;
         case "vin":
             $titre = "Initiez-vous à l’oenologie chilienne";
@@ -88,7 +88,7 @@ if ($dossier != null) {
 			$next = '<li class="col-md-12"><a href="../chien">Étape suivante : chien</a></li>';
 			$before = '<li class="col-md-12"><a href="../poitrine;">Etape précédente : poitrine</a></li>';
 			$current = '<li class="col-md-12 "><a href="#">Etape courante</a></li>';
-			$consigne ="A bord de la Ferrari d’Alejandro, retracez l’histoire du pays natal de l’auteur de "Mambo Canaille". ";
+			$consigne ="A bord de la Ferrari d’Alejandro, retracez l’histoire du pays natal de l’auteur de 'Mambo Canaille'. ";
 			break;
 		case "profil":
 			$titre = "Votre profil";
