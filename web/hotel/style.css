@@ -43,8 +43,9 @@ div, img, footer {
 
 
 h1 {
-  font-size: 26pt;
+  font-size: 25px;
   font-family: 'Special Elite', cursive;
+  color:#35201e;
 }
 
 h2 {
