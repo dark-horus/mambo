@@ -3,6 +3,32 @@ include('../default/page/start_header.php');
 ?>
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
 
+	<style>
+	.tele{
+		width: 20%;
+		margin-left: auto;
+		margin-right: auto;
+		z-index:8;
+		}
+	
+	.vali{
+		width: 16%;
+		height: 100%;
+		background-image: url(img/valider.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: white;
+		border: none;
+		outline: none;
+		margin-bottom: 5%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2%;
+		z-index:8;
+		}
+
+		
+	</style>
 
 <!-- fin CSS -->
 
@@ -20,22 +46,28 @@ include('../default/page/start_header.php');
 	
 		<img src="img/pagevinweb2.jpg" width="100%" >
 		
+		</br>
+		</br>
+		<div class="tele">
 			<a  href="http://localhost/mambo/web/vin/img/pagevinweb2.jpg" download="Infographie_Mambo_Canaille"> 
-			<img src="img/telecharger.png" width="200px"> </a>
+			<img src="img/telecharger.png" width="100%"> </a>
+		</div>
+		</br>
+	
 
-
-
- <!-- bouton valider + enregistrement bdd -->
- <form action="../default/page/recEtape.php" method="post">
+	<!-- bouton valider + enregistrement bdd -->
+	<form action="../default/page/recEtape.php" method="post">
 		<input type="hidden" name="field" id="field" value="">
 		<input type="hidden" name="value" id="value" value="">
 		<input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
 		<!-- Si tout est ok, mettre la variable $validate à true -->
 		<input type="hidden" name="validate" id="validate" value="true">
-        <div class="box">
-        <button type="submit" class="btn btn-success" id="valide" name="valide" value="valide">VALIDER</button>     
+		
+        <div>
+			<center> <button type="submit" class="vali" id="valide" name="valide" ></button>  </center>   
         </div>
- </form>
+	</form>
+
        
 
 <!-- Fin du contenu -->
