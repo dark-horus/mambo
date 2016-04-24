@@ -78,7 +78,7 @@ h3 {
 	
 	<div id="retour">
    
-   <a href="javascript:parent.$.fancybox.close();">Fermer la fenêtre</a>
+   <!-- <a href="javascript:parent.$.fancybox.close();">Fermer la fenêtre</a> -->
    </div>
 		
       
