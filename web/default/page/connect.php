@@ -19,7 +19,7 @@ if($res != NULL){
 	session_start();
 	$_SESSION['id'] = $res['password'];
 	//redirection
-	header('location: onload.php');
+	header('location: /index.php');
 }
 else {
 	header('location: ouicode.php');
