@@ -26,11 +26,6 @@ include('../default/page/start_header.php');
 		padding: 2%;
 		z-index:8;
 		}
-h1 {
-font-family: 'Special Elite';
-color:#35201e;
-font-size: 25px;
-}
 		
 	</style>
 
@@ -78,3 +73,5 @@ font-size: 25px;
 <?php 
 include('../default/page/footer.php');
 ?>
+
+<link rel="stylesheet" href="../default/page/CSS/font.css">

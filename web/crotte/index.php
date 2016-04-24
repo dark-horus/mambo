@@ -5,6 +5,7 @@ include('../default/page/start_header.php');
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../default/page/CSS/font.css">
 
 <!-- fin CSS -->
 <?php include( '../default/page/header.php' ); ?>
