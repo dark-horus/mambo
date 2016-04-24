@@ -41,7 +41,6 @@ div, img, footer {
   box-sizing: border-box;
 }
 
-
 h1 {
   font-size: 25px;
   font-family: 'Special Elite', cursive;
@@ -71,8 +70,8 @@ h5 {
 }
 
 h6 {
-  font-family: 'Lato', sans-serif; 
-	font-family:18px;
+   font-family: 'Lato', sans-serif; 
+   font-family:18px;
 }
 
 p {
