@@ -3,6 +3,7 @@ include( '../default/page/start_header.php' );
 ?>
     <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
     <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
@@ -40,7 +41,7 @@ include( '../default/page/start_header.php' );
                         <div class="row-fluid">
                             <div id="base container" class="col-md-offset-1 col-md-11">
                                 <h2 style=color:#B54643;>Base</h2>
-                                <h3>(choisir une base)</h3>
+                                <p>(choisir une base)</p>
 
                                 <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'base','tomate');"><img
                                         id="S37" src="images/tomate_test.png" alt=""/>
@@ -57,7 +58,7 @@ include( '../default/page/start_header.php' );
                         <div class="row-fluid">
                             <div id="legumes container" class="col-md-offset-1 col-md-11">
                                 <h2 style=color:#B54643;>Légumes</h2>
-                                <h3>(choisir deux légumes)</h3>
+                                <p>(choisir deux légumes)</p>
 
                                 <div class="col-sm-6 col-md-6 col-lg-6  ingredient" onclick="afficher(this,'legumes','concombre');">
                                     <img id="S2" src="images/concombre_test.png" alt=""/>
@@ -77,7 +78,7 @@ include( '../default/page/start_header.php' );
                         <div class="row-fluid">
                             <div id="condiments container" class="col-md-offset-1 col-md-11">
                                 <h2 style=color:#B54643;>Condiments</h2>
-                                <h3>(choisir quatres condiments)</h3>
+                                <p>(choisir quatres condiments)</p>
 
                                 <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'condiments','oignon');">
                                     <img id="S9" src="images/oignon_test.png" alt=""/>
@@ -106,7 +107,7 @@ include( '../default/page/start_header.php' );
                         <div class="row-fluid">
                             <div id="assaisonement container" class="col-md-offset-1 col-md-11">
                                 <h2 style=color:#B54643;>Assaisonnement</h2>
-                                <h3>(choisir quatres assaisonements)</h3>
+                                <p>(choisir quatres assaisonements)</p>
 
                                 <div class="col-sm-6 col-md-6 col-lg-6 ingredient"
                                      onclick="afficher(this,'assaisonement','citron');"
@@ -144,7 +145,7 @@ include( '../default/page/start_header.php' );
                         <div class="row-fluid">
                             <div id="temperature container" class="col-md-offset-1 col-md-11">
                                 <h2 style=color:#B54643;>Température</h2>
-                                <h3>(un choix possible)</h3>
+                                <p>(un choix possible)</p>
 
                                 <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'temperature','chaud');">
                                     <img id="S35" src="images/chaud2.png" alt=""/>
