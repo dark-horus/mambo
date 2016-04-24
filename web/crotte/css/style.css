@@ -21,6 +21,13 @@ img.responsive {
     height: auto;
 }
 
+h1 {
+text-align: center;
+font-size: 25px;
+font-family:'Special Elite';
+color:#35201e;
+}
+
 #etape {
     margin-top: 8%;
 }
