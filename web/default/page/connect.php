@@ -19,7 +19,9 @@ if($res != NULL){
 	session_start();
 	$_SESSION['id'] = $res['password'];
 	//redirection
-	header('location: /index.php');
+	echo "<script>parent.$.fancybox.close();</script>";
+
+	
 }
 else {
 	header('location: ouicode.php');
