@@ -8,7 +8,11 @@ body {
 }
 
 #mambo-consigne h1 {
-    font-size: 34px; /* remplacer la taille de la police pour que tous les titres soient sur une seule ligne en 1024x768 */
+    font-size: 25px; /* remplacer la taille de la police pour que tous les titres soient sur une seule ligne en 1024x768 */
+    text-align: center;
+    font-size: 25px;
+    font-family:'Special Elite';
+    color:#35201e;
 }
 
 #toutelecontenu {
