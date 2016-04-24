@@ -629,7 +629,7 @@
                     <h2 class="typo">Devenez ecrivain et imaginez la suite de l'histoire...</h2> 
                     <br>
 
-                    <p>"Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat."</p>
+                    <p>"Le visage contracté par le dégoût, il envoya son courrier puis se mit a surfer. Il pensa que c'était une idée excellente que de reprendre contact avec les plus importantes maisons d'édition d'Espagne. A toutes il envoya un nouveau message : ..." (Chapitre 26, page 168)</p>
                 </div>
                 <br>
                     <div class="ecriture">                                 
