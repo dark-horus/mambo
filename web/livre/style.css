@@ -239,16 +239,17 @@ body {
 }
 
 p{
-    font-family:'Futura Std';
+    font-family:'Lato', sans-serif;
 }
 
+
 h3{
-    font-family:'Futura Std';
+    font-family:'Lato', sans-serif;
 }
 
 
 ul{
-    font-family:'Futura Std';
+    font-family:'Lato', sans-serif;
 }
 
 h2{
@@ -267,7 +268,7 @@ h2{
 
 .contenu_machine {
     width:100%;
-    height: 400%;
+    height: auto;
 }
 
 
@@ -320,3 +321,43 @@ background-position: center;
 width: 64px;
 }
 
+body {
+ font-family:'Lato', sans-serif;
+ font-size:18px;
+}
+
+h1 {
+font-family: 'Special Elite';
+color:#35201e;
+font-size: 25px;
+}
+
+h2 {
+font-family: 'Special Elite';
+font-size: 22px;
+}
+
+h3 {
+font-family: 'Lato', sans-serif; 
+font-size:20px;
+}
+
+h4 {
+font-family: 'Lato', sans-serif;
+font-size:18px;
+}
+
+h5 {
+font-family: 'Lato', sans-serif;
+font-size:18px;
+}
+
+h6 {
+font-family: 'Lato', sans-serif; 
+font-family:18px;
+}
+
+p {
+font-family: 'Lato', sans-serif;
+font-size:18px;
+}
