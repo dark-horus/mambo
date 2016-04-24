@@ -113,59 +113,59 @@ margin-bottom: 460px;
 
 .block-1{ 
     position: fixed;
-    top: 273px;
+   bottom: 20px;
     left:50px;
 }
 
 .block-2{ 
     position: fixed;
-    top: 273px;
+    bottom: 20px;
     left:150px;
     width: 700px;
 }
 
 .block-3{ 
     position: fixed;
-    top: 273px;
+    bottom: 20px;
     left:300px;
     width: 700px;
 }
 
 .block-4{
     position: fixed;
-    top: 273px;
+    bottom: 20px;
     left:480px;
 }
 
 .block-5{
     position: fixed;
-    top: 273px;
+    bottom: 20px;
     left:510px;
     width: 600px;
 }
 
 .block-6{
     position: fixed;
-    top: 273px;
+    bottom: 20px;
     left:700px;
     width: 600px;
 }
 
 .block-7{
     position: fixed;
-    top: 273px;
+    bottom: 20px;
     left:780px;
     width: 600px;
 }
 
 .block-8{
     position: fixed;
-    top: 273px;
+    bottom: 20px;
     left:780px;
 }
 
 .block-9 {
  position: fixed;
-    top: 373px;
-    left:1180px;
+    bottom: 20px;
+    right: -260px;
 }
