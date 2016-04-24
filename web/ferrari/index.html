@@ -5,6 +5,7 @@
 	<title>Partez à la découverte du Venezuela !</title>
     <link rel="stylesheet" href="css/example.css"  />
     <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 </head>
 <body>
     
@@ -59,6 +60,10 @@ Le 20 Mai 1993, le président Carlos Andrès Pérez qui en est à son deuxième 
 </div>
     </div> 
     
+    <div class="block block-9" >
+    <a href="../chien/default.php"> <img src="images/etapesuivante.png" alt="valider" /> </a>
+    </div>
+     
     
     
         <div class="texture scroll">
@@ -90,7 +95,6 @@ Le 20 Mai 1993, le président Carlos Andrès Pérez qui en est à son deuxième 
 </div>
 
 
-     
     <script type="text/javascript" src="../../vendor/jquery-2.2.1/jquery-2.2.1.min.js"></script>
     <script type="text/javascript" src="../../vendor/jquery-2.2.1/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="../../vendor/jInvertScroll/dist/js/jquery.jInvertScroll.min.js"></script>
@@ -190,13 +194,23 @@ Le 20 Mai 1993, le président Carlos Andrès Pérez qui en est à son deuxième 
                 if(percent > 0.8800 && percent < 0.9500){
                     $('.block-8').fadeIn();
                 }
-                if(percent >= 0.95000) {
+                if(percent >= 0.9500) {
                     $('.block-8').fadeOut();
                 }
                 if(percent < 0.8800){
                     $('.block-8').fadeOut();
                 }
                 
+//Valider
+                 if(percent > 0.9500 && percent < 0.9999){
+                    $('.block-9').fadeIn();
+                }
+                if(percent >= 0.9999) {
+                    $('.block-9').fadeOut();
+                }
+                if(percent < 0.9500){
+                    $('.block-9').fadeOut();
+                }   
             }
         });
 

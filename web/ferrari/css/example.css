@@ -19,6 +19,8 @@ h1
   color: #2e6e80;
 }
 
+
+
 /**
   * important: keep position fixed, you can however use top:0 instead of bottom:0
   * if you want to make it stick to the top of the browser
@@ -76,12 +78,14 @@ margin-bottom: 460px;
     z-index: 700;
     padding-left: 40px; 
     height: 50px;
-    width: 80%;
-    align-self: center;
+    width: 100%;
+    position: absolute, 0px;
 }
 
 .barre input{
-    width: 100%;
+    width: 90%;    
+    background-image:url("../images/testombre.png"); 
+
 }
 
 
@@ -102,7 +106,7 @@ margin-bottom: 460px;
 
 .texte{
     color: snow;
-    font-family: Futura;
+    font-family: Lato;
     z-index: 1000;
     font-size: 14px;
 }
@@ -138,7 +142,6 @@ margin-bottom: 460px;
     top: 273px;
     left:510px;
     width: 600px;
-    
 }
 
 .block-6{
@@ -159,4 +162,10 @@ margin-bottom: 460px;
     position: fixed;
     top: 273px;
     left:780px;
+}
+
+.block-9 {
+ position: fixed;
+    top: 373px;
+    left:1180px;
 }
