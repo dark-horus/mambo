@@ -18,7 +18,7 @@ include('../default/page/start_header.php');
 
 <!-- Place ici ton contenu -->
 <div id="image">
-<img class="img-responsive" src="images/henriHD.png" width="100%" usemap="#maparthur">
+<img src="images/chambre3.png" width="100%" usemap="#maparthur">
 </div>
  <map name="maparthur" id="maparthur">
 		<area shape="rect" title="livre" coords="2,804,96,850" href="#" onclick="showElem()"/>  		
@@ -40,11 +40,11 @@ include('../default/page/start_header.php');
  <p>Avez vous deviné à qui appartient cette chambre ?</p>
  <form action="verif.php" method="post" name="param" onsubmit="return confirmation()">
 
-<input type="radio" name="henri" id="r1" value="Alejandro" onclick="reponse()">
+<input type="radio" name="chambre3" id="r1" value="Alejandro" onclick="reponse()">
 Alejandro
-<input type="radio" name="henri" id="r2" value="Henri" onclick="reponse()">
-Henri
-<input type="radio" name="henri" id="r3" value="Simao" onclick="reponse()">
+<input type="radio" name="chambre3" id="r2" value="Henry" onclick="reponse()">
+Henry
+<input type="radio" name="chambre3" id="r3" value="Simao" onclick="reponse()">
 Simao
 <input type="submit" name="valider" id="valider" value="Valider l'étape">
 

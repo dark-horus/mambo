@@ -17,10 +17,10 @@ $id = $res['iduser'];
 	
 
 	
-if (isset($_POST['henri']))
+if (isset($_POST['chambre1']))
 {
-	$page = "henri.php";
-	if($_POST['henri'] == "Henri"){
+	$page = "chambre1.php";
+	if($_POST['chambre1'] == "Henry"){
 		$validate = "true";				
 	}
 	else {
@@ -29,20 +29,20 @@ if (isset($_POST['henri']))
 }
 
 
-if (isset($_POST['alejandro']))
+if (isset($_POST['chambre2']))
 {
-	$page = "alejandro.php";
-	if($_POST['alejandro'] == "Alejandro"){
+	$page = "chambre2.php";
+	if($_POST['chambre2'] == "Alejandro"){
 		$validate = "true";				
 	}
 	else {
 		$validate = "false";
 	}
 }
-if (isset($_POST['simao']))
+if (isset($_POST['chambre3']))
 {
-	$page = "simao.php";
-	if($_POST['simao'] == "Simao"){
+	$page = "chambre3.php";
+	if($_POST['chambre3'] == "Simao"){
 		$validate = "true";				
 	}
 	else {
