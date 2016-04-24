@@ -26,21 +26,21 @@ include( '../default/page/start_header.php' );
         <!-- DOSSIER Musiques -->
         <div class="icone d_musiques" data-window="f_musiques">
             <div class="mes_musiques">
-                <p>Mes musiques</p>
+                <p class="dossier_police">Mes musiques</p>
             </div><!-- .mes_musiques -->
         </div><!-- .d_musiques -->
 
         <!-- DOSSIER Videos -->
         <div class="icone d_videos" data-window="f_videos">
             <div class="mes_videos">
-                <p>Mes vidéos</p>
+                <p class="dossier_police">Mes vidéos</p>
             </div><!-- .mes_videos -->
         </div><!-- .d_videos -->
 
         <!-- DOSSIER Oeuvre -->
         <div class="icone d_oeuvre" data-window="f_oeuvre">
             <div class="mon_oeuvre">
-                <p>Mon Oeuvre</p>
+                <p class="dossier_police">Mon Oeuvre</p>
             </div><!-- .mon_oeuvre -->
         </div><!-- .d_oeuvre -->
 
@@ -72,9 +72,10 @@ include( '../default/page/start_header.php' );
                     </div>
                 </div>
             </a>
+
             <a href="https://www.youtube.com/watch?v=SVDg1ZzS87k&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=6" target="_blank" style="text-decoration:none">
 
-                <div class="musique_2">
+                <div class="news musique_2" data-news="f_infos">
                     <div class="titre_musique">
                         <p class="text-center">Vete de mí</p>
                     </div>
@@ -197,7 +198,7 @@ include( '../default/page/start_header.php' );
                     </div>
 
                 </div>
-            </a>
+            </a> -->
         </div><!-- .f_musiques -->
 
         <!-- FENETRE Videos -->
@@ -275,6 +276,7 @@ include( '../default/page/start_header.php' );
 
         </div><!-- .f_videos -->
 
+
         <!-- FENETRE Oeuvre -->
         <div class="window f_oeuvre" id="f_oeuvre" style="display:none;">
 
@@ -286,7 +288,23 @@ include( '../default/page/start_header.php' );
 
             </div>
 
+                <div class="oeuvre_1">
+                    <div class="titre_oeuvre">
+                        <p class="text-center">Mon Oeuvre</p>
+                    </div>
+                </div>
+
         </div><!-- .f_oeuvre -->
+
+
+         <!-- FENETRE infos -->
+
+        <div class="news f_infos" id="f_infos" style="display:none;">
+            <div class="bouton_fermer4" onclick="javascript:visibilite('f_infos'); return false;">
+                <p class="texte_infos">Vous écoutez actuellement <b><em>Celoso</b></strong> du <b>Trio Los Panchos</b><br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>
+            </div>
+            <div class="bouton_ok" onclick="javascript:visibilite('f_infos'); return false;">
+        </div>
 
     </div><!-- .background -->
 </div>
@@ -309,7 +327,6 @@ include( '../default/page/start_header.php' );
         });
     });
 
-
     /**
      * Bascule la fenêtre sélectionnée au premier plan
      */
@@ -330,6 +347,18 @@ include( '../default/page/start_header.php' );
         var window = $(this).attr('data-window');
 
         $('.' + window).fadeIn();
+
+    });
+
+    /* Ouvrir fenêtre infos  */
+
+    $('.news').on('click', function (event) {
+
+        event.preventDefault();
+
+        var news = $(this).attr('data-news');
+
+        $('.' + news).fadeIn();
 
     });
 

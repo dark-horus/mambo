@@ -10,7 +10,6 @@ body {
 #mambo-consigne h1 {
     font-size: 25px; /* remplacer la taille de la police pour que tous les titres soient sur une seule ligne en 1024x768 */
     text-align: center;
-    font-size: 25px;
     font-family:'Special Elite';
     color:#35201e;
 }
@@ -30,6 +29,28 @@ body {
     float: left;
 }
 
+p {
+
+    font-family: 'Special Elite', cursive;
+    font-size: 10px;
+}
+.dossier_police {
+
+    font-family: 'Special Elite', cursive;
+    font-size: 14px;
+}
+
+.texte_infos {
+
+    font-family: 'Special Elite', cursive;
+    width: 360px;
+    font-size: 12px;
+    position: relative;
+    left: -333px;
+    top: 51px;
+
+}
+
 .background {
     /*position: absolute;*/
     position: relative;
@@ -39,8 +60,84 @@ body {
     height: 768px;
     margin: 80px auto;
     overflow: hidden;
-    font-family: 'Special Elite', cursive;
+    /*font-family: 'Special Elite', cursive;*/
 }
+
+.f_infos {
+
+background-image: url('./images/Alerte.png');
+    background-repeat: no-repeat;
+    height: 768px;
+    width: 1021px;
+    padding-top: 0px;
+    padding-left: 0px;
+    z-index: 800;
+    position: relative;
+    top: -248px;
+    left: 0px;
+}
+
+.bouton_fermer4 {
+    position: absolute;
+    background-image: url('./images/bouton_close.png');
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 24px;
+    margin: 15px;
+    left: 683px;
+    top: 228px;
+}
+
+.bouton_ok {
+    position: absolute;
+    background-image: url('./images/bouton_ok.png');
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 85px;
+    margin: 15px;
+    left: 443px;
+    top: 360px;
+}
+
+/* sans le fond noir 
+
+.f_infos {
+
+background-image: url('./images/Alerte.png');
+    background-repeat: no-repeat;
+    height: 215px;
+    width: 471px;
+    padding-top: 0px;
+    padding-left: 0px;
+    z-index: 800;
+    position: relative;
+    top: 0px;
+    left: 283px;
+}
+
+.bouton_fermer4 {
+    position: absolute;
+    background-image: url('./images/bouton_close.png');
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 24px;
+    margin: 15px;
+    left: 406px;
+    top: 2px; 
+}
+
+.bouton_ok {
+    position: absolute;
+    background-image: url('./images/bouton_ok.png');
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 85px;
+    margin: 15px;
+    left: 166px;
+    top: 134px;
+}
+*/
+
 
 .icone {
     position: relative;
@@ -125,6 +222,30 @@ body {
     bottom: 0px;
 }
 
+.titre_musique {
+    position: relative;
+    width: 117px;
+    top: 62px;
+    left: -55%;
+    margin-left: -5px;
+}
+
+.titre_video {
+    position: relative;
+    width: 117px;
+    top: 62px;
+    left: -55%;
+    margin-left: -9px;
+}
+
+.titre_oeuvre {
+    position: relative;
+    width: 117px;
+    top: 62px;
+    left: -45%;
+    margin-left: -9px;
+}
+
 .f_videos {
     background-image: url('./images/Fenetre_1.png');
     background-repeat: no-repeat;
@@ -134,7 +255,7 @@ body {
     padding-top: 14px;
     padding-left: 2px;
     z-index: 2;
-    font-size: 10px;
+    /*font-size: 10px;*/
     top: 160px;
     left: 180px;
 }
@@ -171,22 +292,6 @@ body {
     top: 77px;
     cursor: pointer;
 
-}
-
-.titre_musique {
-    position: relative;
-    width: 117px;
-    top: 62px;
-    left: -55%;
-    margin-left: -5px;
-}
-
-.titre_video {
-    position: relative;
-    width: 117px;
-    top: 62px;
-    left: -55%;
-    margin-left: -9px;
 }
 
 .video_2 {
@@ -252,7 +357,7 @@ body {
     /*margin: 134px;*/
     padding-top: 14px;
     padding-left: 2px;
-    font-size: 10px;
+    /*font-size: 10px;*/
     z-index: 1;
 }
 
@@ -477,6 +582,29 @@ body {
     left: 477px;
     top: 2px;
 }
+
+.oeuvre_1 {
+    position: relative;
+    background-image: url('./images/text_file.png');
+    background-repeat: no-repeat;
+    height: 69px;
+    width: 55px;
+    left: 60px;
+    top: 90px;
+    cursor: pointer;
+}
+
+.oeuvre_2 {
+    position: relative;
+    background-image: url('./images/text_file.png');
+    background-repeat: no-repeat;
+    height: 69px;
+    width: 55px;
+    left: 100px;
+    top: 90px;
+    cursor: pointer;
+}
+
 
 .internet {
     position: relative;
