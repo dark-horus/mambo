@@ -6,13 +6,12 @@ html {
 
 #body_fictif {
   max-width: 1920px;
-  height: 768px;
   margin: auto;
   background-image: url('./img/backg2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px -130px;
-  height: 768px;
+  height: 100%;
 }
 .marker{
 
@@ -39,8 +38,8 @@ z-index: 999;
 
 #m1{
 
-left: 26vw;
-top: 28vh;
+    left: 63vw;
+    top: 23vh;
 
 }
 #m2{
@@ -52,12 +51,18 @@ top: 73vh;
 #m3{
 
 left: 47vh;
-top: 61vh;
+top: 29vh;
 
 }
 #m4{
 
-left: 53vh;
-top: 51vh;
+    left: 77vh;
+    top: 52vh;
+
+}
+#m5{
+
+    left: 70vh;
+    top: 55vh;
 
 }
