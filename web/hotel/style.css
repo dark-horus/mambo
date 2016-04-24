@@ -102,6 +102,8 @@ li.active a, a:hover, a:active {
   padding: 20px;
   box-sizing: border-box;
   margin:  auto;
+  /*pour decendre la carte il faut régler le margin-top*/
+  margin-top: 8%;
   height: 555px;
   background-image: url('images/cartedessinvert2.png');
   background-repeat : no-repeat;
