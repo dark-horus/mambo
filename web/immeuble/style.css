@@ -12,3 +12,25 @@
 	top: 300px;
 	left: 100px;
 }
+
+#porte1{
+	top:98px;
+	left:0px;
+	width:698px;
+	height:972px;
+	position: absolute;
+}
+#porte2{
+	top:98px;
+	left:706px;
+	width:621px;
+	height:972px;
+	position: absolute;
+}
+#porte3{
+	top:98px;
+	left:1353px;
+	width:550px;
+	height:972px;
+	position: absolute;
+}
