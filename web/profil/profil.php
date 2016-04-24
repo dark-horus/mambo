@@ -78,7 +78,7 @@ $imgEtape = $imgEtape . ".png" ;
       </div>
      
      Etape courante : <?php if($imgEtape){ ?><img src="../default/page/img/<?php echo $imgEtape; ?>" alt="Etape_courante" class="img-thumbnail">
-     <?php } else { echo "<img src='../default/page/img/vin.png'>"; } ?>
+     <?php } else { echo "<img src='../default/page/img/gaspacho.png'>"; } ?>
      
     </div>
     
