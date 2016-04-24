@@ -64,7 +64,7 @@ $imgEtape = $imgEtape . ".png" ;
      <br>
      
 	 
-	 <form method="post" action="upload.php" enctype="multipart/form-data">
+	 <form method="post" action="upload.php" enctype="multipart/form-data" onsubmit="return verifFile(this)">
      <label for="avatar">Changer sa photo de profil (JPG, PNG ou GIF | max. 2 MO) :</label><br />
      <input type="file" name="avatar" id="avatar" /><br />
      <input type="submit" name="submit" value="Envoyer" />
@@ -181,7 +181,19 @@ $imgEtape = $imgEtape . ".png" ;
 			
 		
 		?>
-		
+		<script>
+		function verifFile()
+        {
+			var size = document.getElementById("avatar").files[0].size;
+			if(size > 2097152){
+				alert("Taille du fichier trop grande !");
+				return false;
+			}
+			else {
+				return true;
+			}
+        }
+		</script>
       </div>
     </div>
   </div>
