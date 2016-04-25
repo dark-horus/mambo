@@ -40,9 +40,9 @@ if($pourcent > 100){
 	$pourcent = 100;
 }
 
-$imgEtape = $res['current_etape'];
-if($imgEtape){
-$imgEtape = $imgEtape . ".png" ;
+$imagEtape = strtolower($res['current_etape']);
+if($imagEtape){
+$imgEtape = $imagEtape . ".png" ;
 }
 
 
@@ -70,15 +70,18 @@ $imgEtape = $imgEtape . ".png" ;
      <input type="submit" name="submit" value="Envoyer" />
 	 </form>
 	  
-	  
+	  <br>
+	  <br>
+	  <br>
+	  <p>Progression dans le dispositif :</p>
 	  <div class="progress">
         <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="<?php echo $pourcent; ?>" aria-valuemin="0" aria-valuemax="100" style="width:<?php echo $pourcent; ?>%">
           <?php echo $pourcent; ?>%
         </div>
       </div>
      
-     Etape courante : <?php if($imgEtape){ ?><img src="../default/page/img/<?php echo $imgEtape; ?>" alt="Etape_courante" class="img-thumbnail">
-     <?php } else { echo "<img src='../default/page/img/gaspacho.png'>"; } ?>
+     Etape courante : <a href="<?php echo "../".$imagEtape;?>"><?php if($imgEtape){ ?><img src="../default/page/img/<?php echo $imgEtape; ?>" alt="Etape_courante" class="img-thumbnail">
+     <?php } else { echo "<img src='../default/page/img/gaspacho.png'>"; } ?></a>
      
     </div>
     
