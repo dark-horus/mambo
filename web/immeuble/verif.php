@@ -21,7 +21,8 @@ if (isset($_POST['chambre1']))
 {
 	$page = "chambre1.php";
 	if($_POST['chambre1'] == "Henry"){
-		$validate = "true";				
+		$validate = "true";
+		$reponse = "Henry";
 	}
 	else {
 		$validate = "false";
@@ -33,7 +34,8 @@ if (isset($_POST['chambre2']))
 {
 	$page = "chambre2.php";
 	if($_POST['chambre2'] == "Alejandro"){
-		$validate = "true";				
+		$validate = "true";
+		$reponse = "Alejandro";		
 	}
 	else {
 		$validate = "false";
@@ -43,7 +45,8 @@ if (isset($_POST['chambre3']))
 {
 	$page = "chambre3.php";
 	if($_POST['chambre3'] == "Simao"){
-		$validate = "true";				
+		$validate = "true";	
+		$reponse = "Simao";
 	}
 	else {
 		$validate = "false";
@@ -78,6 +81,7 @@ if (isset($_POST['chambre3']))
 		if(isset($_SESSION['badanswer'])){
 			unset($_SESSION['badanswer']);
 		}
+		$_SESSION['good'] = $reponse;
 		header('location: '.$page);
 		
 	}

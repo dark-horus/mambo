@@ -17,6 +17,10 @@ include('../default/page/start_header.php');
 <?php include('../default/page/end_header.php'); ?>
 
 <!-- Place ici ton contenu -->
+<?php if(isset($_SESSION['good'])) {
+	$reponse = $_SESSION['good'];
+}
+?>
 <div id="image">
 <img src="images/chambre3.png" width="100%" usemap="#maparthur">
 </div>
@@ -51,7 +55,14 @@ Simao
 </form>
 </div>
    
-   
+   <div id="portes">
+   <h2>Changer de chambre :</h2>
+	<ul class="list-inline col-md-12">
+	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre1.php"><img class="col-md-12" width="50px" height="60px" src="images/porte1.png" alt="chambre1" title="chambre1"><div class="col-md-12"><?php if(isset($reponse)){ echo $reponse; } ?></div></a></div></li>
+	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre2.php"><img class="col-md-12" width="50px" height="60px" src="images/porte2.png" alt="chambre2" title="chambre2"><div class="col-md-12"><?php// if(isset($reponse)){ echo $reponse; } ?></div></a></li>
+	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre3.php"><img class="col-md-12" width="50px" height="60px" src="images/porte3.png" alt="chambre3" title="chambre3"><div class="col-md-12"><?php// if(isset($reponse)){ echo $reponse; } ?></div></a></li>
+ </ul>
+  </div>  
    
 <script>
 	var count = 0;

@@ -1,7 +1,8 @@
 #obj {
 	position: absolute;
-	top: 150px;
-	left: 100px;
+	top: 914px;
+	left: 360px;
+	color: white;
 }
 
 #image {
@@ -9,8 +10,9 @@
 }
 #question{
 	position: absolute;
-	top: 300px;
-	left: 100px;
+	top: 920px;
+	left: 780px;
+	color: white;
 }
 
 #porte1{
@@ -33,4 +35,11 @@
 	width:550px;
 	height:972px;
 	position: absolute;
+}
+#portes{
+	top:914px;
+	left:1335px;
+	position: absolute;
+	color: white;
+	
 }

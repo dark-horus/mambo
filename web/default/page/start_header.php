@@ -8,7 +8,7 @@ if ($dossier != null) {
     switch ($dossier) {
         case "crotte":
             $titre = "Expulsez Mary Carmen !";
-			 $next = '<li class="col-md-12"><a href="../poitrine">Étape suivante : poitrine</a></li>';
+			 $next = '<li class="col-md-12"><a href="../poitrine/default.php">Étape suivante : poitrine</a></li>';
 			 $before = '<li class="col-md-12"><a href="../vin">Étape précédente : vin</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Trouvez la bonne combinaison d’actions pour faire partir votre voisine Mary Carmen en plaçant les actions dans le bon ordre. Un check correspond à une icône placée au bon endroit. Une croix équivaut à une icône présente dans la combinaison mais qui n’est pas au bon endroit. Attention, une icône peut être utilisée plusieurs fois dans la combinaison.";
@@ -16,7 +16,7 @@ if ($dossier != null) {
         case "livre":
             $titre = "À votre tour, devenez écrivain !";
 			$next = '<li class="col-md-12"><a href="../lapin">Étape suivante : lapin</a></li>';
-			$before = '<li class="col-md-12"><a href="../chien">Étape précédente : chien</a></li>';
+			$before = '<li class="col-md-12"><a href="../chien/default.php">Étape précédente : chien</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Glissez-vous dans la peau d’Henry et écrivez la suite de l’histoire. Parcourez au gré des rayons ses différentes sources d’inspiration littéraire.";
 			break;
@@ -30,7 +30,7 @@ if ($dossier != null) {
         case "hotel":
             $titre = "Déambulez, de place en place, à travers Madrid !";
 			$next = '<li class="col-md-12"><a href="../vin">Étape suivante : vin</a></li>';
-			$before = '<li class="col-md-12"><a href="../gaspacho">Étape précédente :gaspacho</a></li>';
+			$before = '<li class="col-md-12"><a href="../gaspacho/default.php">Étape précédente :gaspacho</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Aventurez-vous dans les lieux où Henry et Simao se sont baladés. Cette carte vous donnera accès aux cinq places touristiques de Madrid : la Puerta del sol, la Puerta de Alcalà, la Plaza de Oriente, la Plaza Mayor et la Plaza de Cibeles.";
 			break;
@@ -57,7 +57,7 @@ if ($dossier != null) {
 			break;
         case "poitrine":
             $titre = "Partez à la rencontre des femmes d'hier et d'aujourd'hui !";
-			$next = '<li class="col-md-12"><a href="../ferrari">Étape suivante : ferrari</a></li>';
+			$next = '<li class="col-md-12"><a href="../ferrari/index.html">Étape suivante : ferrari</a></li>';
 			$before = '<li class="col-md-12"><a href="../crotte">Étape suivante : crotte</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Remontez le temps et rencontrez les idéaux féminins qui ont inspirés de nombreux artistes, par leur beauté.";
@@ -79,14 +79,14 @@ if ($dossier != null) {
         case "chien":
             $titre = "Imaginez le visage des personnages principaux !";
 			$next = '<li class="col-md-12"><a href="../livre">Étape suivante : livre</a></li>';
-			$before = '<li class="col-md-12"><a href="../ferrari">Étape précédente : ferrari</a></li>';
+			$before = '<li class="col-md-12"><a href="../ferrari/index.html">Étape précédente : ferrari</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Vous voici devant un logiciel permettant de créer des portraits robots. Servez-vous en pour reconstituer les visages de nos trois compères. Une fois cette tâche terminée, validez vos propositions pour pouvoir les comparer avec celles des autres lecteurs.";
 			break;
         case "ferrari":
             $titre = "Partez à la découverte du Venezuela !";
 			$next = '<li class="col-md-12"><a href="../chien">Étape suivante : chien</a></li>';
-			$before = '<li class="col-md-12"><a href="../poitrine;">Etape précédente : poitrine</a></li>';
+			$before = '<li class="col-md-12"><a href="../poitrine/default.php">Etape précédente : poitrine</a></li>';
 			$current = '<li class="col-md-12 "><a href="#">Etape courante</a></li>';
 			$consigne ="A bord de la Ferrari d’Alejandro, retracez l’histoire du pays natal de l’auteur de 'Mambo Canaille'. ";
 			break;
