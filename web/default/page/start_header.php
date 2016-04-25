@@ -85,7 +85,7 @@ if ($dossier != null) {
 			break;
         case "ferrari":
             $titre = "Partez à la découverte du Venezuela !";
-			$next = '<li class="col-md-12"><a href="../chien">Étape suivante : chien</a></li>';
+			$next = '<li class="col-md-12"><a href="../chien/default.php">Étape suivante : chien</a></li>';
 			$before = '<li class="col-md-12"><a href="../poitrine/default.php">Etape précédente : poitrine</a></li>';
 			$current = '<li class="col-md-12 "><a href="#">Etape courante</a></li>';
 			$consigne ="A bord de la Ferrari d’Alejandro, retracez l’histoire du pays natal de l’auteur de 'Mambo Canaille'. ";
