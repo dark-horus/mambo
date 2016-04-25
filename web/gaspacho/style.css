@@ -22,10 +22,12 @@ body {
 
 .content {
 
-    padding-top: 150px;
+    padding-top: 100px;
     width: 1024px;
     height: 768px;
 }
+
+
 
 h1 {
 font-family: 'Special Elite';
@@ -133,20 +135,20 @@ font-size:18px;
 
 #bol {
     background-image: url('images/bol.png');
-    background-position: 2px 76px;
+    background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 454px;
-    height: 303px;
+    width: 629px;
+    height: 400px;
 }
 
 #bol div.tomate {
     background-image: url('images/remplissage/tomate.png');
-    background-position: center;
+    background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 100%;
-    height: 100%;
+    width: 629px;
+    height: 400px;
 }
 
 #bol div.lentille {
