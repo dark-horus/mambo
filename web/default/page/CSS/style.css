@@ -271,6 +271,115 @@ left: 1vw;
 
 /** CHIEN **/
 
+#slider_chien{
+
+    margin-top: 241px;
+    margin-left: 295px;
+}
+
+#slider1{
+
+margin-top: 50px;
+
+}
+#slider2{
+
+
+margin-top:3px;
+
+}
+#slider3{
+
+
+margin-top:3px;
+
+}
+#slider4{
+
+
+margin-top:3px;
+
+}
+#slider5{
+
+margin-top:3px;
+
+}
+
+#body_fictif{
+
+
+height: auto;
+width: 100%;
+margin: 0px;
+background-image: url("/mambo/web/chien/img/fond.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+#portraits{
+
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    bottom : 5px;
+    left: 102px;
+
+}
+#henry{
+
+    position: absolute;
+    top: 50px;
+    left: 258px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+
+
+}
+#simao{    
+    position: absolute;
+    top: 262px;
+    left: 181px;
+    -ms-transform: rotate(4deg); /* IE 9 */
+    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+    transform: rotate(4deg);
+
+}
+#alejandro{
+    position: absolute;
+    top: 262px;
+    left: 356px;
+
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+.valider{
+
+position: absolute;
+right: 50px;
+top: 862px;
+z-index: 9999;
+height: 50px;
+width: 200px;
+}
+
+#boutton{
+
+    position: absolute;
+    left: 50px;
+    top:100px;
+    z-index: 9999;
+}
+
+button{
+
+     background: none; /* ou transparent je sais plus... */
+     border: 0;
+}
+
 /** LIVRE **/
 
 /** LAPIN **/

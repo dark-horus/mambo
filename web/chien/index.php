@@ -19,119 +19,6 @@ include('../default/page/start_header.php');
 <?php include('../default/page/end_header.php'); ?>
 
 <!-- Place ici ton contenu -->
-<style type="text/css">
-
-#slider_chien{
-
-    margin-top: 241px;
-    margin-left: 295px;
-}
-
-#slider1{
-
-margin-top: 50px;
-
-}
-#slider2{
-
-
-margin-top:3px;
-
-}
-#slider3{
-
-
-margin-top:3px;
-
-}
-#slider4{
-
-
-margin-top:3px;
-
-}
-#slider5{
-
-margin-top:3px;
-
-}
-
-#body_fictif{
-
-
-height: auto;
-width: 100%;
-margin: 0px;
-background-image: url("img/fond.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-
-}
-
-#portraits{
-
-	width: 600px;
-    height: 600px;
-    position: absolute;
-    top: 440px;
-    left: 102px;
-
-}
-#henry{
-
-	position: absolute;
-	top: 50px;
-	left: 258px;
-	-ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
-
-
-}
-#simao{    
-	position: absolute;
-    top: 262px;
-    left: 181px;
-    -ms-transform: rotate(4deg); /* IE 9 */
-    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
-    transform: rotate(4deg);
-
-}
-#alejandro{
-	position: absolute;
-	top: 262px;
-    left: 356px;
-
-    -ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-    transform: rotate(-7deg);
-}
-.valider{
-
-position: absolute;
-left: 1569px;
-top: 862px;
-z-index: 9999;
-height: 50px;
-width: 200px;
-}
-#boutton{
-
-
-	position: absolute;
-	left: 50px;
-	top:100px;
-	z-index: 9999;
-}
-
-button{
-
-	 background: none; /* ou transparent je sais plus... */
-	 border: 0;
-}
-
-</style>
-
 <div class="container" id="body_fictif">
 
 	<script type="text/javascript">
@@ -158,13 +45,13 @@ button{
 
 	<div id="portraits">
 		<div id="henry">
-			<img src="img/henry.png"/>
+			<img class="img-responsive" src="img/henry.png"/>
 		</div>
 		<div id="simao">
-			<img src="img/simao.png"/>
+			<img class="img-responsive" src="img/simao.png"/>
 		</div>
 		<div id="alejandro">
-			<img src="img/alejandro.png"/>
+			<img class="img-responsive" src="img/alejandro.png"/>
 		</div>
 
 	</div>

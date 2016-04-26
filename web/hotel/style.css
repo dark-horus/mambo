@@ -109,7 +109,7 @@ li.active a, a:hover, a:active {
   margin:  auto;
   /*pour decendre la carte il faut régler le margin-top*/
   margin-top: 8%;
-  height: 555px;
+  height: 720px;
   background-image: url('images/cartedessinvert2.png');
   background-repeat : no-repeat;
   background-position: top center;
