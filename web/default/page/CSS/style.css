@@ -26,16 +26,19 @@ footer, header, hgroup, menu, nav, section {
 }
 html {
   height: 100%;
+  margin: 0;
+  padding: 0;
+
 }
 body {
-  height: 100%;
-}
-body {
+
 	line-height: 1;
     font-family:'Lato', sans-serif;
     font-size:18px;
+    height: 100%;
 }
 ol, ul {
+
 	list-style: none;
 }
 blockquote, q {
@@ -138,3 +141,76 @@ footer li {
 footer ul.list-inline {
     text-align: center;
 }
+
+/** ### Accueil Css ###  **/
+
+#map {
+  width: 100%; /* width of the visible map */
+  height: 1080px; /* height of the visible map */
+  background-image: url('../img/ecranmapOK.jpg'); /* image used as map */
+  background-position:0px 0px; /* initial position */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* transition */
+  -webkit-transition: background-position 1s ease-in-out;
+  -moz-transition: background-position 1s ease-in-out;
+  -o-transition: background-position 1s ease-in-out;
+  transition: background-position 1s ease-in-out;
+}
+#haut_page{
+
+
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/ecran1OK_ssfleche.jpg');
+    background-position: 0px -100px;
+    position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+#bas_page{
+
+position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+
+}
+#map_container{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#top_site{
+
+height: 768px;
+margin-top: 30vh;
+padding-left: 10%;
+}
+
+#bouton_soutenance{
+
+z-index: 666;
+position: absolute;
+top: 21vh;
+left: 1vw;
+
+}
+
+.footer_provisoir{
+
+
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #000000;
+    z-index:777;
+}
+
