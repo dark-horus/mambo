@@ -271,10 +271,18 @@ left: 1vw;
 
 /** CHIEN **/
 
+.row{
+
+margin: 0 !important ;
+
+}
+
 #slider_chien{
 
-    margin-top: 241px;
-    margin-left: 295px;
+    position: absolute;
+    top: 228px;
+    margin-left: 15%;
+
 }
 
 #slider1{
@@ -306,7 +314,7 @@ margin-top:3px;
 
 }
 
-#body_fictif{
+#chien{
 
 
 height: auto;
@@ -320,41 +328,42 @@ background-repeat: no-repeat;
 
 #portraits{
 
-    width: 600px;
-    height: 600px;
+    width: 30%;
+    height: 500px;
     position: absolute;
-    bottom : 5px;
-    left: 102px;
+    margin-top: 25%;
 
 }
 #henry{
 
-    position: absolute;
+      position: absolute;
     top: 50px;
     left: 258px;
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
     transform: rotate(7deg);
+    width: 100%;
 
 
 }
 #simao{    
-    position: absolute;
+      position: absolute;
     top: 262px;
     left: 181px;
-    -ms-transform: rotate(4deg); /* IE 9 */
-    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
+    width: 100%;
 
 }
 #alejandro{
     position: absolute;
-    top: 262px;
-    left: 356px;
-
-    -ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+   top: 232px;
+    left: 374px;
+    -ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
     transform: rotate(-7deg);
+    width: 100%;
 }
 .valider{
 
@@ -381,6 +390,9 @@ button{
 }
 
 /** LIVRE **/
+
+
+
 
 /** LAPIN **/
 

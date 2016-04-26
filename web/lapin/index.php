@@ -6,7 +6,7 @@
 <?php include( '../default/page/end_header.php' ); ?>
 
     <html>
-        <body>
+        <body id="lapin">
 
             <script type="text/javascript">
             $(document).ready(function() {
@@ -15,7 +15,7 @@
             </script>
             
        <!-- <h1>Serez-vous le nouveau conquistador culinaire de mambo canaille ?</h1>-->
-            <div id="body_fictif">
+            
                <a class="fancybox" data-fancybox-type="iframe" href="img/recette_gaspa.jpg" id="recette">
                     <div class="marker" id="m1">
 
@@ -42,8 +42,6 @@
 
                      </div>
                 </a>
-
-             </div>
 
          
 

@@ -1,17 +1,18 @@
 
 html {
-  color: black;
+  margin: 0;
+  padding:0;
   text-align: center;
 }
 
-#body_fictif {
-  max-width: 1920px;
-  margin: auto;
-  background-image: url('./img/backg2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px -130px;
-  height: 100%;
+#lapin {
+
+    width: 100%;
+    margin: auto;
+    background-image: url('./img/backg2.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
 }
 .marker{
 
@@ -38,8 +39,8 @@ z-index: 999;
 
 #m1{
 
-    left: 63vw;
-    top: 23vh;
+     left: 127vh;
+    top: 35vh;
 
 }
 #m2{

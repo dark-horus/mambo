@@ -19,7 +19,7 @@ include('../default/page/start_header.php');
 <?php include('../default/page/end_header.php'); ?>
 
 <!-- Place ici ton contenu -->
-<div class="container" id="body_fictif">
+
 
 	<script type="text/javascript">
 	
@@ -43,6 +43,8 @@ include('../default/page/start_header.php');
 
 	</script>
 
+<body id="chien">
+<!-- portraits -->
 	<div id="portraits">
 		<div id="henry">
 			<img class="img-responsive" src="img/henry.png"/>
@@ -86,7 +88,7 @@ include('../default/page/start_header.php');
 		      <img src="img/Cheveux/C_3.png" alt="C_3">
 		    </div>
               
-		    <div class="item active">
+		    <div class="item">
 		      <img src="img/Cheveux/C_4.png" alt="C_4">
 		    </div>
 
@@ -391,7 +393,7 @@ include('../default/page/start_header.php');
 		</div>
 	</div>
 
-
+</div>
 
 	</div>
 
@@ -399,9 +401,7 @@ include('../default/page/start_header.php');
 			<img src="img/valider.png" onclick="javascript:lafonctiondecyril();" alt="Texte en gras" style="cursor:pointer;"></img>
 		</button>
 		<button class="btn btn-success" id="boutton">copie du portrait</button>
-	<canvas></canvas>
-
-</div>
+</body>
 <!-- Fin du contenu -->
 <?php 
 include('../default/page/footer.php');
