@@ -73,7 +73,7 @@ body {
 }
 
 #bol div.tomate {
-    background-image: url('../img/remplissage/tomate.png');
+    background-image: url('./images/remplissage/tomate.png');
     background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -82,7 +82,7 @@ body {
 }
 
 #bol div.lentille {
-    background-image: url('../img/remplissage/lentilles.png');
+    background-image: url('./images/remplissage/lentilles.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -91,7 +91,7 @@ body {
 }
 
 #bol div.potiron {
-    background-image: url('../img/remplissage/potiron.png');
+    background-image: url('./images/remplissage/potiron.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -100,7 +100,7 @@ body {
 }
 
 #bol div.concombre {
-    background-image: url('../img/remplissage/concombre.png');
+    background-image: url('./images/remplissage/concombre.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -109,7 +109,7 @@ body {
 }
 
 #bol div.poivron {
-    background-image: url('../images/remplissage/poivron.png');
+    background-image: url('./images/remplissage/poivron.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -118,7 +118,7 @@ body {
 }
 
 #bol div.chou_fleur {
-    background-image: url('../images/remplissage/chou_fleur.png');
+    background-image: url('./images/remplissage/chou_fleur.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -127,7 +127,7 @@ body {
 }
 
 #bol div.poireau {
-    background-image: url('../images/remplissage/poireau.png');
+    background-image: url('./images/remplissage/poireau.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
