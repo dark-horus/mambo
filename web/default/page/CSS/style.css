@@ -37,6 +37,48 @@ body {
     font-size:18px;
     height: 100%;
 }
+h1 {
+font-family: 'Special Elite';
+color:#35201e;
+font-size: 25px;
+
+}
+
+
+h2 {
+
+    font-size-adjust: auto;
+    color: white;
+    text-align: center;
+font-family: 'Special Elite';
+font-size: 22px;
+}
+
+
+
+}
+
+h3 {
+
+font-family: 'Lato', sans-serif;
+font-size:20px;
+
+color: white;
+text-align: center;
+}
+
+p {
+
+
+font-family: 'Lato', sans-serif;
+text-align: center;
+font-size:18px;
+
+
+
+}
+
+
 ol, ul {
 
 	list-style: none;
@@ -214,3 +256,119 @@ left: 1vw;
     z-index:777;
 }
 
+
+/** GASPACHO **/
+
+.zoomIngredient {
+    animation-name: zoomIngredient;
+    animation-duration: 500ms;
+}
+
+@keyframes zoomIngredient {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.5)
+    }
+}
+
+#bol {
+    background-image: url('../img/bol.png');
+    background-position: 2px 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 629px;
+    height: 400px;
+}
+
+#bol div.tomate {
+    background-image: url('../img/remplissage/tomate.png');
+    background-position: 2px 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 629px;
+    height: 400px;
+}
+
+#bol div.lentille {
+    background-image: url('../img/remplissage/lentilles.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#bol div.potiron {
+    background-image: url('../img/remplissage/potiron.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#bol div.concombre {
+    background-image: url('../img/remplissage/concombre.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#bol div.poivron {
+    background-image: url('../img/remplissage/poivron.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#bol div.chou_fleur {
+    background-image: url('../img/remplissage/chou_fleur.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#bol div.poireau {
+    background-image: url('../img/remplissage/poireau.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+
+}
+
+#legumes {
+
+}
+
+#condiments {
+
+}
+
+#assaisonement {
+
+}
+
+#temperature {
+
+}
+
+#envoi {
+
+    margin-top:20px;
+    text-align: center;
+}
+
+/** HOTEL **/
