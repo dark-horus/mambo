@@ -83,28 +83,42 @@ Simao
    
    
 <script>
-	var count = 0;
+		var count = 0;
+	var count1 = 0;
+	var count2 = 0;
+
 function showElem() {
     document.getElementById("livre").style.visibility = "visible";
-	count = count + 1;
-	if (count > 2) {
-		document.getElementById("question").style.visibility = "visible";
+	if(count == 0){
+		count = 1;
+		if(count + count1 + count2 > 2 )
+{  
+        document.getElementById("question").style.visibility = "visible";     
+}	
 	}
 }
 function showElem2() {
     document.getElementById("appareil").style.visibility = "visible";
-	count = count + 1;
-		if (count > 2) { 	
-			document.getElementById("question").style.visibility = "visible";
-		}
+	if(count1 == 0){
+		count1 = 1;
+		if(count + count1 + count2 > 2 )
+{  
+        document.getElementById("question").style.visibility = "visible";     
+}	
+	}
 }
 function showElem3() {
     document.getElementById("stylo").style.visibility = "visible"; 
-	count = count + 1;
-		if (count > 2) {
-			document.getElementById("question").style.visibility = "visible";
-		}
+	if(count2 == 0){
+		count2 = 1;
+		if(count + count1 + count2 > 2 )
+{  
+        document.getElementById("question").style.visibility = "visible";     
+}	
+
+	}
 }
+
 </script>
 <?php 
 if(isset($_SESSION['badanswer'])){
