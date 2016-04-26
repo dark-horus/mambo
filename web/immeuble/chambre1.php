@@ -17,8 +17,26 @@ include('../default/page/start_header.php');
 <?php include('../default/page/end_header.php'); ?>
 
 <!-- Place ici ton contenu -->
-<?php if(isset($_SESSION['good'])) {
-	$reponse = $_SESSION['good'];
+<?php
+$password = $_SESSION['id'];
+
+//Récupération des informations de l'utilisateur
+$login = $bdd->query('SELECT * FROM `user` WHERE password = "'.$password.'"');
+$res = $login->fetch();
+$id = $res['iduser'];
+//Récupération des informations de l'étape
+$step = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$id.'" GROUP BY value');
+
+while($values = $step->fetch()){
+	if ($values['value'] == "Henry"){
+		$henry = "Henry";
+	}
+	if ($values['value'] == "Alejandro"){
+		$alejandro = "Alejandro";
+	}
+	if ($values['value'] == "Simao"){
+		$simao = "Simao";
+	}
 }
 ?>
 <div id="image">
@@ -32,7 +50,7 @@ include('../default/page/start_header.php');
  </map>
 
  <div id="obj">
- <h2>Objets trouvés :</h2>
+ <h2>Objets trouvés : </h2>
  <ul class="list-inline">
 	<li id="livre" style="visibility:hidden;"><img width="50px" height="50px" src="images/livre.png"></li>
 	<li id="appareil" style="visibility:hidden;"><img width="50px" height="50px" src="images/appareil.png"></li>
@@ -58,9 +76,9 @@ Simao
    <div id="portes">
    <h2>Changer de chambre :</h2>
 	<ul class="list-inline col-md-12">
-	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre1.php"><img class="col-md-12" width="50px" height="60px" src="images/porte1.png" alt="chambre1" title="chambre1"><div class="col-md-12"><?php if(isset($reponse)){ echo $reponse; } ?></div></a></div></li>
-	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre2.php"><img class="col-md-12" width="50px" height="60px" src="images/porte2.png" alt="chambre2" title="chambre2"><div class="col-md-12"><?php// if(isset($reponse)){ echo $reponse; } ?></div></a></li>
-	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre3.php"><img class="col-md-12" width="50px" height="60px" src="images/porte3.png" alt="chambre3" title="chambre3"><div class="col-md-12"><?php// if(isset($reponse)){ echo $reponse; } ?></div></a></li>
+	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre1.php"><img class="col-md-12" width="50px" height="60px" src="images/porte1.png" alt="chambre1" title="chambre1"><div class="col-md-12"><?php if(isset($henry)){ echo $henry ; } ?></div></a></div></li>
+	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre2.php"><img class="col-md-12" width="50px" height="60px" src="images/porte2.png" alt="chambre2" title="chambre2"><div class="col-md-12"><?php  if(isset($alejandro)){ echo $alejandro ; } ?></div></a></li>
+	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre3.php"><img class="col-md-12" width="50px" height="60px" src="images/porte3.png" alt="chambre3" title="chambre3"><div class="col-md-12"><?php  if(isset($simao)){ echo $simao ;} ?></div></a></li>
  </ul>
   </div>  
    

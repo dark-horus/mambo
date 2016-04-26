@@ -22,7 +22,8 @@ if (isset($_POST['chambre1']))
 	$page = "chambre1.php";
 	if($_POST['chambre1'] == "Henry"){
 		$validate = "true";
-		$reponse = "Henry";
+		$field = "chambre";
+		$value = "Henry";
 	}
 	else {
 		$validate = "false";
@@ -35,7 +36,8 @@ if (isset($_POST['chambre2']))
 	$page = "chambre2.php";
 	if($_POST['chambre2'] == "Alejandro"){
 		$validate = "true";
-		$reponse = "Alejandro";		
+		$field = "chambre";
+		$value = "Alejandro";
 	}
 	else {
 		$validate = "false";
@@ -46,7 +48,8 @@ if (isset($_POST['chambre3']))
 	$page = "chambre3.php";
 	if($_POST['chambre3'] == "Simao"){
 		$validate = "true";	
-		$reponse = "Simao";
+		$field = "chambre";
+		$value = "Simao";
 	}
 	else {
 		$validate = "false";
@@ -60,12 +63,14 @@ if (isset($_POST['chambre3']))
 		$req->execute(array(
 		'user_ID' => $id,
 		'etape_ID' => "Immeuble",
-		'field' => "",
-		'value' => ""
+		'field' => $field,
+		'value' => $value
 		));
 		//Etape en cours :
 		$req2 = "UPDATE `user` SET current_etape = 'Immeuble' WHERE iduser = '$id'";
 		$req2 = $bdd->exec($req2);
+		
+		
 
 		//comptabilise pour la progression
 
