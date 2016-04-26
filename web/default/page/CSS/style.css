@@ -271,9 +271,9 @@ left: 1vw;
 
 /** CHIEN **/
 
-.row{
+#chien_row{
 
-margin: 0 !important ;
+margin: -15px !important ;
 
 }
 
