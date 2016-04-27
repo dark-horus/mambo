@@ -63,7 +63,7 @@ if ($dossier != null) {
             $consigne ="Remontez le temps et rencontrez les idéaux féminins qui ont inspirés de nombreux artistes, par leur beauté.";
 			break;
         case "immeuble":
-            $titre = "Infiltrez vous chez les trois canailles !";
+            $titre = "Infiltrez-vous chez les trois canailles !";
 			$next = '<li class="col-md-12"><a href="../ours">Étape suivante : ours</a></li>';
 			$before = '<li class="col-md-12"><a href="../lapin">Étape précédente : lapin</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
