@@ -44,7 +44,7 @@ include('../default/page/start_header.php');
             <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/123630710?color=1da7bf" width="720" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
             <div class="col-lg-4 col-md-4 col-md-offset-2 col-xs-12">
-                <p>Vous êtes en train de lire <em>Mambo Canaille</em> ? <br/> Parcourez au fil d’icônes l’univers         fantasque de Juan Carlos Mendez Guédez, déambulez dans les rues de Madrid, créez vos recettes, devenez à votre tour écrivain, évadez-vous au delà des frontières du livre...</p>
+                <p>Vous êtes en train de lire <em>Mambo Canaille</em> ? <br/> Parcourez au fil d’icônes l’univers         fantasque de Juan Carlos Méndez Guédez, déambulez dans les rues de Madrid, créez vos recettes, devenez à votre tour écrivain, évadez-vous au delà des frontières du livre...</p>
             </div>
         </div>
 </div>
