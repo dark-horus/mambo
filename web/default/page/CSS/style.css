@@ -186,12 +186,18 @@ footer ul.list-inline {
 
 /** ### Accueil Css ###  **/
 
+#text_accueil{
+
+  text-align: center;
+  padding-top: 30px;
+}
+
 #map {
   width: 100%; /* width of the visible map */
   height: 1080px; /* height of the visible map */
-  background-image: url('../img/ecranmapOK.jpg'); /* image used as map */
-  background-position:0px 0px; /* initial position */
-  background-repeat: no-repeat;
+  /**background-image: url('../img/ecranmapOK.jpg'); /*  map */
+  /**background-position:0px 0px; /* initial position */
+  /**background-repeat: no-repeat;
   background-size: cover;
   /* transition */
   -webkit-transition: background-position 1s ease-in-out;
@@ -203,10 +209,11 @@ footer ul.list-inline {
 
 
     margin: 0px;
-    background-repeat: no-repeat;
+    background: url('../img/ecran_back.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-image: url('../img/ecran1OK_ssfleche.jpg');
-    background-position: 0px -100px;
     position: relative;
   top: 0;
   left: 0;

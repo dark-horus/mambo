@@ -36,6 +36,10 @@ include('../default/page/start_header.php');
 <!-- Place ici ton contenu -->
  <!-- Set your background image for this header on the line below. -->
  <div id="haut_page" class="col-lg-12 col-md-12 col-xs-12">
+
+    <div class="col-lg-2 col-lg-offset-5 col-md-5 col-md-offset-4 col-xs-5 col-xs-offset-4">
+        <h1 id="text_accueil">Zinia Editions<br>Présente<br>Mambo Canaille</h1>
+    </div>
     <!-- Main Content -->
     <a class="fancybox" data-fancybox-type="iframe" href="../default/page/index.php"></a>
 
@@ -55,12 +59,15 @@ include('../default/page/start_header.php');
      <!--Content Mambo Canaille-->
           <div id="bas_page"class="co-lg-12 col-md-12 col-xs-12">
                     <div id="map">
-                        
+                        <img src="../default/page/img/ecranmapOK.jpg" style="width:100%;"></img>
                     </div>
+                    
+                    <!-- Bouton scroll mais enfet on verra si on le garde ou pas
                     <div class="col-lg-4 col-md-4" id="bouton_soutenance">
 
                         <button id="next" type="button" class="btn btn-success">Next</button>
                     </div>
+                    -->
             </div>
 
             <footer class="footer_provisoir">
