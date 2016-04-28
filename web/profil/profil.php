@@ -80,7 +80,7 @@ $imgEtape = $imagEtape . ".png" ;
         </div>
       </div>
      
-     Etape courante : <a href="<?php echo "../".$imagEtape;?>"><?php if($imgEtape){ ?><img src="../default/page/img/<?php echo $imgEtape; ?>" alt="Etape_courante" class="img-thumbnail">
+     Etape courante : <a href="<?php echo "../".$imagEtape;?>"><?php if(isset($imgEtape)){ ?><img src="../default/page/img/<?php echo $imgEtape; ?>" alt="Etape_courante" class="img-thumbnail">
      <?php } else { echo "<img src='../default/page/img/gaspacho.png'>"; } ?></a>
      
     </div>
