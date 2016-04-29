@@ -10,8 +10,8 @@ body {
 #mambo-consigne h1 {
     font-size: 25px; /* remplacer la taille de la police pour que tous les titres soient sur une seule ligne en 1024x768 */
     text-align: center;
-    font-family:'Special Elite';
-    color:#35201e;
+    font-family: 'Special Elite';
+    color: #35201e;
 }
 
 #toutelecontenu {
@@ -34,6 +34,7 @@ p {
     font-family: 'Special Elite', cursive;
     font-size: 10px;
 }
+
 .dossier_police {
 
     font-family: 'Special Elite', cursive;
@@ -65,15 +66,15 @@ p {
 
 .f_infos {
 
-background-image: url('./images/Alerte.png');
+    background-image: url('./images/Alerte.png');
     background-repeat: no-repeat;
     height: 768px;
     width: 1021px;
     padding-top: 0px;
     padding-left: 0px;
     z-index: 800;
-    position: relative;
-    top: -248px;
+    position: absolute;
+    top: 0;
     left: 0px;
 }
 
@@ -138,13 +139,18 @@ background-image: url('./images/Alerte.png');
 }
 */
 
-
 .icone {
     position: relative;
     width: 64px;
     height: 64px;
     /*margin: 20px;*/
     cursor: pointer;
+}
+
+.file a {
+    height: 69px;
+    width: 55px;
+    display: inline-block;
 }
 
 .window {
@@ -225,7 +231,7 @@ background-image: url('./images/Alerte.png');
 .titre_musique {
     position: relative;
     width: 117px;
-    top: 62px;
+    top: 55px;
     left: -55%;
     margin-left: -5px;
 }
@@ -233,7 +239,7 @@ background-image: url('./images/Alerte.png');
 .titre_video {
     position: relative;
     width: 117px;
-    top: 62px;
+    top: 55px;
     left: -55%;
     margin-left: -9px;
 }
@@ -604,7 +610,6 @@ background-image: url('./images/Alerte.png');
     top: 90px;
     cursor: pointer;
 }
-
 
 .internet {
     position: relative;
