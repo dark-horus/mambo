@@ -3,7 +3,7 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/*!  QUERIES */
 @media only screen and (device-width: 1024px) and (device-height: 768px) and (orientation : landscape) { 
 body {
 background-image: url("images/back_ipad_landscape.png");
@@ -15,6 +15,42 @@ body {
 background-image: url("images/back_ipad_profil.png");
 }
 }
+
+@media only screen and (device-width: 1024px) and (device-height: 768px) and (orientation : landscape) { 
+#bol div.tomate {
+
+      background-image: url('../../images/remplissage/tomate.png');
+    background-position: 18% 26%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 82%;
+    height: 400px;
+    margin: 9%;
+}
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation : portrait) { 
+#bol div.tomate {
+  background-image: url('../../images/remplissage/tomate.png');
+    background-position: 18% 26%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 82%;
+    height: 400px;
+    margin: 9%;
+}
+}
+
+
+
+
+
+/*!  FIN MEDIA QUERIES */
+
+
+
+
+
 
 
 html {

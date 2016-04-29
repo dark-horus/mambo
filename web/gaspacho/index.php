@@ -52,9 +52,10 @@ include( '../default/page/start_header.php' );
                                 <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'base','lentille');"><img
                                         id="S39" src="images/lentille_test.png" alt=""/>
                                     <p class="text-center">Lentille</p></div>
-                                       <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'base','lentille');"><img
-                                        id="S39" src="images/lentille_test.png" alt=""/>
-                                    <p class="text-center">Lentille</p></div>
+
+                                       <!-- <div class="col-sm-6 col-md-6 col-lg-6 ingredient"><img 
+                                         src="images/yo.png" alt=""/> 
+                                     <p class="text-center" style="opacity:0;">yooo</p></div> -->
                             </div>
                         </div>
 
@@ -192,14 +193,19 @@ include( '../default/page/start_header.php' );
     <div style="display:none" id="errorRecipe">
         ERREUR RECETTE !
     </div>
+</br>
     <div style="display:none" id="valid">
-        <span>Félicitations votre gaspacho semble plaire à Henry !</span>
+        
+        <h2>Félicitations votre gaspacho semble plaire à Henry !</h2>
+    
     </br>
 
-<object type="application/x-shockwave-flash" width="540" height="355" data="http://www.youtube.com/v/_etwz7NkemE&hl=fr">
+<object type="application/x-shockwave-flash" width="540px" height="360px" data="http://www.youtube.com/v/_etwz7NkemE&hl=fr">
         <param name="movie" value="http://www.youtube.com/v/_etwz7NkemE&hl=fr" />
         <param name="wmode" value="transparent" />
     </object>
+
+    </div>
 
 <!--[if lte IE 6 ]>
     <embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
