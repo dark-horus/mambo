@@ -1,4 +1,11 @@
 </div>
+
+
+
+<script type="text/javascript" src="../../vendor/fancybox/source/jquery.fancybox.js"></script>
+<script type="text/javascript" src="../../vendor/fancybox/source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="../../vendor/fancybox/source/jquery.mousewhell.js"></script>
+<script src="../../vendor/bootstrap/js/bootstrap.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function ()
 	{
@@ -6,6 +13,7 @@
 		{
 			$(".fancybox").fancybox();
 		}
+		$('img[usemap]').rwdImageMaps();
 	}
 	);
 	

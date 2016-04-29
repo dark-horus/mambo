@@ -56,5 +56,12 @@
 				<?php } ?>
             </ul>
         </nav>
+		<script>
+$(function () {
+	if($('[data-toggle="popover"]').length){
+		$('[data-toggle="popover"]').popover()
+	}
+	});
+</script>
     </header>
 	<div id="etape">
