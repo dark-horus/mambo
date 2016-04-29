@@ -72,7 +72,7 @@ include('../default/page/start_header.php');
 
             <footer class="footer_provisoir">
               <div class="container">
-                <p class="text-muted">footer</p>
+                <p class="text-muted">Mentions Légales</p>
               </div>
             </footer>
     
