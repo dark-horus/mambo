@@ -24,10 +24,9 @@ font-family: 'Special Elite', cursive;
     background-image: url('images/bat5.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -100px;
+	background-position: top center;
     z-index: 999;
     position: relative;
-    height: 100%;
 }
 
   
