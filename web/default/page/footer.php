@@ -13,7 +13,7 @@
 		{
 			$(".fancybox").fancybox();
 		}
-		$('img[usemap]').rwdImageMaps();
+		$('#image img').rwdImageMaps();
 	}
 	);
 	
