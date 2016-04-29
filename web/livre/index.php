@@ -114,7 +114,7 @@
 
                     <div class="biographie">
                         <h3>Biographie</h3>
-                        <p>Mario Vargas Llosa, écrivain, naît en 1936 à Arequipa au Pérou. Il obtient le prix Nobel de littérature en 2010 ainsi que de nombreuses autres distinctions. Il fait partie du Boom de la littérature latino-américaine, mouvement qui conteste les
+                        <p>Mario Vargas Llosa, écrivain, naît en 1936 à Arequipa au Pérou. Il obtient le prix Nobel de littérature en 2010 ainsi que de nombreuses autres distinctions. En effet, il est publié en mars 2016 dans la prestigieuse collection de La Pléiade. Il fait partie du Boom de la littérature latino-américaine, mouvement qui conteste les
                             fondements de la littérature latino-américaine des années 1960-1970. Mario Vargas Llosa est aussi très engagé en politique. Ses opinions politiques vont du communisme au libéralisme. S’il soutient d’abord le gouvernement de Fidel Castro, il se dit plus
                             tard contre la révolution menée par Fidel Castro et les mouvements d’extrême gauche. Il se présente enfin comme candidat à la présidentielle péruvienne en 1990.</p>
                     </div>
@@ -626,7 +626,7 @@
                 <div id="machine_content" class="contenu" style="display:none">
                    <div class="contenu_machine"> 
                     <div class="extrait">
-                    <h2 class="typo">Devenez ecrivain et imaginez la suite de l'histoire...</h2> 
+                    <h2 class="typo">Devenez écrivain et imaginez la suite de l'histoire...</h2> 
                     <br>
 
                     <p>"Le visage contracté par le dégoût, il envoya son courrier puis se mit a surfer. Il pensa que c'était une idée excellente que de reprendre contact avec les plus importantes maisons d'édition d'Espagne. A toutes il envoya un nouveau message : ..." (Chapitre 26, page 168)</p>
