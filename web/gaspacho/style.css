@@ -17,6 +17,16 @@ body {
 
 }
 
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation : landscape) { 
+body {
+background-color: black;
+}
+}
+
+
+
+    
+
 @import url(https://fonts.googleapis.com/css?family=Special+Elite);
 
 .content {
@@ -135,8 +145,9 @@ body {
     height: 100%;
 }
 
-#container {
+.col-md-offset-1 .col-md-11{
 
+    margin-bottom:20px;
 }
 
 #legumes {

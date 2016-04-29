@@ -39,7 +39,7 @@ include( '../default/page/start_header.php' );
                     <div id="container" class="col-sm-6 col-md-6 col-lg-6">
 
                         <div class="row-fluid">
-                            <div id="base container" class="col-md-offset-1 col-md-11">
+                            <div id="base container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
                                 <h2 style=color:#B54643;>Base</h2>
                                 <p>(choisir une base)</p>
 
@@ -52,11 +52,14 @@ include( '../default/page/start_header.php' );
                                 <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'base','lentille');"><img
                                         id="S39" src="images/lentille_test.png" alt=""/>
                                     <p class="text-center">Lentille</p></div>
+                                       <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'base','lentille');"><img
+                                        id="S39" src="images/lentille_test.png" alt=""/>
+                                    <p class="text-center">Lentille</p></div>
                             </div>
                         </div>
 
                         <div class="row-fluid">
-                            <div id="legumes container" class="col-md-offset-1 col-md-11">
+                            <div id="legumes container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
                                 <h2 style=color:#B54643;>Légumes</h2>
                                 <p>(choisir deux légumes)</p>
 
@@ -76,7 +79,7 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="condiments container" class="col-md-offset-1 col-md-11">
+                            <div id="condiments container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
                                 <h2 style=color:#B54643;>Condiments</h2>
                                 <p>(choisir quatres condiments)</p>
 
@@ -105,7 +108,7 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="assaisonement container" class="col-md-offset-1 col-md-11">
+                            <div id="assaisonement container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
                                 <h2 style=color:#B54643;>Assaisonnement</h2>
                                 <p>(choisir cinq assaisonements)</p>
 
@@ -143,7 +146,7 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="temperature container" class="col-md-offset-1 col-md-11">
+                            <div id="temperature container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
                                 <h2 style=color:#B54643;>Température</h2>
                                 <p>(un choix possible)</p>
 
@@ -159,7 +162,7 @@ include( '../default/page/start_header.php' );
                     </div><!--container-->
 
                     <div class="col-sm-5 col-md-5 col-lg-5 pull-right side">
-                        <h2>Saurez vous préparer le gaspacho de Henry ?</h2>
+                        <h2>Saurez-vous préparer le gaspacho de Henry ?</h2>
 
                         <p>Composez votre gaspacho avec les ingrédients disponibles, en espérant qu'il plaira à Henry...</p>
                         <div id="bol">

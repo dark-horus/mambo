@@ -4,6 +4,19 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation : landscape) { 
+body {
+background-image: url("images/back_ipad_landscape.png");
+}
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation : portrait) { 
+body {
+background-image: url("images/back_ipad_profil.png");
+}
+}
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -12,6 +25,9 @@ html {
 body {
   margin: 0;
 }
+
+
+
 article,
 aside,
 details,
