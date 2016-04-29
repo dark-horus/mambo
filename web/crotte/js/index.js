@@ -184,9 +184,11 @@ var Game = (function () {
     }
 
     function _displaySolution(solution) {
+
         var solEl = myEl.querySelector('.mm-solution'),
             slots = solEl.querySelectorAll('.mm-slot');
         for (var i = 0; i < slots.length; i++) {
+            $(slots[i]).css('background-image', ''); // Custom fix
             slots[i].dataset.peg = solution[i];
         }
         _selectLineAndSlot(currentLine, -1);
@@ -279,6 +281,7 @@ function clearGameSlots() {
     Game.init(document.getElementById('game'), document.getElementById('controls'));
     initSlots();
     resetSolutionLine();
+
     currentLine = 0;
     currentSlot = 0;
 }
