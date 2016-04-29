@@ -636,7 +636,7 @@
 						<form action="../default/page/recEtape.php" method="post">
 							
                             <input type="hidden" name="field" id="field" value="histoire">
-							<center><textarea rows="10" cols="70" name="value"></textarea></center>
+							<textarea rows="10" cols="70" name="value"></textarea>
 							
                             <input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
 							<!-- Si tout est ok, mettre la variable $validate à true -->
@@ -644,9 +644,10 @@
                             <input type="hidden" name="validate" id="validate" value="true">
 							
                              <div class="box">
-                               <center> <input type="submit" class="partager" id="valide" name="valide" value=""></center>  
+                                <input type="submit" class="partager" id="valide" name="valide" value="">  
 
-                               <center> <input class="recommencer" type="reset" value=""> </center>
+                                <input class="recommencer" type="reset" value=""> 
+                            </div>
 						</form>
 					</div>
 
