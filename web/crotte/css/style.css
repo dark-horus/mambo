@@ -28,6 +28,12 @@ font-family:'Special Elite';
 color:#35201e;
 }
 
+h3 {
+font-family: 'Lato', sans-serif; 
+font-size:20px;
+color: #630F0F;
+}
+
 #etape {
     margin-top: 8%;
 }
@@ -181,9 +187,11 @@ color:#35201e;
 #valider, #recommencer {
     width: 200px;
     height: 54px;
+    text-align:center;
 }
 
 #valider {
+    margin-top:530px;
     /*width: 20%;*/
     /*height: auto;*/
     /*margin-left: auto;*/
@@ -202,6 +210,10 @@ color:#35201e;
     /*align-content: right;*/
     /*position: relative;*/
     /*margin-bottom: 3%;*/
+}
+
+#gauche {
+    margin-top:90px;
 }
 
 [data-peg] {
