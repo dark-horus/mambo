@@ -11,15 +11,9 @@ body
 {
   overflow-x: hidden;
 }
-
-h1
-{
-  font-size: 20px;
-  font-weight: normal;
-  color: #2e6e80;
+#mambo-topmenu {
+    position: fixed;
 }
-
-
 
 /**
   * important: keep position fixed, you can however use top:0 instead of bottom:0
@@ -39,6 +33,7 @@ h1
 
 .texture scroll
 {
+    top:0;
   z-index: -5;
 }
 
@@ -113,7 +108,7 @@ margin-bottom: 460px;
 
 .block-1{ 
     position: fixed;
-   bottom: 20px;
+   bottom: 200px;
     left:50px;
 }
 
