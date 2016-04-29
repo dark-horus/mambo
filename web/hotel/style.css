@@ -27,7 +27,7 @@ font-family: 'Special Elite', cursive;
     background-position: 0px -100px;
     z-index: 999;
     position: relative;
-   height: 100%;
+    height: 100%;
 }
 
   
@@ -78,7 +78,8 @@ p {
   margin-bottom: 12px;
   text-indent:20px;
   hyphens: auto;
-  font-family:  'Lato', sans-serif;;
+  font-family:  'Lato', sans-serif;
+  text-align:justify;
 }
 
 strong {
@@ -110,13 +111,12 @@ li.active a, a:hover, a:active {
   /*pour decendre la carte il faut régler le margin-top*/
   margin-top: 8%;
   height: 720px;
-  background-image: url('images/cartedessinvert2.png');
+  background-image: url('images/cartedessinvert4.png');
   background-repeat : no-repeat;
   background-position: top center;
   background-size: cover; 
   
 }
-
 	
 .distribution-map > img {
   width: 100%;
