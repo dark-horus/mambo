@@ -40,7 +40,7 @@ while($values = $step->fetch()){
 }
 ?>
 <div id="image">
-<img class="img-responsive" src="images/chambre1.png" width="100%" usemap="#maparthur">
+<img src="images/chambre1.png" width="1920px" height="1080px" usemap="#maparthur">
 </div>
  <map name="maparthur" id="maparthur">
 		<area shape="rect" title="livre" coords="18,696,105,737" href="#" onclick="showElem()"/>  		
@@ -82,7 +82,8 @@ Simao
  </ul>
   </div>  
    
-   
+
+
 <script>
 		var count = 0;
 	var count1 = 0;
@@ -119,6 +120,7 @@ function showElem3() {
 
 	}
 }
+
 
 </script>
 <?php 

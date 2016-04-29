@@ -4,10 +4,16 @@
 	left: 360px;
 	color: white;
 }
-
 #image {
-	position: absolute;
+	width: 100%;
 }
+
+#image img{
+		border: none;
+		height: auto;
+		max-width: 100%;
+		width: auto;
+	}
 #question{
 	position: absolute;
 	top: 920px;
@@ -42,4 +48,8 @@
 	position: absolute;
 	color: white;
 	
+}
+body{
+	
+	background-color: black;
 }
