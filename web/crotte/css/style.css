@@ -135,23 +135,25 @@ color: #630F0F;
 } */
 
 #game .mm-line .mm-status .mm-status-correct {
-    color: #630f0F;
+    color:transparent;
+    background-color:#40b34f;
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+    width:15px;
+    height:15px;
+    border-radius:50%;
     margin: 5px;
     font-size: 20px;
 }
 
 #game .mm-line .mm-status .mm-status-wrongplace {
-    color: #630f0F;
+    color:transparent;
+    background-color:#f29503;
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+    width:15px;
+    height:15px;
+    border-radius:50%;
     margin: 5px;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 #controls {
