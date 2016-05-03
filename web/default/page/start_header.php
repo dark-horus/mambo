@@ -11,7 +11,7 @@ if ($dossier != null) {
 			 $next = '<li class="col-md-12"><a href="../poitrine/">Étape suivante : poitrine</a></li>';
 			 $before = '<li class="col-md-12"><a href="../vin">Étape précédente : vin</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
-            $consigne ="Trouvez la bonne combinaison d’actions pour faire partir votre voisine Mary Carmen en plaçant les actions dans le bon ordre. Un check correspond à une icône placée au bon endroit. Une croix équivaut à une icône présente dans la combinaison mais qui n’est pas au bon endroit. Attention, une icône peut être utilisée plusieurs fois dans la combinaison.";
+            $consigne ="Trouvez la bonne combinaison d’actions pour faire partir votre voisine Mary Carmen en plaçant les actions dans le bon ordre. Un point vert correspond à une icône placée au bon endroit. Un point orange équivaut à une icône présente dans la combinaison mais qui n’est pas au bon endroit. Attention, une icône peut être utilisée plusieurs fois dans la combinaison.";
 			break;
         case "livre":
             $titre = "À votre tour, devenez écrivain !";
