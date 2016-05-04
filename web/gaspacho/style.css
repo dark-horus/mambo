@@ -4,7 +4,7 @@ body {
     
     margin:0px;
     padding:0px;
-    background-image: url("images/back.jpg");
+    background-image: url("images/back_test_high2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -171,9 +171,19 @@ body {
 
 #valid{
 
-    width:100%;
-    height:100%;
+    width:1024px;
+    height:768px;
     background-image:url("images/fondlightbox.png"); 
+}
+
+video {
+
+
+    max-width: 80%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+
 }
 
 

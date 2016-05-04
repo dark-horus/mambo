@@ -200,10 +200,12 @@ include( '../default/page/start_header.php' );
     
     </br>
 
-<object type="application/x-shockwave-flash" width="540px" height="360px" data="https://www.youtube.com/watch?v=4GrHsKmEWTE&spfreload=10">
-        <param name="movie" value="http://www.youtube.com/v/_etwz7NkemE&hl=fr" />
-        <param name="wmode" value="transparent" />
-    </object>
+
+<video width="1024" height="768" controls src="images/gaspacho.mp4">Ici la description alternative</video>
+
+        
+        
+    
 
     </div>
 
