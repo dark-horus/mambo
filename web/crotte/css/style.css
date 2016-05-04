@@ -179,7 +179,7 @@ color: #630F0F;
     float: left;
 }
 
-/* MODIFICATION DES IMAGES AJOUTEES */
+/* Modification des images ajoutées */
 
 #fleche {
     /*width: 15%;*/
@@ -288,15 +288,248 @@ color: #630F0F;
 
 @media screen and (min-width : 400px) and (max-width: 1280px)
 {
+    
 body {    
   background-image: url(../images/fond.png);
   margin:0;
   padding:0;
-  background-position:right;
+  background-position:left;
   background-repeat: no-repeat; 
-  background-attachment:scroll;
+  background-attachment:fixed;
   -webkit-background-size: cover;
 }
-   
+ 
+    
+h1 {
+text-align: center;
+font-size: 25px;
+font-family:'Special Elite';
+color:#35201e;
+}
+
+h3 {
+font-family: 'Lato', sans-serif; 
+font-size:20px;
+color: #630F0F;
+}
+
+#etape {
+    margin-top: 8%;
+}
+    
+#game {
+    width: 100%;
+    height: auto;
+    }
+    
+    
+.row {
+    float:left; 
+    }
+    
+.col-md-12 {
+    float:center;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    }
+
+/*Boutons*/
+    
+.col-md-4 {
+    display:inline-block;
+    margin:0;
+    padding:0;
+    }
+    
+#valider, #recommencer {
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    float:right;
+}
+
+#valider {
+    margin-top:10%;
+    /*width: 20%;*/
+    /*height: auto;*/
+    /*margin-left: auto;*/
+    /*margin-right: 20%;*/
+    /*float: bottom;*/
+    /*align-content: right;*/
+    /*position: relative;*/
+}
+
+/* Actions */
+    
+
+#controls {
+    width: 100px;
+    margin-top: 20px;
+    vertical-align: bottom;
+    /* height: 80px; */
+    margin: 0 auto;
+    /*float:left;*/
+    }
+    
+#controls a {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 3px;
+    float: left;
+}
+     
+#gauche {
+    margin-top:20%;
+    text-align:right;
+}
+  
+    
+[data-peg] {
+    background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    /*box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+[data-peg="0"] {
+    background-image: url("../images/balai.png");
+    background-size: cover;
+    /*background-color: white;*/
+}
+
+[data-peg="1"] {
+
+    background-image: url("../images/musique.png");
+    background-size: cover;
+    /*background-color: white;*/
+}
+
+[data-peg="2"] {
+
+    background-image: url("../images/crotte.png");
+    background-size: cover;
+    /*background-color: white;*/
+}
+
+[data-peg="3"] {
+
+    background-image: url("../images/detergent.png");
+    background-size: cover;
+    /*background-color: white;*/
+}
+
+[data-peg="4"] {
+
+    background-image: url("../images/insultes.png");
+    background-size: cover;
+    /*background-color: white;*/
+}
+    
+#game .mm-line {
+    -webkit-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    line-height: 0;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#game .mm-line.mm-solution {
+    background-color: none;
+    color: white;
+    margin-left: 0px;
+    /*margin-top: 100px;*/
+}
+
+#game .mm-line.selected {
+    background-color: none;
+    color: white;
+    margin-top: 0px;
+}
+
+#game .mm-line .mm-num {
+    height: 0px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    width: 30px;
+    color: #630F0F;
+    margin-right: 10px;
+    position: relative;
+    top: -20px;
+    text-align: right;
+}
+
+#game .mm-line .mm-slot {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    /* background-image: url("../images/cercle.png"); */
+    background-size: cover;
+    /*margin: 4px;*/
+    border-radius: 50%;
+}
+
+#game .mm-line .mm-slot.selected {
+    border-color: none;
+    -webkit-animation: hilite 0.3s ease;
+    animation: hilite 0.3s ease;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+#game .mm-line .mm-status {
+    /*margin-left: 10px;*/
+    height: 0px;
+    display: inline-block;
+    width: 80px;
+    color: rgb(99, 15, 15);
+    position: relative;
+    top: -20px;
+    text-align: left;
+}
+
+/*
+#game .mm-line .mm-status span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  font-size: 20px;
+} */
+
+#game .mm-line .mm-status .mm-status-correct {
+    color:transparent;
+    background-image:url(../images/vrai.png);
+    background-size:100%;
+    display: inline-block;
+    width:15px;
+    height:15px;
+    /*border-radius:50%;*/
+    margin: 5px;
+    font-size: 20px;
+}
+
+#game .mm-line .mm-status .mm-status-wrongplace {
+    color:transparent;
+    background-image:url(../images/faux.png);
+    background-size:100%;
+    display: inline-block;
+    width:15px;
+    height:15px;
+    /*border-radius:50%;*/
+    margin: 5px;
+    font-size: 20px;
+}
+    
+    
 }
 
