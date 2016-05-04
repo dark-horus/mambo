@@ -4,14 +4,14 @@
 {
     
 body {    
-  background-image: url(../images/fond.png);
-  margin:0;
-  padding:0;
-  background-position:center;
-  background-repeat: no-repeat; 
-  background-attachment:scroll;
-  -webkit-background-size: cover;
-  background-size: cover;
+    background-image: url(../images/fond.png);
+    margin:0;
+    padding:0;
+    background-position:center;
+    background-repeat: no-repeat; 
+    background-attachment:scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
     
 img {
@@ -26,20 +26,16 @@ img.responsive {
 }
 
 h1 {
-text-align: center;
-font-size: 25px;
-font-family:'Special Elite';
-color:#35201e;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Special Elite';
+    color:#35201e;
 }
 
 h3 {
-font-family: 'Lato', sans-serif; 
-font-size:20px;
-color: #630F0F;
-}
-
-#etape {
-    margin-top: 8%;
+    font-family: 'Lato', sans-serif; 
+    font-size:20px;
+    color: #630F0F;
 }
 
 #game {
@@ -56,6 +52,7 @@ color: #630F0F;
     flex-direction: column-reverse;
     margin-left: auto;
     margin-right: auto;
+    margin-top:30%;
 
 }
 
@@ -199,7 +196,7 @@ color: #630F0F;
 }
 
 #valider {
-    margin-top:540px;
+    margin-top:680px;
     /*width: 20%;*/
     /*height: auto;*/
     /*margin-left: auto;*/
@@ -301,25 +298,22 @@ body {
  
     
 h1 {
-text-align: center;
-font-size: 25px;
-font-family:'Special Elite';
-color:#35201e;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Special Elite';
+    color:#35201e;
 }
 
 h3 {
-font-family: 'Lato', sans-serif; 
-font-size:20px;
-color: #630F0F;
-}
-
-#etape {
-    margin-top: 8%;
+    font-family: 'Lato', sans-serif; 
+    font-size:20px;
+    color: #630F0F;
 }
     
 #game {
     width: 100%;
     height: auto;
+    margin:0 0 0 0;
     }
     
     
