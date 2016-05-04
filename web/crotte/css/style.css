@@ -287,13 +287,13 @@ h3 {
 {
     
 body {    
-  background-image: url(../images/fond.png);
-  margin:0;
-  padding:0;
-  background-position:left;
-  background-repeat: no-repeat; 
-  background-attachment:fixed;
-  -webkit-background-size: cover;
+    background-image: url(../images/fond.png);
+    margin:0;
+    padding:0;
+    background-position:left;
+    background-repeat: no-repeat; 
+    background-attachment:fixed;
+    -webkit-background-size: cover;
 }
  
     
@@ -315,7 +315,6 @@ h3 {
     height: auto;
     margin:0 0 0 0;
     }
-    
     
 .row {
     float:left; 
