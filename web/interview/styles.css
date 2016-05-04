@@ -1,0 +1,26 @@
+body {
+    
+    margin:0px;
+    padding:0px;
+    background-image: url("images/back_test_high2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family:'Lato', sans-serif;
+    font-size:18px;
+
+     /* -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+ /* background-size: cover; /* version standardisée */
+
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+
+
+h1 {
+
+	font-family: 'Special Elite', cursive;
+    text-align: center;
+    padding-bottom:50px;
+}
