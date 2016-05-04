@@ -6,13 +6,19 @@
 /*!  QUERIES */
 @media only screen and (device-width: 1024px) and (device-height: 768px) and (orientation : landscape) { 
 body {
-background-image: url("images/back_ipad_landscape.png");
+background-image: url("images/back_landscape.jpg");
 }
 }
 
 @media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation : portrait) { 
 body {
-background-image: url("images/back_ipad_profil.png");
+background-image: url("images/back_profil.jpg");
+}
+}
+
+@media only screen and (device-width: 1600px) and (device-height: 900px) and (orientation : portrait) { 
+body {
+background-image: url("images/back_mid.jpg");
 }
 }
 
