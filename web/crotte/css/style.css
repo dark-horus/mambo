@@ -1,4 +1,4 @@
-/*POUR LES ORDINATEURS*/
+/*****POUR LES ORDINATEURS*****/
 
 @media screen and (min-width : 1024px) and (max-width: 1920px)
 {
@@ -176,7 +176,6 @@ h3 {
     float: left;
 }
 
-/* Modification des images ajoutées */
 
 #fleche {
     /*width: 15%;*/
@@ -281,9 +280,9 @@ h3 {
 
 }
 
-/*POUR LES TABLETTES*/
+/*****POUR LES TABLETTES*****/
 
-@media screen and (min-width : 400px) and (max-width: 1024px)
+@media screen and (min-width : 400px) and (max-width: 1023px)
 {
     
 body {    
@@ -377,7 +376,7 @@ h3 {
 
 .text-center {
     text-align:left;
-    margin-left:28%;
+    margin-left:20%;
     margin-top:8%;
     }
     
@@ -386,7 +385,7 @@ h3 {
     margin-top: 5%;
     vertical-align: bottom;
     /* height: 80px; */
-    margin-left: 30%;
+    margin-left: 22%;
     /*float:left;*/
     }
     
@@ -550,3 +549,6 @@ h3 {
     
 
 }
+
+ /* TEST POUR LE FOND EN FORMAT PORTRAIT SUR TABLETTE/SMARTPHONE */
+
