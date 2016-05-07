@@ -37,18 +37,21 @@ include('../default/page/start_header.php');
  <!-- Set your background image for this header on the line below. -->
  <div id="haut_page" class="col-lg-12 col-md-12 col-xs-12">
 
-    <div class="col-lg-2 col-lg-offset-5 col-md-5 col-md-offset-4 col-xs-5 col-xs-offset-4">
+    <div class="col-lg-2 col-lg-offset-5 col-md-5 col-md-offset-4 col-xs-6 col-xs-offset-3">
         <h1 id="text_accueil">Zinia Editions<br>Présente<br>Mambo Canaille</h1>
     </div>
     <!-- Main Content -->
     <a class="fancybox" data-fancybox-type="iframe" href="../default/page/index.php"></a>
 
         <div id="top_site"class="row">
-            <div class="col-lg-5 col-md-5 col-xs-12">
-            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/123630710?color=1da7bf" width="100%" height="480px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="col-lg-6 col-lg-offset-3 col-md-10 col-xs-12">
+             <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/123630710?color=1da7bf" width="100%" height="395px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
-            <div class="col-lg-4 col-md-4 col-md-offset-2 col-xs-12">
-                <p>Vous êtes en train de lire <em>Mambo Canaille</em> ? <br/> Parcourez au fil d’icônes l’univers         fantasque de Juan Carlos Méndez Guédez, déambulez dans les rues de Madrid, créez vos recettes, devenez à votre tour écrivain, évadez-vous au delà des frontières du livre...</p>
+            <div class="col-lg-6 col-lg-offset-3 col-md-10 col-xs-12">
+             <p>Vous êtes en train de lire <em>Mambo Canaille</em> ? <br/> 
+                Parcourez au fil d’icônes l’univers fantasque de Juan Carlos Méndez Guédez,
+                 déambulez dans les rues de Madrid, créez vos recettes, 
+                 devenez à votre tour écrivain, évadez-vous au delà des frontières du livre...</p>
             </div>
         </div>
 </div>
