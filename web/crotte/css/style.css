@@ -1,4 +1,4 @@
-/*****POUR LES ORDINATEURS*****/
+/**********POUR LES ORDINATEURS**********/
 
 @media screen and (min-width : 1024px) and (max-width: 1920px)
 {
@@ -280,16 +280,16 @@ h3 {
 
 }
 
-/*****POUR LES TABLETTES*****/
+/**********POUR LES TABLETTES**********/
 
 @media screen and (min-width : 400px) and (max-width: 1023px)
 {
     
 body {    
-    background-image: url(../images/fond.png);
+    background-image: url(../images/fond2.png);
     margin:0;
     padding:0;
-    background-position:left;
+    background-position:center;
     background-repeat: no-repeat; 
     background-attachment:fixed;
     -webkit-background-size: cover;
@@ -550,5 +550,4 @@ h3 {
 
 }
 
- /* TEST POUR LE FOND EN FORMAT PORTRAIT SUR TABLETTE/SMARTPHONE */
 
