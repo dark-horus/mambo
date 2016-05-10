@@ -38,6 +38,7 @@ include('../default/page/start_header.php');
  <div id="haut_page" class="col-lg-12 col-md-12 col-xs-12">
 
     <div class="col-lg-2 col-lg-offset-5 col-md-5 col-md-offset-4 col-xs-6 col-xs-offset-3">
+
         <h1 id="text_accueil">Zinnia Editions<br>Présente<br>Mambo Canaille</h1>
     </div>
     <!-- Main Content -->
@@ -75,7 +76,7 @@ include('../default/page/start_header.php');
 
             <footer class="footer_provisoir">
               <div class="container">
-                <p class="text-muted">Mentions Légales</p>
+                <a href="../default/page/mentionslegales.php"><p class="text-muted">Mentions Légales</p></a>
               </div>
             </footer>
     
