@@ -57,13 +57,12 @@ include('../default/page/start_header.php');
 </div>
 
 
-<script src="js/index.js"></script>
 
 <!-- Fin du contenu -->
 <?php
 include( '../default/page/footer.php' );
 ?> 
-
+<script src="js/index.js"></script>
   
    
     
