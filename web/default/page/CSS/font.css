@@ -48,3 +48,15 @@ font-size:18px;
 em { 
 font-style : italic; 
 }
+
+/*Fond pour les mentions légales*/
+
+#mentionslegales {
+    background-image: url(../img/fondlightbox.png);
+    margin:0;
+    padding:0;
+    background-attachment:fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*background-position:center;*/ 
+}

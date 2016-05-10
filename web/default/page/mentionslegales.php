@@ -1,9 +1,14 @@
 <link rel="stylesheet" href="CSS/font.css">
 <!-- Place ici ton contenu -->
+
+ <!--BACKGROUND DE LA PAGE AJOUTÉ DANS LE FICHIER font.css-->
+
+<div id='mentionslegales'>
+
 <h1><center>Les mentions légales</center></h1>
 
 <h3>Les informations légales</h3>
-<p>Vous êtes en train de visiter mambocanaille.fr, le site de la maison d’édition Zinnia Editions basé sur le livre « Chulapos Mambo » (<i>Mambo Canaille en français</i>) écrit par Juan Carlos Méndez Guédez. <br/> Ce site original et novateur a été conçu et réalisé par les étudiants du Master Audiovisuel et Médias Numériques (AVMN), parcours Communication Multimédia Interactif de l’Université Grenoble Alpes, promotion 2015-2017.</p>
+<p>Vous êtes en train de visiter mambocanaille.fr, le site de la maison d’édition Zinnia Editions basé sur le livre « Chulapos Mambo » (<i>Mambo Canaille</i> en français) écrit par Juan Carlos Méndez Guédez. <br/> Ce site original et novateur a été conçu et réalisé par les étudiants du Master Audiovisuel et Médias Numériques (AVMN), parcours Communication Multimédia Interactif de l’Université Grenoble Alpes, promotion 2015-2017.</p>
 
 <h3>Les responsabilités et contacts</h3>
 <p>Directeur de la publication : Magali Homps</p>
@@ -105,4 +110,5 @@ Les maisons d’Éditions Zinnia se réserve le droit à tout moment de :</br
 Pensé, conçu, produit et réalisé dans le cadre d’un projet des étudiants du parcours Communication Multimédia Interactif.</p>
 <p>Master Audiovisuel et Médias Numériques - Université Grenoble Alpes</p>
 
+</div>
 <!-- Fin du contenu -->
