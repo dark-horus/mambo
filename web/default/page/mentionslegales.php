@@ -1,12 +1,13 @@
 <link rel="stylesheet" href="CSS/font.css">
+<!-- <link rel="stylesheet" href="CSS/style.css"> -->
 <!-- Place ici ton contenu -->
 
- <!--BACKGROUND DE LA PAGE AJOUTÉ DANS LE FICHIER font.css-->
+ <!--BACKGROUND DE LA PAGE AJOUTÉ DANS LE FICHIER font.css POUR PLUS DE FACILITÉ-->
 
 <title>Mentions légales et CGU</title>
 
 <div id='mentionslegales'>
-
+    
 <h1><center>Les mentions légales</center></h1>
 
 <h3>Les informations légales</h3>
