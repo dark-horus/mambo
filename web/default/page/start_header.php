@@ -58,7 +58,7 @@ if ($dossier != null) {
         case "poitrine":
             $titre = "Partez à la rencontre des femmes d'hier et d'aujourd'hui !";
 			$next = '<li class="col-md-12"><a href="../ferrari/index.html">Étape suivante : ferrari</a></li>';
-			$before = '<li class="col-md-12"><a href="../crotte">Étape suivante : crotte</a></li>';
+			$before = '<li class="col-md-12"><a href="../crotte">Étape précédente : crotte</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Remontez le temps et rencontrez les idéaux féminins qui ont inspirés de nombreux artistes, par leur beauté.";
 			break;
@@ -143,4 +143,5 @@ $current_etape = $res['current_etape'];
     <link rel="stylesheet" href="../default/page/CSS/style.css"/>
     <link rel="stylesheet" href="../default/page/CSS/font.css"/>
 	<link rel="stylesheet" type="text/css" href="../../vendor/bootstrap/css/bootstrap.css">
+	
  
