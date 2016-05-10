@@ -1,20 +1,3 @@
-<?php
-include('../default/page/start_header.php');
-?>
-<!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
-
-
-<!-- fin CSS -->
-<?php include('../default/page/header.php'); ?>
-
-<!-- Place ici tes scripts Javascripts dans Vendor, et ton JS local -->
-
-
-
-<!-- Fin Scripts -->
-
-
-<?php include('../default/page/end_header.php'); ?>
 <link rel="stylesheet" href="CSS/font.css">
 <!-- Place ici ton contenu -->
 
@@ -58,8 +41,18 @@ Université Grenoble Alpes</br>
 38434 Échirolles Cedex</p>
 
 <h1>Les conditions générales d'utilisation</h1>
-
+<h3></h3>L’objet</h3>
+Les présentes Conditions Générales ont pour objet de dé nir les modalités de mise à disposition des services du site mambo canaille.
+Tout accès et/ou utilisation du site mambo canaille suppose l’acceptation et le respect de l’ensemble des termes des présentes Conditions et leur acceptation inconditionnelle. Elles constituent donc un contrat entre le service et l’utilisateur.
+Dans le cas où l’utilisateur ne souhaite pas accepter tout ou partie des présentes conditions générales, il lui est demandé de renoncer à tout usage du Service.
+12
+La protection des données à caractère personnel
+Certains espaces et services de www.zinniaeditions/MamboCanaille.com sont en accès réservés exclu- sivement aux utilisateurs disposant d’un compte. Le mot de passe est nécessaire pour accéder à certaine étapes, il est délivré par www.zinniaeditions/MamboCanaille.com.
+Le mot de passe est personnel et strictement con dentiel. A ce titre, l’utilisateur doit s’en réserver l’usage exclusif. L’utilisateur est seul responsable des conséquences qui pourraient résulter de leur communication à des tiers. L’utilisateur s’engage à informer immédiatement les responsables du site www.zinniaeditions/Mam- boCanaille.com de toute utilisation non autorisée de ses clés de connexion, et plus généralement de toute atteinte à la sécurité du site www.zinniaeditions/MamboCanaille.com dont il aurait connaissance.
+L’utilisateur du site www.zinniaeditions/MamboCanaille.com s’interdit de transmettre tout contenu contraire à une loi en vigueur. L’utilisateur s’interdit également de transmettre toute publicité ou matériel non sollicités (« spamming »), ainsi que tout contenu à caractère di amatoire, raciste, pornographique ou compor- tant des virus informatiques.
+Zinnia Éditions décline toute responsabilité en cas de perte par l’utilisateur de son code d’accès ou en cas d’usurpation de son identité. Zinnia Éditions se réserve la possibilité de saisir toutes voies de droit à l’en- contre de toute personne qui n’aurait pas respecté les dispositions relatives aux articles 323-1 à 323-7 du code pénal, et notamment qui accéderait frauduleusement à tout ou partie d’un système de traitement automatisé de données des espaces du site www.zinniaeditions/MamboCanaille.com.
+Les maisons d’éditions Zinnia prennent toutes les dispositions visant à assurer la protection, l’intégrité et la con dentialité des données personnelles dans le respect des dispositions de la loi précitée.
+En application des dispositions de l’article 32 de la loi Informatique et Libertés, le site www.zinniaedi- tions/MamboCanaille.com informe l’utilisateur que :
+Le responsable de traitement des données collectées sur le site www.zinniaeditions/MamboCanaille. com est Zinnia Éditions. Seul, le personnel de Zinnia Éditions et de ses  liales habilité dans l’exercice de ses fonctions en charge du traitement des demandes, est destinataire des données personnelles que vous commu- niquez via le site www.zinniaeditions/MamboCanaille.com.
+Les données personnelles que vous communiquez sur le site www.zinniaeditions/MamboCanaille.com peuvent être utilisées à des  ns statistiques sur la fréquentation du site mais ne seront jamais utilisées à des  ns com- merciales.
 <!-- Fin du contenu -->
-<?php 
-include('../default/page/footer.php');
-?>
