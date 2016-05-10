@@ -5,7 +5,6 @@
 <script src="../../vendor/bootstrap/js/bootstrap.js" type="text/javascript"></script>
 
 <script src="../../vendor/jquery-2.2.1/jquery-2.2.1.min.js"></script>
-<script src="../../vendor/jquery-2.2.1/jquery-migrate-1.2.1.min.js"></script>
 <script src="../../vendor/rwdImageMaps/jquery.rwdImageMaps.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function () {
