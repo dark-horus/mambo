@@ -46,3 +46,10 @@ p {
 font-family: 'Special Elite';
 font-size:18px;
 }
+
+a {
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:none;
+}

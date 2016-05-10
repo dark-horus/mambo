@@ -38,7 +38,11 @@ include('../default/page/start_header.php');
  <div id="haut_page" class="col-lg-12 col-md-12 col-xs-12">
 
     <div class="col-lg-2 col-lg-offset-5 col-md-5 col-md-offset-4 col-xs-6 col-xs-offset-3">
+<<<<<<< Updated upstream
         <h1 id="text_accueil">Zinnia Editions<br>Présente<br>Mambo Canaille</h1>
+=======
+        <h1 id="text_accueil">Zinnia Éditions<br>Présente<br>Mambo Canaille</h1>
+>>>>>>> Stashed changes
     </div>
     <!-- Main Content -->
     <a class="fancybox" data-fancybox-type="iframe" href="../default/page/index.php"></a>
@@ -75,7 +79,7 @@ include('../default/page/start_header.php');
 
             <footer class="footer_provisoir">
               <div class="container">
-                <p class="text-muted">Mentions Légales</p>
+                <a href="../default/page/mentionslegales.php"><p class="text-muted">Mentions Légales</p></a>
               </div>
             </footer>
     
