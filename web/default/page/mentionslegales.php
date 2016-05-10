@@ -3,6 +3,8 @@
 
  <!--BACKGROUND DE LA PAGE AJOUTÉ DANS LE FICHIER font.css-->
 
+<title>Mentions légales et CGU</title>
+
 <div id='mentionslegales'>
 
 <h1><center>Les mentions légales</center></h1>
@@ -109,6 +111,5 @@ Les maisons d’Éditions Zinnia se réserve le droit à tout moment de :</br
 <p>Nous remercions, Franck Grimonpont ; Stéphane Koeberlé ; Laurence Payan ; Laurie Schmitt ; Tommy Redolfi ; Françoise Papa.
 Pensé, conçu, produit et réalisé dans le cadre d’un projet des étudiants du parcours Communication Multimédia Interactif.</p>
 <p>Master Audiovisuel et Médias Numériques - Université Grenoble Alpes</p>
-
 </div>
 <!-- Fin du contenu -->
