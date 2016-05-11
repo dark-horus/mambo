@@ -293,6 +293,7 @@ h2{
     background-repeat:no-repeat;
     background-position: center;
     background-size: contain ;
+    background-color:transparent;
     border:none;
     width: 200px;
     background-repeat: no-repeat; /* largeur à spécifier */
@@ -305,6 +306,7 @@ h2{
     background-repeat:no-repeat;
     background-position: center;
     background-size: contain ;
+    background-color:transparent;
     border:none;
     width: 200px;
     background-repeat: no-repeat; /* largeur à spécifier */
