@@ -35,9 +35,9 @@ while($values = $step->fetch()){
 <div id="image">
 <img src="images/chambre1.png" width="1920" height="1080" usemap="#maparthur" alt="" />
  <map name="maparthur" id="maparthur">
-		<area shape="rect" title="livre" coords="2,804,96,850" href="#" onclick="showElem()"/>  		
-        <area shape="rect" coords="1263,944,1298,960" href="#" title="appareil" onclick="showElem2()"/>
-     	<area shape="rect" coords="1846,746,1888,767" href="#" title="Stylo" onclick="showElem3()"/>
+		<area shape="rect" coords="2,804,96,850" href="#" title="livre" alt="livre" onclick="showElem()"/>  		
+        <area shape="rect" coords="1263,944,1298,960" href="#" title="appareil" alt="appareil" onclick="showElem2()"/>
+     	<area shape="rect" coords="1846,746,1888,767" href="#" title="Stylo" alt="stylo" onclick="showElem3()"/>
 
  </map>
 </div>
