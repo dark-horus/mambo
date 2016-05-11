@@ -62,8 +62,24 @@ include('../default/page/start_header.php');
 
      <!--Content Mambo Canaille-->
           <div id="bas_page"class="co-lg-12 col-md-12 col-xs-12">
+          
                     <div id="map">
-                        <img src="../default/page/img/ecranmapOK.jpg" style="width:100%;"></img>
+         
+          <a href="../gaspacho/index.php">  <img src="../default/page/img/acc-gaspacho.png" style="width:100%;"></img></a>
+          <a href="../hotel/index.php">  <img src="../default/page/img/acc-hotel.png" style="width:100%;"></img></a>
+          <a href="../vin/index.php">  <img src="../default/page/img/acc-vin.png" style="width:100%;"></img></a>
+          <a href="../crotte/index.php">  <img src="../default/page/img/acc-crotte.png" style="width:100%;"></img></a>
+          <a href="../poitrine/index.php">  <img src="../default/page/img/acc-poitrine.png" style="width:100%;"></img></a>
+          <a href="../ferrari/index.php">  <img src="../default/page/img/acc-ferrari.png" style="width:100%;"></img></a>
+          <a href="../chien/index.php">  <img src="../default/page/img/acc-chien.png" style="width:100%;"></img></a>
+          <a href="../livre/index.php">  <img src="../default/page/img/acc-livre.png" style="width:100%;"></img></a>
+          <a href="../lapin/index.php">  <img src="../default/page/img/acc-lapin.png" style="width:100%;"></img></a>
+          <a href="../ours/index.php">  <img src="../default/page/img/acc-ours.png" style="width:100%;"></img></a>
+          <a href="../immeuble/index.php">  <img src="../default/page/img/acc-immeuble.png" style="width:100%;"></img></a>
+          <a href="../ordinateur/index.php">  <img src="../default/page/img/acc-ordinateur.png" style="width:100%;"></img></a>
+          
+                       
+                        
                     </div>
                     
                     <!-- Bouton scroll mais enfet on verra si on le garde ou pas
