@@ -35,19 +35,21 @@
                         </div>
                     </div>
                 </li>
-				<?php if ($dossier != "accueil" && $dossier != "profil") { ?>
+				<?php if ($dossier != "accueil" && $dossier != "profil" && $dossier != "mentions") { ?>
                 <li>
                     <div id="mambo-icone">
                         <!-- icone de l'étape -->
                         <img src="../default/page/img/<?php echo $icone; ?>">
                     </div>
                 </li>
+                    <?php } if ($dossier != "accueil" && $dossier != "profil") { ?>
                 <li>
                     <div id="mambo-consigne">
                         <!-- titre/consigne de l'étape-->
                         <h1><?php echo $titre ?></h1>
                     </div>
                 </li>
+                    <?php } if ($dossier != "accueil" && $dossier != "profil" && $dossier != "mentions") { ?>
 				<li>
 				
 					<a href="#"><img src="../default/page/img/interrogation.png" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<?php echo $consigne; ?>"></a>

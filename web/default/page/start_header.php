@@ -101,6 +101,12 @@ if ($dossier != null) {
     		$current = '';
 			$next ='';
 			$before = '';
+            break;
+        case "mentions":
+            $titre = "Mentions légales et Conditions générales d'utilisation";
+    		$current = '';
+			$next ='';
+			$before = '';
 	}
 }
 

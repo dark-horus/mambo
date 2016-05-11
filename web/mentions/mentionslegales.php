@@ -1,24 +1,46 @@
-<link rel="stylesheet" href="CSS/font.css">
-
-<body>
+<?php
+include('../default/page/start_header.php');
+?>
+<!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
 
 <style>
     
 body {
-    background-image: url(img/fondlightbox.png);
+    background-image: url(../default/page/img/fondlightbox.png);
     background-attachment:fixed;
     background-size: cover;
     background-position:center;
     padding:10px;
     }
     
-</style>
+#mentionslegales {
+    padding-top:100px;
+    }
     
-<title>Mentions légales et CGU</title>
+p {
+    text-align:left;    
+    } 
+
+</style>
+
+<link rel="stylesheet" href="../default/page/CSS/font.css">
+
+<!-- fin CSS -->
+<?php include('../default/page/header.php'); ?>
+
+<!-- Place ici tes scripts Javascripts dans Vendor, et ton JS local -->
+
+
+
+<!-- Fin Scripts -->
+
+<?php include('../default/page/end_header.php'); ?>
+
+<!-- Place ici ton contenu -->
 
 <div id='mentionslegales'>
     
-<h1><center>Les mentions légales</center></h1>
+<h2><center>Les mentions légales</center></h2>
 
 <h3>Les informations légales</h3>
 <p>Vous êtes en train de visiter www.mambocanaille.fr, le site de la maison d’édition Zinnia Editions basé sur le livre « Chulapos Mambo » (<i>Mambo Canaille</i> en français) écrit par Juan Carlos Méndez Guédez. <br/> Ce site original et novateur a été conçu et réalisé par les étudiants du Master Audiovisuel et Médias Numériques (AVMN), parcours Communication Multimédia Interactif de l’Université Grenoble Alpes, promotion 2015-2017.</p>
@@ -61,7 +83,7 @@ Université Grenoble Alpes</br>
 11, avenue du 8 mai 1945 - BP 337</br>
 38434 Échirolles Cedex</p>
 
-<h1><center>Les conditions générales d'utilisation</center></h1>
+<h2><center>Les conditions générales d'utilisation</center></h2>
 <h3>L’objet</h3>
 <p>Les présentes Conditions Générales ont pour objet de définir les modalités de mise à disposition des services du site mambo canaille.</br>
 Tout accès et/ou utilisation du site mambo canaille suppose l’acceptation et le respect de l’ensemble des termes des présentes Conditions et leur acceptation inconditionnelle. Elles constituent donc un contrat entre le service et l’utilisateur.</br>Dans le cas où l’utilisateur ne souhaite pas accepter tout ou partie des présentes conditions générales, il lui est demandé de renoncer à tout usage du service.</p>
@@ -124,4 +146,7 @@ Pensé, conçu, produit et réalisé dans le cadre d’un projet des étudi
 <p>Master Audiovisuel et Médias Numériques - Université Grenoble Alpes</p>
 </div>
 
-</body>
+
+<?php 
+include('../default/page/footer.php');
+?>
