@@ -133,3 +133,26 @@ button {
     background: none; /* ou transparent je sais plus... */
     border: 0;
 }
+
+#slider_henry {
+    top : 250px;
+    left : 300px;
+}
+
+#slider_simao {
+    top : 250px;
+    left : 300px;
+}
+
+#slider_alejandro {
+    top : 250px;
+    left : 300px;
+}
+
+.right.carousel-control {
+    background-image:url('img/fld.png'); background-repeat:none;  background-position:50%; 
+}
+
+.left.carousel-control {
+    background-image:url('img/flg.png'); background-repeat:none;  background-position:50%; 
+}

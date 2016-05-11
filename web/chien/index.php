@@ -63,7 +63,7 @@
 </div>
 
 <!-- SLIDER DES TETES -->
-<div class="col-md-offset-4 col-md-4 slider" id="slider_henry">
+<div class="col-md-offset-4 col-md-3 slider" id="slider_henry">
 
     <!--Cheveux-->
     <div class="" id="slider_henry_1">
@@ -120,11 +120,9 @@
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#cheveux" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Precedent</span>
             </a>
             <a class="right carousel-control" href="#cheveux" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
@@ -187,11 +185,9 @@
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#Yeux" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Precedent</span>
             </a>
             <a class="right carousel-control" href="#Yeux" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
@@ -254,11 +250,9 @@
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#Nez" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Precedent</span>
             </a>
             <a class="right carousel-control" href="#Nez" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
@@ -321,11 +315,9 @@
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#Bouche" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Precedent</span>
             </a>
             <a class="right carousel-control" href="#Bouche" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
@@ -386,11 +378,9 @@
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#Menton" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Precedent</span>
             </a>
             <a class="right carousel-control" href="#Menton" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
 
@@ -400,11 +390,11 @@
 </div>
 
 <!-- SLIDER DES TETES -->
-<div class="col-md-10 slider" id="slider_simao">
+<div class="col-md-offset-4 col-md-3 slider" id="slider_simao">
 
     <!--Cheveux-->
-    <div class="col-md-10 col-md-offset-2" id="slider_simao_1">
-        <div id="slider_simao_cheveux" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
+    <div id="slider_simao_1">
+        <div id="slider_simao_cheveux" class="carousel slide" data-pause="pause">
             <!-- Indicators -->
             <ol class="pas_defini">
                 <li data-target="#slider_simao_cheveux" data-slide-to="0"></li>
@@ -457,19 +447,17 @@
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#slider_simao_cheveux" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Precedent</span>
             </a>
             <a class="right carousel-control" href="#slider_simao_cheveux" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
     </div>
 
     <!--Yeux-->
-    <div class="col-md-10 col-md-offset-2" id="slider_simao_2">
-        <div id="slider_simao_yeux" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
+    <div id="slider_simao_2">
+        <div id="slider_simao_yeux" class="carousel slide" data-pause="pause">
             <!-- Indicators -->
             <ol class="pas_defini">
                 <li data-target="#slider_simao_yeux" data-slide-to="0"></li>
@@ -524,19 +512,17 @@
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#slider_simao_yeux" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Precedent</span>
             </a>
             <a class="right carousel-control" href="#slider_simao_yeux" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
     </div>
 
     <!--Nez-->
-    <div class="col-md-10 col-md-offset-2" id="slider_simao_3">
-        <div id="slider_simao_nez" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
+    <div id="slider_simao_3">
+        <div id="slider_simao_nez" class="carousel slide" data-pause="pause">
             <!-- Indicators -->
             <ol class="pas_defini">
                 <li data-target="#slider_simao_nez" data-slide-to="0"></li>
@@ -591,19 +577,17 @@
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#slider_simao_nez" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Precedent</span>
             </a>
             <a class="right carousel-control" href="#slider_simao_nez" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
     </div>
 
     <!--Bouche-->
-    <div class="col-md-10 col-md-offset-2" id="slider_simao_4">
-        <div id="slider_simao_bouche" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
+    <div id="slider_simao_4">
+        <div id="slider_simao_bouche" class="carousel slide" data-pause="pause">
             <!-- Indicators -->
             <ol class="pas_defini">
                 <li data-target="#slider_simao_bouche" data-slide-to="0"></li>
@@ -658,19 +642,17 @@
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#slider_simao_bouche" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Precedent</span>
             </a>
             <a class="right carousel-control" href="#slider_simao_bouche" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
     </div>
 
     <!--Menton-->
-    <div class="col-md-10 col-md-offset-2" id="slider_simao_5">
-        <div id="slider_simao_menton" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
+    <div id="slider_simao_5">
+        <div id="slider_simao_menton" class="carousel slide" data-pause="pause">
             <!-- Indicators -->
             <ol class="pas_defini">
                 <li data-target="#slider_simao_menton" data-slide-to="0"></li>
@@ -723,11 +705,9 @@
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#slider_simao_menton" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Precedent</span>
             </a>
             <a class="right carousel-control" href="#slider_simao_menton" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
 
@@ -737,22 +717,22 @@
 </div>
 
 <!-- SLIDER DES TETES -->
-<div class="col-md-10 slider" id="slider_alejandro">
+<div class="col-md-offset-4 col-md-3 slider" id="slider_alejandro">
 
     <!--Cheveux-->
-    <div class="col-md-10 col-md-offset-2" id="slider_alejandro_1">
-        <div id="cheveux" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
+    <div id="slider_alejandro_1">
+        <div id="slider_alejandro_cheveux" class="carousel slide" data-pause="pause">
             <!-- Indicators -->
             <ol class="pas_defini">
-                <li data-target="#cheveux" data-slide-to="0"></li>
-                <li data-target="#cheveux" data-slide-to="1"></li>
-                <li data-target="#cheveux" data-slide-to="2"></li>
-                <li data-target="#cheveux" data-slide-to="3"></li>
-                <li data-target="#cheveux" data-slide-to="4"></li>
-                <li data-target="#cheveux" data-slide-to="5"></li>
-                <li data-target="#cheveux" data-slide-to="6"></li>
-                <li data-target="#cheveux" data-slide-to="7"></li>
-                <li data-target="#cheveux" data-slide-to="8"></li>
+                <li data-target="#slider_alejandro_cheveux" data-slide-to="0"></li>
+                <li data-target="#slider_alejandro_cheveux" data-slide-to="1"></li>
+                <li data-target="#slider_alejandro_cheveux" data-slide-to="2"></li>
+                <li data-target="#slider_alejandro_cheveux" data-slide-to="3"></li>
+                <li data-target="#slider_alejandro_cheveux" data-slide-to="4"></li>
+                <li data-target="#slider_alejandro_cheveux" data-slide-to="5"></li>
+                <li data-target="#slider_alejandro_cheveux" data-slide-to="6"></li>
+                <li data-target="#slider_alejandro_cheveux" data-slide-to="7"></li>
+                <li data-target="#slider_alejandro_cheveux" data-slide-to="8"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -793,31 +773,29 @@
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#cheveux" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <a class="left carousel-control" href="#slider_alejandro_cheveux" role="button" data-slide="prev">
                 <span class="sr-only">Precedent</span>
             </a>
-            <a class="right carousel-control" href="#cheveux" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a class="right carousel-control" href="#slider_alejandro_cheveux" role="button" data-slide="next">
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
     </div>
 
     <!--Yeux-->
-    <div class="col-md-10 col-md-offset-2" id="slider_alejandro_2">
-        <div id="Yeux" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
+    <div id="slider_alejandro_2">
+        <div id="slider_alejandro_yeux" class="carousel slide" data-pause="pause">
             <!-- Indicators -->
             <ol class="pas_defini">
-                <li data-target="#Yeux" data-slide-to="0"></li>
-                <li data-target="#Yeux" data-slide-to="1"></li>
-                <li data-target="#Yeux" data-slide-to="2"></li>
-                <li data-target="#Yeux" data-slide-to="3"></li>
-                <li data-target="#Yeux" data-slide-to="4"></li>
-                <li data-target="#Yeux" data-slide-to="5"></li>
-                <li data-target="#Yeux" data-slide-to="6"></li>
-                <li data-target="#Yeux" data-slide-to="7"></li>
-                <li data-target="#Yeux" data-slide-to="8"></li>
+                <li data-target="#slider_alejandro_yeux" data-slide-to="0"></li>
+                <li data-target="#slider_alejandro_yeux" data-slide-to="1"></li>
+                <li data-target="#slider_alejandro_yeux" data-slide-to="2"></li>
+                <li data-target="#slider_alejandro_yeux" data-slide-to="3"></li>
+                <li data-target="#slider_alejandro_yeux" data-slide-to="4"></li>
+                <li data-target="#slider_alejandro_yeux" data-slide-to="5"></li>
+                <li data-target="#slider_alejandro_yeux" data-slide-to="6"></li>
+                <li data-target="#slider_alejandro_yeux" data-slide-to="7"></li>
+                <li data-target="#slider_alejandro_yeux" data-slide-to="8"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -860,31 +838,29 @@
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#Yeux" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <a class="left carousel-control" href="#slider_alejandro_yeux" role="button" data-slide="prev">
                 <span class="sr-only">Precedent</span>
             </a>
-            <a class="right carousel-control" href="#Yeux" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a class="right carousel-control" href="#slider_alejandro_yeux" role="button" data-slide="next">
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
     </div>
 
     <!--Nez-->
-    <div class="col-md-10 col-md-offset-2" id="slider_alejandro_3">
-        <div id="Nez" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
+    <div id="slider_alejandro_3">
+        <div id="slider_alejandro_nez" class="carousel slide" data-pause="pause">
             <!-- Indicators -->
             <ol class="pas_defini">
-                <li data-target="#Nez" data-slide-to="0"></li>
-                <li data-target="#Nez" data-slide-to="1"></li>
-                <li data-target="#Nez" data-slide-to="2"></li>
-                <li data-target="#Nez" data-slide-to="3"></li>
-                <li data-target="#Nez" data-slide-to="4"></li>
-                <li data-target="#Nez" data-slide-to="5"></li>
-                <li data-target="#Nez" data-slide-to="6"></li>
-                <li data-target="#Nez" data-slide-to="7"></li>
-                <li data-target="#Nez" data-slide-to="8"></li>
+                <li data-target="#slider_alejandro_nez" data-slide-to="0"></li>
+                <li data-target="#slider_alejandro_nez" data-slide-to="1"></li>
+                <li data-target="#slider_alejandro_nez" data-slide-to="2"></li>
+                <li data-target="#slider_alejandro_nez" data-slide-to="3"></li>
+                <li data-target="#slider_alejandro_nez" data-slide-to="4"></li>
+                <li data-target="#slider_alejandro_nez" data-slide-to="5"></li>
+                <li data-target="#slider_alejandro_nez" data-slide-to="6"></li>
+                <li data-target="#slider_alejandro_nez" data-slide-to="7"></li>
+                <li data-target="#slider_alejandro_nez" data-slide-to="8"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -927,31 +903,29 @@
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#Nez" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <a class="left carousel-control" href="#slider_alejandro_nez" role="button" data-slide="prev">
                 <span class="sr-only">Precedent</span>
             </a>
-            <a class="right carousel-control" href="#Nez" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a class="right carousel-control" href="#slider_alejandro_nez" role="button" data-slide="next">
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
     </div>
 
     <!--Bouche-->
-    <div class="col-md-10 col-md-offset-2" id="slider_alejandro_4">
-        <div id="Bouche" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
+    <div id="slider_alejandro_4">
+        <div id="slider_alejandro_bouche" class="carousel slide" data-pause="pause">
             <!-- Indicators -->
             <ol class="pas_defini">
-                <li data-target="#Bouche" data-slide-to="0"></li>
-                <li data-target="#Bouche" data-slide-to="1"></li>
-                <li data-target="#Bouche" data-slide-to="2"></li>
-                <li data-target="#Bouche" data-slide-to="3"></li>
-                <li data-target="#Bouche" data-slide-to="4"></li>
-                <li data-target="#Bouche" data-slide-to="5"></li>
-                <li data-target="#Bouche" data-slide-to="6"></li>
-                <li data-target="#Bouche" data-slide-to="7"></li>
-                <li data-target="#Bouche" data-slide-to="8"></li>
+                <li data-target="#slider_alejandro_bouche" data-slide-to="0"></li>
+                <li data-target="#slider_alejandro_bouche" data-slide-to="1"></li>
+                <li data-target="#slider_alejandro_bouche" data-slide-to="2"></li>
+                <li data-target="#slider_alejandro_bouche" data-slide-to="3"></li>
+                <li data-target="#slider_alejandro_bouche" data-slide-to="4"></li>
+                <li data-target="#slider_alejandro_bouche" data-slide-to="5"></li>
+                <li data-target="#slider_alejandro_bouche" data-slide-to="6"></li>
+                <li data-target="#slider_alejandro_bouche" data-slide-to="7"></li>
+                <li data-target="#slider_alejandro_bouche" data-slide-to="8"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -994,31 +968,29 @@
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#Bouche" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <a class="left carousel-control" href="#slider_alejandro_bouche" role="button" data-slide="prev">
                 <span class="sr-only">Precedent</span>
             </a>
-            <a class="right carousel-control" href="#Bouche" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a class="right carousel-control" href="#slider_alejandro_bouche" role="button" data-slide="next">
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
     </div>
 
     <!--Menton-->
-    <div class="col-md-10 col-md-offset-2" id="slider_alejandro_5">
-        <div id="Menton" class="carousel slide" data-pause="pause" style="width: 40%; margin: 0 auto">
+    <div id="slider_alejandro_5">
+        <div id="slider_alejandro_menton" class="carousel slide" data-pause="pause">
             <!-- Indicators -->
             <ol class="pas_defini">
-                <li data-target="#Menton" data-slide-to="0"></li>
-                <li data-target="#Menton" data-slide-to="1"></li>
-                <li data-target="#Menton" data-slide-to="2"></li>
-                <li data-target="#Menton" data-slide-to="3"></li>
-                <li data-target="#Menton" data-slide-to="4"></li>
-                <li data-target="#Menton" data-slide-to="5"></li>
-                <li data-target="#Menton" data-slide-to="6"></li>
-                <li data-target="#Menton" data-slide-to="7"></li>
-                <li data-target="#Menton" data-slide-to="8"></li>
+                <li data-target="#slider_alejandro_menton" data-slide-to="0"></li>
+                <li data-target="#slider_alejandro_menton" data-slide-to="1"></li>
+                <li data-target="#slider_alejandro_menton" data-slide-to="2"></li>
+                <li data-target="#slider_alejandro_menton" data-slide-to="3"></li>
+                <li data-target="#slider_alejandro_menton" data-slide-to="4"></li>
+                <li data-target="#slider_alejandro_menton" data-slide-to="5"></li>
+                <li data-target="#slider_alejandro_menton" data-slide-to="6"></li>
+                <li data-target="#slider_alejandro_menton" data-slide-to="7"></li>
+                <li data-target="#slider_alejandro_menton" data-slide-to="8"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -1059,12 +1031,12 @@
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#Menton" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <a class="left carousel-control" href="#slider_alejandro_menton" role="button" data-slide="prev">
+                <!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> -->
                 <span class="sr-only">Precedent</span>
             </a>
-            <a class="right carousel-control" href="#Menton" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a class="right carousel-control" href="#slider_alejandro_menton" role="button" data-slide="next">
+                <!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
                 <span class="sr-only">Suivant</span>
             </a>
 
