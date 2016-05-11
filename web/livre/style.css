@@ -294,6 +294,7 @@ h2{
     background-position: center;
     background-size: contain ;
     background-color:transparent;
+    outline: none; 
     border:none;
     width: 200px;
     background-repeat: no-repeat; /* largeur à spécifier */
@@ -307,6 +308,7 @@ h2{
     background-position: center;
     background-size: contain ;
     background-color:transparent;
+    outline:none;
     border:none;
     width: 200px;
     background-repeat: no-repeat; /* largeur à spécifier */
