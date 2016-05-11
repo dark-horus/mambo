@@ -34,23 +34,20 @@ include( '../default/page/start_header.php' );
 
             <div class="container-fluid">
 
-                <div class="row-fluid">
 
-                    <div id="container" class="col-sm-12 col-md-12 col-lg-12">
-
+                   <div id="container" class="col-sm-12 col-md-12 col-lg-12" style=margin-bottom:20px;>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
                         <h1 style=font-size:25px;>Rencontrez Juan Carlos Méndez Guédez !</h1>
+                    </div>
 
-                          
+                      <div id="container" class="col-sm-12 col-md-12 col-lg-12 col-sm-offset-3 col-md-offset-3 col-md-offset-3 col-lg-offset-3">
 
-                        
-
-                    </div><!--container-->
-
-                    <div id="container" class="col-sm-8 col-md-8 col-lg-8 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
-
-                   <div class="embed-responsive embed-responsive-16by9">
-   <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/pYf5deeiPf4" width="300" height="150"></iframe>
-</div>
+                   <video controls="controls" autoplay="true">
+  <source src="video/Q1.mp4" type="video/mp4" />
+  <source src="video/" type="video/webm" />
+  <source src="video/" type="video/ogg" />
+  J'ai rien trouvé wesh
+</video>
 
                     </div>
 
@@ -60,15 +57,15 @@ include( '../default/page/start_header.php' );
                         <div class="row-fluid">  
                               
 
-                                     <div class="col-sm-12 col-md-12 col-lg-12">
+                                     <div class="col-sm-12 col-md-4 col-lg-4">
                                 <button class='lined thin' onclick="location.href='questions3.php'">Éprouvez-vous de la sympathie pour vos personnages ?</button>
                             </div>
 
-                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                <button class='lined thin' onclick="location.href='questions3.php'">Avez-vous déjà, à l’instar d’Henry, éprouvé des difficultés d’écriture comme la panne d’inspiration ?</button>
+                             <div class="col-sm-12 col-md-4 col-lg-4">
+                                <button class='lined thin' onclick="location.href='questions3.php'">Avez-vous déjà à l’instar d’Henry, éprouvé des difficultés d’écriture comme la panne d’inspiration ?</button>
                             </div>
 
-                             <div class="col-sm-12 col-md-12 col-lg-12">
+                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <button class='lined thin' onclick="location.href='questions3.php'">Le roman évoque souvent le coup d’Etat de Chavez, en quoi cela était il important de le retranscrire dans le roman ?</button>
                             </div>
 

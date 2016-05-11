@@ -35,11 +35,11 @@ include( '../default/page/start_header.php' );
 
             <div class="container-fluid">
 
-                <div class="row-fluid">
 
-                    <div id="container" class="col-sm-12 col-md-12 col-lg-12">
-
+                    <div id="container" class="col-sm-12 col-md-12 col-lg-12" style=margin-bottom:20px;>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
                         <h1 style=font-size:25px;>Rencontrez Juan Carlos Méndez Guédez !</h1>
+                    </div>
 
                           
 
@@ -47,7 +47,7 @@ include( '../default/page/start_header.php' );
 
                     </div><!--container-->
 
-                    <div id="container" class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="container" class="col-sm-12 col-md-12 col-lg-12 col-sm-offset-3 col-md-offset-3 col-md-offset-3 col-lg-offset-3">
 
                    <video controls="controls" autoplay="true">
   <source src="video/Q1.mp4" type="video/mp4" />
@@ -59,19 +59,19 @@ include( '../default/page/start_header.php' );
                     </div>
 
 <section>
-                     <div id="container" class="col-sm-12 col-md-8 col-lg-6">
+                     <div id="container" class="col-sm-12 col-md-12 col-lg-12">
 
                         <div class="row-fluid">  
                               
-                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="col-sm-12 col-md-4 col-lg-4">
                                 <button class='lined thin' onclick="location.href='questions2.php'">Vous êtes-vous inspiré de personnes réelles pour les personnages du livre ?</button>
                             </div>
 
-                             <div class="col-sm-12 col-md-12 col-lg-12">
+                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <button class='lined thin' onclick="location.href='questions2.php'">A quoi aurait ressemblé le roman si les personnages principaux étaient des femmes ?</button>
                             </div>
 
-                             <div class="col-sm-12 col-md-12 col-lg-12">
+                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <button class='lined thin' onclick="location.href='questions2.php'">Quel est le rôle et la place du chien Tarzan dans l’histoire ?</button>
                             </div>
 

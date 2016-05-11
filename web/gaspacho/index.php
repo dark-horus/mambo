@@ -188,15 +188,20 @@ include( '../default/page/start_header.php' );
     <a class="valid fancybox" href="#valid"></a>
 
     <div style="display:none" id="error">
-        ERREUR !
+        <h2>Il manque des ingrédients, vérifiez les dosages !</h2>
+        <a href="index.php"><img src="images/recommencer.png" alt="recommencer"/></a>
+
     </div>
     <div style="display:none" id="errorRecipe">
-        ERREUR RECETTE !
+        <h2>Oups, il semble y avoir un erreur dans les ingrédients !</h2>
+                <a href="index.php"><img src="images/recommencer.png" alt="recommencer"/></a>
+
     </div>
 </br>
     <div style="display:none" id="valid">
-        
+                                
         <h2>Félicitations votre gaspacho semble plaire à Henry !</h2>
+
     
     </br>
 

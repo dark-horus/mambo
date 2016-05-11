@@ -2,7 +2,8 @@ body {
     
     margin:0px;
     padding:0px;
-    background-image: url("img/back.jpg");
+    marg
+    background-image: url("img/back_mid.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -30,5 +31,26 @@ h1 {
     text-align: center;
 }
 
+.wrap {
 
+    padding-top:50px;
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 768px) and (orientation : landscape) { 
+body {
+background-image: url("img/back_landscape.jpg");
+}
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation : portrait) { 
+body {
+background-image: url("img/back_profil.jpg");
+}
+}
+
+@media only screen and (device-width: 1600px) and (device-height: 900px) and (orientation : portrait) { 
+body {
+background-image: url("img/back_mid.jpg");
+}
+}
 

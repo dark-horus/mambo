@@ -34,23 +34,20 @@ include( '../default/page/start_header.php' );
 
             <div class="container-fluid">
 
-                <div class="row-fluid">
 
-                    <div id="container" class="col-sm-12 col-md-12 col-lg-12">
-
+               <div id="container" class="col-sm-12 col-md-12 col-lg-12" style=margin-bottom:20px;>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
                         <h1 style=font-size:25px;>Rencontrez Juan Carlos Méndez Guédez !</h1>
+                    </div>
 
-                          
+                 <div id="container" class="col-sm-12 col-md-12 col-lg-12 col-sm-offset-3 col-md-offset-3 col-md-offset-3 col-lg-offset-3">
 
-                        
-
-                    </div><!--container-->
-
-                    <div id="container" class="col-sm-8 col-md-8 col-lg-8 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
-
-                   <div class="embed-responsive embed-responsive-16by9">
-   <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/pYf5deeiPf4" width="300" height="150"></iframe>
-</div>
+                   <video controls="controls" autoplay="true">
+  <source src="video/Q1.mp4" type="video/mp4" />
+  <source src="video/" type="video/webm" />
+  <source src="video/" type="video/ogg" />
+  J'ai rien trouvé wesh
+</video>
 
                     </div>
 
@@ -61,15 +58,15 @@ include( '../default/page/start_header.php' );
                               
 
 
-     <div class="col-sm-12 col-md-12 col-lg-12">
+     <div class="col-sm-12 col-md-4 col-lg-4">
                                 <button class='lined thin' onclick="location.href='questions4.php'">Vous identifiez-vous à l’un des personnages de votre livre, et pourquoi ?</button>
                             </div>
 
-                             <div class="col-sm-12 col-md-12 col-lg-12">
+                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <button class='lined thin' onclick="location.href='questions4.php'">Quels liens vous unissent à la ville de Madrid et pourquoi l’avoir choisie pour raconter votre histoire ?</button>
                             </div>
 
-                             <div class="col-sm-12 col-md-12 col-lg-12">
+                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <button class='lined thin' onclick="location.href='questions4.php'">Pourquoi avoir choisi le vin  “Don Melchor” de “concha y toro”, est-il représentatif du Chili ou est-ce un choix plus personnel?</button>
                             </div>
 
