@@ -39,7 +39,7 @@ include('../default/page/start_header.php');
 
     <div class="col-lg-2 col-lg-offset-5 col-md-5 col-md-offset-4 col-xs-6 col-xs-offset-3">
 
-        <h1 id="text_accueil">Zinnia Editions<br>Présente<br>Mambo Canaille</h1>
+        <h1 id="text_accueil">Zinnia Éditions<br>Présente<br>Mambo Canaille</h1>
     </div>
     <!-- Main Content -->
     <a class="fancybox" data-fancybox-type="iframe" href="../default/page/index.php"></a>
