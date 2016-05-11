@@ -1,8 +1,8 @@
 #obj {
-	position: absolute;
-	top: 914px;
-	left: 360px;
-	color: white;
+    margin-top: -9%;
+    margin-left: -60%;
+    position: relative;
+    color: white;
 }
 #image {
 		width: 100%;
@@ -15,12 +15,10 @@
 	}
 
 
-	
-#question{
-	position: absolute;
-	top: 920px;
-	left: 780px;
-	color: white;
+#question {
+    position: relative;
+    color: white;
+    margin-top: -8%;
 }
 
 #porte1{
@@ -44,14 +42,13 @@
 	height:972px;
 	position: absolute;
 }
-#portes{
-	top:914px;
-	left:1335px;
-	position: absolute;
-	color: white;
-	
+#portes {
+    position: relative;
+    color: white;
+    margin-top: -6%;
+    margin-left: 70%;
 }
 body{
 	
-	background-color: black;
+	background-color: #423D3D;
 }
