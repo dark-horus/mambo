@@ -53,3 +53,7 @@ a {
 a:hover {
   text-decoration:none;
 }
+
+.text-muted {
+    color:white;
+}
