@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	background-image:url(image/fondours.png);
+
+	background-repeat: no-repeat;
+ margin:0;
+ padding:0;
+	}
+
+.content {
+
+	width:750px;
+	height:500px;
+	text-align: justify;
+}
+
+#textarbre{
+	font-family : "FuturaStd"; 	
+	margin-top: 7px;
+	margin-left: 10px; 
+	margin-right: 10px;  
+	text-align: justify; 		
+}
+
+
+h2 {
+	font-family : "Special Elite";
+	color: #35201e;	
+	text-align: center; 
+}
+

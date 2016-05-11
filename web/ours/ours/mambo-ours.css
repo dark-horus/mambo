@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+  margin:0;
+  padding:0;
+  background: url(image/fondbase.png) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  overflow: hidden;
+}
+
+h3 {
+font-family: 'Special Elite'; 
+}
+
+
+
+.blason {
+	height: 502px;
+	width: 420px;
+	display: block; 
+	margin-top: 10%; 
+	margin-right: auto;
+	margin-left: auto;	
+	overflow: hidden;
+	
+}
+
+#‎fancybox‬-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+background-image: url('image/fermer.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 64px;
+}
+
+area:hover {
+cursor: url("image/cursor.png"), auto;
+}​
+
