@@ -44,14 +44,55 @@ include( '../default/page/start_header.php' );
             </div><!-- .mon_oeuvre -->
         </div><!-- .d_oeuvre -->
 
+            <!-- Corbeille -->
+        <div class="icone corbeille" data-window="f_corbeille">
+            <div class="txt_corbeille">
+                <p class="dossier_police">Corbeille</p>
+            </div><!-- .txt_corbeille -->
+        </div><!-- Corbeille -->
+
+
+
+
         <!-- BARRE de menu -->
         <div class="barre">
             <div class="internet"></div><!-- .internet -->
             <div class="player"></div><!-- .player -->
             <div class="dossier_simple"></div><!-- .dossier_simple -->
+
+<!-- 
+            <div id="div_horloge">
+ 
+                <script type="text/javascript">
+                window.onload=function() {
+                  horloge('div_horloge');
+                };
+                 
+                function horloge(el) {
+                  if(typeof el=="string") { el = document.getElementById(el); }
+                  function actualiser() {
+                    var date = new Date();
+                    var str = date.getHours();
+                    str += ':'+(date.getMinutes()<10?'0':'')+date.getMinutes();
+                    el.innerHTML = str;
+                  }
+                  actualiser();
+                  setInterval(actualiser,60000);
+                }
+                </script>
+
+            </div> -->
+
         </div><!-- .barre -->
 
         <div class="demarrer"></div><!-- .demarrer -->
+
+                                <!-- Heure -->
+        <div class="heure" >
+            <div class="heure">
+                <p class="heure_police">13:45</p>
+            </div><!-- .mes_musiques -->
+        </div><!-- .d_musiques -->
 
         <!-- FENETRE Musiques -->
         <div class="window f_musiques" id="f_musiques" style="display:none;">
@@ -281,6 +322,30 @@ include( '../default/page/start_header.php' );
 
         </div><!-- .f_oeuvre -->
 
+        <!-- FENETRE corbeille -->
+        <div class="window f_corbeille" id="f_corbeille" style="display:none;">
+
+            <div class="window-head b_corbeille">
+
+                <div class="bouton_fermer4" onclick="javascript:visibilite('f_corbeille'); return false;">
+
+                </div>
+
+            </div>
+
+            <div class="c_text">
+                <div class="titre_oeuvre">
+                    <p class="text-center">Collection Patriotique</p>
+                </div>
+            </div>
+
+            <div class="c_musique">
+                <div class="titre_oeuvre">
+                    <p class="text-center">Mambo</p>
+                </div>
+            </div>
+
+        </div><!-- .f_oeuvre -->
 
         <!-- FENETRE infos -->
 
