@@ -92,7 +92,7 @@ include('../default/page/start_header.php');
 
             <footer class="footer_provisoir">
               <div class="container">
-                <a href="../default/page/mentionslegales.php"><p class="text-muted">Mentions Légales</p></a>
+                <a href="../mentions/mentionslegales.php"><p class="text-muted">Mentions Légales</p></a>
               </div>
             </footer>
     
