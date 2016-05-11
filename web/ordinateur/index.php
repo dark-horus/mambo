@@ -11,7 +11,7 @@ include( '../default/page/start_header.php' );
 <?php include( '../default/page/header.php' ); ?>
 
 <!-- Place ici tes scripts Javascripts dans Vendor, et ton JS local -->
-<script src="../../vendor/jquery-ui/jquery-ui.js"></script>
+<!--<script src="../../vendor/jquery-ui/jquery-ui.js"></script> -->
 
 <!-- Fin Scripts -->
 
