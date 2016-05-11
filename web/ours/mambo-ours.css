@@ -35,3 +35,7 @@ background-position: center;
 width: 64px;
 }
 
+area:hover {
+cursor: url("image/cursor.png"), auto;
+}​
+
