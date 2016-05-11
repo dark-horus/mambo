@@ -42,8 +42,10 @@ while($values = $step->fetch()){
  </map>
 </div>
  <div id="obj">
+ <div class="col-md-12">
  <h2>Objets trouvés : </h2>
- <ul class="list-inline">
+ </div>
+ <ul class="list-inline col-md-12">
 	<li id="livre" style="visibility:hidden;"><img width="50px" height="50px" src="images/livre.png"></li>
 	<li id="appareil" style="visibility:hidden;"><img width="50px" height="50px" src="images/appareil.png"></li>
 	<li id="stylo" style="visibility:hidden;"><img width="50px" height="50px" src="images/stylo.png"></li>

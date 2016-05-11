@@ -7,13 +7,6 @@ include('../default/page/start_header.php');
 <!-- fin CSS -->
 <?php include('../default/page/header.php'); ?>
 
-<!-- Place ici tes scripts Javascripts dans Vendor, et ton JS local -->
-
-
-
-<!-- Fin Scripts -->
-
-
 <?php include('../default/page/end_header.php'); ?>
 
 <!-- Place ici ton contenu -->
@@ -40,26 +33,27 @@ while($values = $step->fetch()){
 }
 ?>
 <div id="image">
-<img src="images/chambre2.png" width="100%" usemap="#maparthur">
-</div>
+<img src="images/chambre2.png" width="1920" height="1080" usemap="#maparthur">
  <map name="maparthur" id="maparthur">
 		<area shape="rect" title="livre" coords="2,804,96,850" href="#" onclick="showElem()"/>  		
         <area shape="rect" coords="1263,944,1298,960" href="#" title="appareil" onclick="showElem2()"/>
      	<area shape="rect" coords="1846,746,1888,767" href="#" title="Stylo" onclick="showElem3()"/>
 
  </map>
-
+</div>
  <div id="obj">
+ <div class="col-md-12">
  <h2>Objets trouvés :</h2>
- <ul class="list-inline">
-	<li id="livre" style="visibility:hidden;"><img class="img-responsive" src="images/livre.png"></li>
-	<li id="appareil" style="visibility:hidden;"><img class="img-responsive" src="images/livre.png"></li>
-	<li id="stylo" style="visibility:hidden;"><img class="img-responsive" src="images/livre.png"></li>
+ </div>
+ <ul class="list-inline col-md-12">
+	<li id="livre" style="visibility:hidden;"><img width="50px" height="50px" src="images/livre.png"></li>
+	<li id="appareil" style="visibility:hidden;"><img width="50px" height="50px" src="images/livre.png"></li>
+	<li id="stylo" style="visibility:hidden;"><img width="50px" height="50px" src="images/livre.png"></li>
  </ul>
    </div>
  
  <div id="question" style="visibility:hidden">
- <p>Avez vous deviné à qui appartient cette chambre ?</p>
+ <h2>La chambre appartient à :</h2>
  <form action="verif.php" method="post" name="param" onsubmit="return confirmation()">
 
 <input type="radio" name="chambre2" id="r1" value="Alejandro" onclick="reponse()">
