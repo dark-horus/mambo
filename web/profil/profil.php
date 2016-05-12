@@ -21,8 +21,7 @@ include('../default/page/start_header.php');
 if(isset($IDuser)){
 $stepChien = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" and etape_ID = "chien" ORDER BY field');
 $stepLapin = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" and etape_ID = "lapin" ORDER BY field');
-$stepOrdinateurM = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" and etape_ID = "ordinateur" and field = "musique" ORDER BY field');
-$stepOrdinateurV = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" and etape_ID = "ordinateur" and field = "video" ORDER BY field');
+$stepLivre = $bdd->query('SELECT * FROM `etape` WHERE user_ID = "'.$IDuser.'" and etape_ID = "livre" ORDER BY field');
 
 //Récupération des informations de l'utilisateur
 $login = $bdd->query('SELECT * FROM `user` WHERE password = "'.$password.'"');
@@ -149,7 +148,7 @@ $imgEtape = $imagEtape . ".png" ;
     <div class="panel-heading" role="tab" id="headingThree">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Naviguez à travers l’ordinateur d’Henry
+          À votre tour, devenez écrivain !
         </a>
       </h4>
     </div>
@@ -160,31 +159,19 @@ $imgEtape = $imagEtape . ".png" ;
 		$testsong = "";
 		$y = 1;
 		?>
-		<h3>Mes musiques : </h3>
+		<h3>Mon oeuvre : </h3>
 		<?php
-		while ($chose = $stepOrdinateurM->fetch()){
-			if($chose['field'] == "musique"){
-				$testsong = "<a href=''>Musique ".$z." : ".$chose['value']. "</a> <br> ";
-				echo $testsong;
-			}
-			$z = $z+1;
+		while ($chose = $stepLivre->fetch()){
+			echo "<h3>" . $chose['field'] . "</h3> <p>" $chose['value'] . "</p>";
 		}
 		?>
-		<h3>Mes vidéos</h3>
-		<?php
-		while ($choseV = $stepOrdinateurV->fetch()){
-			if($choseV['field'] == "video"){
-				$testvideo = "<a href=''>Vidéo ".$y." : ".$choseV['value']. "</a> <br> ";
-				echo $testvideo;
-			}
-			$y = $y+1;
-		}
-			
-			
-			
-		
-		?>
-		<script>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+     <script>
 		function verifFile()
         {
 			var size = document.getElementById("avatar").files[0].size;
@@ -197,11 +184,6 @@ $imgEtape = $imagEtape . ".png" ;
 			}
         }
 		</script>
-      </div>
-    </div>
-  </div>
-</div>
-    
 	<!--<table class="table">
         <tbody>
 
