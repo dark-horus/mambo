@@ -40,7 +40,7 @@ include( '../default/page/start_header.php' );
         <!-- DOSSIER Oeuvre -->
         <div class="icone d_oeuvre" data-window="f_oeuvre">
             <div class="mon_oeuvre">
-                <p class="dossier_police">Mon Oeuvre</p>
+                <p class="dossier_police">Mes écrits</p>
             </div><!-- .mon_oeuvre -->
         </div><!-- .d_oeuvre -->
 
@@ -82,7 +82,7 @@ include( '../default/page/start_header.php' );
             </div>
 
             <div class="file musique_1" data-infos="Vous êtes sur le point d'écouter <b><em>Celoso</b></strong> du <b>Trio Los Panchos</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=O4tR-5_w-Q4&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=1" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=O4tR-5_w-Q4&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=1" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Celoso</p>
                     </div>
@@ -91,7 +91,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_2" data-infos="Vous êtes sur le point d'écouter <b><em>Vete de mí</b></strong> d'<b>Enrique Bunbury</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=SVDg1ZzS87k&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=6" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=SVDg1ZzS87k&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=6" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Vete de mí</p>
                     </div>
@@ -100,7 +100,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_3" data-infos="Vous êtes sur le point d'écouter <b><em>Don’t stop believing</b></strong> de <b>Journey</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=1k8craCGpgs&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=11" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=1k8craCGpgs&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=11" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Don’t stop believing</p>
                     </div>
@@ -109,7 +109,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_4" data-infos="Vous êtes sur le point d'écouter <b><em>Corazón Loco</b></strong> de <b>Diego El Cigala</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=3PQy8S_Gd6c&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=2" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=3PQy8S_Gd6c&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=2" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Corazón Loco</p>
                     </div>
@@ -118,7 +118,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_5" data-infos="Vous êtes sur le point d'écouter <b><em>Carmen</b></strong> de <b>Maria Callas</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette artiste. </p>">
-                <a href="https://www.youtube.com/watch?v=p19Rh5HWiRc&index=7&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=p19Rh5HWiRc&index=7&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Carmen</p>
                     </div>
@@ -127,7 +127,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_6" data-infos="Vous êtes sur le point d'écouter <b><em>Faithfully</b></strong> de <b>Journey</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=OMD8hBsA-RI&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=12" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=OMD8hBsA-RI&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=12" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Faithfully</p>
                     </div>
@@ -136,7 +136,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_7" data-infos="Vous êtes sur le point d'écouter <b><em>El Amor</b></strong> de <b>Jose Luis Pérales</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cet artiste. </p>">
-                <a href="https://www.youtube.com/watch?v=iogQzfarmtI&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=3" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=iogQzfarmtI&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=3" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">El Amor</p>
                     </div>
@@ -145,7 +145,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_8" data-infos="Vous êtes sur le point d'écouter le <b><em>Concerto Bartòk</b></strong> de <b>Béla Bartók</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=C68SkzGb6Ww&index=8&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=C68SkzGb6Ww&index=8&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Concerto Bartòk</p>
                     </div>
@@ -154,7 +154,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_9" data-infos="Vous êtes sur le point d'écouter <b><em>Jump</b></strong> de <b>Van Halen</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=SwYN7mTi6HM&index=13&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=SwYN7mTi6HM&index=13&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Jump</p>
                     </div>
@@ -163,7 +163,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_10" data-infos="Vous êtes sur le point d'écouter l'<b><em>Hymne national des Canaries</b>.</strong>Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=vGrHckIBtmU&index=4&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=vGrHckIBtmU&index=4&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Hymne des Canaries</p>
                     </div>
@@ -173,7 +173,7 @@ include( '../default/page/start_header.php' );
 
             <div class="file musique_11"
                  data-infos="Vous êtes sur le point d'écouter le <b><em>Concerto n°5 de Mozart</b></strong> par <b>Anne Sophie-Mutter</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=ETXPKHPPov8&index=9&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=ETXPKHPPov8&index=9&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Concerto n°5</p>
                     </div>
@@ -182,7 +182,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_12" data-infos="Vous êtes sur le point d'écouter <b><em>Oh Sherrie</b></strong> de <b>Steve Perry</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=5-WpsdC2-Cc&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=14" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=5-WpsdC2-Cc&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=14" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Oh Sherrie</p>
                     </div>
@@ -191,7 +191,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_13" data-infos="Vous êtes sur le point d'écouter <b><em>Las mañanitas</b></strong> d'<b>Alejandro Fernandez</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=tzV02thQclc&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=5" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=tzV02thQclc&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=5" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Las mañanitas</p>
                     </div>
@@ -200,7 +200,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_14" data-infos="Vous êtes sur le point d'écouter <b><em>Back in Black</b></strong> de <b>AC/DC</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=pAgnJDJN4VA&index=10&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=pAgnJDJN4VA&index=10&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Back in Black</p>
                     </div>
@@ -209,7 +209,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file musique_15" data-infos="Vous êtes sur le point d'écouter <b><em>Under Pressure</b></strong> de <b>Queen</b>.<br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cette musique. </p>">
-                <a href="https://www.youtube.com/watch?v=a01QQZyl-_I&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=15" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=a01QQZyl-_I&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC&index=15" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Under Pressure</p>
                     </div>
@@ -227,7 +227,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file video_1" data-infos="Vous allez regarder <b><em>Abbott et Costello</b></strong> dans <b>Trio Los Panchos</b><br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cet artiste. </p>">
-                <a href="https://www.youtube.com/watch?v=U1_rXFIXpZ0&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=1" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=U1_rXFIXpZ0&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=1" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_video">
                         <p class="text-center">Abbott et Costello</p>
                     </div>
@@ -236,7 +236,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file video_2" data-infos="Vous allez regarder <b><em>Celoso</b></strong> du <b>Trio Los Panchos</b><br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cet artiste. </p>">
-                <a href="https://www.youtube.com/watch?v=Ebn1YOtTIZs&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=2" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=Ebn1YOtTIZs&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=2" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_video">
                         <p class="text-center">Laurel et Hardy</p>
                     </div>
@@ -245,7 +245,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file video_3" data-infos="Vous allez regarder <b><em>Celoso</b></strong> du <b>Trio Los Panchos</b><br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cet artiste. </p>">
-                <a href="https://www.youtube.com/watch?v=Zshm1Vxqfh4&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=3" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=Zshm1Vxqfh4&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=3" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_video">
                         <p class="text-center">Lauren Bacall</p>
                     </div>
@@ -254,7 +254,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file video_4" data-infos="Vous allez regarder <b><em>Celoso</b></strong> du <b>Trio Los Panchos</b><br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cet artiste. </p>">
-                <a href="https://www.youtube.com/watch?v=6ngeRBC8PVA&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=4" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=6ngeRBC8PVA&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=4" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_video">
                         <p class="text-center">Libertad Lamarque</p>
                     </div>
@@ -263,7 +263,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file video_5" data-infos="Vous allez regarder un exemple de <b><em>Celoso</b></strong> du <b>Trio Los Panchos</b><br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cet artiste. </p>">
-                <a href="https://www.youtube.com/watch?v=Fcc9Uw3elgs&index=5&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=Fcc9Uw3elgs&index=5&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_video">
                         <p class="text-center">Sevillanas</p>
                     </div>
@@ -272,7 +272,7 @@ include( '../default/page/start_header.php' );
 
 
             <div class="file video_6" data-infos="Vous allez regarder une interview de <b>Woody Allen</b><br />Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em><br /> pour retrouver la référence à cet artiste. </p>">
-                <a href="https://www.youtube.com/watch?v=lLAYYrxtJfI&index=6&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43" target="_blank" style="text-decoration:none">
+                <a href="https://www.youtube.com/watch?v=lLAYYrxtJfI&index=6&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_video">
                         <p class="text-center">Woody Allen</p>
                     </div>
@@ -300,6 +300,18 @@ include( '../default/page/start_header.php' );
                 </div>
             </div>
 
+            <div class="c_text file3" data-window="f_patri1">
+                <div class="titre_oeuvre">
+                    <p class="text-center">Manuel <br />patriotique 1</p>
+                </div>
+            </div>
+
+            <div class="c_text2 file4" data-window="f_patri2">
+                <div class="titre_oeuvre">
+                    <p class="text-center">Manuel <br />patriotique 2</p>
+                </div>
+            </div>
+
         </div><!-- .f_oeuvre -->
 
 
@@ -316,21 +328,38 @@ include( '../default/page/start_header.php' );
 
             </div>
 
-            <div class="c_text file3" data-window="f_patri">
-                <div class="titre_oeuvre">
-                    <p class="text-center">Collection Patriotique</p>
+            <div class="brouillon1">
+                <div class="titre_brouillon">
+                    <p class="text-center">Mon Oeuvre<br />majeure<br />brouillon</p>
                 </div>
             </div>
 
-
-
-            <div class="file c_musique" data-infos="Vous vous appretez à accèder à une musique bonus !" >
-                <a href="https://www.youtube.com/watch?v=yMI5ZQGXEKM" target="_blank" style="text-decoration:none">
-                <div class="titre_oeuvre">
+            <div class="file c_musique" data-infos="<br />Vous vous appretez à accèder à une musique bonus !" >
+                <a href="https://www.youtube.com/watch?v=yMI5ZQGXEKM" target="_blank" style="text-decoration:none ; color:black;">
+                <div class="titre_bonus">
                     <p class="text-center">Mambo Unchained</p>
                 </div>
             </a>
             </div>
+
+            <div class="brouillon2">
+                <div class="titre_brouillon">
+                    <p class="text-center">Idée roman<br />brouillon</p>
+                </div>
+            </div>
+
+             <div class="brouillon3">
+                <div class="titre_brouillon">
+                    <p class="text-center">Mon grand<br />roman brouillon</p>
+                </div>
+            </div>
+
+             <div class="brouillon4">
+                <div class="titre_brouillon">
+                    <p class="text-center">Mon Oeuvre <br />transcendentale <br />brouillon</p>
+                </div>
+            </div>           
+
 
         </div> <!-- .f_corbeille -->
 
@@ -338,6 +367,7 @@ include( '../default/page/start_header.php' );
 
                 <!-- FENETRE editeur -->
         <div class="window f_editeur" id="f_editeur" style="display:none;">
+            <div class="curseur"></div>
 
             <div class="window-head b_editeur">
 
@@ -350,18 +380,36 @@ include( '../default/page/start_header.php' );
         </div><!-- .f_editeur-->
 
 
-                <!-- FENETRE patri -->
-        <div class="window f_patri" id="f_patri" style="display:none;">
+        <!-- FENETRE patri1 -->
 
-            <div class="window-head b_patri">
+        <div class="window f_patri1" id="f_patri1" style="display:none;">
+            <div class="curseur"></div>
 
-                <div class="bouton_fermer7" onclick="javascript:visibilite('f_patri'); return false;">
+            <div class="window-head b_patri1">
+
+                <div class="bouton_fermer7" onclick="javascript:visibilite('f_patri1'); return false;">
 
                 </div>
 
             </div>
 
-        </div><!-- .f_patri-->
+        </div><!-- .f_patri1-->
+
+
+        <!-- FENETRE patri2 -->
+
+        <div class="window f_patri2" id="f_patri2" style="display:none;">
+            <div class="curseur"></div>
+
+            <div class="window-head b_patri2">
+
+                <div class="bouton_fermer8" onclick="javascript:visibilite('f_patri2'); return false;">
+
+                </div>
+
+            </div>
+
+        </div><!-- .f_patri2-->
 
 
         <!-- FENETRE infos -->
@@ -441,11 +489,18 @@ include( '../default/page/start_header.php' );
         });
 
 
-        /* Ouvrir fenêtre editeur text patri*/
+        /* Ouvrir fenêtre editeur text patri1*/
 
         $('.file3').on('click', function (event) {
             event.preventDefault();          
-            $('.f_patri').fadeIn();
+            $('.f_patri1').fadeIn();
+        });
+
+                /* Ouvrir fenêtre editeur text patri2*/
+
+        $('.file4').on('click', function (event) {
+            event.preventDefault();          
+            $('.f_patri2').fadeIn();
         });
 
         /* Bouton Fermer  */

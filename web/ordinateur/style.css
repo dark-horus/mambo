@@ -53,7 +53,7 @@ p {
     width: 360px;
     font-size: 12px;
     position: relative;
-    left: -333px;
+    left: -346px;
     top: 51px;
 
 }
@@ -240,6 +240,23 @@ p {
 }
 
 .titre_oeuvre {
+    position: relative;
+    width: 117px;
+    top: 62px;
+    left: -45%;
+    margin-left: -9px;
+}
+
+.titre_bonus {
+    position: relative;
+    width: 117px;
+    top: 57px;
+    left: -45%;
+    margin-left: -9px;
+}
+
+
+.titre_brouillon {
     position: relative;
     width: 117px;
     top: 62px;
@@ -594,18 +611,31 @@ p {
                                                                     height: 69px;
                                                                     width: 55px;
                                                                     left: 60px;
-                                                                    top: 90px;
+                                                                    top: 89px;
                                                                     cursor: pointer;
                                                                 }
 
-                                                                .oeuvre_2 {
+
+
+                                                                .c_text {
                                                                     position: relative;
                                                                     background-image: url('./images/text_file.png');
                                                                     background-repeat: no-repeat;
                                                                     height: 69px;
                                                                     width: 55px;
-                                                                    left: 100px;
-                                                                    top: 90px;
+                                                                    left: 150px;
+                                                                    top: 20px;
+                                                                    cursor: pointer;
+                                                                }
+
+                                                                .c_text2 {
+                                                                    position: relative;
+                                                                    background-image: url('./images/text_file.png');
+                                                                    background-repeat: no-repeat;
+                                                                    height: 69px;
+                                                                    width: 55px;
+                                                                    left: 240px;
+                                                                    top: -50px;
                                                                     cursor: pointer;
                                                                 }
 
@@ -661,9 +691,46 @@ p {
 }
 
 
-
-
-
+                                                                  .brouillon1{
+                                                                    position: relative;
+                                                                    background-image: url('./images/text_file.png');
+                                                                    background-repeat: no-repeat;
+                                                                    height: 69px;
+                                                                    width: 55px;
+                                                                    left: 60px;
+                                                                    top: 89px;
+                                                                    cursor: not-allowed;
+                                                                }
+                                                                  .brouillon2 {
+                                                                    position: relative;
+                                                                    background-image: url('./images/text_file.png');
+                                                                    background-repeat: no-repeat;
+                                                                    height: 69px;
+                                                                    width: 55px;
+                                                                    left: 240px;
+                                                                    top: -48px;
+                                                                    cursor: not-allowed;
+                                                                }                                                              
+                                                                .brouillon3 {
+                                                                    position: relative;
+                                                                    background-image: url('./images/text_file.png');
+                                                                    background-repeat: no-repeat;
+                                                                    height: 69px;
+                                                                    width: 55px;
+                                                                    left: 325px;
+                                                                    top: -117px;
+                                                                    cursor: not-allowed;
+                                                                }
+                                                                .brouillon4 {
+                                                                    position: relative;
+                                                                    background-image: url('./images/text_file.png');
+                                                                    background-repeat: no-repeat;
+                                                                    height: 69px;
+                                                                    width: 55px;
+                                                                    left: 420px;
+                                                                    top: -187px;
+                                                                    cursor: not-allowed;
+                                                                }
 
 
 .f_editeur {
@@ -707,9 +774,9 @@ p {
 
 
 
-.f_patri {
+.f_patri1 {
 
-    background-image: url('./images/Fenetre_texte.png');
+    background-image: url('./images/Fenetre_texte2.png');
     background-repeat: no-repeat;
     height: 600px;
     width: 696px;
@@ -719,9 +786,9 @@ p {
     z-index: 6;
 }
 
-.b_patri {
+.b_patri1 {
     position: relative;
-    background-image: url('./images/b_editeur.png');
+    background-image: url('./images/b_editeur_transp.png');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 38px;
@@ -743,19 +810,44 @@ p {
     cursor: pointer;
 }
 
+.f_patri2 {
 
-
-
-.c_text {
-    position: relative;
-    background-image: url('./images/text_file.png');
+    background-image: url('./images/Fenetre_texte3.png');
     background-repeat: no-repeat;
-    height: 69px;
-    width: 55px;
-    left: 60px;
-    top: 90px;
+    height: 600px;
+    width: 696px;
+    position: absolute;
+    top: 60px;
+    left: 155px;
+    z-index: 6;
+}
+
+.b_patri2 {
+    position: relative;
+    background-image: url('./images/b_editeur_transp.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 38px;
+    width: 674px;
+    margin: 0 0 0 17px;
+    cursor: -webkit-grab; cursor: -moz-grab;
+    top: 21px;
+}
+
+.bouton_fermer8 {
+    position: absolute;
+    background-image: url('./images/bouton_close.png');
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 24px;
+    margin: 15px;
+    left: 626px;
+    top: -5px;
     cursor: pointer;
 }
+
+
+
 
 .c_musique {
     position: relative;
@@ -797,3 +889,36 @@ p {
             left: 268px;
             top: -42px;
         }
+
+.curseur {
+
+    cursor:text;
+    height:398px;
+    width: 637px;
+    left: 24px;
+    top: 155px;
+    position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
