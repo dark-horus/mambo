@@ -30,16 +30,20 @@ include( '../default/page/start_header.php' );
     <!-- Place ici ton contenu -->
 
     <div class="wrap">
-        <div class="content">
 
 
             <div class="container-fluid">
 
 
                     <div id="container" class="col-sm-12 col-md-12 col-lg-12" style=margin-bottom:20px;>
-                        <div class="col-sm-12 col-md-12 col-lg-12">
+
+                 
+
+                        <div class="text-center">
                         <h1 style=font-size:25px;>Rencontrez Juan Carlos Méndez Guédez !</h1>
                     </div>
+
+                    
 
                           
 
@@ -47,21 +51,28 @@ include( '../default/page/start_header.php' );
 
                     </div><!--container-->
 
-                    <div id="container" class="col-sm-12 col-md-12 col-lg-12 col-sm-offset-3 col-md-offset-3 col-md-offset-3 col-lg-offset-3">
+                    <div id="container" class="col-sm-12 col-md-12 col-lg-12">
 
-                   <video controls="controls" autoplay="true">
+                     
+
+<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+<video controls="controls" autoplay="true">
   <source src="video/Q1.mp4" type="video/mp4" />
   <source src="video/" type="video/webm" />
   <source src="video/" type="video/ogg" />
   J'ai rien trouvé wesh
 </video>
+</div>
+
+                                            
+
 
                     </div>
 
 <section>
-                     <div id="container" class="col-sm-12 col-md-12 col-lg-12">
+                     <div id="container" class="col-sm-12 col-md-10 col-lg-10">
 
-                        <div class="row-fluid">  
+                        <div class="row">  
                               
                                 <div class="col-sm-12 col-md-4 col-lg-4">
                                 <button class='lined thin' onclick="location.href='questions2.php'">Vous êtes-vous inspiré de personnes réelles pour les personnages du livre ?</button>
@@ -79,14 +90,14 @@ include( '../default/page/start_header.php' );
                         </div> 
                     
 
-                </div>
+                    </div>
 
             </section>
 
             </div>
 
-        </div>
-    </div>
+        
+    
 
    
 
