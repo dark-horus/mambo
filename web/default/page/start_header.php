@@ -64,8 +64,8 @@ if ($dossier != null) {
 			break;
         case "immeuble":
             $titre = "Infiltrez-vous chez les trois canailles !";
-			$next = '<li class="col-md-12"><a href="../ours">Étape suivante : ours</a></li>';
-			$before = '<li class="col-md-12"><a href="../lapin">Étape précédente : lapin</a></li>';
+			$next = '<li class="col-md-12"><a href="../ordinateur">Étape suivante : ordinateur</a></li>';
+			$before = '<li class="col-md-12"><a href="../ours">Étape précédente : ours</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Vous êtes un enquêteur de la police à la recherche d'Alejandro, Henry et Simao. Retrouvez tous les objets cachés afin d’identifier les propriétaires des chambres.";
 			break;
