@@ -158,7 +158,7 @@ $imgEtape = $imagEtape . ".png" ;
 		<h3>Mon oeuvre : </h3>
 		<?php
 		while ($chose = $stepLivre->fetch()){
-			echo "<h3>" . $chose['field'] . "</h3> <p>" $chose['value'] . "</p>";
+			echo "<h3>" . $chose['field'] . "</h3> <p>" . $chose['value'] . "</p>";
 		}
 		?>
 
