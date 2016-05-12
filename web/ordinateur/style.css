@@ -269,7 +269,7 @@ p {
     height: 40px;
     width: 524px;
     margin: 0 0 0 17px;
-    cursor: pointer;
+    cursor: -webkit-grab; cursor: -moz-grab;
 }
 
 .bouton_fermer1 {
@@ -281,6 +281,7 @@ p {
     margin: 15px;
     left: 495px;
     top: 16px;
+    cursor: pointer;
 }
 
                                                                 .video_1 {
@@ -370,7 +371,7 @@ p {
     height: 40px;
     width: 524px;
     margin: 0 0 0 17px;
-    cursor: pointer;
+    cursor: -webkit-grab; cursor: -moz-grab;
 }
 
 .bouton_fermer2 {
@@ -382,6 +383,7 @@ p {
     margin: 15px;
     left: 495px;
     top: 16px;
+    cursor: pointer;
 }
 
                                                                 .musique_1 {
@@ -569,7 +571,7 @@ p {
     height: 40px;
     width: 524px;
     margin: 0 0 0 17px;
-    cursor: pointer;
+    cursor: -webkit-grab; cursor: -moz-grab;
     top: 15px;
 }
 
@@ -582,29 +584,44 @@ p {
     margin: 15px;
     left: 477px;
     top: 2px;
-}
-
-.oeuvre_1 {
-    position: relative;
-    background-image: url('./images/text_file.png');
-    background-repeat: no-repeat;
-    height: 69px;
-    width: 55px;
-    left: 60px;
-    top: 90px;
     cursor: pointer;
 }
 
-.oeuvre_2 {
-    position: relative;
-    background-image: url('./images/text_file.png');
+                                                                .oeuvre_1 {
+                                                                    position: relative;
+                                                                    background-image: url('./images/text_file.png');
+                                                                    background-repeat: no-repeat;
+                                                                    height: 69px;
+                                                                    width: 55px;
+                                                                    left: 60px;
+                                                                    top: 90px;
+                                                                    cursor: pointer;
+                                                                }
+
+                                                                .oeuvre_2 {
+                                                                    position: relative;
+                                                                    background-image: url('./images/text_file.png');
+                                                                    background-repeat: no-repeat;
+                                                                    height: 69px;
+                                                                    width: 55px;
+                                                                    left: 100px;
+                                                                    top: 90px;
+                                                                    cursor: pointer;
+                                                                }
+
+
+.bouton_fermer4 {
+    position: absolute;
+    background-image: url('./images/bouton_close.png');
     background-repeat: no-repeat;
-    height: 69px;
-    width: 55px;
-    left: 100px;
-    top: 90px;
+    height: 23px;
+    width: 24px;
+    margin: 15px;
+    left: 683px;
+    top: 228px;
     cursor: pointer;
 }
+
 
 .f_corbeille {
     position: relative;
@@ -626,20 +643,108 @@ p {
     height: 40px;
     width: 524px;
     margin: 0 0 0 17px;
-    cursor: pointer;
+    cursor: -webkit-grab; cursor: -moz-grab;
     top: 15px;
 }
 
-.bouton_fermer4 {
+
+.bouton_fermer6 {
     position: absolute;
     background-image: url('./images/bouton_close.png');
     background-repeat: no-repeat;
     height: 23px;
     width: 24px;
     margin: 15px;
-    left: 477px;
+    left: 476px;
     top: 2px;
+    cursor: pointer;
 }
+
+
+
+
+
+
+
+.f_editeur {
+
+    background-image: url('./images/Fenetre_texte.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 696px;
+    position: absolute;
+    top: 60px;
+    left: 155px;
+    z-index: 5;
+}
+
+.b_editeur {
+    position: relative;
+    background-image: url('./images/b_editeur.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 38px;
+    width: 674px;
+    margin: 0 0 0 17px;
+    cursor: -webkit-grab; cursor: -moz-grab;
+    top: 21px;
+}
+
+.bouton_fermer5 {
+    position: absolute;
+    background-image: url('./images/bouton_close.png');
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 24px;
+    margin: 15px;
+    left: 626px;
+    top: -5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.f_patri {
+
+    background-image: url('./images/Fenetre_texte.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 696px;
+    position: absolute;
+    top: 60px;
+    left: 155px;
+    z-index: 6;
+}
+
+.b_patri {
+    position: relative;
+    background-image: url('./images/b_editeur.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 38px;
+    width: 674px;
+    margin: 0 0 0 17px;
+    cursor: -webkit-grab; cursor: -moz-grab;
+    top: 21px;
+}
+
+.bouton_fermer7 {
+    position: absolute;
+    background-image: url('./images/bouton_close.png');
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 24px;
+    margin: 15px;
+    left: 626px;
+    top: -5px;
+    cursor: pointer;
+}
+
+
+
 
 .c_text {
     position: relative;
@@ -663,32 +768,32 @@ p {
     cursor: pointer;
 }
 
-.internet {
-    position: relative;
-    background-image: url('./images/explorer.png');
-    background-repeat: no-repeat;
-    height: 40px;
-    width: 38px;
-    left: 153px;
-    top: 37px;
-}
+        .internet {
+            position: relative;
+            background-image: url('./images/explorer.png');
+            background-repeat: no-repeat;
+            height: 40px;
+            width: 38px;
+            left: 153px;
+            top: 37px;
+        }
 
-.player {
-    position: relative;
-    background-repeat: no-repeat;
-    background-image: url('./images/windows_player.png');
-    height: 40px;
-    width: 42px;
-    left: 213px;
-    top: -3px;
-}
+        .player {
+            position: relative;
+            background-repeat: no-repeat;
+            background-image: url('./images/windows_player.png');
+            height: 40px;
+            width: 42px;
+            left: 213px;
+            top: -3px;
+        }
 
-.dossier_simple {
-    position: relative;
-    background-repeat: no-repeat;
-    background-image: url('./images/dossier_simple.png');
-    height: 34px;
-    width: 42px;
-    left: 268px;
-    top: -42px;
-}
+        .dossier_simple {
+            position: relative;
+            background-repeat: no-repeat;
+            background-image: url('./images/dossier_simple.png');
+            height: 34px;
+            width: 42px;
+            left: 268px;
+            top: -42px;
+        }

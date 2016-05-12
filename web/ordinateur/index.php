@@ -54,34 +54,14 @@ include( '../default/page/start_header.php' );
 
 
 
+
+
         <!-- BARRE de menu -->
         <div class="barre">
             <div class="internet"></div><!-- .internet -->
             <div class="player"></div><!-- .player -->
             <div class="dossier_simple"></div><!-- .dossier_simple -->
 
-<!-- 
-            <div id="div_horloge">
- 
-                <script type="text/javascript">
-                window.onload=function() {
-                  horloge('div_horloge');
-                };
-                 
-                function horloge(el) {
-                  if(typeof el=="string") { el = document.getElementById(el); }
-                  function actualiser() {
-                    var date = new Date();
-                    var str = date.getHours();
-                    str += ':'+(date.getMinutes()<10?'0':'')+date.getMinutes();
-                    el.innerHTML = str;
-                  }
-                  actualiser();
-                  setInterval(actualiser,60000);
-                }
-                </script>
-
-            </div> -->
 
         </div><!-- .barre -->
 
@@ -299,8 +279,8 @@ include( '../default/page/start_header.php' );
                 </a>
             </div>
 
-
         </div><!-- .f_videos -->
+
 
 
         <!-- FENETRE Oeuvre -->
@@ -314,7 +294,7 @@ include( '../default/page/start_header.php' );
 
             </div>
 
-            <div class="oeuvre_1">
+            <div class="oeuvre_1 file2" data-window="f_editeur">
                 <div class="titre_oeuvre">
                     <p class="text-center">Mon Oeuvre</p>
                 </div>
@@ -322,30 +302,67 @@ include( '../default/page/start_header.php' );
 
         </div><!-- .f_oeuvre -->
 
+
+
+
         <!-- FENETRE corbeille -->
         <div class="window f_corbeille" id="f_corbeille" style="display:none;">
 
             <div class="window-head b_corbeille">
 
-                <div class="bouton_fermer4" onclick="javascript:visibilite('f_corbeille'); return false;">
+                <div class="bouton_fermer6" onclick="javascript:visibilite('f_corbeille'); return false;">
 
                 </div>
 
             </div>
 
-            <div class="c_text">
+            <div class="c_text file3" data-window="f_patri">
                 <div class="titre_oeuvre">
                     <p class="text-center">Collection Patriotique</p>
                 </div>
             </div>
 
-            <div class="c_musique">
+
+
+            <div class="file c_musique" data-infos="Vous vous appretez à accèder à une musique bonus !" >
+                <a href="https://www.youtube.com/watch?v=yMI5ZQGXEKM" target="_blank" style="text-decoration:none">
                 <div class="titre_oeuvre">
-                    <p class="text-center">Mambo</p>
+                    <p class="text-center">Mambo Unchained</p>
                 </div>
+            </a>
             </div>
 
-        </div><!-- .f_oeuvre -->
+        </div> <!-- .f_corbeille -->
+
+
+
+                <!-- FENETRE editeur -->
+        <div class="window f_editeur" id="f_editeur" style="display:none;">
+
+            <div class="window-head b_editeur">
+
+                <div class="bouton_fermer5" onclick="javascript:visibilite('f_editeur'); return false;">
+
+                </div>
+
+            </div>
+
+        </div><!-- .f_editeur-->
+
+
+                <!-- FENETRE patri -->
+        <div class="window f_patri" id="f_patri" style="display:none;">
+
+            <div class="window-head b_patri">
+
+                <div class="bouton_fermer7" onclick="javascript:visibilite('f_patri'); return false;">
+
+                </div>
+
+            </div>
+
+        </div><!-- .f_patri-->
+
 
         <!-- FENETRE infos -->
 
@@ -365,7 +382,7 @@ include( '../default/page/start_header.php' );
         /**
          * Stocke le z-index de la fenêtre au premier plan
          */
-        setCookie('zIndex', 3, 1);
+        setCookie('zIndex', 6, 1);
 
         /* Pour Bouger les fenêtres */
         $(function () {
@@ -416,6 +433,20 @@ include( '../default/page/start_header.php' );
             })
         });
 
+        /* Ouvrir fenêtre editeur text oeuvre */
+
+        $('.file2').on('click', function (event) {
+            event.preventDefault();          
+            $('.f_editeur').fadeIn();
+        });
+
+
+        /* Ouvrir fenêtre editeur text patri*/
+
+        $('.file3').on('click', function (event) {
+            event.preventDefault();          
+            $('.f_patri').fadeIn();
+        });
 
         /* Bouton Fermer  */
         function visibilite(thingId) {
