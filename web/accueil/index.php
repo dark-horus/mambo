@@ -77,6 +77,7 @@ include('../default/page/start_header.php');
           <a href="../ours/index.php">  <img src="../default/page/img/acc-ours.png" style="width:100%;"></img></a>
           <a href="../immeuble/index.php">  <img src="../default/page/img/acc-immeuble.png" style="width:100%;"></img></a>
           <a href="../ordinateur/index.php">  <img src="../default/page/img/acc-ordinateur.png" style="width:100%;"></img></a>
+           <a href="../interview/index.php">  <img src="../default/page/img/acc-interview.jpg" style="width:100%;"></img></a>
           
                        
                         
