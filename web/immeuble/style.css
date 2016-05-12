@@ -56,3 +56,16 @@ body{
 	
 	background-color: #423D3D;
 }
+.mmmvalider{
+    background-image:url("../default/page/img/valider.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain ;
+    background-color:transparent;
+    border:none;
+    width: 200px;
+    background-repeat: no-repeat; /* largeur à spécifier */
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer;
+
+}

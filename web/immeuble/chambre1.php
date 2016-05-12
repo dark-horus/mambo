@@ -63,7 +63,7 @@ Alejandro
 Henry
 <input type="radio" name="chambre1" id="r3" value="Simao" onclick="reponse()">
 Simao
-<input type="submit" name="valider" id="valider" value="Valider l'étape">
+<input type="submit" class="mmmvalider" name="valider" id="valider" value="Valider l'étape">
 
 </form>
 </div>
