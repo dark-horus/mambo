@@ -154,11 +154,7 @@ $imgEtape = $imagEtape . ".png" ;
     </div>
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
-        <?php 
-		$z = 1;
-		$testsong = "";
-		$y = 1;
-		?>
+
 		<h3>Mon oeuvre : </h3>
 		<?php
 		while ($chose = $stepLivre->fetch()){
