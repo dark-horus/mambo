@@ -107,6 +107,12 @@ if ($dossier != null) {
     		$current = '';
 			$next ='';
 			$before = '';
+            break;
+        case "interview":
+            $titre = "Rencontrez Juan Carlos Méndez Guédez";
+    		$current = '';
+			$next ='';
+			$before = '';
 	}
 }
 
