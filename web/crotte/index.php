@@ -42,12 +42,13 @@ include('../default/page/start_header.php');
         <!-- box bas -->
         <div class="col-md-4">
 
-            <div id="valider"> <!-- AJOUTER LE CODE POUR LA VALIDATION -->
+            <div id="valider"> <!-- AJOUTER LE CODE POUR LA VALIDATION - Si la personne a la bonne combinaison et clique sur “validez” alors l’étape est validée-->
                 <img src="images/valider.png"/>
             </div>
 
             <div id="recommencer">
-                <a href="javascript:clearGameSlots()">
+                <!-- <a href="javascript:clearGameSlots()"> EN ATTENTE DE CORRECTION -->
+                    <a href="javascript:window.location.reload()">
                     <img src="images/recommencer.png"/>
                 </a>
             </div>
