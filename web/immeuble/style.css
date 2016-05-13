@@ -3,8 +3,7 @@ h2{
 float: left;	
 }
 #obj {
-    margin-top: -9%;
-    margin-left: 15%;
+   
     position: relative;
     color: white;
 }
@@ -22,7 +21,7 @@ float: left;
 #question {
     position: relative;
     color: white;
-    margin-top: -8%;
+    
 }
 
 #porte1{
@@ -49,8 +48,13 @@ float: left;
 #portes {
     position: relative;
     color: white;
-    margin-top: -6%;
-    margin-left: +70%;
+    
+}
+.responsivportes{
+	display: inline-block;
+    min-width: 600px;
+    width: 600px;
+	max-width: 600px;
 }
 body{
 	
