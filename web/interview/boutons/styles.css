@@ -43,7 +43,7 @@ html section button, body section button {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
-  background: #EEEBE4;
+  background: transparent;
   padding: 1rem 1rem;
   margin: 0 1rem;
   -webkit-transition: all .5s ease;
