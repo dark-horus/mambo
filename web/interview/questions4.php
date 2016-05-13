@@ -36,10 +36,7 @@ include( '../default/page/start_header.php' );
 
                 <div class="row-fluid">
 
-                    <div id="container" class="col-sm-12 col-md-12 col-lg-12" style=margin-bottom:20px;>
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                        <h1 style=font-size:25px;>Rencontrez Juan Carlos Méndez Guédez !</h1>
-                    </div>
+                   
 
                    <div id="container" class="col-sm-12 col-md-12 col-lg-12 col-sm-offset-3 col-md-offset-3 col-md-offset-3 col-lg-offset-3">
 
@@ -94,7 +91,7 @@ include( '../default/page/start_header.php' );
     </div>
 
 </div>
-</div>
+
 
     
 

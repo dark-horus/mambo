@@ -35,21 +35,7 @@ include( '../default/page/start_header.php' );
             <div class="container-fluid">
 
 
-                    <div id="container" class="col-sm-12 col-md-12 col-lg-12" style=margin-bottom:20px;>
-
                  
-
-                        <div class="text-center">
-                        <h1 style=font-size:25px;>Rencontrez Juan Carlos Méndez Guédez !</h1>
-                    </div>
-
-                    
-
-                          
-
-                        
-
-                    </div><!--container-->
 
                     <div id="container" class="col-sm-12 col-md-12 col-lg-12">
 
