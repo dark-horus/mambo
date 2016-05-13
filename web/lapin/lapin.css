@@ -4,16 +4,6 @@ html {
   padding:0;
   text-align: center;
 }
-
-#lapin {
-
-    width: 100%;
-    margin: auto;
-    background-image: url('./img/backg2.jpg');
-    background-repeat: no-repeat;
-    height: 100%;
-    background-size: cover;
-}
 .marker{
 
 background-image: url(./img/markerhover.png);
@@ -25,6 +15,13 @@ height: 50px;
 z-index: 999;
 
 }
+#Map{
+
+  width: 100%;
+  height: 100%
+}
+
+/***
 .marker:hover{
 
 background-image: url(./img/marker.png);
@@ -67,3 +64,4 @@ top: 29vh;
     top: 55vh;
 
 }
+***/
