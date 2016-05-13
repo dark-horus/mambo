@@ -2,7 +2,7 @@
 include('../default/page/start_header.php');
 ?>
 <!-- Place en dessous ton CSS dans Vendor, et ton CSS local -->
- <link rel="stylesheet" href="css/example.css"  />
+ <link rel="stylesheet" href="css/style.css"  />
     <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
@@ -117,8 +117,8 @@ include('../default/page/start_header.php');
                     $('.block-8').fadeOut();
                 }
                 
-//Valider
-                 if(percent > 0.9500 && percent < 0.9999){
+//BLOCK9
+                 if(percent >0.9500 && percent < 0.9999){
                     $('.block-9').fadeIn();
                 }
                 if(percent >= 0.9999) {
@@ -202,31 +202,66 @@ Le 20 Mai 1993, le président Carlos Andrès Pérez qui en est à son deuxième 
 </div>
     </div> 
     
-    <div class="block block-9" >
+<!--     <div class="block block-9" >
     <a href="../chien/default.php"> <img src="images/etapesuivante.png" alt="valider" /> </a>
-    </div>
+    </div> -->
      
+
+<div class="block block-9">  
+        <div class="title">  Irène Saez </div>
+        <div class="texte">Irene Sáez, née au Venezuela, débute dans le mannequinat avant de se consacrer à une carrière politique. Elle est élue en 1981 Miss Venezuela et Miss Univers. Dès 1993, elle devient maire puis gouverneur. En 1998, elle se présente comme candidate à l’élection présidentielle où elle termine troisième.
+</div>
+    </div> 
+
+
+<div class="block block-10">  
+        <div class="title">  Oswaldo Vigas </div>
+        <div class="texte">Oswaldo Vigas est un artiste peintre vénézuélien considéré comme l’un des plus importants artistes contemporains du Venezuela. Sa première oeuvre célèbre est l’illustration du Livre de Poésie à Valence. En 1943, il reçoit la médaille d’honneur pour Hojas Rojas. Suite à cette récompense, il part en 1952 à Paris afin de se consacrer aux arts de la gravure et de la lithographie à l’École des Beaux-Arts et à la Sorbonne. Il décède à l’âge de 87 ans.
+
+</div>
+    </div> 
+
+
+<div class="block block-11">  
+        <div class="title">  Oscar D'León </div>
+        <div class="texte">Oscar D'León, surnommé « el sonero del mundo » et  « el diablo de la salsa » est un artiste né à Caracas. Bassiste et chanteur, il s’impose comme une des célébrités incontournables de la musique latine, et plus particulièrement de la salsa. En 1972, avec quelques compères, il fonde le groupe La Dimensión Latina. Ensemble, ils enregistrent des tubes célèbres tels que « Lloraras ». En trente ans de carrière, Oscar D'León réalise plus de soixante albums et gagne de nombreuses récompenses. 
+
+</div>
+    </div> 
+
     
     
         <div class="texture scroll">
-          <img src="images/Fond1.png" alt="" />
+          <img src="images/Fond4.png"  alt="" />
         </div>
 
         <div class="imgdercity scroll">
             <img src="images/imgdercity1.png" alt="" />
         </div> 
     
-       <!-- <div class="imgdevcity scroll">
+       <div class="imgdevcity scroll">
             <img src="images/imgdevcity.png" alt="" /> 
-        </div> -->
+        </div>
     
         <div class="city scroll">
-            <img src="images/city2.png" alt="" />
+            <img src="images/city4.png"  alt="" />
         </div>
     
         <div class="ferrari scroll">
             <img src="images/ferrari2.gif"  width="300" height="500" alt="" />
         </div>
+
+   <div class="irene scroll">
+            <img src="images/irene.png"  width="300" height="500" alt="" />
+        </div>
+
+  <!-- <div class="vigas scroll">
+            <img src="images/vigas.png"   alt="" />
+        </div>
+
+ <div class="deleon scroll">
+            <img src="images/deleon.png"  alt="" />
+        </div> -->
 
    
     

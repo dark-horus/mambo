@@ -1,0 +1,174 @@
+html,
+body
+{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
+body
+{
+  overflow-x: hidden;
+}
+#mambo-topmenu {
+    position: fixed;
+}
+
+/**
+  * important: keep position fixed, you can however use top:0 instead of bottom:0
+  * if you want to make it stick to the top of the browser
+  */
+.scroll
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/**
+  * z-index ordering of the different layers, do this for your layers,
+  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
+  */
+
+.texture scroll
+{
+  z-index: -5;
+padding-bottom: 900px;
+
+}
+
+.imgdercity 
+{
+ z-index: 50; 
+ width: 5000px;
+margin-bottom: 460px;
+}
+
+
+.city 
+{
+  z-index: 500;
+  width: 6000px;
+ margin-bottom: 300px;
+}
+
+
+.imgdevcity 
+{
+    z-index: 1000;
+    width: 6500px;
+    margin-left: 574px;
+    margin-bottom: 280px;
+}
+
+.irene{
+   z-index: 50;
+    width: 6500px;
+    margin-left: 4600px;
+    margin-bottom: 290px;
+}
+
+.ferrari 
+{
+  z-index: 700;
+  width: -9000px;
+  margin-bottom: 50px;
+  height: 520px;
+}
+
+.barre{
+    z-index: 700;
+    padding-left: 40px; 
+    height: 50px;
+    width: 100%;
+    position: absolute, 0px;
+}
+
+.barre input{
+    width: 90%;    
+    background-image:url("../images/testombre.png"); 
+
+}
+
+
+.block {
+    width: 500px;
+    height: 240px;
+    z-index: 500;
+    display: none;
+    padding-top: 170px;
+}
+
+.title{
+    color: snow;
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;
+    z-index: 1000;
+}
+
+.texte{
+    color: snow;
+    font-family: Lato;
+    z-index: 1000;
+    font-size: 14px;
+}
+
+.block-1{ 
+    position: fixed;
+   bottom: 200px;
+    left:50px;
+}
+
+.block-2{ 
+    position: fixed;
+    bottom: 200px;
+    left:150px;
+    width: 700px;
+}
+
+.block-3{ 
+    position: fixed;
+    bottom: 200px;
+    left:300px;
+    width: 700px;
+}
+
+.block-4{
+    position: fixed;
+    bottom: 200px;
+    left:480px;
+}
+
+.block-5{
+    position: fixed;
+    bottom: 200px;
+    left:510px;
+    width: 600px;
+}
+
+.block-6{
+    position: fixed;
+    bottom: 200px;
+    left:700px;
+    width: 600px;
+}
+
+.block-7{
+    position: fixed;
+    bottom: 200px;
+    left:780px;
+    width: 600px;
+}
+
+.block-8{
+    position: fixed;
+    bottom: 200px;
+    left:780px;
+}
+
+.block-9 {
+ position: fixed;
+    bottom: 200px;
+    right: -260px;
+}
