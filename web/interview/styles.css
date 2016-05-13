@@ -9,7 +9,7 @@ body {
     font-family:'Lato', sans-serif;
     font-size:18px;
 
-     /* -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+/* -webkit-background-size: cover; /* pour anciens Chrome et Safari */
  /* background-size: cover; /* version standardisée */
 
 
@@ -20,7 +20,8 @@ body {
 video {
     max-width: 100%;
     height: auto;
-    margin-top:105px;
+    margin:auto;
+    padding:auto;
     margin-bottom:5px;
 }
 
@@ -30,16 +31,21 @@ section {
 }
 
 
-h1 {
+#mambo-topmenu {
+     vertical-align: top;
+}
+
+/*h1 {
 
 	font-family: 'Special Elite', cursive;
     font-size:25px;
     text-align: center;
-}
+}*/
 
 .wrap {
 
 }
+
 @media only screen and (device-width: 1920px) and (device-height: 1080px) { 
 body {
 background-image: url("img/back_large.jpg");
