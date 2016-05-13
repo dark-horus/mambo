@@ -1,6 +1,8 @@
 
 <?php include( '../default/page/start_header.php' ); ?>
+<link href="../default/page/mambo-admin/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="style.css">
+
 <?php include( '../default/page/header.php' ); ?>
 <?php include( '../default/page/end_header.php' ); ?>
 
@@ -652,7 +654,20 @@
 						</form>
                     </div>
                     <div class="cotedroit">
-                            <!--arthuro-->
+                            <?php
+							$query = 'SELECT * FROM `etape` WHERE `etape_ID` = "Livre";';
+							
+							$textes = $bdd->query($query);
+							$photo = "<img src='../profil/avatar/".$res['img_avatar']."' alt='avatar'/>";
+							echo "<ul>";	
+							while($txt = $textes->fetch()){
+								$id = $txt['ID'];
+								if(isset($_SESSION['autorize'])){$delete = "<div onclick='confirmSupr($id);' class='btn btn-danger'>
+                                            <i class='fa fa-trash' aria-hidden='true'></i></div>";} else {$delete = '';}
+								echo "<li>". $photo ." ". $txt['value'] . " ". $delete. "</li>";
+							}
+							echo "</ul>";
+							?>
                     </div>
 					</div>
 
@@ -673,5 +688,16 @@
                 });
         });
     </script>
+	<script>
+	function confirmSupr(variable){
+			if (confirm("Voulez vous vraiment supprimer le commentaire n° " + variable + " ?"))
+			{ 
+				var commentaire = variable;
+			
+			window.location.href = "supr.php?commentaire="+commentaire;
+			}
+		}
+		</script>
+		
 
 <?php include( '../default/page/footer.php' ) ?>
