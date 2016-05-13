@@ -1,0 +1,4 @@
+ErrorDocument 403 http://mambocanaille.fr/web/403.php
+ErrorDocument 404 http://mambocanaille.fr/web/404.php
+ErrorDocument 410 http://mambocanaille.fr/web/410.php
+ErrorDocument 500 http://mambocanaille.fr/web/500.php

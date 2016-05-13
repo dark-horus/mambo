@@ -119,7 +119,7 @@ if ($dossier != null) {
 session_start();
 if ($dossier == "livre" || $dossier == "immeuble"){
 if (!isset($_SESSION['id'])){
-	header('location: ../403.php');
+	header('location: ../403bis.php');
 	}
 }
 if (isset($_SESSION['id'])){
