@@ -20,6 +20,8 @@ body {
 video {
     max-width: 100%;
     height: auto;
+    margin-top:180px;
+    margin-bottom:5px;
 }
 
 section {
