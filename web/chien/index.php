@@ -8,28 +8,66 @@
 
 
 <!-- Place ici tes scripts Javascripts dans Vendor, et ton JS local -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script type="text/javascript" src="../../vendor/jquery-2.2.1/jquery-2.2.1.min.js"></script>
 <script type="text/javascript" src="html2canvas.js"></script>
 
 <script type="text/javascript">
 
     $(document).ready(function () {
 
+        // Masque les portraits
         $('.slider').hide();
+        // Affiche le portrait 1
         $('.slider:nth(0)').show();
 
         $('#boutton').click(function () {
             // HEnry
-            $('#slider_henry a').hide();
-            html2canvas([document.getElementById('slider_henry')], {
-                onrendered: function (canvas) {
-                    var canvasData = canvas.toDataURL();
-                    $('#slider_henry a').show();
-                    window.open(canvas.toDataURL());
-                }
+            $('#slider_henry').fadeIn(400,function(){
+                $('#slider_henry a').hide();
+                html2canvas([document.getElementById('slider_henry')], {
+                    onrendered: function (canvas) {
+                        var canvasData = canvas.toDataURL();
+                        $('#slider_henry a').show();
+                        window.open(canvas.toDataURL());
+                    }
+                });    
+            }).fadeOut(400,function() {
+                $('#slider_simao').fadeIn(400,function(){
+                    $('#slider_simao a').hide();
+                    html2canvas([document.getElementById('slider_simao')], {
+                        onrendered: function (canvas) {
+                            var canvasData = canvas.toDataURL();
+                            $('#slider_simao a').show();
+                            window.open(canvas.toDataURL());
+                        }
+                    });        
+                }).fadeOut(400,function(){
+                    $('#slider_alejandro').fadeIn(400,function(){
+                        $('#slider_alejandro a').hide();
+                        html2canvas([document.getElementById('slider_alejandro')], {
+                        onrendered: function (canvas) {
+                            var canvasData = canvas.toDataURL();
+                            $('#slider_alejandro a').show();
+                            window.open(canvas.toDataURL());
+                        }
+                    });
+                        
+                    }).fadeOut(400,function(){
+                        // bascule page galerie
+                    });
+                });
+                
             });
+            
+            
+        // Simao
+            
+            
+        // Alejandro
+            
         });
 
+        // Bascule affichage portraits
         $('.slider-active-btn').on('click', function () {
             var id = $(this).attr('id');
             console.log(id);

@@ -1,14 +1,19 @@
-html {
+
+
+#chien {
     margin: 0;
-    background-image: url('img/fond.jpg');
+    height: auto;
+    margin: 0;
+    background-image: url('img/fond.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
 }
 
-body {
-    margin: 0;
-    height: auto;
+h1 {
+font-family: 'Special Elite';
+color:‪#35201e‬;
+font-size: 25px;
 }
 
 .noms {
@@ -80,7 +85,7 @@ ul {
     width: 30%;
     height: 500px;
     position: absolute;
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
 #henry {
@@ -90,36 +95,43 @@ ul {
     -ms-transform: rotate(7deg);
     -webkit-transform: rotate(7deg);
     transform: rotate(7deg);
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-width: 120px;
 }
 
 #simao {
     position: absolute;
-    top: 262px;
+    top: 280px;
     left: 181px;
     -ms-transform: rotate(4deg);
     -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-width: 120px;
 }
 
 #alejandro {
     position: absolute;
-    top: 232px;
+    top: 280px;
     left: 374px;
     -ms-transform: rotate(-7deg);
     -webkit-transform: rotate(-7deg);
     transform: rotate(-7deg);
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-width: 120px;
 }
 
 .valider {
     position: absolute;
-    right: 50px;
-    top: 862px;
+    right: 200px;
+    top: 850px;
     z-index: 9999;
     height: 50px;
     width: 200px;
+    outline:none;
 }
 
 #boutton {
@@ -137,16 +149,22 @@ button {
 #slider_henry {
     top : 250px;
     left : 300px;
+    min-width: 300px;
+
 }
 
 #slider_simao {
     top : 250px;
     left : 300px;
+    min-width: 300px;
+
 }
 
 #slider_alejandro {
     top : 250px;
     left : 300px;
+    min-width: 300px;
+
 }
 
 .right.carousel-control {
@@ -154,5 +172,55 @@ button {
 }
 
 .left.carousel-control {
-    background-image:url('img/flg.png'); background-repeat:none;  background-position:50%; 
+    background-image:url('img/flg.png'); background-repeat:none;  background-position:50%;     
+}
+
+
+#galerie {
+    background-image: url(img/galerie.jpg);
+      margin: 0;
+    height: auto;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+
+#rect {
+    position: absolute;
+    left: 15%;
+    top: 100px;
+}
+
+
+
+#portrait_henry {
+    width:auto;
+    float:left;
+    margin-top: -233px;
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+    min-width: 120px;
+}
+
+#portrait_simao {
+    width:auto;
+    float:left;
+    margin-top: -233px;
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+    min-width: 120px;
+}
+
+#portrait_alejandro {
+    width:auto;
+    float:left;
+    margin-top: -233px;
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+    min-width: 120px;
 }
