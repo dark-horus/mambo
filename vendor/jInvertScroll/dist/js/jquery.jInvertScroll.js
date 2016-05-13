@@ -26,7 +26,7 @@
 *   THE SOFTWARE.
 **/
 (function($) {
-    $.jInvertScroll = function(sel, options) {
+    $.jInvertScroll = function(sel, options, safari) {
         var defaults = {
             width: 'auto',		    // The horizontal container width
             height: 'auto',		    // How far the user can scroll down (shorter distance = faster scrolling)
@@ -89,9 +89,28 @@
             }
             
             // do the position calculation for each element
-            $.each(elements, function(i, el) {
-                var pos = Math.floor((el.width - winWidth) * percent) * -1;
-                el.el.css('left', pos);
+            $.each(elements, function(i, elt) {
+                var pos = Math.floor((elt.width - winWidth) * percent) * -1;
+                elt.el.css({
+                    left: pos + 'px'
+                });
+                
+
+                
+                if (safari === 1) {
+           
+                    //console.log(safari);
+                    
+                    if($(elt.el).hasClass('texture')) {
+                          var l = $('.texture').css('left');
+                            l = parseInt(l) * -1;
+                            //console.log(l);
+                            $('.texture').css({
+                                left: l + 'px'
+                            });
+                       
+                    }
+                }
             });
         });
     };
