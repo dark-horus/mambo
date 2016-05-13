@@ -12,7 +12,7 @@
      <title>
 Administrateur
     </title>
-
+	
     <!-- Bootstrap Core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -38,6 +38,7 @@ Administrateur
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
 </head>
 
 <body>
@@ -58,9 +59,19 @@ catch(PDOException $e) {
     die($msg);
 }
 
-$query = 'SELECT * FROM user;';
-$query2 = 'SELECT * FROM user;';
+$query = 'SELECT * FROM `user`;';
+$query2 = 'SELECT * FROM `admin`;';
 $arr = $pdo->query($query)->fetch();
+$administr = $pdo->query($query2)->fetch();
+$finish = 'SELECT COUNT(*) FROM `user` WHERE `progression` = 12;';
+$finish = $pdo->query($finish)->fetchColumn();
+$notifLivre = "SELECT COUNT(*) FROM `etape` WHERE `etape_ID` = 'Livre' AND `notif` = 1;";
+$notifLivre = $pdo->query($notifLivre)->fetchColumn();
+$notifChien = "SELECT COUNT(*) FROM `etape` WHERE `etape_ID` = 'Chien' AND `notif` = 1;";
+$notifChien = $pdo->query($notifChien)->fetchColumn();
+
+
+
 
 ?>
 
@@ -78,7 +89,7 @@ $arr = $pdo->query($query)->fetch();
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"> Admin 1 : <?php echo $arr['iduser']; ?> </a>
+                <a class="navbar-brand" href="index.html">Bonjour <?php echo $administr['login']; ?> </a>
             </div>
             <!-- /.navbar-header -->
 
@@ -93,34 +104,34 @@ $arr = $pdo->query($query)->fetch();
                             <a href="#">
                                 <div>
                                     <img src="../dist/img/lapin.png" />Nouvelle recette
-                                    <span class="pull-right text-muted small">(echo date)</span>
                                 </div>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#">
+                            <a href="notif.php?etape=chien">
                                 <div>
-                                   <img src="../dist/img/lapin.png" /> 3 Nouveaux portraits
-                                    <span class="pull-right text-muted small">(echo date) </span>
+                                   <img src="../dist/img/chien.png" /> <?php if($notifChien == 0){ echo "Pas de notification"; } else { echo $notifChien; ?> Nouveaux portraits <?php } ?>
                                 </div>
                             </a>
                         </li>
+						
+						
                         <li class="divider"></li>
                         <li>
-                            <a href="#">
+                            <a href="notif.php?etape=livre">
                                 <div>
-                                    <img src="../dist/img/lapin.png" /> Nouvelle Fin d'histoire
-                                    <span class="pull-right text-muted small">(echo date) </span>
+                                    <img src="../dist/img/livre.png" /><?php if($notifLivre == 0){ echo "Pas de notification"; } else { echo $notifLivre; ?> nouvelles fins d'histoires <?php } ?>
                                 </div>
                             </a>
                         </li>
+						
                         <li class="divider"></li>
+						
                         <li>
                             <a href="#">
                                 <div>
-                                    <i class="fa fa-trophy"></i> (echo ID) a fini les étapes !
-                                    <span class="pull-right text-muted small">(echo date) </span>
+                                    <i class="fa fa-trophy"></i> <?php echo $finish; ?> utilisateurs ont complété le dispositif !
                                 </div>
                             </a>
                         </li>
@@ -261,7 +272,7 @@ echo "<div class='dataTable_wrapper'>
         });
 		
     });
-	
+	 
 
 		function confirmSupr(variable){
 			if (confirm("Voulez vous vraiment supprimer l'utilisateur " + variable + " ?"))
@@ -271,7 +282,10 @@ echo "<div class='dataTable_wrapper'>
 			window.location.href = "supr.php?user="+user;
 			}
 		}
+		
+		
     </script>
+	
 	
 </body>
 
