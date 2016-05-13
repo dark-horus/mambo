@@ -77,18 +77,10 @@ Le 20 Mai 1993, le président Carlos Andrès Pérez qui en est à son deuxième 
 </div>
     </div> 
     
-<!--     <div class="block block-9" >
-    <a href="../chien/default.php"> <img src="images/etapesuivante.png" alt="valider" /> </a>
-    </div> 
-     
-
-<div class="block block-9">  
-        <div class="title">  Irène Saez </div>
-        <div class="texte">Irene Sáez, née au Venezuela, débute dans le mannequinat avant de se consacrer à une carrière politique. Elle est élue en 1981 Miss Venezuela et Miss Univers. Dès 1993, elle devient maire puis gouverneur. En 1998, elle se présente comme candidate à l’élection présidentielle où elle termine troisième.
-</div>
-    </div> 
 
 
+
+<!--   
 <div class="block block-10">  
         <div class="title">  Oswaldo Vigas </div>
         <div class="texte">Oswaldo Vigas est un artiste peintre vénézuélien considéré comme l’un des plus importants artistes contemporains du Venezuela. Sa première oeuvre célèbre est l’illustration du Livre de Poésie à Valence. En 1943, il reçoit la médaille d’honneur pour Hojas Rojas. Suite à cette récompense, il part en 1952 à Paris afin de se consacrer aux arts de la gravure et de la lithographie à l’École des Beaux-Arts et à la Sorbonne. Il décède à l’âge de 87 ans.
@@ -126,17 +118,22 @@ Le 20 Mai 1993, le président Carlos Andrès Pérez qui en est à son deuxième 
             <img src="images/ferrari2.gif"  width="300" height="500" alt="" />
         </div>
 
-   <div class="irene scroll">
-            <img src="images/irene.png"  width="300" height="500" alt="" />
+   <div class="chavez scroll">
+            <img src="images/dessinchavezcopie.png"  alt="" />
         </div>
 
-  <!-- <div class="vigas scroll">
+
+   <div class="irene scroll">
+            <img src="images/irene.png"   alt="" />
+        </div>
+
+  <div class="vigas scroll">
             <img src="images/vigas.png"   alt="" />
         </div>
 
- <div class="deleon scroll">
-            <img src="images/deleon.png"  alt="" />
-        </div> -->
+    <div class="deleon scroll">
+            <img src="images/deleoncopie.png"  alt="" />
+        </div>
 
    
     
@@ -210,7 +207,8 @@ include('../default/page/footer.php');
                 if(percent < 0.2400){
                     $('.block-3').fadeOut();
                 }
-                
+                    
+
                 
     //BLOCK4
                 if(percent > 0.3705 && percent < 0.4800){
@@ -266,16 +264,7 @@ include('../default/page/footer.php');
                     $('.block-8').fadeOut();
                 }
                 
-//BLOCK9
-                 if(percent >0.9500 && percent < 0.9999){
-                    $('.block-9').fadeIn();
-                }
-                if(percent >= 0.9999) {
-                    $('.block-9').fadeOut();
-                }
-                if(percent < 0.9500){
-                    $('.block-9').fadeOut();
-                }   
+
             }
 
         }, safari);
