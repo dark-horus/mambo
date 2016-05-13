@@ -56,6 +56,7 @@ include( '../default/page/start_header.php' );
                      <div id="container" class="col-sm-12 col-md-12 col-lg-12">
 
                               
+                        <div class="row">  
 
 
                              <div class="col-sm-12 col-md-4 col-lg-4">
@@ -80,7 +81,7 @@ include( '../default/page/start_header.php' );
 
                                   
                             
-                        </div> 
+                       
                     
 
                 </div>
@@ -92,33 +93,10 @@ include( '../default/page/start_header.php' );
         </div>
     </div>
 
-    <a class="error fancybox" href="#error"></a>
-    <a class="errorRecipe fancybox" href="#errorRecipe"></a>
-    <a class="valid fancybox" href="#valid"></a>
+</div>
+</div>
 
-    <div style="display:none" id="error">
-        ERREUR !
-    </div>
-    <div style="display:none" id="errorRecipe">
-        ERREUR RECETTE !
-    </div>
-</br>
-    <div style="display:none" id="valid">
-        
-        <h2>Félicitations votre gaspacho semble plaire à Henry !</h2>
     
-    </br>
-
-<object type="application/x-shockwave-flash" width="540px" height="360px" data="https://www.youtube.com/watch?v=4GrHsKmEWTE&spfreload=10">
-        <param name="movie" value="http://www.youtube.com/v/_etwz7NkemE&hl=fr" />
-        <param name="wmode" value="transparent" />
-    </object>
-
-    </div>
-
-<!--[if lte IE 6 ]>
-    <embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
-<![endif]-->
 
 <?php
 include( '../default/page/footer.php' );
