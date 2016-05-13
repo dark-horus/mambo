@@ -117,10 +117,9 @@ if ($dossier != null) {
 }
 
 session_start();
-if ($dossier != "accueil"){
+if ($dossier == "livre" || $dossier == "immeuble"){
 if (!isset($_SESSION['id'])){
-	//a décommenter pour la prod !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-	//header('location: ../accueil/index.php');
+	header('location: ../403.php');
 	}
 }
 if (isset($_SESSION['id'])){

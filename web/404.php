@@ -11,7 +11,7 @@ font-style: normal;
 }
 
 body {
-  background-image: url(img/fondlightbox.png);
+  background-image: url(default/page/img/fondlightbox.png);
   margin:0;
   padding:0;
   background-position:center;
@@ -52,7 +52,7 @@ h2 {
 Il se peut que le lien que vous avez utilisé soit rompu ou que vous ayez tapé l’adresse (URL) incorrectement.<br/>
 Essayez de rafraichir la page en appuyant sur F5.<br/>
 Ou retournez en page d'accueil pour profiter de l'experience Mambo Canaille! </h2>
-<center><a href="http://localhost/mambo/web/accueil/" > <img src="img/retour.png"></a></center>
+<center><a href="accueil/" > <img src="default/page/img/retour.png"></a></center>
 
 </body>
 
