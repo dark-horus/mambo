@@ -148,8 +148,8 @@ Les maisons d’Éditions Zinnia se réserve le droit à tout moment de :</br
 <h3><b>Les crédits et les remerciements</b></h3>
 <p>Découvrez www.mambocanaille.fr, le site internet des maisons d’éditions Zinnia qui propose une lecture augmentée du livre <i>Mambo Canaille</i> de Juan Carlos Mendéz Guedéz. Parcourez au  fil d’icônes l’univers fantasque de l’auteur. Déambulez dans les rues de Madrid, créez vos recettes, devenez à votre tour écrivain, évadez-vous au-delà des frontières du livre. Plongez avec Henry, Simao et Alejandro dans un voyage des plus croustillants ! Bonne visite !</br></p>
 <p>Pour la conception et la réalisation ainsi que pour le contenu vidéo, photo et audio du site Mambo Canaille : Cyril Alcalay, Elisa Cayuela, Arthur Desoutter, Annabel Gazzano, Oscar Goncalves, Alizée Letellier, Kieran Paccoud, Marlène Pineau, Luc Pré, Romane Viard, Kim Sauermost-Spratt.</p>
-<p>Nous remercions, Franck Grimonpont ; Stéphane Koeberlé ; Laurence Payan ; Laurie Schmitt ; Tommy Redolfi ; Françoise Papa.
-Pensé, conçu, produit et réalisé dans le cadre d’un projet des étudiants du parcours Communication Multimédia Interactif.</p>
+<p>Nous remercions, Franck Grimonpont ; Stéphane Koeberlé ; Laurence Payan ; Laurie Schmitt ; Tommy Redolfi ; Françoise Papa.</br></p>
+<p>Pensé, conçu, produit et réalisé dans le cadre d’un projet des étudiants du parcours Communication Multimédia Interactif.</p>
 <p>Master Audiovisuel et Médias Numériques - Université Grenoble Alpes</p>
 </div>
 
