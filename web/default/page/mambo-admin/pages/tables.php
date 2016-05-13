@@ -59,6 +59,7 @@ catch(PDOException $e) {
 }
 
 $query = 'SELECT * FROM user;';
+$query2 = 'SELECT * FROM user;';
 $arr = $pdo->query($query)->fetch();
 
 ?>
