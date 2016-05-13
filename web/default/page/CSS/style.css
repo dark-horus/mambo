@@ -37,6 +37,7 @@ body {
     font-size:18px;
     height: 100%;
 }
+
 h1 {
 font-family: 'Special Elite';
 color:#35201e;
@@ -48,8 +49,8 @@ font-size: 25px;
 h2 {
 
     font-size-adjust: auto;
-    color: white;
-    text-align: center;
+color: white;
+text-align: center;
 font-family: 'Special Elite';
 font-size: 22px;
 }
