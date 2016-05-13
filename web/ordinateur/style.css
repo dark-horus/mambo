@@ -44,18 +44,18 @@ p {
 .heure_police {
 
     font-family: 'Special Elite', cursive;
-    font-size: 24px;
+    font-size: 20px;
     color:LightGrey;
 }
 .texte_infos {
 
     font-family: 'Special Elite', cursive;
-    width: 360px;
+    width: 340px;
     font-size: 12px;
     position: relative;
-    left: -346px;
+    left: -330px;
     top: 51px;
-
+    text-align: left;
 }
 
 
@@ -235,7 +235,7 @@ p {
     position: relative;
     width: 117px;
     top: 55px;
-    left: -55%;
+    left: -43%;
     margin-left: -9px;
 }
 
@@ -255,6 +255,13 @@ p {
     margin-left: -9px;
 }
 
+.titre_bonus2 {
+    position: relative;
+    width: 117px;
+    top: 60px;
+    left: -45%;
+    margin-left: -9px;
+}
 
 .titre_brouillon {
     position: relative;
@@ -860,14 +867,25 @@ p {
     cursor: pointer;
 }
 
+.c_video {
+    position: relative;
+    background-image: url('./images/video_file.png');
+    background-repeat: no-repeat;
+    height: 69px;
+    width: 55px;
+    left: 59px;
+    top: -153px;
+    cursor: pointer;
+}
+
         .internet {
             position: relative;
             background-image: url('./images/explorer.png');
             background-repeat: no-repeat;
             height: 40px;
             width: 38px;
-            left: 153px;
-            top: 37px;
+            left: 161px;
+            top: 41px;
         }
 
         .player {
@@ -876,8 +894,8 @@ p {
             background-image: url('./images/windows_player.png');
             height: 40px;
             width: 42px;
-            left: 213px;
-            top: -3px;
+            left: 219px;
+            top: 1px;
         }
 
         .dossier_simple {
@@ -886,8 +904,8 @@ p {
             background-image: url('./images/dossier_simple.png');
             height: 34px;
             width: 42px;
-            left: 268px;
-            top: -42px;
+            left: 271px;
+            top: -38px;
         }
 
 .curseur {
