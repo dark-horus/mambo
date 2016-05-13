@@ -42,6 +42,7 @@ while($values = $step->fetch()){
      	<area shape="rect" coords="1612,560,1684,784" href="#" title="batte" alt="batte" onclick="showElem5()"/>
  </map>
 </div>
+<div id="minimenu">
  <div id="obj" class="col-md-4">
  <div class="col-md-12">
  <h2>Objets trouvés :</h2>
@@ -76,12 +77,14 @@ Simao
    
    <div id="portes" class="col-md-4">
    <h2>Changer de chambre :</h2>
-	<ul class="list-inline col-md-12">
+   <div class="col-md-12">
+	<ul class="list-inline responsivportes">
 	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre1.php"><img class="col-md-12" width="50px" height="60px" src="images/porte1.png" alt="chambre1" title="chambre1"><div class="col-md-12"><?php if(isset($henry)){ echo $henry ; } ?></div></a></div></li>
 	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre2.php"><img class="col-md-12" width="50px" height="60px" src="images/porte2.png" alt="chambre2" title="chambre2"><div class="col-md-12"><?php  if(isset($alejandro)){ echo $alejandro ; } ?></div></a></div></li>
 	<li class="col-md-2"><div class="img-thumbnail"><a href="chambre3.php"><img class="col-md-12" width="50px" height="60px" src="images/porte3.png" alt="chambre3" title="chambre3"><div class="col-md-12"><?php  if(isset($simao)){ echo $simao ;} ?></div></a></div></li>
  </ul>
   </div>  
+   </div>
    </div>
 <script>
 	var count = 0;

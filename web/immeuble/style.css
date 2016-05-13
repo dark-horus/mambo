@@ -2,6 +2,10 @@
 h2{
 float: left;	
 }
+#minimenu {
+    margin-top: -8%;
+    margin-left: 10%;
+}
 #obj {
    
     position: relative;

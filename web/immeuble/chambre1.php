@@ -42,6 +42,8 @@ while($values = $step->fetch()){
         <area shape="rect" coords="264,857,432,929" href="#" title="chaussures" alt="chaussures" onclick="showElem5()"/>
  </map>
 </div>
+<div id="minimenu">
+
  <div id="obj" class="col-md-4"> 
  <div class="col-md-12">
  <h2>Objets trouvés : </h2>
@@ -85,7 +87,7 @@ Simao
 		</ul>
 	</div>
   </div>  
-   
+   </div>
 
 
 <script>
