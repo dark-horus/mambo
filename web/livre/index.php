@@ -632,7 +632,8 @@
                     <p>"Le visage contracté par le dégoût, il envoya son courrier puis se mit a surfer. Il pensa que c'était une idée excellente que de reprendre contact avec les plus importantes maisons d'édition d'Espagne. A toutes il envoya un nouveau message : ..." (Chapitre 26, page 168)</p>
                 </div>
                 <br>
-                    <div class="ecriture">                                 
+                    <div class="ecriture">  
+                        <div class="cotegauche">                               
 						<form action="../default/page/recEtape.php" method="post">
 							
                             <input type="hidden" name="field" id="field" value="histoire">
@@ -649,6 +650,10 @@
                                 <input class="recommencer" type="reset" value=""> 
                             </div>
 						</form>
+                    </div>
+                    <div class="cotedroit">
+                            <!--arthuro-->
+                    </div>
 					</div>
 
                 </div>
