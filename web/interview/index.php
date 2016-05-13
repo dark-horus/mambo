@@ -82,6 +82,8 @@ include( '../default/page/start_header.php' );
 
             </div>
 
+            </div>
+
         
     
 
