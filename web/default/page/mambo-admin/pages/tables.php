@@ -215,7 +215,7 @@ echo "<div class='dataTable_wrapper'>
                                    echo "<tr class='odd gradeX'>";
                                             echo "<td>".$donnees['iduser']."</td>";
                                             echo "<td>".$donnees['password']."</td>";
-                                            echo "<td>".$donnees['img_avatar']."</td>";
+                                            echo "<td><img src='../../../../profil/avatar/".$donnees['img_avatar']."' alt='avatar' width='100px' class='img-responsive'/></td>";
                                             echo "<td>".$donnees['current_etape']."</td>";
                                             echo "<td><div onclick='confirmSupr($user);' class='btn btn-danger'>
                                             <i class='fa fa-trash' aria-hidden='true'></i></div></td>";
