@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if($_SESSION['autorize'] != "allowedtoconnect"){
+	header('location: ../../../../403.html');
+}
+else { 
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -171,9 +179,7 @@ $notifChien = $pdo->query($notifChien)->fetchColumn();
                         <li>
                             <a href="index.php"><i class="fa fa-dashboard fa-fw"></i> Tableau de bord</a>
                         </li>
-                        <li>
-                            <a href="index.php"><i class="fa fa-bar-chart-o fa-fw"></i> Statistiques <span class="fa arrow"></span></a>
-                        </li>
+                        
                         <li>
                             <a href="tables.php"><i class="fa fa-table fa-fw"></i> Base de donnée</a>
                         </li>
@@ -290,3 +296,4 @@ echo "<div class='dataTable_wrapper'>
 </body>
 
 </html>
+<?php } ?>

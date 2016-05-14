@@ -86,7 +86,7 @@ if (isset($_POST['chambre3']))
 		if(isset($_SESSION['badanswer'])){
 			unset($_SESSION['badanswer']);
 		}
-		$_SESSION['good'] = $reponse;
+		
 		header('location: '.$page);
 		
 	}

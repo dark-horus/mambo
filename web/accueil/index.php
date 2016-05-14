@@ -13,7 +13,7 @@ include('../default/page/start_header.php');
 			
 			
 			
-			<?php if(!isset($_SESSION['id'])){ ?>
+			<?php if(!isset($IDuser)){ ?>
 			
 			$(document).ready(function() { 
 				

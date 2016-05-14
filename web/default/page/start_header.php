@@ -117,22 +117,30 @@ if ($dossier != null) {
 }
 
 session_start();
-if ($dossier == "livre" || $dossier == "immeuble"){
-if (!isset($_SESSION['id'])){
-	header('location: ../403bis.php');
+
+if ($dossier == "livre" || $dossier == "immeuble" || $dossier == "profil"){
+		if(!isset($_SESSION['id'])){
+			header('location: ../403bis.php');
+		}
 	}
-}
-if (isset($_SESSION['id'])){
-$password = $_SESSION['id'];
-include('../default/page/bdd.php');
+	
+if(isset($_SESSION['id'])){
+	$password = $_SESSION['id'];
+	include('../default/page/bdd.php');
 
 //Récupération des informations de l'utilisateur
-if($bdd){
-$login = $bdd->query('SELECT * FROM `user` WHERE password = "'.$password.'"');
-$res = $login->fetch();
-$IDuser = $res['iduser'];
-}
-$current_etape = $res['current_etape'];
+		if($bdd){
+			$login = $bdd->query('SELECT * FROM `user` WHERE password = "'.$password.'"');
+			$res = $login->fetch();
+			$IDuser = $res['iduser'];
+		}
+		$current_etape = $res['current_etape'];
+	
+	if ($dossier == "livre" || $dossier == "immeuble" || $dossier == "profil"){
+		if(!isset($IDuser)){
+			header('location: ../403bis.php');
+		}
+	}	
 }
 
 ?>
