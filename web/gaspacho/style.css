@@ -70,7 +70,7 @@ body {
 }
 
 #bol {
-    background-image: url('./images/bol.png');
+    background-image: url('images/bol.png');
     background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -80,7 +80,7 @@ body {
 }
 
 #bol div.tomate {
-    background-image: url('./images/remplissage/tomate.png');
+    background-image: url('images/remplissage/tomate.png');
     background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -90,7 +90,7 @@ body {
 }
 
 #bol div.lentille {
-    background-image: url('./images/remplissage/lentilles.png');
+    background-image: url('images/remplissage/lentilles.png');
    background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -100,7 +100,7 @@ body {
 }
 
 #bol div.potiron {
-    background-image: url('./images/remplissage/potiron.png');
+    background-image: url('images/remplissage/potiron.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -110,7 +110,7 @@ body {
 }
 
 #bol div.concombre {
-    background-image: url('./images/remplissage/concombre.png');
+    background-image: url('images/remplissage/concombre.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -120,7 +120,7 @@ body {
 }
 
 #bol div.poivron {
-    background-image: url('./images/remplissage/poivron.png');
+    background-image: url('images/remplissage/poivron.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -130,7 +130,7 @@ body {
 }
 
 #bol div.chou_fleur {
-    background-image: url('./images/remplissage/chou_fleur.png');
+    background-image: url('images/remplissage/chou_fleur.png');
    background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -140,7 +140,7 @@ body {
 }
 
 #bol div.poireau {
-    background-image: url('./images/remplissage/poireau.png');
+    background-image: url('images/remplissage/poireau.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -156,7 +156,7 @@ body {
 
 
 #bol div.oignon {
-    background-image: url('./images/remplissage/oignon.png');
+    background-image: url('images/remplissage/oignon.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -165,7 +165,7 @@ body {
     position:absolute;
 }
 #bol div.ail {
-    background-image: url('./images/remplissage/ail.png');
+    background-image: url('images/remplissage/ail.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -174,7 +174,7 @@ body {
     position:absolute;
 }
 #bol div.basilic {
-    background-image: url('./images/remplissage/basilic.png');
+    background-image: url('images/remplissage/basilic.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -183,7 +183,7 @@ body {
     position:absolute;
 }
 #bol div.piment {
-    background-image: url('./images/remplissage/piment.png');
+    background-image: url('images/remplissage/piment.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -192,7 +192,7 @@ body {
     position:absolute;
 }
 #bol div.capres {
-    background-image: url('./images/remplissage/capres.png');
+    background-image: url('images/remplissage/capres.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -201,7 +201,7 @@ body {
     position:absolute;
 }
 #bol div.pois_chiche {
-    background-image: url('./images/remplissage/pois_chiche.png');
+    background-image: url('images/remplissage/pois_chiche.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -210,7 +210,7 @@ body {
     position:absolute;
 }
 #bol div.citron {
-    background-image: url('./images/remplissage/citron.png');
+    background-image: url('images/remplissage/citron.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -219,7 +219,7 @@ body {
     position:absolute;
 }
 #bol div.vinaigre {
-    background-image: url('./images/remplissage/vinaigre.png');
+    background-image: url('images/remplissage/vinaigre.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -228,7 +228,7 @@ body {
     position:absolute;
 }
 #bol div.huile_olive {
-    background-image: url('./images/remplissage/huilde_olive.png');
+    background-image: url('images/remplissage/huilde_olive.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -237,7 +237,7 @@ body {
     position:absolute;
 }
 #bol div.poivre {
-    background-image: url('./images/remplissage/poivre.png');
+    background-image: url('images/remplissage/poivre.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -246,7 +246,7 @@ body {
     position:absolute;
 }
 #bol div.sel {
-    background-image: url('./images/remplissage/sel.png');
+    background-image: url('images/remplissage/sel.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -255,7 +255,7 @@ body {
     position:absolute;
 }
 #bol div.curry {
-    background-image: url('./images/remplissage/curry.png');
+    background-image: url('images/remplissage/curry.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -265,7 +265,7 @@ body {
 }
 
 #bol div.curry {
-    background-image: url('./images/remplissage/curry.png');
+    background-image: url('images/remplissage/curry.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -275,7 +275,7 @@ body {
 }
 
 #bol div.chaud {
-    background-image: url('./images/remplissage/chaud.png');
+    background-image: url('images/remplissage/chaud.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -284,7 +284,7 @@ body {
     position:absolute;
 }
 #bol div.froid {
-    background-image: url('./images/remplissage/froid.png');
+    background-image: url('images/remplissage/froid.png');
   background-position: 2px 12px;
     background-repeat: no-repeat;
     background-size: contain;
