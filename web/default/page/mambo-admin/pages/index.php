@@ -2,7 +2,7 @@
 session_start();
 
 if($_SESSION['autorize'] != "allowedtoconnect"){
-	header('location: ../../../../403.html');
+	header('location: ../../../../403.php');
 }
 else { 
 ?>
@@ -55,6 +55,22 @@ else {
 </head>
 
 <body>
+<?php
+// connection bdd
+   include('bdd.php');
+   $query = 'SELECT * FROM `user`;';
+$query2 = 'SELECT * FROM `admin`;';
+$arr = $bdd->query($query)->fetch();
+$administr = $bdd->query($query2)->fetch();
+$finish = 'SELECT COUNT(*) FROM `user` WHERE `progression` = 12;';
+$finish = $bdd->query($finish)->fetchColumn();
+$notifLivre = "SELECT COUNT(*) FROM `etape` WHERE `etape_ID` = 'Livre' AND `notif` = 1;";
+$notifLivre = $bdd->query($notifLivre)->fetchColumn();
+$notifChien = "SELECT COUNT(*) FROM `etape` WHERE `etape_ID` = 'Chien' AND `notif` = 1;";
+$notifChien = $bdd->query($notifChien)->fetchColumn();
+   $selEtape = "SELECT * FROM `etape` WHERE `etape_ID` = 'Lapin' OR `etape_ID` = 'Livre' OR `etape_ID` = 'Chien';";
+   $selEtape = $bdd->query($selEtape);
+   ?>
     <div id="wrapper">
 
         <!-- Navigation -->
@@ -66,7 +82,7 @@ else {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"> Bonjour Humain</a>
+                <a class="navbar-brand" href="index.php">>Bonjour <?php echo $administr['login']; ?></a>
             </div>
             <!-- /.navbar-header -->
 
@@ -82,35 +98,35 @@ else {
                         <li>
                             <a href="#">
                                 <div>
-                                    <img src="../dist/img/lapin.png" />5 Nouvelles recettes
-                                    <span class="pull-right text-muted small">(echo date)</span>
+                                    <img src="../dist/img/lapin.png" />Nouvelle recette
                                 </div>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#">
+                            <a href="notif.php?etape=chien">
                                 <div>
-                                   <img src="../dist/img/lapin.png" /> 3 Nouveaux portraits
-                                    <span class="pull-right text-muted small">(echo date) </span>
+                                   <img src="../dist/img/chien.png" /> <?php if($notifChien == 0){ echo "Pas de notification"; } else { echo $notifChien; ?> Nouveaux portraits <?php } ?>
                                 </div>
                             </a>
                         </li>
+						
+						
                         <li class="divider"></li>
                         <li>
-                            <a href="#">
+                            <a href="notif.php?etape=livre">
                                 <div>
-                                    <img src="../dist/img/lapin.png" /> 1 Nouvelle Fin d'histoire
-                                    <span class="pull-right text-muted small">(echo date) </span>
+                                    <img src="../dist/img/livre.png" /><?php if($notifLivre == 0){ echo "Pas de notification"; } else { echo $notifLivre; ?> nouvelles fins d'histoires <?php } ?>
                                 </div>
                             </a>
                         </li>
+						
                         <li class="divider"></li>
+						
                         <li>
                             <a href="#">
                                 <div>
-                                    <i class="fa fa-trophy"></i> (echo ID) a fini les étapes !
-                                    <span class="pull-right text-muted small">(echo date) </span>
+                                    <i class="fa fa-trophy"></i> <?php echo $finish; ?> utilisateurs ont complété le dispositif !
                                 </div>
                             </a>
                         </li>
@@ -150,9 +166,7 @@ else {
                         <li>
                             <a href="index.php"><i class="fa fa-dashboard fa-fw"></i> Tableau de bord</a>
                         </li>
-                        <li>
-                            <a href="index.php"><i class="fa fa-bar-chart-o fa-fw"></i> Statistiques <span class="fa arrow"></span></a>
-                        </li>
+                        
                         <li>
                             <a href="tables.php"><i class="fa fa-table fa-fw"></i> Base de donnée</a>
                         </li>
@@ -179,32 +193,22 @@ else {
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-bell fa-fw"></i> Notifications Admin
+                            <i class="fa fa-bell fa-fw"></i> Derniers ajouts de contenu
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="list-group">
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-comment fa-fw"></i> Notif 1
-                                    <span class="pull-right text-muted small"><em>4 minutes </em>
+                                <?php while($step = $selEtape->fetch()){
+									echo '
+									<a href="#" class="list-group-item">
+                                    <i class="fa fa-comment fa-fw"></i> '. $step['value'] .'
+                                    <span class="pull-right text-muted small"><em>'. $step['Date'] .' </em>
                                     </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                   <i class="fa fa-database" aria-hidden="true"></i>
- Notif 2
-                                    <span class="pull-right text-muted small"><em>12 minutes </em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-envelope fa-fw"></i> Notif 3
-                                    <span class="pull-right text-muted small"><em>27 minutes </em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-tasks fa-fw"></i> Notif 4
-                                    <span class="pull-right text-muted small"><em>43 minutes </em>
-                                    </span>
-                                </a>
+                                </a>';
+								} 
+								?>
+								
+                                
                                 <a href="#" class="list-group-item">
                                     <i class="fa fa-upload fa-fw"></i> Server Rebooted
                                     <span class="pull-right text-muted small"><em>11:32</em>
@@ -220,18 +224,7 @@ else {
                                     <span class="pull-right text-muted small"><em>10:57</em>
                                     </span>
                                 </a>
-                                <a href="#" class="list-group-item">
-                                   <i class="fa fa-download" aria-hidden="true"></i>
- Notif 5
-                                    <span class="pull-right text-muted small"><em>9:49</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-signal" aria-hidden="true"></i>
-Notif 6
-                                    <span class="pull-right text-muted small"><em>hier</em>
-                                    </span>
-                                </a>
+                                
                             </div>
                             <!-- /.list-group -->
                             <a href="./notifications.html" class="btn btn-danger">Voir le rapport</a>

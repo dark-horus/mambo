@@ -6,13 +6,17 @@ else {
 	include('bdd.php');
 	if($etape == 'livre'){
 			$req = "UPDATE `etape` SET `notif` = 0 WHERE `etape_ID` = 'Livre';";
+			$bdd->exec($req);
+			header('location: ../../../../livre/');
+
 	}
 	if($etape == 'chien'){	
 		$req = "UPDATE `etape` SET `notif` = 0 WHERE `etape_ID` = 'Chien';";
+		$bdd->exec($req);
+		header('location: ../../../../chien/');
+
 	}
 	
-	$bdd->exec($req);
-	header('location: tables.php');
 }
 
 
