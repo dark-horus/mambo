@@ -658,7 +658,7 @@
 							$query = 'SELECT * FROM `etape` WHERE `etape_ID` = "Livre";';
 							
 							$textes = $bdd->query($query);
-							$photo = "<img src='../profil/avatar/".$res['img_avatar']."' alt='avatar'/>";
+							$photo = "<img src='../profil/avatar/".$res['img_avatar']."' alt='avatar' width='50px'/>";
 							echo "<ul>";	
 							while($txt = $textes->fetch()){
 								$id = $txt['ID'];

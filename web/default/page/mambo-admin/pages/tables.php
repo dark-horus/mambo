@@ -181,7 +181,7 @@ $notifChien = $pdo->query($notifChien)->fetchColumn();
                         </li>
                         
                         <li>
-                            <a href="tables.php"><i class="fa fa-table fa-fw"></i> Base de donnée</a>
+                            <a href="tables.php"><i class="fa fa-table fa-fw"></i> Base de données</a>
                         </li>
                         
                             </ul>
