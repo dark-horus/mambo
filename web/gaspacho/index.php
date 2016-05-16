@@ -205,8 +205,12 @@ include( '../default/page/start_header.php' );
     
     </br>
 
-<video width="1024" height="768" controls src="images/gaspacho.mp4">Ici la description alternative</video>
 
+<video width="1024" height="768" controls="controls">
+  <source src="images/gaspacho.mp4" type="video/mp4" />
+  <source src="images/gaspacho.webm" type="video/webm" />
+  <source src="images/gaspacho.ogv" type="video/ogg" />
+Oups ! Il semble y avoir un problème avec la vidéo, contactez l'administrateur du site !</video>
 
         
         
