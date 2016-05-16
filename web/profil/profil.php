@@ -57,8 +57,8 @@ $imgEtape = $imagEtape . ".png" ;
     
       <h2>Profil <?php echo $res['password']; ?></h2>
 	  <?php if($resUser['img_avatar']){ ?>
-     <img class="img-circle img-responsive" width="300px" src="<?php echo "avatar/". $resUser['img_avatar']; ?>" alt="">
-	  <?php } else { echo '<img class="img-circle img-responsive" width="300px" src="avatar/arthur.png" alt="">'; } ?>
+     <img class="img-circle img-responsive" width="300px" src="avatar/<?php echo $resUser['img_avatar']; ?>"/>
+	  <?php } else { echo '<img class="img-circle img-responsive" width="300px" src="avatar/default.png" alt="avatar">'; } ?>
 	 <br>
      <br>
      
@@ -66,7 +66,7 @@ $imgEtape = $imagEtape . ".png" ;
 	 <form method="post" action="upload.php" enctype="multipart/form-data" onsubmit="return verifFile(this)">
      <label for="avatar">Changer sa photo de profil (JPG, PNG ou GIF | max. 2 MO) :</label><br />
      <input type="file" name="avatar" id="avatar" /><br />
-     <input type="submit" name="submit" value="Envoyer" />
+	 <input type="submit" class="mmmvalider" name="valider" id="valider" value="">
 	 </form>
 	  
 	  <br>
@@ -78,9 +78,9 @@ $imgEtape = $imagEtape . ".png" ;
           <?php echo $pourcent; ?>%
         </div>
       </div>
-     
-     Etape courante : <a href="<?php echo "../".$imagEtape;?>"><?php if(isset($imgEtape)){ ?><img src="../default/page/img/<?php echo $imgEtape; ?>" alt="Etape_courante" class="img-thumbnail">
-     <?php } else { echo "<img src='../default/page/img/gaspacho.png'>"; } ?></a>
+     <?php if(isset($imgEtape)){ ?>Etape courante : <a href="<?php echo "../".$imagEtape;?>"><img src="../default/page/img/<?php echo $imgEtape; ?>" alt="Etape_courante" class="img-thumbnail">
+     <?php } else { ?>
+     Etape courante : <a href="<?php echo "../gaspacho/";?>"><img src='../default/page/img/gaspacho.png'><?php } ?></a>
      
     </div>
     
