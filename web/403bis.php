@@ -47,7 +47,7 @@ h2 {
 <h1> Oups! Une erreur est survenue.<h1>
 
 <h2> Il semblerait que vous n'ayez pas l'autorisation d'accéder à cette page.<br/> 
-Retournez en page d'accueil pour vous connecter afin de profiter de l'experience Mambo Canaille! </h2>
+Retournez à la page d'accueil pour vous connecter afin de profiter de l'expérience Mambo Canaille! </h2>
 <center><a href="accueil/" > <img src="default/page/img/retour.png"></a></center>
 
 </body>
