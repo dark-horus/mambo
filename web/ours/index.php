@@ -21,17 +21,20 @@ include('../default/page/start_header.php');
 
 <!-- Place ici ton contenu -->
 
-<img class="blason" src="image/blason2.png" border="0" usemap="#panneaux" />
-<map name="panneaux">
+<div id="image">
+
+<img class="blason" src="image/blason2.png" border="0" usemap="#mapelisa" alt="blasonmadrid" />
+
+<map name="mapelisa">
 
 	<!-- Partie Arbre vert -->
-  <area shape="poly" coords="143,239,263,231,286,300,210,296,137,307" class="fancybox" data-fancybox-type="iframe" href="places.html" title="Madrid et ses places emblématiques" />
+  <area shape="poly" coords="154,233,274,225,297,294,221,290" class="fancybox" data-fancybox-type="iframe" href="places.html" alt="Madrid et ses places emblématiques" title="Madrid et ses places emblématiques" />
   
   <!-- Partie Couronne jaune -->
   <area shape="rect" coords="29,23,394,149" class="fancybox" data-fancybox-type="iframe" href="caudillo.html" title="Madrid et son caudillo" />
   
   <!-- Partie Ours marron -->
-    <area shape="poly" coords="210,308,255,307,288,398,221,434,152,398" class="fancybox" data-fancybox-type="iframe" href="arbre.html" title="Madrid, l’arbre et la bête" />
+    <area shape="poly" coords="209,304,254,303,287,394,220,430,151,394" class="fancybox" data-fancybox-type="iframe" href="arbre.html" title="Madrid, l’arbre et la bête" />
   
   <!-- Partie Bordure bleu -->
   
@@ -49,6 +52,8 @@ include('../default/page/start_header.php');
   
   
 </map>
+
+</div>
 
 
 
