@@ -4,6 +4,25 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <?php include( '../default/page/header.php' ); ?>
+<script>
+$(document).ready(function(e) {
+$('#value').keyup(function() {
+  
+    var nombreCaractere = $(this).val().length;
+    var nombreCaractere = 500 - nombreCaractere;
+    
+    var nombreMots = jQuery.trim($(this).val()).split(' ').length;
+    if($(this).val() === '') {
+     	nombreMots = 0;
+    }	
+    
+    var msg = ' ' + nombreMots + ' mot(s) | ' + nombreCaractere + ' Caractere(s) restant';
+    $('#compteur').text(msg);
+    if (nombreCaractere < 1) { $('#compteur').addClass("mauvais"); } else { $('#compteur').removeClass("mauvais"); }
+    
+  })  
+  });
+  </script>
 <?php include( '../default/page/end_header.php' ); ?>
 
 
@@ -627,21 +646,22 @@
         <div id="machine" class="book fancybox  lightbox" data-fancybox-href="#machine_content">
                 <div id="machine_content" class="contenu" style="display:none">
                    <div class="contenu_machine"> 
-                    <div class="extrait">
+				   <div class="row">
+                    <div class="extrait col-md-12">
                     <h2 class="typo">Devenez écrivain et imaginez la suite de l'histoire...</h2> 
                     <br>
 
                     <p>"Le visage contracté par le dégoût, il envoya son courrier puis se mit a surfer. Il pensa que c'était une idée excellente que de reprendre contact avec les plus importantes maisons d'édition d'Espagne. A toutes il envoya un nouveau message : ..." (Chapitre 26, page 168)</p>
                 </div>
+				
                 <br>
                     <div class="ecriture">  
-                        <div class="cotegauche">                               
+                        <div class="cotegauche col-md-6">                               
 						<form action="../default/page/recEtape.php" method="post">
 							
                             <input type="hidden" name="field" id="field" value="histoire">
-							<textarea rows="10" cols="70" name="value"></textarea>
-							
-                            <input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
+							<textarea rows="12" cols="35" id="value" name="value"></textarea>							
+							<p id="compteur">0 mots | 500 Caracteres restant</p>                            <input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
 							<!-- Si tout est ok, mettre la variable $validate à true -->
 							
                             <input type="hidden" name="validate" id="validate" value="true">
@@ -653,24 +673,40 @@
                             </div>
 						</form>
                     </div>
-                    <div class="cotedroit">
-                            <?php
+                    <div class="cotedroit col-md-6">
+					 
+						<div id="lesComs" class="panel panel-success">
+							<div class="panel-heading" role="tab" id="headingCom">
+							<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseCom" aria-expanded="false" aria-controls="collapseCom">
+							Suites d'histoire :
+							</a>
+							</h4>
+							</div>
+							<div id="collapseCom" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingCom">
+							<div class="panel-body">
+							<?php							
 							$query = 'SELECT * FROM `etape` WHERE `etape_ID` = "Livre";';
-							
 							$textes = $bdd->query($query);
-							$photo = "<img src='../profil/avatar/".$res['img_avatar']."' alt='avatar' width='50px'/>";
 							echo "<ul>";	
 							while($txt = $textes->fetch()){
 								$id = $txt['ID'];
-								if(isset($_SESSION['autorize'])){$delete = "<div onclick='confirmSupr($id);' class='btn btn-danger'>
+								$idUser = $txt['user_ID'];
+								$query2 = 'SELECT * FROM `user` WHERE `iduser` = "'.$idUser.'"';
+								$user = $bdd->query($query2)->fetch();
+								$photo = "<img src='../profil/avatar/".$user['img_avatar']."' alt='avatar' width='50px'/>";
+								if(isset($_SESSION['autorize']) OR $res['iduser'] == $idUser){$delete = "<div onclick='confirmSupr($id);' class='btn btn-danger'>
                                             <i class='fa fa-trash' aria-hidden='true'></i></div>";} else {$delete = '';}
 								echo "<li>". $photo ." ". $txt['value'] . " ". $delete. "</li>";
 							}
 							echo "</ul>";
 							?>
+							</div>
+							</div>
+						</div>                         							
                     </div>
 					</div>
-
+				</div>
                 </div>
             </div>
         </div>
@@ -680,11 +716,10 @@
         $(document).ready(function () {
             $(".fancybox")
                 .fancybox({
-                    openEffect: 'none',
-                    closeEffect: 'none',
-                    type: "inline",
-                    maxWidth: 500
-
+                    'openEffect': 'none',
+                    'closeEffect': 'none',
+                    'type': "inline",
+                    'maxWidth': 500
                 });
         });
     </script>

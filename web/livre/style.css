@@ -1,4 +1,9 @@
-
+.cotedroit{
+	
+}
+.cotegauche{
+	
+}
 
 #bibliotheque {
     position: relative;
@@ -274,20 +279,29 @@ h2{
 
 .ecriture {
    /* width:100%;*/
+  
 }
-
-
+#lesComs{
+height: 300px;
+overflow: auto;
+}
 .contenu{
     background-image:url("img/fond2.png");
+	background-size: cover;
 }
-
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
 #machine_content {
 
     height: auto;
-    width: 500px;
+   width: 800px; 
 
 }
-
+.mauvais {
+  color:#cc0000;
+}
 .recommencer{
     background-image:url("img/recommencer.png");
     background-repeat:no-repeat;
