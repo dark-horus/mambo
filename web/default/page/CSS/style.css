@@ -110,10 +110,12 @@ table {
 .dropdown-menu a {
 	color: #FFFFFF;
     font-size:18px;
+    text-transform:none;
 }
 .dropdown-menu a:hover {
 	text-decoration:underline;
 	color: #FFFFFF;
+    text-transform:none;
 }
 
 
