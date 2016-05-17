@@ -225,7 +225,7 @@ include( '../default/page/start_header.php' );
             </div>
 
 
-            <div class="file video_1" data-infos="Vous allez regarder <b><em>Abbott et Costello</b></strong> dans <b>Trio Los Panchos</b>. Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em> pour retrouver la référence à cet artiste. </p>">
+            <div class="file video_1" data-infos="Vous allez regarder <b><em>Abbott et Costello</b></strong> dans <b>Trio Los Panchos</b>. Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em> pour retrouver la référence à ces artistes. </p>">
                 <a href="https://www.youtube.com/watch?v=U1_rXFIXpZ0&list=PLUoCjbJ4ucW_t7Iw9NtKz8O90hIozUP43&index=1" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_video">
                         <p class="text-center">Abbott et Costello</p>
@@ -333,7 +333,7 @@ include( '../default/page/start_header.php' );
                 </div>
             </div>
 
-            <div class="file c_musique" data-infos="<br />Vous vous appretez à accèder à une musique bonus !" >
+            <div class="file c_musique" data-infos="<br />Vous vous apprêtez à accèder à une musique bonus !" >
                 <a href="https://youtu.be/yMI5ZQGXEKM" target="_blank" style="text-decoration:none ; color:black;">
                 <div class="titre_bonus">
                     <p class="text-center">Mambo Unchained</p>
@@ -355,11 +355,11 @@ include( '../default/page/start_header.php' );
 
              <div class="brouillon4">
                 <div class="titre_brouillon">
-                    <p class="text-center">Mon Oeuvre <br />transcendentale <br />brouillon</p>
+                    <p class="text-center">Mon Oeuvre <br />transcendantale <br />brouillon</p>
                 </div>
             </div> 
 
-            <div class="file c_video" data-infos="<br />Vous vous appretez à accèder à une vidéo bonus !">
+            <div class="file c_video" data-infos="<br />Vous vous apprêtez à accèder à une vidéo bonus !">
                 <a href="https://youtu.be/MB0XpKDzNxE" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_bonus2">
                         <p class="text-center">Le mystère<br />des icônes</p>
