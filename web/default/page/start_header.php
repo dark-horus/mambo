@@ -8,7 +8,7 @@ if ($dossier != null) {
     switch ($dossier) {
         case "crotte":
             $titre = "Expulsez Mary Carmen !";
-			 $next = '<li class="col-md-12"><a href="../poitrine/">Étape suivante : poitrine</a></li>';
+			 $next = '<li class="col-md-12"><a href="../default/page/recEtape.php?etape=poitrine">Étape suivante : poitrine</a></li>';
 			 $before = '<li class="col-md-12"><a href="../vin">Étape précédente : vin</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Trouvez la bonne combinaison d’actions pour faire partir votre voisine Mary Carmen en plaçant les actions dans le bon ordre. Un point vert correspond à une icône placée au bon endroit. Un point orange équivaut à une icône présente dans la combinaison mais qui n’est pas au bon endroit. Attention, une icône peut être utilisée plusieurs fois dans la combinaison.";
@@ -43,7 +43,7 @@ if ($dossier != null) {
 			break;
         case "lapin":
             $titre = "Devenez le nouveau conquistador culinaire de <em>Mambo Canaille</em>";
-			$next = '<li class="col-md-12"><a href="../ours">Étape suivante : ours</a></li>';
+			$next = '<li class="col-md-12"><a href="../default/page/recEtape.php?etape=ours">Étape suivante : ours</a></li>';
 			$before = '<li class="col-md-12"><a href="../livre">Étape précédente : livre </a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Vous n'êtes ni Christophe Colomb ni au 15ème siècle, mais explorez le vaste monde de l'art culinaire de 'Mambo Canaille' et mettez la main à la pâte en ajoutant votre recette à ce délicieux planisphère.";
@@ -57,21 +57,21 @@ if ($dossier != null) {
 			break;
         case "poitrine":
             $titre = "Partez à la rencontre des femmes d'hier et d'aujourd'hui !";
-			$next = '<li class="col-md-12"><a href="../ferrari/index.html">Étape suivante : ferrari</a></li>';
+			$next = '<li class="col-md-12"><a href="../default/page/recEtape.php?etape=ferrari">Étape suivante : ferrari</a></li>';
 			$before = '<li class="col-md-12"><a href="../crotte">Étape précédente : crotte</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Remontez le temps et rencontrez les idéaux féminins qui ont inspirés de nombreux artistes, par leur beauté.";
 			break;
         case "immeuble":
             $titre = "Infiltrez-vous chez les trois canailles !";
-			$next = '<li class="col-md-12"><a href="../ordinateur">Étape suivante : ordinateur</a></li>';
+			$next = '<li class="col-md-12"><a href="../default/page/recEtape.php?etape=ordinateur">Étape suivante : ordinateur</a></li>';
 			$before = '<li class="col-md-12"><a href="../ours">Étape précédente : ours</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Vous êtes un enquêteur de la police à la recherche d'Alejandro, Henry et Simao. Retrouvez tous les objets cachés afin d’identifier les propriétaires des chambres.";
 			break;
         case "gaspacho":
             $titre = "Préparez le gaspacho d’Henry !";
-			$next = '<li class="col-md-12"><a href="../hotel">Étape suivante : hotel</a></li>';
+			$next = '<li class="col-md-12"><a href="../default/page/recEtape.php?etape=hotel">Étape suivante : hotel</a></li>';
 			$before = '<li class="col-md-12 "><a href="#">Étape précédente : aucune </a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
             $consigne ="Composez votre gaspacho avec les ingrédients proposés, en espérant qu’il plaira à Henry...";

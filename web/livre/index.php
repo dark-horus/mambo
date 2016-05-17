@@ -661,7 +661,8 @@ $('#value').keyup(function() {
 							
                             <input type="hidden" name="field" id="field" value="histoire">
 							<textarea rows="12" cols="35" id="value" name="value"></textarea>							
-							<p id="compteur">0 mots | 500 Caracteres restant</p>                            <input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
+							<p id="compteur">0 mots | 500 Caracteres restant</p>                           
+							<input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
 							<!-- Si tout est ok, mettre la variable $validate à true -->
 							
                             <input type="hidden" name="validate" id="validate" value="true">

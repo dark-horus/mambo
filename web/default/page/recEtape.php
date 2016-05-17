@@ -4,10 +4,23 @@ if (!isset($_SESSION['id'])){
 	header('location: ../../index.php');
 }
 else {
+	//récupère l'url
+	if(isset($_GET['etape'])){
+		$kelPage = $_GET['etape'];
+		if($kelPage != "hotel" || $kelPage != "ferrari" || $kelPage != "poitrine" || $kelPage != "ordinateur" || $kelPage != "ours"){
+			header('location: ../../403.php');
+		}
+		
+		$validate = "true";
+		$etape_ID = $kelPage;
+		$password = $_SESSION['id'];
+	}
+	else{
+		$validate = $_POST['validate'];
+		$etape_ID = $_POST['etape'];
+		$password = $_SESSION['id'];
+	}
 	//Verification que l'étape est validée
-$validate = $_POST['validate'];
-$etape_ID = $_POST['etape'];
-$password = $_SESSION['id'];
 	if($validate == "false") {
 		header('location: ../../'.$etape_ID.'/index.php');
 	}
@@ -16,7 +29,6 @@ $password = $_SESSION['id'];
 	
 //connexion à la bdd
 include('bdd.php');
-
 
 
 //Récupération des informations de l'utilisateur
@@ -32,9 +44,13 @@ $id = $res['iduser'];
 			$field = mysql_real_escape_string($_POST['field']);
 			$value = mysql_real_escape_string($_POST['value']);
 		}
+		else {
+			$field = '';
+			$value = '';
+		}
 
 	
-
+//insertion dans la bdd
 $req = $bdd->prepare('INSERT INTO `etape` (user_ID, etape_ID, field, value) VALUES(:user_ID, :etape_ID, :field, :value)');
 $req->execute(array(
 	'user_ID' => $id,
@@ -47,7 +63,6 @@ $req2 = "UPDATE `user` SET current_etape = '$etape_ID' WHERE iduser = '$id'";
 $req2 = $bdd->exec($req2);
 
 //comptabilise pour la progression
-
 $requete = $bdd->query('SELECT etape_ID FROM `etape` WHERE user_ID = "'.$id.'" GROUP BY etape_ID');
 $progression = 0;
 while($donnees = $requete->fetch())
@@ -64,7 +79,7 @@ $req3 = $bdd->exec($req3);
 //redirection
 header('location: ../../'.$etape_ID.'/index.php');
 
-
+	
 }
 }
 ?>

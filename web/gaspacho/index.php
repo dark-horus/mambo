@@ -43,13 +43,13 @@ include( '../default/page/start_header.php' );
                                 <h2 style=color:#B54643;>Base</h2>
                                 <p>(choisir une base)</p>
 
-                                <div class="col-sm-4 col-md-4 col-lg-4 ingredient" onclick="afficher(this,'base','tomate');"><img
+                                <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'base','tomate');"><img
                                         id="S37" src="images/tomate_test.png" alt=""/>
                                     <p class="text-center">Tomate</p></div>
-                                <div class="col-sm-4 col-md-4 col-lg-4  ingredient" onclick="afficher(this,'base','potiron');"><img
+                                <div class="col-sm-6 col-md-6 col-lg-6  ingredient" onclick="afficher(this,'base','potiron');"><img
                                         id="S38" src="images/potiron_test.png" alt=""/>
                                     <p class="text-center">Potiron</p></div>
-                                <div class="col-sm-4 col-md-4 col-lg-4 ingredient" onclick="afficher(this,'base','lentille');"><img
+                                <div class="col-sm-6 col-md-6 col-lg-6 ingredient" onclick="afficher(this,'base','lentille');"><img
                                         id="S39" src="images/lentille_test.png" alt=""/>
                                     <p class="text-center">Lentille</p></div>
 
@@ -204,12 +204,13 @@ include( '../default/page/start_header.php' );
     
     </br>
 
-
+<div class="video">
 <video width="1024" height="768" controls="controls">
   <source src="images/gaspacho.mp4" type="video/mp4" />
   <source src="images/gaspacho.webm" type="video/webm" />
   <source src="images/gaspacho.ogv" type="video/ogg" />
 Oups ! Il semble y avoir un problème avec la vidéo, contactez l'administrateur du site !</video>
+</div>
 
         
         

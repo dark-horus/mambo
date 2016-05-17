@@ -66,17 +66,17 @@ include('../default/page/start_header.php');
                     <div id="map">
          
           <a href="../gaspacho/index.php">  <img src="../default/page/img/acc-gaspacho.png" style="width:100%;"></img></a>
-          <a href="../hotel/index.php">  <img src="../default/page/img/acc-hotel.png" style="width:100%;"></img></a>
+          <a href="../default/page/recEtape.php?etape=hotel">  <img src="../default/page/img/acc-hotel.png" style="width:100%;"></img></a>
           <a href="../vin/index.php">  <img src="../default/page/img/acc-vin.png" style="width:100%;"></img></a>
           <a href="../crotte/index.php">  <img src="../default/page/img/acc-crotte.png" style="width:100%;"></img></a>
-          <a href="../poitrine/index.php">  <img src="../default/page/img/acc-poitrine.png" style="width:100%;"></img></a>
-          <a href="../ferrari/index.php">  <img src="../default/page/img/acc-ferrari.png" style="width:100%;"></img></a>
+          <a href="../default/page/recEtape.php?etape=poitrine">  <img src="../default/page/img/acc-poitrine.png" style="width:100%;"></img></a>
+          <a href="../default/page/recEtape.php?etape=ferrari">  <img src="../default/page/img/acc-ferrari.png" style="width:100%;"></img></a>
           <a href="../chien/index.php">  <img src="../default/page/img/acc-chien.png" style="width:100%;"></img></a>
           <a href="../livre/index.php">  <img src="../default/page/img/acc-livre.png" style="width:100%;"></img></a>
           <a href="../lapin/index.php">  <img src="../default/page/img/acc-lapin.png" style="width:100%;"></img></a>
-          <a href="../ours/index.php">  <img src="../default/page/img/acc-ours.png" style="width:100%;"></img></a>
+          <a href="../default/page/recEtape.php?etape=ours">  <img src="../default/page/img/acc-ours.png" style="width:100%;"></img></a>
           <a href="../immeuble/index.php">  <img src="../default/page/img/acc-immeuble.png" style="width:100%;"></img></a>
-          <a href="../ordinateur/index.php">  <img src="../default/page/img/acc-ordinateur.png" style="width:100%;"></img></a>
+          <a href="../default/page/recEtape.php?etape=ordinateur">  <img src="../default/page/img/acc-ordinateur.png" style="width:100%;"></img></a>
            <?php if($res['progression'] == 12){ ?>
 		  <a href="../interview/index.php">  <img src="../default/page/img/acc-interview.jpg" style="width:100%;"></img></a>
 		   <?php } ?>
