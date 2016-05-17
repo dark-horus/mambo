@@ -72,7 +72,7 @@ if ($dossier != null) {
         case "gaspacho":
             $titre = "Préparez le gaspacho d’Henry !";
 			$next = '<li class="col-md-12"><a href="../default/page/recEtape.php?etape=hotel">Étape suivante<br>Hôtel</a></li>';
-			$before = '<li class="col-md-12 "><a href="#">Étape précédente : aucune </a></li>';
+			$before = '';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours<br>Gaspacho</a></li>';
             $consigne ="Composez votre gaspacho avec les ingrédients proposés, en espérant qu’il plaira à Henry...";
 			break;
