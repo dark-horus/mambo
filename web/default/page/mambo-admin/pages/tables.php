@@ -54,20 +54,29 @@ Administrateur
 
 <?php 
 // connection bdd
-   include('bdd.php');
+   // include('bdd.php');
 
-
+try {
+    $strConnection = 'mysql:host=localhost;dbname=mambo;'; //Ligne 1
+    $arrExtraParam= array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"); //Ligne 2
+    $pdo = new PDO($strConnection, 'root', '', $arrExtraParam); //Ligne 3; Instancie la connexions
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);//Ligne 4
+}
+catch(PDOException $e) {
+    $msg = 'ERREUR PDO dans ' . $e->getFile() . ' L.' . $e->getLine() . ' : ' . $e->getMessage();
+    die($msg);
+}
 
 $query = 'SELECT * FROM `user`;';
 $query2 = 'SELECT * FROM `admin`;';
-$arr = $bdd->query($query)->fetch();
-$administr = $bdd->query($query2)->fetch();
+$arr = $pdo->query($query)->fetch();
+$administr = $pdo->query($query2)->fetch();
 $finish = 'SELECT COUNT(*) FROM `user` WHERE `progression` = 12;';
-$finish = $bdd->query($finish)->fetchColumn();
+$finish = $pdo->query($finish)->fetchColumn();
 $notifLivre = "SELECT COUNT(*) FROM `etape` WHERE `etape_ID` = 'Livre' AND `notif` = 1;";
-$notifLivre = $bdd->query($notifLivre)->fetchColumn();
+$notifLivre = $pdo->query($notifLivre)->fetchColumn();
 $notifChien = "SELECT COUNT(*) FROM `etape` WHERE `etape_ID` = 'Chien' AND `notif` = 1;";
-$notifChien = $bdd->query($notifChien)->fetchColumn();
+$notifChien = $pdo->query($notifChien)->fetchColumn();
 
 
 
@@ -201,7 +210,7 @@ $notifChien = $bdd->query($notifChien)->fetchColumn();
 <?php
 
 
-$req = $bdd->query('SELECT * FROM `user`');
+$req = $pdo->query('SELECT * FROM `user`');
 
 
 
