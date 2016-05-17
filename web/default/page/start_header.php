@@ -36,7 +36,7 @@ if ($dossier != null) {
 			break;
         case "ordinateur":
             $titre = "Naviguez à travers l’ordinateur d’Henry";
-			$next = '<li class="col-md-12"><a href="#">Étape suivante : aucune</a></li>';
+			$next = '<li class="col-md-12"><a href="../interview">Rencontre avec l\'auteur</a></li>';
 			$before = '<li class="col-md-12"><a href="../immeuble">Étape précédente<br>Immeuble</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours<br>Ordinateur</a></li>';
             $consigne ="Écoutez des musiques et regardez des vidéos de films, de séries ou d’autres éléments évoqués dans 'Mambo Canaille' en utilisant les fenêtres comme si vous utilisiez vous-même l’ordinateur d’Henry.";
@@ -143,6 +143,11 @@ if(isset($_SESSION['id'])){
 	}	
 }
 
+if($dossier == "interview"){
+	if(!isset($_SESSION['id']) || $res['progression'] != 12){
+		header('location: ../default/page/pasvalide.php');
+	}
+}
 ?>
 
 
