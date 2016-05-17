@@ -1,24 +1,29 @@
 <?php 
 session_start();
-if (!isset($_SESSION['id'])){
-	header('location: ../../index.php');
-}
-else {
+
 	//récupère l'url
 	if(isset($_GET['etape'])){
 		$kelPage = $_GET['etape'];
 		if($kelPage != "hotel" || $kelPage != "ferrari" || $kelPage != "poitrine" || $kelPage != "ordinateur" || $kelPage != "ours"){
 			header('location: ../../403.php');
 		}
-		
+		if (!isset($_SESSION['id'])){
+			header('location: ../../'.$kelPage);
+		}
 		$validate = "true";
 		$etape_ID = $kelPage;
 		$password = $_SESSION['id'];
 	}
 	else{
-		$validate = $_POST['validate'];
-		$etape_ID = $_POST['etape'];
-		$password = $_SESSION['id'];
+		if (!isset($_SESSION['id'])){
+			header('location: http://mambocanaille.fr');
+		}
+	
+		else{
+			$validate = $_POST['validate'];
+			$etape_ID = $_POST['etape'];
+			$password = $_SESSION['id'];
+		}
 	}
 	//Verification que l'étape est validée
 	if($validate == "false") {
@@ -82,5 +87,5 @@ if($dossier != "gaspacho"){
 }
 	
 }
-}
+	
 ?>
