@@ -41,11 +41,20 @@ include('../default/page/start_header.php');
 
         <!-- box bas -->
         <div class="col-md-4">
-
-            <div id="valider"> <!-- AJOUTER LE CODE POUR LA VALIDATION - Si la personne a la bonne combinaison et clique sur “validez” alors l’étape est validée-->
-                <img src="images/valider.png"/>
+			
+            <div id="valider" style="visibility: hidden;"> <!-- AJOUTER LE CODE POUR LA VALIDATION - Si la personne a la bonne combinaison et clique sur “validez” alors l’étape est validée-->
+                <?php if(isset($res['iduser'])){ ?>
+				<form action="../default/page/recEtape.php" method="post">
+				<input type="hidden" name="field" id="field" value="">
+				<input type="hidden" name="value" id="value" value="">
+				<input type="hidden" name="etape" id="etape" value="<?php echo $dossier; ?>">
+				<!-- Si tout est ok, mettre la variable $validate à true -->
+				<input type="hidden" name="validate" id="validate" value="true">
+		        <input type="submit" class="validera" name="valide" value="">  
+				</form>
+				<?php } ?>
             </div>
-
+			
             <div id="recommencer">
                 <!-- <a href="javascript:clearGameSlots()"> EN ATTENTE DE CORRECTION -->
                     <a href="javascript:window.location.reload()">

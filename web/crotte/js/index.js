@@ -209,6 +209,7 @@ var Game = (function () {
             // TODO: win/lose
             if (res.isCorrect) {
                 _displaySolution(res.solution);
+				document.getElementById("valider").style.visibility = "visible";				
                 isPlaying = false;
             } else if (res.remainingTurns === 0) {
                 _displaySolution(res.solution);

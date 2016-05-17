@@ -13,7 +13,18 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
 }
-    
+.validera{
+    background-image:url("../images/valider.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    /*background-size: contain ;*/
+    background-color:transparent;
+    outline:none;
+    border:none;
+    width: 200px;
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer; 
+   }
 img {
     max-width: 100%;
     height: auto;
