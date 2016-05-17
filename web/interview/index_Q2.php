@@ -57,7 +57,7 @@ include( '../default/page/start_header.php' );
                     </div>
 
 <section>
-                     <div id="container" class="col-sm-12 col-md-10 col-lg-10">
+                     <div id="container" class="col-sm-12 col-md-12 col-lg-12">
 
                         <div class="row">  
                               
