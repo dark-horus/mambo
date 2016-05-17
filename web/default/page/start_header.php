@@ -142,12 +142,13 @@ if(isset($_SESSION['id'])){
 		}
 	}	
 }
-
+/* A DECOMMENTER EN PROD !!!!!!!!!
 if($dossier == "interview"){
 	if(!isset($_SESSION['id']) || $res['progression'] != 12){
 		header('location: ../default/page/pasvalide.php');
 	}
 }
+*/
 ?>
 
 
