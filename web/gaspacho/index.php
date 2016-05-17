@@ -110,8 +110,8 @@ include( '../default/page/start_header.php' );
 
                         <div class="row-fluid">
                             <div id="assaisonement container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
-                                <h2 style=color:#B54643;>Assaisonnement</h2>
-                                <p>(choisir cinq assaisonements)</p>
+                                <h2 style=color:#B54643;>Assaisonnements</h2>
+                                <p>(choisir cinq assaisonnements)</p>
 
                                 <div class="col-sm-6 col-md-6 col-lg-6 ingredient"
                                      onclick="afficher(this,'assaisonement','citron');"

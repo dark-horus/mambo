@@ -49,7 +49,7 @@ if ($dossier != null) {
             $consigne ="Vous n'êtes ni Christophe Colomb ni au 15ème siècle, mais explorez le vaste monde de l'art culinaire de 'Mambo Canaille' et mettez la main à la pâte en ajoutant votre recette à ce délicieux planisphère.";
 			break;
         case "vin":
-            $titre = "Initiez-vous à l’oenologie chilienne";
+            $titre = "Initiez-vous à l’œnologie chilienne";
 			$next = '<li class="col-md-12"><a href="../crotte">Étape suivante : crotte</a></li>';
 			$before = '<li class="col-md-12"><a href="../hotel">Étape précédente : hotel</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours : '.$dossier.'</a></li>';
