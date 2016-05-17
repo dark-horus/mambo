@@ -42,12 +42,7 @@ include( '../default/page/start_header.php' );
                      
 
 <div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-  <video controls="controls" autoplay="true">
-  <source src="video/Q1.mp4" type="video/mp4" />
-  <source src="video/" type="video/webm" />
-  <source src="video/" type="video/ogg" />
-  J'ai rien trouvé wesh
-</video>
+<img src="img/fond.png">
 </div>
 
                                             
@@ -61,15 +56,15 @@ include( '../default/page/start_header.php' );
                         <div class="row">  
                               
                                 <div class="col-sm-12 col-md-4 col-lg-4">
-                                <button class='lined thin' onclick="location.href='questions2.php'">Vous êtes-vous inspiré de personnes réelles pour les personnages du livre ?</button>
+                                <button class='lined thin' onclick="location.href='index_Q3.php'">Vous êtes-vous inspiré de personnes réelles pour les personnages du livre ?</button>
                             </div>
 
                              <div class="col-sm-12 col-md-4 col-lg-4">
-                                <button class='lined thin' onclick="location.href='questions2.php'">A quoi aurait ressemblé le roman si les personnages principaux étaient des femmes ?</button>
+                                <button class='lined thin' onclick="location.href='index_Q2.php'">A quoi aurait ressemblé le roman si les personnages principaux étaient des femmes ?</button>
                             </div>
 
                              <div class="col-sm-12 col-md-4 col-lg-4">
-                                <button class='lined thin' onclick="location.href='questions2.php'">Quel est le rôle et la place du chien Tarzan dans l’histoire ?</button>
+                                <button class='lined thin' onclick="location.href='index_Q12.php'">Quel est le rôle et la place du chien Tarzan dans l’histoire ?</button>
                             </div>
 
                             
