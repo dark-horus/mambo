@@ -129,26 +129,7 @@ $(".submit").click(function() {
 	$.ajax({
 		type: "POST",
 		url: "../default/page/recEtape.php",	
-		data : dataString,
-			success: function(){
-				//Affichage vidéo
-				//alert("Wazaaaaaaa");
-				//$('.valid').trigger('click');
-				//$('.valid').get(0).click();
-				//var hrefV = $('.valid').attr('href');
-				//window.location.href = hrefV;
-				/*
-				var r = confirm("Felicitations");
-				if (r == true) {
-					$('.valid').trigger('click');
-				} else {
-				alert("Ca ne fonctionne pas !!!!!!!!!!!!!!");
-				}
-				*/
-			}
-			
-			
-			
+		data : dataString			
 	});
 	 $('.valid').click();
 	

@@ -186,7 +186,7 @@ include( '../default/page/start_header.php' );
 
     <a class="error fancybox" href="#error"></a>
     <a class="errorRecipe fancybox" href="#errorRecipe"></a>
-    <a class="valid fancybox" href="#valid">click moi dessus sa mere</a>
+    <a class="valid fancybox" href="#valid"></a>
 
     <div style="display:none" id="error">
         <h2>Il manque des ingrédients, vérifiez les dosages !</h2>
