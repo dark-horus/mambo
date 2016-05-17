@@ -77,8 +77,9 @@ $req3 = $bdd->exec($req3);
 	
 	
 //redirection
-header('location: ../../'.$etape_ID.'/index.php');
-
+if($dossier != "gaspacho"){
+	header('location: ../../'.$etape_ID.'/index.php');
+}
 	
 }
 }

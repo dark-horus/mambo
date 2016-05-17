@@ -367,5 +367,17 @@ video {
     margin-right:auto;
 
 }
-
+.goutemoica{
+    background-image:url("images/gouter.png");
+	background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain ;
+    background-color:transparent;
+    outline:none;
+    border:none;
+    width: 178px;
+    background-repeat: no-repeat; /* largeur à spécifier */
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer;
+}
 

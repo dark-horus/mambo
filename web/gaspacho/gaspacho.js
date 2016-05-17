@@ -105,8 +105,10 @@ function ajoutIngredientBol(object, ingredient) {
 
 }
 
-function test() {
-
+$(function() {
+$(".submit").click(function() {
+	
+	
     if (testNbIngredient()) {
         $('.error').click();
         // alert("Erreur ingredient manquant !");
@@ -118,10 +120,40 @@ function test() {
         $('.errorRecipe').click();
         return false;
     }
-
-    $('.valid').click();
-}
-
+    	
+	/* Validation dans la base */	
+	event.preventDefault();  // Empêcher le rechargement de la page.
+	var validate = "true";
+	var etape = "gaspacho";
+	var dataString = 'validate='+ validate+'&etape='+ etape;
+	$.ajax({
+		type: "POST",
+		url: "../default/page/recEtape.php",	
+		data : dataString,
+			success: function(){
+				//Affichage vidéo
+				//alert("Wazaaaaaaa");
+				//$('.valid').trigger('click');
+				//$('.valid').get(0).click();
+				//var hrefV = $('.valid').attr('href');
+				//window.location.href = hrefV;
+				/*
+				var r = confirm("Felicitations");
+				if (r == true) {
+					$('.valid').trigger('click');
+				} else {
+				alert("Ca ne fonctionne pas !!!!!!!!!!!!!!");
+				}
+				*/
+			}
+			
+			
+			
+	});
+	 $('.valid').click();
+	
+});
+});
 function testNbIngredient() {
 
 

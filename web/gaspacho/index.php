@@ -7,7 +7,7 @@ include( '../default/page/start_header.php' );
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="fancybox/source/jquey.fancybox.css"/>
+    <!-- <link rel="stylesheet" href="fancybox/source/jquey.fancybox.css"/> -->
 
 
     <!-- fin CSS -->
@@ -170,8 +170,10 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div id="envoi">
-                            <input type="image" src="images/gouter.png" onclick="test();"></button>
-                            <input type="image" src="images/vider.png" onclick="empty();"></button>
+						<form enctype="multipart/form-data" method="post"  name="formGaspacho">					
+                            <input type="submit" class="goutemoica submit" value=""></button>
+                        </form>
+						<input type="image" src="images/vider.png" onclick="empty();"></button>
                         </div>
                     </div><!--side-->
 
@@ -184,7 +186,7 @@ include( '../default/page/start_header.php' );
 
     <a class="error fancybox" href="#error"></a>
     <a class="errorRecipe fancybox" href="#errorRecipe"></a>
-    <a class="valid fancybox" href="#valid"></a>
+    <a class="valid fancybox" href="#valid">click moi dessus sa mere</a>
 
     <div style="display:none" id="error">
         <h2>Il manque des ingrédients, vérifiez les dosages !</h2>
@@ -200,7 +202,7 @@ include( '../default/page/start_header.php' );
     <div style="display:none" id="valid">
                                 
         <h2>Félicitations votre gaspacho semble plaire à Henry !</h2>
-
+		
     
     </br>
 
