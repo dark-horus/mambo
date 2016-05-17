@@ -61,7 +61,7 @@
 		<script>
 $(function () {
 	if($('[data-toggle="popover"]').length){
-		$('[data-toggle="popover"]').popover()
+		$('[data-toggle="popover"]').popover().click();
 	}
 	});
 </script>
