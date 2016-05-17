@@ -62,7 +62,7 @@ if (isset($_POST['chambre3']))
 		$req = $bdd->prepare('INSERT INTO `etape` (user_ID, etape_ID, field, value) VALUES(:user_ID, :etape_ID, :field, :value)');
 		$req->execute(array(
 		'user_ID' => $id,
-		'etape_ID' => "Immeuble",
+		'etape_ID' => "immeuble",
 		'field' => $field,
 		'value' => $value
 		));
