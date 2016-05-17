@@ -23,3 +23,24 @@ h2 {
 p{
 	text-align: left;
 }
+
+#photo{
+	background-image:url("img/importerimage.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    /*background-size: contain ;*/
+    background-color:transparent;
+    outline:none;
+    border:none;
+    width: 200px;
+    height: 65px; /* longueur à spécifier */
+    cursor: pointer; 
+	position: relative;
+	overflow: hidden;
+}
+#photo2 input{
+	filter: alpha(opacity=0);
+   opacity: 0;
+   position: absolute;
+   right: 0;
+}

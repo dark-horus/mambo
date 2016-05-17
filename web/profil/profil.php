@@ -64,8 +64,11 @@ $imgEtape = $imagEtape . ".png" ;
      
 	 
 	 <form method="post" action="upload.php" enctype="multipart/form-data" onsubmit="return verifFile(this)">
-     <label for="avatar">Changer sa photo de profil (JPG, PNG ou GIF | max. 2 MO) :</label><br />
-     <input type="file" name="avatar" id="avatar" /><br />
+     <p>Changez votre photo de profil (JPG, PNG ou GIF | max. 2 MO) :</p>
+	 <label for="avatar"><div id="photo"></div></label><br />
+     <div id="photo2">
+		<input type="file" value="" name="avatar" id="avatar" /><br />
+	 </div>
 	 <input type="submit" class="mmmvalider" name="valider" id="valider" value="">
 	 </form>
 	  
