@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Mar 17 Mai 2016 à 11:47
+-- Généré le :  Mer 18 Mai 2016 à 00:17
 -- Version du serveur :  5.6.26
 -- Version de PHP :  5.6.12
 
@@ -52,19 +52,7 @@ CREATE TABLE IF NOT EXISTS `etape` (
   `value` varchar(500) NOT NULL,
   `Date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `notif` tinyint(1) NOT NULL DEFAULT '1'
-) ENGINE=InnoDB AUTO_INCREMENT=126 DEFAULT CHARSET=latin1;
-
---
--- Contenu de la table `etape`
---
-
-INSERT INTO `etape` (`ID`, `user_ID`, `etape_ID`, `field`, `value`, `Date`, `notif`) VALUES
-(107, 111, 'Livre', 'livre', 'ah que coucou hihi', '2016-05-13 22:00:30', 0),
-(120, 128, 'livre', 'histoire', 'haha', '2016-05-14 23:25:48', 0),
-(121, 128, 'livre', 'histoire', 'Il prit son arc et tira sur la pomme', '2016-05-15 00:04:46', 0),
-(122, 128, 'livre', 'histoire', 'Le visage contracté par le dégoût, il envoya son courrier puis se mit a surfer. Il pensa que c\\''était une idée excellente que de reprendre contact avec les plus importantes maisons d\\''édition d\\''Espagne. A toutes il envoya un nouveau message : ...\\" (Chapitre 26, page 168)', '2016-05-15 00:04:46', 0),
-(123, 129, 'livre', 'histoire', 'test', '2016-05-16 09:43:51', 1),
-(125, 131, 'livre', 'histoire', 'Je te fais un super test !', '2016-05-16 12:04:33', 1);
+) ENGINE=InnoDB AUTO_INCREMENT=219 DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -78,18 +66,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `img_avatar` varchar(150) NOT NULL DEFAULT 'default.png',
   `current_etape` text,
   `progression` int(2) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB AUTO_INCREMENT=132 DEFAULT CHARSET=latin1;
-
---
--- Contenu de la table `user`
---
-
-INSERT INTO `user` (`iduser`, `password`, `img_avatar`, `current_etape`, `progression`) VALUES
-(111, 'sNczaXABId', 'sNczaXABId.png', 'Immeuble', 2),
-(121, 'JKTcvGzGzS', 'JKTcvGzGzS.jpg', NULL, 0),
-(128, '9PKjIBMxQF', '9PKjIBMxQF.jpg', 'livre', 1),
-(129, '5X1vqhY2EN', 'default.png', 'livre', 1),
-(131, 'SPkHmvGFqz', 'default.png', 'livre', 1);
+) ENGINE=InnoDB AUTO_INCREMENT=137 DEFAULT CHARSET=latin1;
 
 --
 -- Index pour les tables exportées
@@ -122,12 +99,12 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT pour la table `etape`
 --
 ALTER TABLE `etape`
-  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=126;
+  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=219;
 --
 -- AUTO_INCREMENT pour la table `user`
 --
 ALTER TABLE `user`
-  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=132;
+  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=137;
 --
 -- Contraintes pour les tables exportées
 --
