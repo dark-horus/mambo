@@ -166,7 +166,7 @@ $imgEtape = $imagEtape . ".png" ;
     </div>
   </div>
 </div>
-
+	 <?php if($res['progression'] == 12){ echo "<p>Félicitations, vous avez terminé l'aventure Mambo Canaille. Vous avez maintenant accès à une partie bonus : <br><a href='../interview'><img src='img/carlos.png' alt='Carlos Mendez Guedez'></a></p>"; } ?>
      <script>
 		function verifFile()
         {
@@ -180,46 +180,7 @@ $imgEtape = $imagEtape . ".png" ;
 			}
         }
 		</script>
-	<!--<table class="table">
-        <tbody>
-
-          <tr class="success">
-            <td>Icone 1</td>
-            <td>Imaginez le visage des principaux personnages</td>
-          </tr>
-
-            <tr>
-
-            <td><i class="fa fa-eye fa-5x" aria-hidden="true"></i></td>
-            <td><h1> ICI le visuel des etape echo("rendu_Etape")</h1></td>
-
-          </tr>
-
-          <tr class="success">
-            <td>Icone 2</td>
-            <td>Parcourez le monde entier</td>
-            </tr>
-         <tr>
-
-            <td><i class="fa fa-eye fa-5x" aria-hidden="true"></i></td>
-            <td><h1> ICI le visuel des etape echo("rendu_Etape")</h1></td>
-
-          </tr>
-
-          <tr class="success">
-            <td>Icone 3</td>
-            <td>Naviguez à travers l'ordinateur</td>
-          </tr>
-             <tr>
-
-            <td><i class="fa fa-eye fa-5x" aria-hidden="true"></i></td>
-            <td><h1> ICI le visuel des etape echo("rendu_Etape")</h1></td>
-
-          </tr>
-
-        </tbody>
-      </table>
-    -->
+	
 	
 	</div>
     </div>

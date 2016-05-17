@@ -110,8 +110,8 @@ include( '../default/page/start_header.php' );
 
                         <div class="row-fluid">
                             <div id="assaisonement container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
-                                <h2 style=color:#B54643;>Assaisonnement</h2>
-                                <p>(choisir cinq assaisonements)</p>
+                                <h2 style=color:#B54643;>Assaisonnements</h2>
+                                <p>(choisir cinq assaisonnements)</p>
 
                                 <div class="col-sm-6 col-md-6 col-lg-6 ingredient"
                                      onclick="afficher(this,'assaisonement','citron');"
@@ -165,7 +165,6 @@ include( '../default/page/start_header.php' );
                     <div class="col-sm-5 col-md-5 col-lg-5 pull-right side">
                         <h2>Saurez-vous préparer le gaspacho de Henry ?</h2>
 
-                        <p>Composez votre gaspacho avec les ingrédients disponibles, en espérant qu'il plaira à Henry...</p>
                         <div id="bol">
 
                         </div>
@@ -205,8 +204,12 @@ include( '../default/page/start_header.php' );
     
     </br>
 
-<video width="1024" height="768" controls src="images/gaspacho.mp4">Ici la description alternative</video>
 
+<video width="1024" height="768" controls="controls">
+  <source src="images/gaspacho.mp4" type="video/mp4" />
+  <source src="images/gaspacho.webm" type="video/webm" />
+  <source src="images/gaspacho.ogv" type="video/ogg" />
+Oups ! Il semble y avoir un problème avec la vidéo, contactez l'administrateur du site !</video>
 
         
         
