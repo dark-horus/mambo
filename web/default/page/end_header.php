@@ -16,8 +16,8 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="dLabel">
                                 <div id="mambo-topdropdown" class="col-md-12">
-                                    <li class="col-md-6"><a href="../accueil/index.php">HOME</a></li>
-                                    <li class="col-md-6"><a href="../profil/profil.php">PROFIL</a></li>
+                                    <li class="col-md-6"><a href="../accueil/index.php">Accueil </a></li>
+                                    <li class="col-md-6"><a href="../profil/profil.php">Profil</a></li>
                                 </div>
                                 <div id="mambo-botdropdown">
                                     <?php echo $before; ?>

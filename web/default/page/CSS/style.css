@@ -109,9 +109,11 @@ table {
 
 .dropdown-menu a {
 	color: #FFFFFF;
-    font-size:18px;
+    font-size: 17px;
     text-transform:none;
 }
+
+
 .dropdown-menu a:hover {
 	text-decoration:underline;
 	color: #FFFFFF;
@@ -140,6 +142,9 @@ a:hover {
 }
 #mambo-topdropdown {
 	text-align: center;
+    left: -1px;
+    Top: -0px;
+
 }
 #mambo-topmenu  .dropdown-menu {
 	background-image:url('../img/fondmenu.png');
