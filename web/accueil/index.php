@@ -52,7 +52,7 @@ include('../default/page/start_header.php');
              <p>Vous êtes en train de lire <em>Mambo Canaille</em> ? <br/> 
                 Parcourez au fil d’icônes l’univers fantasque de Juan Carlos Méndez Guédez,
                  déambulez dans les rues de Madrid, créez vos recettes, 
-                 devenez à votre tour écrivain, évadez-vous au delà des frontières du livre...</p>
+                 devenez à votre tour écrivain, évadez-vous au-delà des frontières du livre...</p>
             </div>
         </div>
 </div>
