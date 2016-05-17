@@ -165,7 +165,6 @@ include( '../default/page/start_header.php' );
                     <div class="col-sm-5 col-md-5 col-lg-5 pull-right side">
                         <h2>Saurez-vous préparer le gaspacho de Henry ?</h2>
 
-                        <p>Composez votre gaspacho avec les ingrédients disponibles, en espérant qu'il plaira à Henry...</p>
                         <div id="bol">
 
                         </div>
