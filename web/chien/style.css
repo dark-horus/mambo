@@ -12,7 +12,7 @@
 
 h1 {
 font-family: 'Special Elite';
-color:‪#35201e‬;
+color:‪#35201E;
 font-size: 25px;
 }
 
@@ -175,7 +175,7 @@ button {
     background-image:url('img/flg.png'); background-repeat:none;  background-position:50%;     
 }
 
-
+1
 #galerie {
     background-image: url(img/galerie.jpg);
       margin: 0;
@@ -187,40 +187,118 @@ button {
 }
 
 
-#rect {
-    position: absolute;
-    left: 15%;
-    top: 100px;
-}
 
 
-
+/*media queries page galerie */
+@media screen and (min-width : 400px) and (max-width: 1279px)
+{
 #portrait_henry {
-    width:auto;
-    float:left;
-    margin-top: -233px;
-    margin-left: 20px;
-    max-width: 100%;
-    height: auto;
-    min-width: 120px;
+        width: 120px;
+        float:left;
+        margin-top: -165px;
+        margin-left: 20px;
+        max-width: 100%;
+        height: auto;
+        min-width: 120px;
+}
+    
+    #portrait_simao {
+        width: 120px;
+        float:left;
+        margin-top: -165px;
+        margin-left: 20px;
+        max-width: 100%;
+        height: auto;
+        min-width: 120px;
+        }
+    
+    #portrait_alejandro {
+        width: 120px;
+        float:left;
+        margin-top: -165px;
+        margin-left: 20px;
+        max-width: 100%;
+        height: auto;
+        min-width: 120px;
+}
+    
+    #rect   {
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
 }
 
-#portrait_simao {
-    width:auto;
-    float:left;
-    margin-top: -233px;
-    margin-left: 20px;
-    max-width: 100%;
-    height: auto;
-    min-width: 120px;
+@media screen and (min-width : 1280px) and (max-width: 1436px)
+{
+    #rect {
+        position: absolute;
+        left: 0%;
+        top: 150px;
+    }
+    
+    #portrait_henry {
+        width: 140px;
+        float:left;
+        margin-top: -200px;
+        margin-left: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #portrait_simao {
+       width: 140px;
+        float:left;
+        margin-top: -200px;
+        margin-left: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #portrait_alejandro {
+        width: 140px;
+        float:left;
+        margin-top: -200px;
+        margin-left: 20px;
+        max-width: 100%;
+        height: auto;
+    }
 }
 
-#portrait_alejandro {
-    width:auto;
-    float:left;
-    margin-top: -233px;
-    margin-left: 20px;
-    max-width: 100%;
-    height: auto;
-    min-width: 120px;
+
+@media screen and (min-width : 1437px)
+{
+    #rect {
+        width : 1437px; 50%; 
+        margin : auto; 
+        margin-top: 150px;
+        top: 150px;
+    }
+    
+     #portrait_henry {
+        width: 140px;
+        float:left;
+        margin-top: -200px;
+        margin-left: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #portrait_simao {
+        width: 140px;
+        float:left;
+        margin-top: -200px;
+        margin-left: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #portrait_alejandro {
+         width: 140px;
+        float:left;
+        margin-top: -200px;
+        margin-left: 20px;
+        max-width: 100%;
+        height: auto;
+    }
 }
