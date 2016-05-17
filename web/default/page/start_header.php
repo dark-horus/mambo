@@ -37,7 +37,7 @@ if ($dossier != null) {
         case "ordinateur":
             $titre = "Naviguez à travers l’ordinateur d’Henry";
 			$next = "<li class='col-md-12'><a href='#'>Rencontre<br />avec l'auteur</a></li>";
-			$before = '<li class="col-md-12"><a href="../immeuble">Étape précédente<br />immeuble</a></li>';
+			$before = '<li class="col-md-12"><a href="../immeuble">Étape précédente<br />Immeuble</a></li>';
 			$current = '<li class="col-md-12"><a href="#" >Étape en cours<br />Ordinateur</a></li>';
             $consigne ="Écoutez des musiques et regardez des vidéos de films, de séries ou d’autres éléments évoqués dans 'Mambo Canaille' en utilisant les fenêtres comme si vous utilisiez vous-même l’ordinateur d’Henry.";
 			break;
