@@ -44,6 +44,9 @@ section {
 
 .wrap {
 
+position: relative;
+top: 80px;
+
 }
 
 @media only screen and (device-width: 1920px) and (device-height: 1080px) { 
