@@ -39,7 +39,7 @@ include( '../default/page/start_header.php' );
                     <div id="container" class="col-sm-6 col-md-6 col-lg-6">
 
                         <div class="row-fluid">
-                            <div id="base container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
+                            <div id="base" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
                                 <h2 style=color:#B54643;>Base</h2>
                                 <p>(choisir une base)</p>
 
@@ -60,7 +60,7 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="legumes container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
+                            <div id="legumes" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
                                 <h2 style=color:#B54643;>Légumes</h2>
                                 <p>(choisir deux légumes)</p>
 
@@ -80,7 +80,7 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="condiments container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
+                            <div id="condiments" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
                                 <h2 style=color:#B54643;>Condiments</h2>
                                 <p>(choisir quatres condiments)</p>
 
@@ -109,7 +109,7 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="assaisonement container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
+                            <div id="assaisonement" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
                                 <h2 style=color:#B54643;>Assaisonnements</h2>
                                 <p>(choisir cinq assaisonnements)</p>
 
@@ -147,7 +147,7 @@ include( '../default/page/start_header.php' );
                         </div>
 
                         <div class="row-fluid">
-                            <div id="temperature container" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
+                            <div id="temperature" class="col-md-offset-1 col-md-11" style="margin-bottom:30px;">
                                 <h2 style=color:#B54643;>Température</h2>
                                 <p>(un choix possible)</p>
 

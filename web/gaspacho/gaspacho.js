@@ -1,5 +1,8 @@
 $(document).ready(function () {
 
+    window.recipeOrder = ['base', 'legumes', 'condiments', 'assaisonement', 'temperature'];
+    window.recipeOrderCurrent = 0;
+
     window.base = ["tomate", "potiron", "lentille"];
     window.legumes = ["concombre", "poivron", "chou_fleur", "poireau"];
     window.condiments = ["oignon", "ail", "basilic", "piment", "capre", "pois_chiche"];
@@ -27,7 +30,27 @@ $(document).ready(function () {
 
     window.compareResult = false;
 
+    initDisplay();
+
+    // Fonction d'écoute de la validation du formulaire
+    validForm();
 });
+
+
+function initDisplay() {
+
+    // Oblige l'utilisateur à commencer par la 'base'
+    for (var i = 0; i < recipeOrder.length; i++) {
+        var v = recipeOrder[i];
+        $('#' + v).css({opacity: 0.35});
+    }
+
+    recipeOrderCurrent = 0;
+
+    $('#' + recipeOrder[recipeOrderCurrent]).css({opacity: 1});
+
+}
+
 
 function empty() {
 
@@ -36,53 +59,112 @@ function empty() {
     utilisateurCondiments = [];
     utilisateurAssaisonement = [];
     utilisateurTemperature = [];
+
+
+    // Vide le bol
+    $('#bol').empty();
+
+
+    // Ré-affiche les ingrédients
+    $('.ingredient').fadeIn();
+
+
+    initDisplay();
 }
+
+function toggleOpacity(id) {
+
+    $('#' + recipeOrder[recipeOrderCurrent]).css({opacity: 1});
+    $('#' + recipeOrder[recipeOrderCurrent - 1]).css({opacity: 0.35});
+}
+
 
 function afficher(object, type, ingredient) {
 
-
     switch (type) {
-
 
         case "base":
             var nbBase = utilisateurBase.length;
-            if (nbBase < maxBase) {
+            if (nbBase < maxBase && recipeOrder[recipeOrderCurrent] == 'base') {
+
                 utilisateurBase.push(ingredient);
-                //ajouter classe indiquant ingredient sélectionné
                 ajoutIngredientBol(object, ingredient);
+
+                nbBase = utilisateurBase.length;
+                if (nbBase == maxBase && recipeOrder[recipeOrderCurrent] == 'base') {
+                    recipeOrderCurrent++;
+                    toggleOpacity(recipeOrderCurrent);
+                }
+
+
             }
             break;
 
-
         case "legumes":
-            var nbLegumes = $(utilisateurLegumes).length;
-            if (nbLegumes < maxLegumes) {
+            var nbLegumes = utilisateurLegumes.length;
+            if (nbLegumes < maxLegumes && recipeOrder[recipeOrderCurrent] == 'legumes') {
+
                 utilisateurLegumes.push(ingredient);
                 ajoutIngredientBol(object, ingredient);
+
+                nbLegumes = utilisateurLegumes.length;
+                if (nbLegumes == maxLegumes && recipeOrder[recipeOrderCurrent] == 'legumes') {
+                    recipeOrderCurrent++;
+                    toggleOpacity(recipeOrderCurrent);
+                }
+
+
             }
             break;
 
         case "condiments":
-            var nbCondiments = $(utilisateurCondiments).length;
-            if (nbCondiments < maxCondiments) {
+            var nbCondiments = utilisateurCondiments.length;
+            if (nbCondiments < maxCondiments && recipeOrder[recipeOrderCurrent] == 'condiments') {
+
                 utilisateurCondiments.push(ingredient);
                 ajoutIngredientBol(object, ingredient);
+
+                nbCondiments = utilisateurCondiments.length;
+
+                if (nbCondiments == maxCondiments && recipeOrder[recipeOrderCurrent] == 'condiments') {
+                    recipeOrderCurrent++;
+                    toggleOpacity(recipeOrderCurrent);
+                }
+
             }
             break;
 
         case "assaisonement":
-            var nbAssaisonement = $(utilisateurAssaisonement).length;
-            if (nbAssaisonement < maxAssaisonement) {
+            var nbAssaisonement = utilisateurAssaisonement.length;
+            if (nbAssaisonement < maxAssaisonement && recipeOrder[recipeOrderCurrent] == 'assaisonement') {
+
                 utilisateurAssaisonement.push(ingredient);
                 ajoutIngredientBol(object, ingredient);
+
+                nbAssaisonement = utilisateurAssaisonement.length;
+
+                if (nbAssaisonement == maxAssaisonement && recipeOrder[recipeOrderCurrent] == 'assaisonement') {
+                    recipeOrderCurrent++;
+                    toggleOpacity(recipeOrderCurrent);
+                }
+
             }
             break;
 
         case "temperature":
-            var nbTemperature = $(utilisateurTemperature).length;
-            if (nbTemperature < maxTemperature) {
+            var nbTemperature = utilisateurTemperature.length;
+            if (nbTemperature < maxTemperature && recipeOrder[recipeOrderCurrent] == 'temperature') {
+
                 utilisateurTemperature.push(ingredient);
                 ajoutIngredientBol(object, ingredient);
+
+                nbTemperature = utilisateurTemperature.length;
+
+                if (nbTemperature == maxTemperature && recipeOrder[recipeOrderCurrent] == 'temperature') {
+                    recipeOrderCurrent++;
+                    toggleOpacity(recipeOrderCurrent);
+                }
+
             }
             break;
     }
@@ -92,6 +174,7 @@ function afficher(object, type, ingredient) {
     // console.log(utilisateurAssaisonement);
     // console.log(utilisateurTemperature);
 }
+
 
 function ajoutIngredientBol(object, ingredient) {
 
@@ -105,36 +188,40 @@ function ajoutIngredientBol(object, ingredient) {
 
 }
 
-$(function() {
-$(".submit").click(function() {
-	
-	
-    if (testNbIngredient()) {
-        $('.error').click();
-        // alert("Erreur ingredient manquant !");
-        return false;
-    }
 
-    testRecipe();
-    if (compareResult) {
-        $('.errorRecipe').click();
-        return false;
-    }
-    	
-	/* Validation dans la base */	
-	event.preventDefault();  // Empêcher le rechargement de la page.
-	var validate = "true";
-	var etape = "gaspacho";
-	var dataString = 'validate='+ validate+'&etape='+ etape;
-	$.ajax({
-		type: "POST",
-		url: "../default/page/recEtape.php",	
-		data : dataString			
-	});
-	 $('.valid').click();
-	
-});
-});
+function validForm() {
+
+    $(".submit").click(function () {
+
+
+        if (testNbIngredient()) {
+            $('.error').click();
+            // alert("Erreur ingredient manquant !");
+            return false;
+        }
+
+        testRecipe();
+        if (compareResult) {
+            $('.errorRecipe').click();
+            return false;
+        }
+
+        /* Validation dans la base */
+        event.preventDefault();  // Empêcher le rechargement de la page.
+        var validate = "true";
+        var etape = "gaspacho";
+        var dataString = 'validate=' + validate + '&etape=' + etape;
+        $.ajax({
+            type: "POST",
+            url: "../default/page/recEtape.php",
+            data: dataString
+        });
+        $('.valid').click();
+
+    });
+}
+
+
 function testNbIngredient() {
 
 
@@ -170,6 +257,7 @@ function testNbIngredient() {
 
 }
 
+
 function testRecipe() {
 // Comparaison
 
@@ -180,7 +268,7 @@ function testRecipe() {
         //
     } else {
         compareResult = true;
-        console.log(compareResult);
+        // console.log(compareResult);
         return compareResult;
     }
     result = array_diff(utilisateurLegumes, recetteLegumes);
@@ -188,7 +276,7 @@ function testRecipe() {
         //
     } else {
         compareResult = true;
-        console.log(compareResult);
+        // console.log(compareResult);
         return compareResult;
     }
     result = array_diff(utilisateurCondiments, recetteCondiments);
@@ -196,7 +284,7 @@ function testRecipe() {
         //
     } else {
         compareResult = true;
-        console.log(compareResult);
+        // console.log(compareResult);
         return compareResult;
     }
     result = array_diff(utilisateurAssaisonement, recetteAssaisonement);
@@ -204,7 +292,7 @@ function testRecipe() {
         //
     } else {
         compareResult = true;
-        console.log(compareResult);
+        // console.log(compareResult);
         return compareResult;
     }
     result = array_diff(utilisateurTemperature, recetteTemperature);
@@ -214,10 +302,11 @@ function testRecipe() {
         //
     } else {
         compareResult = true;
-        console.log(compareResult);
+        // console.log(compareResult);
         return compareResult;
     }
 }
+
 
 function array_diff(arr1) {
     //  discuss at: http://phpjs.org/functions/array_diff/
