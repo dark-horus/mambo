@@ -412,6 +412,17 @@ button {
         left: 0;
         top: 100px;
     }
+    
+    
+    #galerie {
+    background-image: url(img/galerie.jpg);
+      margin: 0;
+    height: auto;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    }
 }
 
 @media screen and (min-width : 1280px) and (max-width: 1436px)
@@ -447,6 +458,17 @@ button {
         margin-left: 20px;
         max-width: 100%;
         height: auto;
+    }
+    
+    
+    #galerie {
+    background-image: url(img/galerie.jpg);
+      margin: 0;
+    height: auto;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
     }
 }
 
@@ -485,5 +507,16 @@ button {
         margin-left: 20px;
         max-width: 100%;
         height: auto;
+    }
+    
+    
+    #galerie {
+    background-image: url(img/galerie.jpg);
+      margin: 0;
+    height: auto;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
     }
 }
