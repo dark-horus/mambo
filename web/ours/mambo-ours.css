@@ -8,7 +8,7 @@ body {
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
   overflow: hidden;
-}
+  }
 
 h3 {
 font-family: 'Special Elite'; 
@@ -36,6 +36,6 @@ width: 64px;
 }
 
 area:hover {
-cursor: url("image/cursor.gif"), auto ;
+cursor: url("image/cursor.png"), auto;
 }​
 
