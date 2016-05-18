@@ -1,7 +1,7 @@
-<link rel="stylesheet" type="text/css" href="lapin.css">
+
 
 <?php include( '../default/page/start_header.php' ); ?>
-
+<link rel="stylesheet" type="text/css" href="lapin.css">
 <?php include( '../default/page/header.php' ); ?>
 <?php include( '../default/page/end_header.php' ); ?>
 

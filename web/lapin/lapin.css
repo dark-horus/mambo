@@ -4,6 +4,14 @@ html {
   padding:0;
   text-align: center;
 }
+
+h1 {
+font-family: 'Special Elite', cursive;
+color:#35201e;
+font-size: 25px;
+}
+
+
 .marker{
 
 background-image: url(./img/markerhover.png);
