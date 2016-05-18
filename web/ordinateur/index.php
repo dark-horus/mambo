@@ -44,16 +44,12 @@ include( '../default/page/start_header.php' );
             </div><!-- .mon_oeuvre -->
         </div><!-- .d_oeuvre -->
 
-            <!-- Corbeille -->
+        <!-- Corbeille -->
         <div class="icone corbeille" data-window="f_corbeille">
             <div class="txt_corbeille">
                 <p class="dossier_police">Corbeille</p>
             </div><!-- .txt_corbeille -->
         </div><!-- Corbeille -->
-
-
-
-
 
 
         <!-- BARRE de menu -->
@@ -67,8 +63,8 @@ include( '../default/page/start_header.php' );
 
         <div class="demarrer"></div><!-- .demarrer -->
 
-                                <!-- Heure -->
-        <div class="heure" >
+        <!-- Heure -->
+        <div class="heure">
             <div class="heure">
                 <p class="heure_police">00:00</p>
             </div><!-- .mes_musiques -->
@@ -171,7 +167,8 @@ include( '../default/page/start_header.php' );
             </div>
 
 
-            <div class="file musique_11" data-infos="Vous êtes sur le point d'écouter le <b><em>Concerto n°5 de Mozart</b></strong> par <b>Anne Sophie-Mutter</b>. Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em> pour retrouver la référence à cette musique. </p>">
+            <div class="file musique_11"
+                 data-infos="Vous êtes sur le point d'écouter le <b><em>Concerto n°5 de Mozart</b></strong> par <b>Anne Sophie-Mutter</b>. Rendez-vous au <b>chapitre 41</b> du livre <em>Mambo Canaille</em> pour retrouver la référence à cette musique. </p>">
                 <a href="https://www.youtube.com/watch?v=ETXPKHPPov8&index=9&list=PLUoCjbJ4ucW-ht7DAqA0SP-65V_kJFVmC" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_musique">
                         <p class="text-center">Concerto n°5</p>
@@ -281,7 +278,6 @@ include( '../default/page/start_header.php' );
         </div><!-- .f_videos -->
 
 
-
         <!-- FENETRE Oeuvre -->
         <div class="window f_oeuvre" id="f_oeuvre" style="display:none;">
 
@@ -301,19 +297,17 @@ include( '../default/page/start_header.php' );
 
             <div class="c_text file3" data-window="f_patri1">
                 <div class="titre_oeuvre">
-                    <p class="text-center">Manuel <br />patriotique 1</p>
+                    <p class="text-center">Manuel <br/>patriotique 1</p>
                 </div>
             </div>
 
             <div class="c_text2 file4" data-window="f_patri2">
                 <div class="titre_oeuvre">
-                    <p class="text-center">Manuel <br />patriotique 2</p>
+                    <p class="text-center">Manuel <br/>patriotique 2</p>
                 </div>
             </div>
 
         </div><!-- .f_oeuvre -->
-
-
 
 
         <!-- FENETRE corbeille -->
@@ -329,50 +323,49 @@ include( '../default/page/start_header.php' );
 
             <div class="brouillon1">
                 <div class="titre_brouillon">
-                    <p class="text-center">Mon Oeuvre<br />majeure<br />brouillon</p>
+                    <p class="text-center">Mon Oeuvre<br/>majeure<br/>brouillon</p>
                 </div>
             </div>
 
-            <div class="file c_musique" data-infos="<br />Vous vous apprêtez à accèder à une musique bonus !" >
+            <div class="file c_musique" data-infos="<br />Vous vous apprêtez à accèder à une musique bonus !">
                 <a href="https://youtu.be/yMI5ZQGXEKM" target="_blank" style="text-decoration:none ; color:black;">
-                <div class="titre_bonus">
-                    <p class="text-center">Mambo Unchained</p>
-                </div>
-            </a>
+                    <div class="titre_bonus">
+                        <p class="text-center">Mambo Unchained</p>
+                    </div>
+                </a>
             </div>
 
             <div class="brouillon2">
                 <div class="titre_brouillon">
-                    <p class="text-center">Idées roman<br />brouillon</p>
+                    <p class="text-center">Idées roman<br/>brouillon</p>
                 </div>
             </div>
 
-             <div class="brouillon3">
+            <div class="brouillon3">
                 <div class="titre_brouillon">
-                    <p class="text-center">Mon grand<br />roman brouillon</p>
+                    <p class="text-center">Mon grand<br/>roman brouillon</p>
                 </div>
             </div>
 
-             <div class="brouillon4">
+            <div class="brouillon4">
                 <div class="titre_brouillon">
-                    <p class="text-center">Mon Oeuvre <br />transcendantale <br />brouillon</p>
+                    <p class="text-center">Mon Oeuvre <br/>transcendantale <br/>brouillon</p>
                 </div>
-            </div> 
+            </div>
 
             <div class="file c_video" data-infos="<br />Vous vous apprêtez à accèder à une vidéo bonus !">
                 <a href="https://youtu.be/MB0XpKDzNxE" target="_blank" style="text-decoration:none ; color:black;">
                     <div class="titre_bonus2">
-                        <p class="text-center">Le mystère<br />des icônes</p>
+                        <p class="text-center">Le mystère<br/>des icônes</p>
                     </div>
                 </a>
-            </div>        
+            </div>
 
 
         </div> <!-- .f_corbeille -->
 
 
-
-                <!-- FENETRE editeur -->
+        <!-- FENETRE editeur -->
         <div class="window f_editeur" id="f_editeur" style="display:none;">
             <div class="curseur"></div>
 
@@ -425,7 +418,7 @@ include( '../default/page/start_header.php' );
             <div class="bouton_fermer4" onclick="javascript:visibilite('f_infos'); return false;">
                 <p class="texte_infos"></p>
             </div>
-            <div class="bouton_ok"></div>
+            <div class="bouton_ok" onclick="window.open(uri);$('.f_infos').fadeOut();"></div>
 
         </div><!-- .background -->
     </div>
@@ -474,7 +467,7 @@ include( '../default/page/start_header.php' );
         $('.icone').on('click', function (event) {
 
             event.preventDefault();
-            
+
             zIndex = getZIndex();
 
             var window = $(this).attr('data-window');
@@ -497,36 +490,29 @@ include( '../default/page/start_header.php' );
             $('.f_infos .texte_infos').html(info);
             $('.f_infos').fadeIn().css('z-index', zIndex);
 
-
-
-            $('.f_infos .bouton_ok').on('click',function() {
-                window.open(uri);
-                 $('.f_infos').fadeOut();
-            })
         });
 
-        /* Ouvrir fenêtre editeur text oeuvre */
 
+        /* Ouvrir fenêtre editeur text oeuvre */
         $('.file2').on('click', function (event) {
-            event.preventDefault();  
-            zIndex = getZIndex();        
+            event.preventDefault();
+            zIndex = getZIndex();
             $('.f_editeur').fadeIn().css('z-index', zIndex);
         });
 
 
         /* Ouvrir fenêtre editeur text patri1*/
-
         $('.file3').on('click', function (event) {
-            event.preventDefault();     
-            zIndex = getZIndex();             
+            event.preventDefault();
+            zIndex = getZIndex();
             $('.f_patri1').fadeIn().css('z-index', zIndex);
         });
 
-                /* Ouvrir fenêtre editeur text patri2*/
 
+        /* Ouvrir fenêtre editeur text patri2*/
         $('.file4').on('click', function (event) {
-            event.preventDefault(); 
-            zIndex = getZIndex();                 
+            event.preventDefault();
+            zIndex = getZIndex();
             $('.f_patri2').fadeIn().css('z-index', zIndex);
         });
 
@@ -578,58 +564,32 @@ include( '../default/page/start_header.php' );
         }
 
 
-
-
         /* Ouvrir fenêtre editeur text patri1*/
 
 
-
-        window.onload=function() {
-          horloge($('.heure_police'));
+        window.onload = function () {
+            horloge($('.heure_police'));
         };
-         
+
         function horloge(elt) {
 
-          function actualiser() {
+            function actualiser() {
 
-            var date = new Date();
-            var str = date.getHours();
-            str += ':'+(date.getMinutes()<10?'0':'')+date.getMinutes();
-            
-            elt.html(str);
-            
-          }
-          actualiser();
-          setInterval(actualiser,1000);
+                var date = new Date();
+                var str = date.getHours();
+                str += ':' + (date.getMinutes() < 10 ? '0' : '') + date.getMinutes();
+
+                elt.html(str);
+
+            }
+
+            actualiser();
+            setInterval(actualiser, 1000);
         }
 
     </script>
 
 
-
     <!-- Fin du contenu -->
     <?php include( '../default/page/footer.php' ); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
