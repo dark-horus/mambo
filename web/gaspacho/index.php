@@ -207,7 +207,7 @@ include( '../default/page/start_header.php' );
     </br>
 
 <div class="video">
-<video width="1024" height="768" controls="controls">
+<video width="1024" height="768" controls="controls" poster="images/poster.jpg">
   <source src="images/gaspacho.mp4" type="video/mp4" />
   <source src="images/gaspacho.webm" type="video/webm" />
   <source src="images/gaspacho.ogv" type="video/ogg" />
