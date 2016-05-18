@@ -42,7 +42,7 @@ include( '../default/page/start_header.php' );
                      
 
 <div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-  <video controls="controls" autoplay="true">
+  <video controls="controls" width="640" height="480" autoplay="true">
   <source src="video/Q3.mp4" type="video/mp4" />
   <source src="video/Q3.webm" type="video/webm" />
   <source src="video/Q3.ogv" type="video/ogg" />

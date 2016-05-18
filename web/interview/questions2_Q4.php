@@ -39,7 +39,7 @@ include( '../default/page/start_header.php' );
 
                       <div id="container" class="col-sm-12 col-md-12 col-lg-12 col-sm-offset-3 col-md-offset-3 col-md-offset-3 col-lg-offset-3">
 
-                   <video controls="controls" autoplay="true">
+                   <video controls="controls" width="640" height="480" autoplay="true">
   <source src="video/Q4.mp4" type="video/mp4" />
   <source src="video/Q4.webm" type="video/webm" />
   <source src="video/Q4.ogv" type="video/ogg" />
