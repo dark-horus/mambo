@@ -188,6 +188,191 @@ button {
 
 
 
+/*media queries page index */
+@media screen and (min-width : 400px) and (max-width: 991px)
+{
+    .valider {
+        position: absolute;
+        right: 200px;
+        top: 660px;
+        z-index: 9999;
+        height: 50px;
+        width: 200px;
+        outline:none;
+    }
+    
+    #portraits {
+        width: 30%;
+        height: 500px;
+        position: absolute;
+        margin-top: 20%;
+        left: -60px;
+    }
+    
+    #slider_henry {
+        top: 215px;
+        left: 525px;
+        min-width: 330px;
+        width: 330px;
+    }
+    
+    #slider_alejandro {
+        top: 215px;
+        left: 525px;
+        min-width: 330px;
+        width: 330px;
+    }
+    
+    #slider_simao {
+        top: 215px;
+        left: 525px;
+        min-width: 330px;
+        width: 330px;
+    }
+}
+
+@media screen and (min-width : 992px) and (max-width: 1024px)
+{
+    .valider {
+        position: absolute;
+        right: 200px;
+        top: 660px;
+        z-index: 9999;
+        height: 50px;
+        width: 200px;
+        outline:none;
+    }
+    
+    #portraits {
+        width: 30%;
+        height: 500px;
+        position: absolute;
+        margin-top: 20%;
+        left: -60px;
+    }
+    
+    #slider_henry {
+        top: 215px;
+        left: 230px;
+        min-width: 330px;
+        width: 330px;
+    }
+    
+    #slider_alejandro {
+        top: 215px;
+        left: 230px;
+        min-width: 330px;
+        width: 330px;
+    }
+    
+    #slider_simao {
+        top: 215px;
+        left: 230px;
+        min-width: 330px;
+        width: 330px;
+    }
+}
+    
+/*media queries page index */
+@media screen and (min-width : 1025px) and (max-width: 1399px)
+{
+    .valider {
+        position: absolute;
+        right: 200px;
+        top: 660px;
+        z-index: 9999;
+        height: 50px;
+        width: 200px;
+        outline:none;
+    }
+    
+    #henry {
+        position: absolute;
+        top: 50px;
+        left: 258px;
+        -ms-transform: rotate(7deg);
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg);
+        max-width: 100%;
+        height: auto;
+        min-width: 120px;
+        width: 100px;
+    }
+    
+    #alejandro {
+        position: absolute;
+        top: 280px;
+        left: 374px;
+        -ms-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+        max-width: 100%;
+        height: auto;
+        min-width: 120px;
+        width: 100px;
+    }
+    
+    #simao {
+        position: absolute;
+        top: 280px;
+        left: 181px;
+        -ms-transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+        max-width: 100%;
+        height: auto;
+        min-width: 120px;
+        width: 100px;
+    }
+    
+    body {
+        overflow:hidden;
+    }
+}
+
+@media screen and (min-width : 1025px) and (max-width: 1600px)
+{
+    #henry {
+        position: absolute;
+        top: 50px;
+        left: 258px;
+        -ms-transform: rotate(7deg);
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg);
+        max-width: 100%;
+        height: auto;
+        min-width: 120px;
+        width: 160px;
+    }
+    
+    #alejandro {
+        position: absolute;
+        top: 280px;
+        left: 374px;
+        -ms-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+        max-width: 100%;
+        height: auto;
+        min-width: 120px;
+        width: 160px;
+    }
+    
+    #simao {
+        position: absolute;
+        top: 280px;
+        left: 181px;
+        -ms-transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+        max-width: 100%;
+        height: auto;
+        min-width: 120px;
+        width: 160px;
+    }
+}
+
+
 
 /*media queries page galerie */
 @media screen and (min-width : 400px) and (max-width: 1279px)
