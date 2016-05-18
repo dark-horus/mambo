@@ -56,4 +56,6 @@ a:hover {
 
 .text-muted {
     color:white;
+    top: 4px;
+    position: relative;
 }
